@@ -308,6 +308,11 @@ TRANSLATIONS = {
          "value": "Bryton Active nécessite l’autorisation d’accéder aux appareils à proximité ou à votre position afin d’établir une connexion complète avec votre appareil Bryton et de permettre l’utilisation de toutes les fonctionnalités.",
          "desc": "Message d'autorisation pour la connexion aux appareils Bryton",
     },
+    "TakeAPhoto": {
+         "value": "Prendre une photo",
+         "desc": "Prendre une photo",
+    },
+
 
 
     # Ajoute tes nouvelles traductions ici, format :
