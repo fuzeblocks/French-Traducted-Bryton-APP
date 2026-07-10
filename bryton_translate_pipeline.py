@@ -289,12 +289,24 @@ TRANSLATIONS = {
          "desc": "Affichage de l'accueil",
     },
     "Nothave": {
-         "value": "&quot;Vous n&apos;avez pas de compte ?&quot;",
+         "value": '"Vous n\'avez pas de compte ?"',
          "desc": "Affichage de creation de compte",
     },
     "T_MyNetworks": {
          "value": "Mes réseaux",
          "desc": "Réseaux sociaux",
+    },
+    "AM_BluetoothAlwaysUsageDescription": {
+         "value": "Bryton Active aimerait accéder à votre Bluetooth.\n\nActivez-le afin de pouvoir lancer les recherches d&apos;appareils.\n\nAfin de vous assurer une connexion optimale avec les appareils, veillez à ce que les appareils soient à proximité et connectés.",
+         "desc": "Utilisation du Bluetooth",
+    },
+    "AM_SyncProfileData": {
+         "value": "Bryton Active synchronise le profil de votre compte afin de garantir l’exactitude et la cohérence de vos données de parcours lors de leur analyse.",
+         "desc": "Synchronisation des données du profil",
+    },
+    "M_ConnectedDevice_Setting": {
+         "value": "Bryton Active nécessite l’autorisation d’accéder aux appareils à proximité ou à votre position afin d’établir une connexion complète avec votre appareil Bryton et de permettre l’utilisation de toutes les fonctionnalités.",
+         "desc": "Message d'autorisation pour la connexion aux appareils Bryton",
     },
 
 
@@ -597,8 +609,22 @@ def insert_before_closing_resources(path, xml_lines):
     with open(path, "w", encoding="utf-8") as f:
         f.write(content)
 
+def escape_xml_string(value):
+    """
+    Convertit une chaîne Python en chaîne compatible Android strings.xml.
+    """
+    value = value.replace("&", "&amp;")
+    value = value.replace("'", "&apos;")
+    value = value.replace('"', "&quot;")
+    value = value.replace("<", "&lt;")
+    value = value.replace(">", "&gt;")
+    value = value.replace("\n", "\\n")
+    return value
 
 def replace_string_value(path, key, new_value):
+
+    new_value = escape_xml_string(new_value)
+
     with open(path, "r", encoding="utf-8") as f:
         content = f.read()
     pattern = re.compile(
