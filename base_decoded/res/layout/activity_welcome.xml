@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff1b2539" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@null" android:scaleType="fitCenter" />
+    <RelativeLayout android:id="@id/button_layout" android:background="#ff1b2539" android:paddingBottom="11.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="126.0dp" android:layout_alignParentBottom="true">
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/login_button" android:background="@drawable/round_corner_green_8dp" android:layout_width="match_parent" android:layout_height="50.0dp" android:text="Login" android:layout_centerHorizontal="true" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/main_green" android:gravity="center" android:id="@id/signup_button" android:background="@drawable/round_corner_green_border_8dp" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginTop="15.0dp" android:text="Create New Account" android:layout_below="@id/login_button" android:layout_centerHorizontal="true" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:id="@id/debug_text" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="test" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@id/bottom_layout" android:background="@color/light_grey_text" android:layout_width="match_parent" android:layout_height="50.0dp">
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/save_button" android:padding="10.0dp" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/B_Save" android:layout_weight="1.0" />
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/close_button" android:padding="10.0dp" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/B_Confirm" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

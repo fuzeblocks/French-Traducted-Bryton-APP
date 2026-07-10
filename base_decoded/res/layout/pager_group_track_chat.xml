@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/list" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/bottom_layout" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <RelativeLayout android:id="@id/bottom_layout" android:background="@color/bg_dark_primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@id/input_layout" android:background="@color/bg_dark_primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="110.0dp" android:minHeight="60.0dp">
+            <ImageView android:id="@id/quick_reply_icon" android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@drawable/icon_canned_message_white" android:layout_centerVertical="true" android:layout_marginStart="15.0dp" />
+            <ImageView android:id="@id/send_icon" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/icon_gr_send_message_disabled" android:layout_centerVertical="true" android:layout_marginEnd="8.0dp" android:layout_alignParentEnd="true" />
+            <EditText android:textSize="17.0sp" android:gravity="center_vertical" android:id="@id/input_edit" android:background="@drawable/round_corner_gray_8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="90.0dp" android:minHeight="36.0dp" android:hint="Write a message" android:layout_centerVertical="true" android:paddingStart="15.0dp" android:paddingEnd="15.0dp" android:layout_marginStart="10.0dp" android:layout_marginEnd="12.0dp" android:layout_toStartOf="@id/send_icon" android:layout_toEndOf="@id/quick_reply_icon" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/quick_reply_layout" android:background="@color/bg_dark_primary" android:visibility="gone" android:layout_width="match_parent" android:layout_height="230.0dp" android:layout_below="@id/input_layout">
+            <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/quick_reply_list_layout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/base_layout" android:background="@color/l1_dark" android:layout_width="match_parent" android:layout_height="50.0dp">
+        <ImageView android:id="@id/check_icon" android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@drawable/icon_check_gr" android:layout_centerVertical="true" android:layout_marginStart="15.0dp" />
+        <ProgressBar android:id="@id/progress" android:visibility="invisible" android:layout_width="30.0dp" android:layout_height="30.0dp" android:indeterminate="true" android:indeterminateDrawable="@drawable/progress_bg" android:layout_centerVertical="true" android:layout_marginStart="15.0dp" />
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="5.0dp" android:layout_toEndOf="@id/check_icon">
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@id/name_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TP-Link_F928" android:lineSpacingExtra="5.0sp" android:fontFamily="sans-serif" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="15.0dp" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/lock_icon" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/icon_lock_wt" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/info_icon" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/icon_info_wt" android:layout_centerVertical="true" android:layout_marginStart="15.0dp" android:layout_toEndOf="@id/lock_icon" />
+            <ImageView android:id="@id/signal_icon" android:visibility="gone" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/icon_signal_strength_l_3_wt" android:layout_centerVertical="true" android:layout_marginStart="15.0dp" android:layout_toEndOf="@id/info_icon" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:background="#ff333c4b" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_alignBottom="@id/base_layout" />
+</RelativeLayout>

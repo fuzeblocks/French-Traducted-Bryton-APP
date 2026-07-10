@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp">
+        <EditText android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/code_edit" android:background="@drawable/round_corner_green_border_8dp" android:layout_width="match_parent" android:layout_height="50.0dp" android:singleLine="true" android:fontFamily="sans-serif" />
+        <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ff3b475d" android:gravity="center" android:id="@id/join_button" android:background="@drawable/round_corner_gray_8dp" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginTop="19.0dp" android:text="Join" android:layout_below="@id/code_edit" android:fontFamily="sans-serif" />
+    </RelativeLayout>
+    <TextView android:textSize="17.0sp" android:textColor="@color/main_green" android:gravity="center" android:id="@id/create_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dp" android:text="Create New Group" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

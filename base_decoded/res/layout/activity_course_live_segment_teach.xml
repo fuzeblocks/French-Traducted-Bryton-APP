@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/actionbar_layout" android:background="@color/bg_dark_primary" android:layout_width="match_parent" android:layout_height="56.0dp">
+        <ImageView android:id="@id/back_icon" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/icon_back" android:layout_centerVertical="true" android:layout_marginStart="10.0dp" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:id="@id/title_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:layout_centerVertical="true" android:fontFamily="sans-serif" android:layout_marginStart="10.0dp" android:layout_toStartOf="@id/menu_layout" android:layout_toEndOf="@id/back_icon" />
+        <ImageView android:id="@id/icon_teach_image" android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@null" android:layout_centerVertical="true" android:layout_marginEnd="10.0dp" android:layout_alignParentEnd="true" app:tint="@color/white" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/menu_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <View android:id="@id/actionbar_alpha_view" android:background="#aa000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="56.0dp" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/content_layout" android:background="@color/bg_dark_primary" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/strava_layout" android:background="#ff1b2538" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_below="@id/actionbar_layout" android:paddingStart="15.0dp" android:paddingEnd="15.0dp">
+        <ImageView android:id="@id/sync_image" android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@drawable/icon_3_rd_party_strava" android:layout_centerVertical="true" />
+        <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@id/strava_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Strava" android:layout_centerVertical="true" android:lineSpacingExtra="5.0sp" android:fontFamily="sans-serif" android:layout_marginStart="14.0dp" android:layout_toEndOf="@id/sync_image" />
+        <ImageView android:id="@id/check_icon" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/icon_next_gy" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/tab_layout" android:background="@color/bg_midtone_secondary" android:layout_width="match_parent" android:layout_height="45.0dp" android:layout_below="@id/strava_layout">
+        <com.brytonsport.active.views.view.TabTextView android:id="@id/all_segment_tab" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+        <com.brytonsport.active.views.view.TabTextView android:id="@id/my_segment_tab" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:background="#161f30" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/tab_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/connected_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/tab_layout">
+        <View android:background="#33ffffff" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_marginTop="15.0dp" android:layout_marginBottom="5.0dp" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp" />
+        <LinearLayout android:orientation="horizontal" android:background="#161f30" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_below="@id/tab_layout" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp">
+            <View android:background="#33ffffff" android:layout_width="0.0dp" android:layout_height="16.0dp" android:layout_weight="1.0" />
+            <View android:layout_width="0.0dp" android:layout_height="16.0dp" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/segmentListLayout" android:background="#161f30" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="20.0dp" android:layout_weight="1.0" android:layout_below="@id/tab_layout" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/all_segment_item" android:background="@drawable/round_corner_dark_grey_15dp_bk_line" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dp" android:layout_below="@id/connected_layout" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="15.0dp" android:paddingBottom="15.0dp" android:layout_width="match_parent" android:layout_height="96.0dp" android:paddingStart="16.0dp" android:paddingEnd="16.0dp">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="17.0sp" android:textColor="@color/white" android:id="@id/item_name_text" android:background="#262e40" android:layout_width="match_parent" android:layout_height="16.0dp" />
+                    <TextView android:textSize="17.0sp" android:textColor="@color/white" android:background="#262e40" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_marginTop="5.0dp" />
+                    <TextView android:textSize="17.0sp" android:textColor="@color/white" android:background="#262e40" android:layout_width="172.0dp" android:layout_height="16.0dp" android:layout_marginTop="15.0dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:layout_gravity="center" android:id="@id/item_check_icon" android:layout_width="28.0dp" android:layout_height="28.0dp" android:layout_marginTop="2.0dp" android:layout_marginBottom="2.0dp" android:src="@null" android:layout_marginStart="16.0dp" android:layout_marginEnd="12.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/my_segment_item" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dp" android:layout_below="@id/connected_layout" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/round_corner_dark_grey_15dp_bk_line" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/base_layout" android:paddingTop="15.0dp" android:paddingBottom="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <LinearLayout android:orientation="horizontal" android:background="#33ffffff" android:layout_width="match_parent" android:layout_height="16.0dp" />
+                    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:background="#33ffffff" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_marginTop="5.0dp" />
+                    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:background="#33ffffff" android:layout_width="172.0dp" android:layout_height="16.0dp" android:layout_marginTop="15.0dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:id="@id/bottom_line" android:background="#44454a" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_below="@id/base_layout" />
+            <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/bottom_horizontal_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/horizontal_layout" android:paddingTop="6.0dp" android:paddingBottom="6.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="16.0dp" android:paddingEnd="12.0dp" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/icon_layout" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <View android:background="#44454a" android:layout_width="1.0dp" android:layout_height="match_parent" android:layout_below="@id/base_layout" />
+                    <ImageView android:layout_gravity="center" android:id="@id/status_icon" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/icon_send_to_device" android:layout_marginStart="20.0dp" android:layout_marginEnd="22.0dp" />
+                    <View android:background="#44454a" android:layout_width="1.0dp" android:layout_height="match_parent" android:layout_below="@id/base_layout" />
+                </LinearLayout>
+                <ImageView android:layout_gravity="center" android:id="@id/item_check_icon_my" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginTop="6.0dp" android:layout_marginBottom="6.0dp" android:src="@null" android:layout_marginStart="22.0dp" android:layout_marginEnd="22.0dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/sync_all_layout" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/connected_layout" android:paddingEnd="16.0dp">
+        <ImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@null" />
+        <TextView android:textSize="15.0sp" android:textColor="#00d343" android:gravity="center" android:id="@id/sync_all_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/B_SyncAll" android:lineSpacingExtra="5.0sp" android:fontFamily="sans-serif" android:layout_marginStart="4.0dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/my_segment_item_10" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dp" android:layout_below="@id/sync_all_layout" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/round_corner_dark_grey_15dp_bk_line" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/base_layout_10" android:paddingTop="15.0dp" android:paddingBottom="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <LinearLayout android:orientation="horizontal" android:background="#33ffffff" android:layout_width="match_parent" android:layout_height="16.0dp" />
+                    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:background="#33ffffff" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_marginTop="5.0dp" />
+                    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:background="#33ffffff" android:layout_width="172.0dp" android:layout_height="16.0dp" android:layout_marginTop="15.0dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:id="@id/bottom_line_10" android:background="#44454a" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_below="@id/base_layout" />
+            <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/bottom_horizontal_layout_10" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/horizontal_layout_10" android:paddingTop="6.0dp" android:paddingBottom="6.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="16.0dp" android:paddingEnd="12.0dp">
+                    <ImageView android:layout_gravity="center" android:background="#33ffffff" android:layout_width="130.0dp" android:layout_height="16.0dp" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/icon_layout_10" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <View android:background="#44454a" android:layout_width="1.0dp" android:layout_height="match_parent" android:layout_below="@id/base_layout" />
+                    <ImageView android:layout_gravity="center" android:id="@id/status_icon_10" android:background="#33ffffff" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginStart="20.0dp" android:layout_marginEnd="22.0dp" />
+                    <View android:background="#44454a" android:layout_width="1.0dp" android:layout_height="match_parent" android:layout_below="@id/base_layout" />
+                </LinearLayout>
+                <ImageView android:layout_gravity="center" android:id="@id/item_check_icon_my_10" android:background="#33ffffff" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginTop="6.0dp" android:layout_marginBottom="6.0dp" android:layout_marginStart="22.0dp" android:layout_marginEnd="22.0dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/round_corner_dark_grey_15dp_bk_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp">
+            <LinearLayout android:orientation="horizontal" android:id="@id/base_layout_101" android:paddingTop="15.0dp" android:paddingBottom="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <LinearLayout android:orientation="horizontal" android:background="#33ffffff" android:layout_width="match_parent" android:layout_height="16.0dp" />
+                    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:background="#33ffffff" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_marginTop="5.0dp" />
+                    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:background="#33ffffff" android:layout_width="172.0dp" android:layout_height="16.0dp" android:layout_marginTop="15.0dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:id="@id/bottom_line_101" android:background="#44454a" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_below="@id/base_layout" />
+            <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/bottom_horizontal_layout_101" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/horizontal_layout_101" android:paddingTop="6.0dp" android:paddingBottom="6.0dp" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" android:paddingEnd="12.0dp" android:layout_marginStart="16.0dp">
+                    <ImageView android:layout_gravity="center" android:background="#33ffffff" android:layout_width="130.0dp" android:layout_height="16.0dp" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/icon_layout_101" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <View android:background="#44454a" android:layout_width="1.0dp" android:layout_height="match_parent" android:layout_below="@id/base_layout" />
+                    <ImageView android:layout_gravity="center" android:id="@id/status_icon_101" android:background="#33ffffff" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginStart="20.0dp" android:layout_marginEnd="22.0dp" />
+                    <View android:background="#44454a" android:layout_width="1.0dp" android:layout_height="match_parent" android:layout_below="@id/base_layout" />
+                </LinearLayout>
+                <ImageView android:layout_gravity="center" android:id="@id/item_check_icon_my_101" android:background="#33ffffff" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginTop="6.0dp" android:layout_marginBottom="6.0dp" android:layout_marginStart="22.0dp" android:layout_marginEnd="22.0dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/shadow_layout" android:background="#4d000000" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <RelativeLayout android:id="@id/background_layout" android:background="#55464e60" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/white_layout" android:background="@color/white" android:layout_width="match_parent" android:layout_height="240.0dp" android:layout_alignParentBottom="true">
+            <LinearLayout android:orientation="vertical" android:padding="15.0dp" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="17.0sp" android:textColor="#161f30" android:id="@id/teach_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Title" android:layout_weight="1.0" />
+                    <TextView android:textSize="15.0sp" android:textColor="#a2a2a2" android:id="@id/txt_skip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Skip" />
+                </LinearLayout>
+                <TextView android:textSize="17.0sp" android:textColor="#707070" android:id="@id/teach_message" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="16.0dp" />
+            </LinearLayout>
+            <View android:background="#19707070" android:layout_width="match_parent" android:layout_height="1.0dp" />
+            <RelativeLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="13.0dp" android:paddingBottom="13.0dp" android:layout_width="match_parent" android:layout_height="64.0dp" android:paddingStart="15.0dp" android:paddingEnd="15.0dp">
+                <TextView android:textSize="15.0sp" android:textColor="#707070" android:gravity="center" android:id="@id/preview_button" android:layout_width="65.0dp" android:layout_height="match_parent" android:layout_marginEnd="10.0dp" />
+                <TextView android:textSize="15.0sp" android:textColor="#a2a2a2" android:gravity="center" android:id="@id/txt_page" android:layout_width="65.0dp" android:layout_height="match_parent" android:text="1/10" android:layout_centerInParent="true" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/next_button" android:background="@drawable/round_corner_bg_deep_blue_4dp" android:layout_width="65.0dp" android:layout_height="match_parent" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/teach_layout_1" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/actionbar_layout">
+        <RelativeLayout android:id="@id/teach_bar_1" android:background="#ff1b2538" android:layout_width="match_parent" android:layout_height="50.0dp" android:paddingStart="15.0dp" android:paddingEnd="15.0dp">
+            <ImageView android:id="@id/sync_image_1" android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@drawable/icon_3_rd_party_strava" android:layout_centerVertical="true" />
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@id/sync_text_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Strava" android:layout_centerVertical="true" android:lineSpacingExtra="5.0sp" android:fontFamily="sans-serif" android:layout_marginStart="14.0dp" android:layout_toEndOf="@id/sync_image_1" />
+            <ImageView android:id="@id/check_icon_1" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/icon_next_gy" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="30.0dp" android:layout_height="56.0dp" android:src="@null" android:layout_below="@id/teach_bar_1" android:layout_marginStart="10.0dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/teach_layout_2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="0.0dp" android:layout_below="@id/actionbar_layout">
+        <RelativeLayout android:id="@id/teach_bar_2" android:background="#ff1b2538" android:layout_width="match_parent" android:layout_height="50.0dp" android:paddingStart="15.0dp" android:paddingEnd="15.0dp">
+            <ImageView android:id="@id/sync_image_2" android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@drawable/icon_3_rd_party_strava" android:layout_centerVertical="true" />
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@id/sync_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Strava" android:layout_centerVertical="true" android:lineSpacingExtra="5.0sp" android:fontFamily="sans-serif" android:layout_marginStart="14.0dp" android:layout_toEndOf="@id/sync_image_2" />
+            <ImageView android:id="@id/check_icon_2" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/icon_next_gy" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/tab_layout_2" android:background="@color/bg_midtone_secondary" android:layout_width="match_parent" android:layout_height="45.0dp" android:layout_below="@id/teach_bar_2">
+            <com.brytonsport.active.views.view.TabTextView android:id="@id/all_segment_tab_2" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+            <com.brytonsport.active.views.view.TabTextView android:id="@id/my_segment_tab_2" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="45.0dp" android:layout_below="@id/teach_bar_2">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="0.0dp" android:layout_height="match_parent" android:src="@null" android:layout_weight="1.0" android:layout_below="@id/teach_bar_2" android:layout_marginStart="10.0dp" />
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" android:layout_below="@id/teach_bar_2" android:layout_marginStart="10.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/teach_layout_3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="196.0dp" android:layout_marginBottom="14.0dp" android:layout_below="@id/connected_layout" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp">
+        <LinearLayout android:orientation="horizontal" android:id="@id/org_layout_3" android:background="@drawable/round_corner_dark_grey_15dp_bk_line" android:paddingTop="15.0dp" android:paddingBottom="15.0dp" android:layout_width="match_parent" android:layout_height="96.0dp" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/white" android:id="@id/item_name_text_3" android:background="#33ffffff" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_marginTop="15.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" android:layout_toStartOf="@id/circle_icon_3" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/white" android:id="@id/item_name_2_text_3" android:background="#33ffffff" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_marginTop="5.0dp" android:layout_below="@id/item_name_text_3" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" android:layout_toStartOf="@id/circle_icon_3" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/white" android:id="@id/item_name_3_text_3" android:background="#33ffffff" android:layout_width="172.0dp" android:layout_height="16.0dp" android:layout_marginTop="15.0dp" android:layout_below="@id/item_name_2_text_3" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" android:layout_alignParentStart="true" />
+        <ImageView android:layout_gravity="center" android:id="@id/circle_icon_3" android:layout_width="52.0dp" android:layout_height="52.0dp" android:src="@null" android:layout_alignTop="@id/org_layout_3" android:layout_alignBottom="@id/org_layout_3" android:layout_centerVertical="true" android:layout_marginEnd="16.0dp" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/circle_icon_32" android:layout_width="52.0dp" android:layout_height="52.0dp" android:layout_marginTop="-22.0dp" android:src="@null" android:layout_below="@id/circle_icon_3" android:layout_marginEnd="16.0dp" android:layout_alignParentEnd="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="17.0sp" android:textColor="@color/white" android:background="#262e40" android:layout_width="match_parent" android:layout_height="16.0dp" />
+            <TextView android:textSize="17.0sp" android:textColor="@color/white" android:background="#262e40" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_marginTop="5.0dp" />
+            <TextView android:textSize="17.0sp" android:textColor="@color/white" android:background="#262e40" android:layout_width="172.0dp" android:layout_height="16.0dp" android:layout_marginTop="15.0dp" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/teach_layout_4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="0.0dp" android:layout_below="@id/strava_layout">
+        <LinearLayout android:orientation="horizontal" android:id="@id/teach_bar_4" android:background="@color/bg_midtone_secondary" android:layout_width="match_parent" android:layout_height="45.0dp">
+            <com.brytonsport.active.views.view.TabTextView android:id="@id/all_segment_tab_4" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+            <com.brytonsport.active.views.view.TabTextView android:id="@id/my_segment_tab_4" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="45.0dp" android:layout_below="@id/teach_bar_4">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" android:layout_below="@id/teach_bar_4" android:layout_marginStart="10.0dp" />
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="0.0dp" android:layout_height="match_parent" android:src="@null" android:layout_weight="1.0" android:layout_below="@id/teach_bar_4" android:layout_marginStart="10.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/teach_layout_5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="196.0dp" android:layout_marginBottom="14.0dp" android:layout_below="@id/connected_layout" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp">
+        <LinearLayout android:orientation="horizontal" android:id="@id/org_layout_5" android:background="@drawable/round_corner_dark_grey_15dp_bk_line" android:paddingTop="15.0dp" android:paddingBottom="15.0dp" android:layout_width="match_parent" android:layout_height="136.0dp" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/white" android:id="@id/item_name_text_5" android:background="#33ffffff" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_marginTop="15.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" android:layout_toStartOf="@id/circle_icon_5" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/white" android:id="@id/item_name_2_text_5" android:background="#33ffffff" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_marginTop="5.0dp" android:layout_below="@id/item_name_text_5" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" android:layout_toStartOf="@id/circle_icon_5" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/white" android:id="@id/item_name_3_text_5" android:background="#33ffffff" android:layout_width="172.0dp" android:layout_height="16.0dp" android:layout_marginTop="15.0dp" android:layout_below="@id/item_name_2_text_5" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" android:layout_alignParentStart="true" />
+        <View android:id="@id/bottom_line_5" android:background="#44454a" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="15.0dp" android:layout_below="@id/item_name_3_text_5" />
+        <ImageView android:layout_gravity="center" android:id="@id/circle_icon_5" android:layout_width="52.0dp" android:layout_height="52.0dp" android:layout_marginTop="-7.0dp" android:src="@null" android:layout_below="@id/bottom_line_5" android:layout_marginEnd="4.0dp" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/circle_icon_52" android:layout_width="52.0dp" android:layout_height="52.0dp" android:src="@null" android:layout_below="@id/circle_icon_5" android:layout_marginEnd="4.0dp" android:layout_toStartOf="@id/circle_icon_5" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/teach_layout_6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/icon_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/teach_layout_7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="196.0dp" android:layout_marginBottom="14.0dp" android:layout_below="@id/sync_all_layout" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp">
+        <LinearLayout android:orientation="horizontal" android:id="@id/org_layout_7" android:background="@drawable/round_corner_dark_grey_15dp_bk_line" android:paddingTop="15.0dp" android:paddingBottom="15.0dp" android:layout_width="match_parent" android:layout_height="136.0dp" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/white" android:id="@id/item_name_text_7" android:background="#33ffffff" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_marginTop="15.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/white" android:id="@id/item_name_2_text_7" android:background="#33ffffff" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_marginTop="5.0dp" android:layout_below="@id/item_name_text_7" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/white" android:id="@id/item_name_3_text_7" android:background="#33ffffff" android:layout_width="172.0dp" android:layout_height="16.0dp" android:layout_marginTop="15.0dp" android:layout_below="@id/item_name_2_text_7" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" android:layout_alignParentStart="true" />
+        <View android:id="@id/bottom_line_7" android:background="#44454a" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="15.0dp" android:layout_below="@id/item_name_3_text_7" />
+        <ImageView android:layout_gravity="center" android:id="@id/icon_check" android:padding="2.0dp" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginTop="7.0dp" android:src="@drawable/icon_authorized_check_gr" android:layout_below="@id/bottom_line_7" android:layout_marginStart="16.0dp" app:tint="#00c038" />
+        <TextView android:textSize="13.0sp" android:textColor="#ffffff" android:gravity="bottom" android:layout_gravity="center" android:id="@id/item_status_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dp" android:text="已上傳" android:layout_weight="1.0" android:layout_below="@id/bottom_line_7" android:layout_toEndOf="@id/icon_check" />
+        <ImageView android:id="@id/circle_icon_72" android:layout_width="52.0dp" android:layout_height="52.0dp" android:src="@null" android:layout_below="@id/org_layout_7" android:layout_marginEnd="4.0dp" android:layout_toStartOf="@id/circle_icon_7" android:layout_alignStart="@id/item_status_text" android:layout_alignEnd="@id/item_status_text" />
+        <ImageView android:layout_gravity="center" android:id="@id/circle_icon_7" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginTop="7.0dp" android:src="@null" android:layout_below="@id/bottom_line_7" android:layout_marginEnd="18.0dp" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/teach_layout_8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="196.0dp" android:layout_marginBottom="14.0dp" android:layout_below="@id/sync_all_layout" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp">
+        <LinearLayout android:orientation="horizontal" android:id="@id/org_layout_8" android:background="@drawable/round_corner_dark_grey_15dp_bk_line" android:paddingTop="15.0dp" android:paddingBottom="15.0dp" android:layout_width="match_parent" android:layout_height="136.0dp" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/white" android:id="@id/item_name_text_8" android:background="#33ffffff" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_marginTop="15.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/white" android:id="@id/item_name_2_text_8" android:background="#33ffffff" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_marginTop="5.0dp" android:layout_below="@id/item_name_text_8" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/white" android:id="@id/item_name_3_text_8" android:background="#33ffffff" android:layout_width="172.0dp" android:layout_height="16.0dp" android:layout_marginTop="15.0dp" android:layout_below="@id/item_name_2_text_8" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" android:layout_alignParentStart="true" />
+        <View android:id="@id/bottom_line_8" android:background="#44454a" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="15.0dp" android:layout_below="@id/item_name_3_text_8" />
+        <TextView android:textSize="13.0sp" android:textColor="#ffffff" android:gravity="bottom" android:layout_gravity="center" android:id="@id/item_status_text_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dp" android:text="@string/I_DownloadNotYet" android:layout_weight="1.0" android:layout_below="@id/bottom_line_8" android:layout_marginStart="16.0dp" />
+        <View android:id="@id/bottom_line_81" android:background="#44454a" android:layout_width="1.0dp" android:layout_height="38.0dp" android:layout_below="@id/bottom_line_8" android:layout_toStartOf="@id/connect_icon_82" />
+        <ImageView android:id="@id/new_image_view_8" android:layout_width="52.0dp" android:layout_height="52.0dp" android:layout_marginTop="-7.0dp" android:src="@null" android:layout_below="@id/bottom_line_8" android:layout_toStartOf="@id/bottom_line_82" android:layout_toEndOf="@id/bottom_line_81" />
+        <ImageView android:id="@id/circle_icon_82" android:layout_width="52.0dp" android:layout_height="52.0dp" android:src="@null" android:layout_below="@id/new_image_view_8" android:layout_marginEnd="4.0dp" android:layout_toStartOf="@id/circle_icon_8" android:layout_alignStart="@id/new_image_view_8" android:layout_alignEnd="@id/new_image_view_8" />
+        <ImageView android:layout_gravity="center" android:id="@id/connect_icon_82" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginTop="7.0dp" android:src="@drawable/icon_send_to_device" android:layout_below="@id/bottom_line_8" android:layout_marginStart="18.0dp" android:layout_marginEnd="18.0dp" android:layout_toStartOf="@id/bottom_line_82" />
+        <View android:id="@id/bottom_line_82" android:background="#44454a" android:layout_width="1.0dp" android:layout_height="38.0dp" android:layout_below="@id/bottom_line_8" android:layout_toStartOf="@id/circle_icon_8" />
+        <ImageView android:layout_gravity="center" android:id="@id/circle_icon_8" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginTop="7.0dp" android:src="@null" android:layout_below="@id/bottom_line_8" android:layout_marginStart="18.0dp" android:layout_marginEnd="18.0dp" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/teach_layout_10" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/connected_layout">
+        <ImageView android:id="@id/sync_all_icon_10" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@null" android:layout_toStartOf="@id/sync_all_title_10" />
+        <TextView android:textSize="15.0sp" android:textColor="#00d343" android:gravity="center" android:id="@id/sync_all_title_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/B_SyncAll" android:lineSpacingExtra="5.0sp" android:fontFamily="sans-serif" android:layout_marginStart="4.0dp" android:layout_marginEnd="16.0dp" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/circle_icon_10" android:layout_width="52.0dp" android:layout_height="52.0dp" android:src="@null" android:layout_below="@id/sync_all_title_10" android:layout_marginEnd="4.0dp" android:layout_alignStart="@id/sync_all_icon_10" android:layout_alignEnd="@id/sync_all_title_10" />
+    </RelativeLayout>
+</RelativeLayout>

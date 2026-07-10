@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/item_layout" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="18.0dp" android:paddingEnd="20.0dp">
+        <ImageView android:id="@id/add_icon" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/icon_add_poi_climb" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/main_green" android:id="@id/add_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add Point" android:layout_centerVertical="true" android:layout_marginStart="3.7999878dp" android:layout_toEndOf="@id/add_icon" />
+    </RelativeLayout>
+    <View android:background="#ff333c4b" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_alignBottom="@id/item_layout" />
+</RelativeLayout>

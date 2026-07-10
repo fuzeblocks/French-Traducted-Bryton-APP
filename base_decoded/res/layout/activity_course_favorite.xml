@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/favorite_list" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <RelativeLayout android:id="@id/empty_view" android:background="#ff161f30" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center_horizontal" android:id="@id/empty_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_centerHorizontal="true" android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" />
+            <TextView android:textSize="15.0sp" android:textStyle="normal" android:textColor="#ffffff" android:gravity="center_horizontal" android:id="@id/empty_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="" android:layout_below="@id/empty_title" android:layout_centerHorizontal="true" android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" android:layout_marginStart="30.0dp" android:layout_marginEnd="30.0dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

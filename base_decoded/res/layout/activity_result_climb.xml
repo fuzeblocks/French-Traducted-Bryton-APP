@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scrollView" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:background="@color/l1_dark" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.github.mikephil.charting.charts.LineChart android:id="@id/lineChart" android:layout_width="match_parent" android:layout_height="120.0dp" android:layout_margin="10.0dp" />
+            <RelativeLayout android:id="@id/switch_layout" android:background="@color/l1_dark" android:paddingBottom="17.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/lineChart">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                    <ImageView android:id="@id/switch_icon" android:visibility="gone" android:layout_width="16.0dp" android:layout_height="16.0dp" android:src="@drawable/icon_switch_type_gy" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ffa2a2a2" android:id="@id/switch_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Distance(km)" />
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp">
+                <RelativeLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="12.0sp" android:textColor="@color/light_blue_grey" android:id="@id/sub_title1" android:paddingTop="9.0dp" android:paddingBottom="9.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Min" android:maxLines="2" android:layout_centerHorizontal="true" />
+                    <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/climb_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:layout_below="@id/sub_title1" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="12.0sp" android:textColor="@color/light_blue_grey" android:id="@id/sub_title2" android:paddingTop="9.0dp" android:paddingBottom="9.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Max" android:maxLines="2" android:layout_centerHorizontal="true" />
+                    <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/sub_text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:layout_below="@id/sub_title2" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp">
+                <RelativeLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="12.0sp" android:textColor="@color/light_blue_grey" android:id="@id/sub_title3" android:paddingTop="9.0dp" android:paddingBottom="9.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Max" android:maxLines="2" android:layout_centerHorizontal="true" />
+                    <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/sub_text3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:layout_below="@id/sub_title3" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="12.0sp" android:textColor="@color/light_blue_grey" android:id="@id/sub_title4" android:paddingTop="9.0dp" android:paddingBottom="9.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MaxMaxMaxMaxMaxMaxMaxMaxMaxMaxMaxMax" android:maxLines="2" android:layout_centerHorizontal="true" />
+                    <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/sub_text4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:layout_below="@id/sub_title4" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/linearLayout" android:padding="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="13.0sp" android:id="@id/speed_title" android:background="@color/bg_dark_primary" android:paddingTop="6.0dp" android:paddingBottom="6.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" />
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/speed_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.brytonsport.active.views.view.ClimbTextView android:id="@id/avg_speed_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    <com.brytonsport.active.views.view.ClimbTextView android:id="@id/max_speed_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    <com.brytonsport.active.views.view.ClimbTextView android:id="@id/vam_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView android:textSize="13.0sp" android:id="@id/power_title" android:background="@color/bg_dark_primary" android:paddingTop="6.0dp" android:paddingBottom="6.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" />
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/power_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.brytonsport.active.views.view.ClimbTextView android:id="@id/avg_power_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    <com.brytonsport.active.views.view.ClimbTextView android:id="@id/max_power_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    <com.brytonsport.active.views.view.ClimbTextView android:id="@id/normalized_power_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    <com.brytonsport.active.views.view.ClimbTextView android:id="@id/avgw_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView android:textSize="13.0sp" android:id="@id/cadence_title" android:background="@color/bg_dark_primary" android:paddingTop="6.0dp" android:paddingBottom="6.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" />
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/cadence_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.brytonsport.active.views.view.ClimbTextView android:id="@id/avg_cadence_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    <com.brytonsport.active.views.view.ClimbTextView android:id="@id/max_cadence_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView android:textSize="13.0sp" android:id="@id/heart_rate_title" android:background="@color/bg_dark_primary" android:paddingTop="6.0dp" android:paddingBottom="6.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" />
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/heart_rate_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.brytonsport.active.views.view.ClimbTextView android:id="@id/avg_heart_rate_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    <com.brytonsport.active.views.view.ClimbTextView android:id="@id/max_heart_rate_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

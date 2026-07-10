@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.brytonsport.active.ui.calendar.adapter.item.CalendarYearGanttItem android:id="@id/calendar_year_gantt_item" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/divider" android:background="@color/main_green" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_below="@id/calendar_year_gantt_item" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/calender_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dp" android:layout_below="@id/divider" />
+</RelativeLayout>

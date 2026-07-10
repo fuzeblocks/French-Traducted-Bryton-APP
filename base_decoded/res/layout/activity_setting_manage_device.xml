@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/add_layout" android:background="@color/l1_dark" android:layout_width="match_parent" android:layout_height="50.0dp">
+        <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@id/new_device_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add New Device" android:layout_centerVertical="true" android:lineSpacingExtra="5.0sp" android:fontFamily="sans-serif" android:layout_marginStart="20.0dp" />
+        <ImageView android:id="@id/phone_icon" android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@drawable/icon_add_photo" android:layout_centerVertical="true" android:layout_marginEnd="17.0dp" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:id="@id/line_view" android:background="#ff333c4b" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_below="@id/base_layout" android:layout_alignBottom="@id/add_layout" />
+    <RelativeLayout android:id="@id/sub_title" android:layout_width="match_parent" android:layout_height="42.0dp" android:layout_below="@id/line_view">
+        <TextView android:textSize="13.0sp" android:textStyle="bold|italic" android:textColor="#ffffff" android:id="@id/title_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:text="My Bryton Devices" android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" android:layout_marginStart="20.0dp" />
+    </RelativeLayout>
+    <TextView android:textSize="13.0sp" android:textStyle="bold|italic" android:textColor="#ffffff" android:gravity="center" android:id="@id/no_device_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="No Device Paired. Pair a Bryton RIDER to easily set up data pages, notifications, Live Track and activity auto sync." android:layout_centerInParent="true" android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/device_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/sub_title" />
+</RelativeLayout>

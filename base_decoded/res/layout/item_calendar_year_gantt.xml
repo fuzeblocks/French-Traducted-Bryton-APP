@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/date_layout" android:layout_width="match_parent" android:layout_height="32.0dp" android:layout_marginTop="27.0dp">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:id="@id/prev_icon" android:padding="6.0dp" android:layout_width="32.0dp" android:layout_height="32.0dp" android:src="@drawable/icon_calendarleftwardarrow_gy" android:layout_centerVertical="true" />
+                <RelativeLayout android:id="@id/year_layout" android:background="@drawable/round_corner_stroke_white_5dp" android:paddingTop="3.0dp" android:paddingBottom="3.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="20.0dp" android:paddingEnd="20.0dp" android:layout_marginStart="15.0dp" android:layout_toEndOf="@id/prev_icon">
+                    <TextView android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/year_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="January" android:layout_centerVertical="true" />
+                    <TextView android:textSize="6.0dp" android:textColor="#a2a2a2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="▼" android:layout_centerVertical="true" android:layout_marginStart="5.0dp" android:layout_toEndOf="@id/year_text" />
+                </RelativeLayout>
+                <ImageView android:id="@id/next_icon" android:padding="6.0dp" android:layout_width="32.0dp" android:layout_height="32.0dp" android:src="@drawable/icon_calendarrightwardarrow_gy" android:layout_centerVertical="true" android:layout_marginStart="24.0dp" android:layout_toEndOf="@id/year_layout" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/graph_layout" android:paddingTop="5.0dp" android:paddingBottom="29.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/date_layout" android:paddingStart="15.0dp" android:paddingEnd="15.0dp">
+            <RelativeLayout android:id="@id/content_layout" android:layout_width="135.0dp" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+                <RelativeLayout android:id="@id/content_top_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <RelativeLayout android:id="@id/distance_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="4.0dp" android:layout_alignParentEnd="true">
+                        <ImageView android:id="@id/distance_icon" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/icon_distance" android:layout_centerHorizontal="true" />
+                        <TextView android:textSize="11.0sp" android:textColor="@color/white" android:id="@id/distance_unit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="km" android:layout_below="@id/distance_icon" android:layout_centerHorizontal="true" />
+                    </RelativeLayout>
+                    <TextView android:textSize="34.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/distance_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerVertical="true" android:layout_toStartOf="@id/distance_layout" android:autoSizeTextType="uniform" />
+                </RelativeLayout>
+                <View android:id="@id/divider" android:background="@color/bg_light_hallow" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="12.0dp" android:layout_below="@id/content_top_layout" />
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/divider">
+                    <LinearLayout android:orientation="vertical" android:id="@id/activity_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textSize="21.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/activity_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="30.0dp" android:text="3" />
+                        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/activity_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="活動" android:maxLines="1" android:autoSizeTextType="uniform" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/time_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <TextView android:textSize="21.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/hour_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="20.0dp" android:text="3" android:layout_alignBaseline="@id/activity_text" android:layout_marginStart="6.0dp" android:layout_toEndOf="@id/activity_text" android:autoSizeTextType="uniform" />
+                            <TextView android:textSize="11.0sp" android:textColor="@color/white" android:id="@id/hour_unit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="h" android:layout_alignBaseline="@id/hour_text" android:layout_toEndOf="@id/hour_text" />
+                            <TextView android:textSize="21.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/minute_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="20.0dp" android:text="7" android:layout_alignBaseline="@id/hour_unit_text" android:layout_toEndOf="@id/hour_unit_text" android:autoSizeTextType="uniform" />
+                            <TextView android:textSize="11.0sp" android:textColor="@color/white" android:id="@id/minute_unit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="m" android:layout_alignBaseline="@id/minute_text" android:layout_toEndOf="@id/minute_text" />
+                        </LinearLayout>
+                        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/time_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="時間" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="133.0dp" android:layout_toStartOf="@id/content_layout">
+                <LinearLayout android:paddingTop="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.brytonsport.active.views.view.VerticalProgressBar android:id="@id/progress1" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+                    <com.brytonsport.active.views.view.VerticalProgressBar android:id="@id/progress2" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+                    <com.brytonsport.active.views.view.VerticalProgressBar android:id="@id/progress3" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+                    <com.brytonsport.active.views.view.VerticalProgressBar android:id="@id/progress4" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+                    <com.brytonsport.active.views.view.VerticalProgressBar android:id="@id/progress5" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+                    <com.brytonsport.active.views.view.VerticalProgressBar android:id="@id/progress6" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+                    <com.brytonsport.active.views.view.VerticalProgressBar android:id="@id/progress7" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+                    <com.brytonsport.active.views.view.VerticalProgressBar android:id="@id/progress8" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+                    <com.brytonsport.active.views.view.VerticalProgressBar android:id="@id/progress9" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+                    <com.brytonsport.active.views.view.VerticalProgressBar android:id="@id/progress10" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+                    <com.brytonsport.active.views.view.VerticalProgressBar android:id="@id/progress11" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+                    <com.brytonsport.active.views.view.VerticalProgressBar android:id="@id/progress12" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

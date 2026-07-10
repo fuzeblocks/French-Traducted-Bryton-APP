@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff262e40" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/top_layout" android:background="#ff1b2538" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="15.0dp" android:paddingEnd="15.0dp">
+        <RelativeLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/arrow_icon" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/icon_laplist_rightwardarrow_gn" android:layout_centerVertical="true" />
+            <TextView android:textSize="25.0sp" android:textStyle="bold|italic" android:textColor="@color/main_green" android:id="@id/index_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/arrow_icon" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="3.0">
+            <TextView android:textSize="12.0sp" android:textColor="@color/light_blue_grey" android:id="@id/distance_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Distance" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/distance_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:layout_below="@id/distance_title" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="3.0">
+            <TextView android:textSize="12.0sp" android:textColor="@color/light_blue_grey" android:id="@id/trip_time_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Trip Time" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/trip_time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:layout_below="@id/trip_time_title" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="2.0">
+            <TextView android:textSize="12.0sp" android:textColor="@color/light_blue_grey" android:id="@id/np_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NP" android:layout_centerHorizontal="true" android:autoSizeTextType="uniform" />
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/np_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:layout_below="@id/np_title" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/bottom_layout" android:background="#ff262e40" android:paddingBottom="17.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/top_layout">
+        <RelativeLayout android:id="@id/avg_max_layout" android:layout_width="match_parent" android:layout_height="40.0dp" android:paddingStart="100.0dp" android:paddingEnd="100.0dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="12.0sp" android:textColor="@color/light_blue_grey" android:gravity="center" android:id="@id/avg_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Avg" android:layout_weight="1.0" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/light_blue_grey" android:gravity="center" android:id="@id/max_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Max" android:layout_weight="1.0" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/title_layout" android:layout_width="100.0dp" android:layout_height="wrap_content" android:layout_below="@id/avg_max_layout">
+            <TextView android:textSize="12.0sp" android:textColor="@color/light_grey_text" android:id="@id/speed_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Speed" android:layout_marginEnd="10.0dp" android:layout_alignParentEnd="true" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/light_grey_text" android:id="@id/candence_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:text="Candence" android:layout_below="@id/speed_title" android:layout_marginEnd="10.0dp" android:layout_alignParentEnd="true" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/light_grey_text" android:id="@id/hear_rate_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:text="Heart Rate" android:layout_below="@id/candence_title" android:layout_marginEnd="10.0dp" android:layout_alignParentEnd="true" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/light_grey_text" android:id="@id/power_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:text="Power" android:layout_below="@id/hear_rate_title" android:layout_marginEnd="10.0dp" android:layout_alignParentEnd="true" />
+            <View android:background="@color/light_blue_grey" android:layout_width="1.0dp" android:layout_height="wrap_content" android:layout_alignTop="@id/speed_title" android:layout_alignBottom="@id/power_title" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/unit_layout" android:layout_width="100.0dp" android:layout_height="wrap_content" android:layout_below="@id/avg_max_layout" android:layout_alignParentEnd="true">
+            <TextView android:textSize="12.0sp" android:textColor="@color/light_grey_text" android:id="@id/speed_unit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="km/h" android:layout_marginStart="10.0dp" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/light_grey_text" android:id="@id/candence_unit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:text="rpm" android:layout_below="@id/speed_unit_text" android:layout_marginStart="10.0dp" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/light_grey_text" android:id="@id/hear_rate_unit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:text="bpm" android:layout_below="@id/candence_unit_text" android:layout_marginStart="10.0dp" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/light_grey_text" android:id="@id/power_unit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:text="watt" android:layout_below="@id/hear_rate_unit_text" android:layout_marginStart="10.0dp" />
+            <View android:background="@color/light_blue_grey" android:layout_width="1.0dp" android:layout_height="wrap_content" android:layout_alignTop="@id/speed_unit_text" android:layout_alignBottom="@id/power_unit_text" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/avg_max_layout" android:layout_toStartOf="@id/unit_layout" android:layout_toEndOf="@id/title_layout">
+            <RelativeLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/light_grey_text" android:id="@id/speed_avg_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_marginStart="10.0dp" />
+                <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/light_grey_text" android:id="@id/candence_avg_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:layout_below="@id/speed_avg_text" android:layout_centerHorizontal="true" android:layout_marginStart="10.0dp" />
+                <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/light_grey_text" android:id="@id/hear_rate_avg_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:layout_below="@id/candence_avg_text" android:layout_centerHorizontal="true" android:layout_marginStart="10.0dp" />
+                <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/light_grey_text" android:id="@id/power_avg_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:layout_below="@id/hear_rate_avg_text" android:layout_centerHorizontal="true" android:layout_marginStart="10.0dp" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/light_grey_text" android:id="@id/speed_max_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_marginStart="10.0dp" />
+                <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/light_grey_text" android:id="@id/candence_max_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:layout_below="@id/speed_max_text" android:layout_centerHorizontal="true" android:layout_marginStart="10.0dp" />
+                <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/light_grey_text" android:id="@id/hear_rate_max_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:layout_below="@id/candence_max_text" android:layout_centerHorizontal="true" android:layout_marginStart="10.0dp" />
+                <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/light_grey_text" android:id="@id/power_max_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:layout_below="@id/hear_rate_max_text" android:layout_centerHorizontal="true" android:layout_marginStart="10.0dp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/bottom_layout_2" android:background="#ff262e40" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/bottom_layout">
+        <View android:background="@color/bg_light_hallow" android:layout_width="match_parent" android:layout_height="1.0dp" />
+        <RelativeLayout android:id="@id/calories_layout" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="10.0dp" android:paddingEnd="10.0dp">
+            <TextView android:textSize="16.0sp" android:textColor="@color/light_blue_grey" android:id="@id/calories_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Calories" />
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/calories_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/kj_layout" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/calories_layout" android:paddingStart="10.0dp" android:paddingEnd="10.0dp">
+            <TextView android:textSize="16.0sp" android:textColor="@color/light_blue_grey" android:id="@id/kj_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="KJ" />
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/kj_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:background="#ff333c4b" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_alignBottom="@id/top_layout" />
+</RelativeLayout>

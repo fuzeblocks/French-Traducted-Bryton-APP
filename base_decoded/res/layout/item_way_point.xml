@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bg_dark_primary" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/traffic_layout" android:layout_width="match_parent" android:layout_height="30.0dp" android:paddingEnd="12.0dp">
+        <ImageView android:gravity="center" android:id="@id/traffic_icon" android:layout_width="20.0dp" android:layout_height="30.0dp" android:src="@drawable/icon_calendaractivity_ride_01" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/change_layout" android:layout_width="match_parent" android:layout_height="20.0dp" android:paddingEnd="12.0dp">
+            <TextView android:textSize="13.0sp" android:textColor="@color/light_grey_text" android:id="@id/traffic_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="999 km" android:layout_centerVertical="true" android:layout_marginEnd="14.0dp" android:layout_alignParentEnd="true" />
+            <ImageView android:id="@id/edit_icon" android:layout_width="14.0dp" android:layout_height="14.0dp" android:src="@drawable/icon_edit" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/item_layout" android:layout_width="match_parent" android:layout_height="48.0dp" android:paddingEnd="12.0dp">
+        <ImageView android:id="@id/type_icon" android:layout_width="20.0dp" android:layout_height="50.0dp" android:src="@drawable/icon_poi_food_s_wt" android:layout_centerVertical="true" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp" />
+        <RelativeLayout android:id="@id/item_h_layout" android:background="@drawable/round_corner_stroke_gray_4dp" android:layout_width="match_parent" android:layout_height="36.0dp" android:layout_centerVertical="true" android:paddingEnd="12.0dp" android:layout_marginEnd="30.0dp" android:layout_toEndOf="@id/type_icon">
+            <RelativeLayout android:id="@id/drag_icon" android:layout_width="50.0dp" android:layout_height="50.0dp" android:layout_centerVertical="true">
+                <ImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/icon_reorder" android:layout_centerInParent="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <TextView android:textSize="15.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/name_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rest Stop" android:maxLines="1" android:singleLine="true" android:layout_centerVertical="true" android:layout_toStartOf="@id/distance_text" android:layout_toEndOf="@id/drag_icon" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/light_blue_grey" android:id="@id/distance_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="999 km" android:layout_centerVertical="true" android:layout_marginEnd="14.0dp" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/delete_icon" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/icon_cancel" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

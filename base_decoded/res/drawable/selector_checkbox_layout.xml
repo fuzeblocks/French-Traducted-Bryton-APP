@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@drawable/round_edge_bg_light_gray_8dp" />
+    <item android:drawable="@drawable/round_edge_white_bg_gray_border_8dp" />
+</selector>

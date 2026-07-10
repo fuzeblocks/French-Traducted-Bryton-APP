@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_dark_primary" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/item_layout" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="12.0dp">
+        <TextView android:textSize="15.0sp" android:textStyle="bold|italic" android:textColor="#00d343" android:gravity="end|center" android:id="@id/index_text" android:layout_width="20.0dp" android:layout_height="wrap_content" android:text="1" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/delete_icon" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/icon_cancel" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="15.0dp" android:paddingEnd="15.0dp" android:layout_toStartOf="@id/delete_icon" android:layout_toEndOf="@id/index_text">
+            <RelativeLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/start_icon" android:layout_width="19.0dp" android:layout_height="19.0dp" android:src="@drawable/icon_distfrom_start" android:layout_centerVertical="true" />
+                <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#ffffff" android:id="@id/start_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="999.9 km" android:layout_centerVertical="true" android:lineSpacingExtra="3.0sp" android:layout_marginStart="4.0dp" android:layout_toEndOf="@id/start_icon" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/distance_icon" android:layout_width="19.0dp" android:layout_height="19.0dp" android:src="@drawable/icon_distance2" android:layout_centerVertical="true" />
+                <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#ffffff" android:id="@id/distance_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="999.9 km" android:layout_centerVertical="true" android:lineSpacingExtra="3.0sp" android:layout_marginStart="4.0dp" android:layout_toEndOf="@id/distance_icon" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/altitude_icon" android:layout_width="19.0dp" android:layout_height="19.0dp" android:src="@drawable/icon_alt_gain" android:layout_centerVertical="true" />
+                <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#ffffff" android:id="@id/altitude_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="9999 m" android:layout_centerVertical="true" android:lineSpacingExtra="3.0sp" android:layout_marginStart="4.0dp" android:layout_toEndOf="@id/altitude_icon" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:background="#ff363f60" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_alignBottom="@id/item_layout" />
+</RelativeLayout>

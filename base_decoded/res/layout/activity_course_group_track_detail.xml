@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/tab_layout" android:background="@color/bg_midtone_secondary" android:layout_width="match_parent" android:layout_height="35.0dp">
+        <com.brytonsport.active.views.view.TabTextView android:id="@id/summary_tab" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+        <com.brytonsport.active.views.view.TabTextView android:id="@id/member_tab" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+        <com.brytonsport.active.views.view.TabTextView android:id="@id/chat_tab" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <androidx.viewpager.widget.ViewPager android:id="@id/view_pager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/tab_layout" />
+</RelativeLayout>

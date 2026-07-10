@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/round_corner_dark_grey_15dp_bk_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:id="@id/result_name_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="Climb" android:singleLine="true" android:lineSpacingExtra="5.0sp" android:fontFamily="sans-serif" android:layout_marginStart="16.0dp" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:id="@id/number_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="1" android:singleLine="true" android:lineSpacingExtra="5.0sp" android:fontFamily="sans-serif" android:layout_marginStart="6.0dp" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dp" android:layout_centerVertical="true" android:paddingStart="15.0dp" android:paddingEnd="15.0dp">
+        <RelativeLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/start_icon" android:layout_width="19.0dp" android:layout_height="19.0dp" android:src="@drawable/icon_time_wt" android:tint="#a2a2a2" android:layout_centerVertical="true" />
+            <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#a2a2a2" android:id="@id/time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:layout_centerVertical="true" android:lineSpacingExtra="3.0sp" android:layout_marginStart="4.0dp" android:layout_toEndOf="@id/start_icon" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/distance_icon" android:layout_width="19.0dp" android:layout_height="19.0dp" android:src="@drawable/icon_distance2" android:layout_centerVertical="true" />
+            <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#a2a2a2" android:id="@id/distance_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3.9 km" android:layout_centerVertical="true" android:lineSpacingExtra="3.0sp" android:layout_marginStart="4.0dp" android:layout_toEndOf="@id/distance_icon" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/altitude_icon" android:layout_width="19.0dp" android:layout_height="19.0dp" android:src="@drawable/icon_alt_gain" android:layout_centerVertical="true" />
+            <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#a2a2a2" android:id="@id/altitude_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="9999 m" android:layout_centerVertical="true" android:lineSpacingExtra="3.0sp" android:layout_marginStart="4.0dp" android:layout_toEndOf="@id/altitude_icon" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/bottom_layout" android:paddingTop="20.0dp" android:paddingBottom="17.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

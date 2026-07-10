@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/time_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/alert_every_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/distance_item" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginTop="20.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/alert_every_distance_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/speed_item" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginTop="20.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/cadence_item" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginTop="20.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/heart_rate_item" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginTop="20.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/upper_limit_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/lower_limit_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

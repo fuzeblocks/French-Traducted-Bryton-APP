@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/route_list" android:paddingTop="10.0dp" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ImageView android:id="@id/add_button" android:layout_width="74.0dp" android:layout_height="74.0dp" android:layout_marginBottom="51.0dp" android:src="@drawable/fab_add_new_route_workout" android:layout_alignParentBottom="true" android:layout_marginEnd="16.0dp" android:layout_alignParentEnd="true" />
+    <RelativeLayout android:id="@id/fab_layout" android:background="#aa000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/close_button" android:layout_width="74.0dp" android:layout_height="74.0dp" android:layout_marginBottom="51.0dp" android:src="@drawable/fab_cancel" android:layout_alignParentBottom="true" android:layout_marginEnd="16.0dp" android:layout_alignParentEnd="true" />
+        <LinearLayout android:gravity="end|center" android:id="@id/import_view" android:paddingTop="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/close_button" android:paddingEnd="4.0dp" android:layout_marginEnd="22.0dp" android:layout_alignParentEnd="true">
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="end" android:id="@id/import_files_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Import Files" android:lineSpacingExtra="5.0sp" android:fontFamily="sans-serif" />
+            <ImageView android:layout_width="52.0dp" android:layout_height="52.0dp" android:src="@drawable/fab_import_files" android:layout_marginStart="12.0dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="end|center" android:id="@id/generate_from_activities_view" android:paddingTop="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/import_view" android:paddingEnd="4.0dp" android:layout_marginEnd="22.0dp" android:layout_alignParentEnd="true">
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="end" android:id="@id/generate_from_activities_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Generate from Activities" android:lineSpacingExtra="5.0sp" android:fontFamily="sans-serif" />
+            <ImageView android:layout_width="52.0dp" android:layout_height="52.0dp" android:src="@drawable/fab_generatefrom_activities" android:layout_marginStart="12.0dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="end|center" android:id="@id/sync_from_3rd_party_view" android:paddingTop="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/generate_from_activities_view" android:paddingEnd="4.0dp" android:layout_marginEnd="22.0dp" android:layout_alignParentEnd="true">
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="end" android:id="@id/sync_from_3rd_party_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sync from 3rd Party" android:lineSpacingExtra="5.0sp" android:fontFamily="sans-serif" />
+            <ImageView android:layout_width="52.0dp" android:layout_height="52.0dp" android:src="@drawable/fab_syncfrom_3_rd_party_platforms" android:layout_marginStart="12.0dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="end|center" android:id="@id/plan_route_view" android:paddingTop="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/sync_from_3rd_party_view" android:paddingEnd="4.0dp" android:layout_marginEnd="22.0dp" android:layout_alignParentEnd="true">
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="end" android:id="@id/plan_route_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Plan Route" android:lineSpacingExtra="5.0sp" android:fontFamily="sans-serif" />
+            <ImageView android:layout_width="52.0dp" android:layout_height="52.0dp" android:src="@drawable/fab_plan_route" android:layout_marginStart="12.0dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

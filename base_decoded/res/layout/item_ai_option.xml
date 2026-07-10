@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/selector_ai_faq" android:paddingTop="13.0dp" android:paddingBottom="13.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:paddingStart="10.0dp" android:paddingEnd="10.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/txt_faq" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="How to reset the bike computer?" />
+</RelativeLayout>

@@ -1,0 +1,482 @@
+[
+  {
+    "key": "Afrikaans (Suid-Afrika)",
+    "id": "af-ZA"
+  },
+  {
+    "key": "አማርኛ (ኢትዮጵያ)",
+    "id": "am-ET"
+  },
+  {
+    "key": "Հայ (Հայաստան)",
+    "id": "hy-AM"
+  },
+  {
+    "key": "Azərbaycan (Azərbaycan)(Azerbaijan)",
+    "id": "az-AZ"
+  },
+  {
+    "key": "Bahasa Indonesia (Indonesia)",
+    "id": "id-ID"
+  },
+  {
+    "key": "Bahasa Melayu (Malaysia)",
+    "id": "ms-MY"
+  },
+  {
+    "key": "বাংলা (বাংলাদেশ)",
+    "id": "bn-BD"
+  },
+  {
+    "key": "বাংলা (ভারত)",
+    "id": "bn-IN"
+  },
+  {
+    "key": "Català (Espanya)",
+    "id": "ca-ES"
+  },
+  {
+    "key": "Čeština (Česká republika)",
+    "id": "cs-CZ"
+  },
+  {
+    "key": "Dansk (Danmark)",
+    "id": "da-DK"
+  },
+  {
+    "key": "Deutsch (Deutschland)",
+    "id": "de-DE"
+  },
+  {
+    "key": "English (Australia)",
+    "id": "en-AU"
+  },
+  {
+    "key": "English (Canada)",
+    "id": "en-CA"
+  },
+  {
+    "key": "English (Ghana)",
+    "id": "en-GH"
+  },
+  {
+    "key": "English (Great Britain)",
+    "id": "en-GB"
+  },
+  {
+    "key": "English (India)",
+    "id": "en-IN"
+  },
+  {
+    "key": "English (Ireland)",
+    "id": "en-IE"
+  },
+  {
+    "key": "English (Kenya)",
+    "id": "en-KE"
+  },
+  {
+    "key": "English (New Zealand)",
+    "id": "en-NZ"
+  },
+  {
+    "key": "English (Nigeria)",
+    "id": "en-NG"
+  },
+  {
+    "key": "English (Philippines)",
+    "id": "en-PH"
+  },
+  {
+    "key": "English (South Africa)",
+    "id": "en-ZA"
+  },
+  {
+    "key": "English (Tanzania)",
+    "id": "en-TZ"
+  },
+  {
+    "key": "English (United States)",
+    "id": "en-US"
+  },
+  {
+    "key": "Español (Argentina)",
+    "id": "es-AR"
+  },
+  {
+    "key": "Español (Bolivia)",
+    "id": "es-BO"
+  },
+  {
+    "key": "Español (Chile)",
+    "id": "es-CL"
+  },
+  {
+    "key": "Español (Colombia)",
+    "id": "es-CO"
+  },
+  {
+    "key": "Español (Costa Rica)",
+    "id": "es-CR"
+  },
+  {
+    "key": "Español (Ecuador)",
+    "id": "es-EC"
+  },
+  {
+    "key": "Español (El Salvador)",
+    "id": "es-SV"
+  },
+  {
+    "key": "Español (España)",
+    "id": "es-ES"
+  },
+  {
+    "key": "Español (Estados Unidos)",
+    "id": "es-US"
+  },
+  {
+    "key": "Español (Guatemala)",
+    "id": "es-GT"
+  },
+  {
+    "key": "Español (Honduras)",
+    "id": "es-HN"
+  },
+  {
+    "key": "Español (México)",
+    "id": "es-MX"
+  },
+  {
+    "key": "Español (Nicaragua)",
+    "id": "es-NI"
+  },
+  {
+    "key": "Español (Panamá)",
+    "id": "es-PA"
+  },
+  {
+    "key": "Español (Paraguay)",
+    "id": "es-PY"
+  },
+  {
+    "key": "Español (Perú)",
+    "id": "es-PE"
+  },
+  {
+    "key": "Español (Puerto Rico)",
+    "id": "es-PR"
+  },
+  {
+    "key": "Español (República Dominicana)",
+    "id": "es-DO"
+  },
+  {
+    "key": "Español (Uruguay)",
+    "id": "es-UY"
+  },
+  {
+    "key": "Español (Venezuela)",
+    "id": "es-VE"
+  },
+  {
+    "key": "Euskara (Espainia)",
+    "id": "eu-ES"
+  },
+  {
+    "key": "Filipino (Pilipinas)",
+    "id": "fil-PH"
+  },
+  {
+    "key": "Français (Canada)",
+    "id": "fr-CA"
+  },
+  {
+    "key": "Français (France)",
+    "id": "fr-FR"
+  },
+  {
+    "key": "Galego (España)",
+    "id": "gl-ES"
+  },
+  {
+    "key": "ქართული (საქართველო)",
+    "id": "ka-GE"
+  },
+  {
+    "key": "ગુજરાતી (ભારત)",
+    "id": "gu-IN"
+  },
+  {
+    "key": "Hrvatski (Hrvatska)",
+    "id": "hr-HR"
+  },
+  {
+    "key": "IsiZulu (Ningizimu Afrika)",
+    "id": "zu-Z"
+  },
+  {
+    "key": "Íslenska (Ísland)",
+    "id": "is-IS"
+  },
+  {
+    "key": "Italiano (Italia)",
+    "id": "it-IT"
+  },
+  {
+    "key": "Jawa (Indonesia)",
+    "id": "jv-ID"
+  },
+  {
+    "key": "ಕನ್ನಡ (ಭಾರತ)",
+    "id": "kn-IN"
+  },
+  {
+    "key": "ភាសាខ្មែរ (កម្ពុជា)",
+    "id": "km-KH"
+  },
+  {
+    "key": "ລາວ (ລາວ)",
+    "id": "lo-LA"
+  },
+  {
+    "key": "Latviešu (latviešu)",
+    "id": "lv-LV"
+  },
+  {
+    "key": "Lietuvių (Lietuva)",
+    "id": "lt-LT"
+  },
+  {
+    "key": "Magyar (Magyarország)",
+    "id": "hu-HU"
+  },
+  {
+    "key": "മലയാളം (ഇന്ത്യ)",
+    "id": "ml-IN"
+  },
+  {
+    "key": "मराठी (भारत)",
+    "id": "mr-IN"
+  },
+  {
+    "key": "Nederlands (Nederland)",
+    "id": "nl-NL"
+  },
+  {
+    "key": "नेपाली (नेपाल)",
+    "id": "ne-NP"
+  },
+  {
+    "key": "Norsk bokmål (Norge)",
+    "id": "no-NO"
+  },
+  {
+    "key": "Polski (Polska)",
+    "id": "pl-PL"
+  },
+  {
+    "key": "Português (Brasil)",
+    "id": "pt-BR"
+  },
+  {
+    "key": "Português (Portugal)",
+    "id": "pt-PT"
+  },
+  {
+    "key": "Română (România)",
+    "id": "ro-RO"
+  },
+  {
+    "key": "සිංහල (ශ්රී ලංකාව)",
+    "id": "si-LK"
+  },
+  {
+    "key": "Slovenčina (Slovensko)",
+    "id": "sk-SK"
+  },
+  {
+    "key": "Slovenščina (Slovenija)",
+    "id": "sl-SI"
+  },
+  {
+    "key": "Urang (Indonesia)",
+    "id": "su-ID"
+  },
+  {
+    "key": "Swahili (Tanzania)",
+    "id": "sw-TZ"
+  },
+  {
+    "key": "Swahili (Kenya)",
+    "id": "sw-KE"
+  },
+  {
+    "key": "Suomi (Suomi)",
+    "id": "fi-FI"
+  },
+  {
+    "key": "Svenska (Sverige)",
+    "id": "sv-SE"
+  },
+  {
+    "key": "தமிழ் (இந்தியா)",
+    "id": "ta-IN"
+  },
+  {
+    "key": "தமிழ் (சிங்கப்பூர்)",
+    "id": "ta-SG"
+  },
+  {
+    "key": "தமிழ் (இலங்கை)",
+    "id": "ta-LK"
+  },
+  {
+    "key": "தமிழ் (மலேசியா)",
+    "id": "ta-MY"
+  },
+  {
+    "key": "తెలుగు (భారతదేశం)",
+    "id": "te-IN"
+  },
+  {
+    "key": "Tiếng Việt (Việt Nam)",
+    "id": "vi-VN"
+  },
+  {
+    "key": "Türkçe (Türkiye)",
+    "id": "tr-TR"
+  },
+  {
+    "key": "اردو (پاکستان)‏",
+    "id": "ur-PK"
+  },
+  {
+    "key": "اردو (بھارت)",
+    "id": "ur-IN"
+  },
+  {
+    "key": "Ελληνικά (Ελλάδα)",
+    "id": "el-GR"
+  },
+  {
+    "key": "Български (България)",
+    "id": "bg-BG"
+  },
+  {
+    "key": "Русский (Россия)",
+    "id": "ru-RU"
+  },
+  {
+    "key": "Српски (Србија)",
+    "id": "sr-RS"
+  },
+  {
+    "key": "Українська (Україна",
+    "id": "uk-UA"
+  },
+  {
+    "key": "עברית (ישראל)‏",
+    "id": "he-IL"
+  },
+  {
+    "key": "العربية (إسرائيل)‏",
+    "id": "ar-IL"
+  },
+  {
+    "key": "Arabic, multi-region",
+    "id": "ar-XA"
+  },
+  {
+    "key": "العربية (الأردن)‏",
+    "id": "ar-JO"
+  },
+  {
+    "key": "العربية (الإمارات)‏",
+    "id": "ar-AE"
+  },
+  {
+    "key": "العربية (البحرين)‏",
+    "id": "ar-BH"
+  },
+  {
+    "key": "العربية (الجزائر)‏",
+    "id": "ar-DZ"
+  },
+  {
+    "key": "العربية (السعودية)‏",
+    "id": "ar-SA"
+  },
+  {
+    "key": "العربية (العراق)‏",
+    "id": "ar-IQ"
+  },
+  {
+    "key": "العربية (الكويت)‏",
+    "id": "ar-KW"
+  },
+  {
+    "key": "العربية (المغرب)‏",
+    "id": "ar-MA"
+  },
+  {
+    "key": "العربية (تونس)‏",
+    "id": "ar-TN"
+  },
+  {
+    "key": "العربية (عُمان)‏",
+    "id": "ar-OM"
+  },
+  {
+    "key": "العربية (فلسطين)‏",
+    "id": "ar-PS"
+  },
+  {
+    "key": "العربية (قطر)‏",
+    "id": "ar-QA"
+  },
+  {
+    "key": "العربية (لبنان)‏",
+    "id": "ar-LB"
+  },
+  {
+    "key": "العربية (مصر)‏",
+    "id": "ar-EG"
+  },
+  {
+    "key": "فارسی (ایران)‏",
+    "id": "fa-IR"
+  },
+  {
+    "key": "हिन्दी (भारत)",
+    "id": "hi-IN"
+  },
+  {
+    "key": "ไทย (ประเทศไทย)",
+    "id": "th-TH"
+  },
+  {
+    "key": "한국어 (대한민국)",
+    "id": "ko-KR"
+  },
+  {
+    "key": "國語 (台灣)",
+    "id": "cmn-Hant-TW"
+  },
+  {
+    "key": "廣東話 (香港)",
+    "id": "yue-Hant-HK"
+  },
+  {
+    "key": "日本語（日本)",
+    "id": "ja-JP"
+  },
+  {
+    "key": "普通話 (香港)",
+    "id": "cmn-Hans-HK"
+  },
+  {
+    "key": "普通话 (中国大陆)",
+    "id": "cmn-Hans-CN"
+  }
+]

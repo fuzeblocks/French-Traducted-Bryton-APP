@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/profile_sync_text" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.2" android:paddingStart="15.0dp" android:paddingEnd="15.0dp" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/profile_sync_list" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

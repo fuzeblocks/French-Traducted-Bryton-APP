@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/user_have_data" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="15.0sp" android:textColor="#a2a2a2" android:id="@id/user_msg" android:padding="17.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="文字說明引導使用者儲存LiveSegment 到My Segments以便上傳到車錶" android:lineSpacingExtra="5.0sp" android:fontFamily="sans-serif" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/segment_list" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/user_have_no_data" android:paddingTop="@dimen/segment_msg_top_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="17.0sp" android:textColor="#ffffff" android:gravity="center" android:id="@id/free_user_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="請付費解鎖" android:lineSpacingExtra="5.0sp" android:fontFamily="sans-serif" />
+        <TextView android:textSize="17.0sp" android:textColor="#ffffff" android:gravity="center" android:id="@id/free_user_msg" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="請付費解鎖" android:lineSpacingExtra="5.0sp" android:fontFamily="sans-serif" />
+    </LinearLayout>
+</LinearLayout>

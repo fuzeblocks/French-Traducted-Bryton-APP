@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mapbox="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/search_layout" android:background="@color/header_bt_navigator" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:paddingStart="11.0dp" android:paddingEnd="11.0dp">
+        <TextView android:textSize="17.0sp" android:textColor="@color/white" android:textColorHint="@color/light_grey_text" android:gravity="center_vertical" android:id="@id/search_edit" android:background="@drawable/round_corner_bg_light_gray_13dp" android:layout_width="match_parent" android:layout_height="36.0dp" android:singleLine="true" android:layout_centerVertical="true" android:inputType="text" android:imeOptions="actionSearch" android:paddingStart="33.0dp" android:paddingEnd="20.0dp" />
+        <ImageView android:layout_width="24.0dp" android:layout_height="22.0dp" android:src="@drawable/icon_search_gy" android:layout_centerVertical="true" android:layout_marginStart="4.0dp" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#c4c3ca" android:gravity="center_vertical" android:id="@id/hint_text" android:background="@color/header_bt_navigator" android:layout_width="match_parent" android:layout_height="30.0dp" android:text="Tap the map or search a place to add as the start point." android:layout_below="@id/search_layout" android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" android:paddingStart="13.0dp" android:paddingEnd="13.0dp" />
+    <RelativeLayout android:id="@id/mapViewLayout" android:background="@color/header_bt_navigator" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/hint_text">
+        <com.brytonsport.active.views.view.MyMapView android:id="@id/mapView" android:layout_width="match_parent" android:layout_height="match_parent" mapbox:mapbox_cameraZoom="12.0" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/bottom_layout" android:background="@drawable/top_round_corner_dark" android:layout_width="match_parent" android:layout_height="305.0dp" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@id/touch_layout" android:layout_width="match_parent" android:layout_height="35.0dp">
+            <View android:background="#ff44454a" android:layout_width="30.0dp" android:layout_height="2.0dp" android:layout_marginTop="8.0dp" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/value_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/touch_layout" android:paddingStart="20.0dp">
+            <RelativeLayout android:id="@id/type_icon_layout" android:layout_width="50.0dp" android:layout_height="38.0dp" android:layout_centerVertical="true">
+                <ImageView android:id="@id/type_icon" android:layout_width="50.0dp" android:layout_height="38.0dp" android:src="@drawable/button_route_type_road_gn" />
+                <ImageView android:layout_width="16.0dp" android:layout_height="16.0dp" android:src="@drawable/icon_lap_list_downward_arrow_gn" android:layout_centerVertical="true" android:layout_marginEnd="5.0dp" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <com.brytonsport.active.ui.course.view.ValueView android:id="@id/distance_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="28.0dp" android:layout_toEndOf="@id/type_icon_layout" />
+            <com.brytonsport.active.ui.course.view.ValueView android:id="@id/altitude_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/distance_view" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/tab_layout" android:background="#ff262e40" android:layout_width="match_parent" android:layout_height="30.0dp" android:layout_below="@id/value_layout">
+            <com.brytonsport.active.views.view.TabTextView android:id="@id/altitude_tab" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+            <com.brytonsport.active.views.view.TabTextView android:id="@id/way_points_tab" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+            <com.brytonsport.active.views.view.TabTextView android:id="@id/turns_tab" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/altitude_layout" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/tab_layout">
+            <com.github.mikephil.charting.charts.CombinedChart android:id="@id/altitude_chart" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/padding_view" />
+            <View android:id="@id/padding_view" android:layout_width="match_parent" android:layout_height="15.0dp" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/way_points_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/tab_layout">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/way_points_list" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/turns_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/tab_layout">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/turns_list" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/dialog_teach" android:background="#aa000000" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/round_corner_gray_8dp" android:paddingLeft="24.0dp" android:paddingTop="20.0dp" android:paddingRight="24.0dp" android:paddingBottom="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_centerVertical="true" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="17.0sp" android:textColor="#ffffff" android:id="@id/first_point_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="第一次輸入地址為起點" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_start_point" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="17.0sp" android:textColor="#ffffff" android:id="@id/second_point_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="第二次輸入地址為終點" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_end_point" />
+            </LinearLayout>
+            <TextView android:textSize="17.0sp" android:textColor="#ffffff" android:id="@id/way_point_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="若有經由點，則依次輸入: 起始點->經由點1->經由點2->...->終點" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp">
+                <TextView android:textSize="17.0sp" android:textColor="#ffffff" android:id="@id/save_plan_trip_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="規劃完成 點擊右上角儲存" />
+                <ImageView android:layout_width="25.0dp" android:layout_height="25.0dp" android:src="@drawable/icon_route_uploading" />
+            </LinearLayout>
+            <TextView android:textSize="17.0sp" android:textColor="#ffffff" android:id="@id/plan_trip_finish" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:text="*也可以在地圖點選起終點完成規劃。" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dp">
+                <ImageView android:id="@id/check_icon" android:layout_width="25.0dp" android:layout_height="25.0dp" android:src="@drawable/icon_to_select" />
+                <TextView android:textSize="14.0sp" android:textColor="#99ffffff" android:gravity="center" android:id="@id/show_prompt_text" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="不再顯示" />
+            </LinearLayout>
+            <TextView android:textSize="14.0sp" android:textColor="@color/main_green" android:layout_gravity="end" android:id="@id/ok_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="確認" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

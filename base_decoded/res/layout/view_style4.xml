@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/bryton_icon" android:layout_width="84.0dp" android:layout_height="42.0dp" android:layout_marginTop="13.0dp" android:src="@drawable/stat_style_d_logo_slogan" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="13.0dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/distance_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="96.0dp" android:layout_centerVertical="true">
+                <TextView android:textSize="12.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Distance" android:layout_centerVertical="true" android:layout_marginStart="4.0dp" android:layout_toEndOf="@id/time_icon" />
+                <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/gain_h_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="999.9 km" android:layout_centerVertical="true" android:layout_marginStart="4.0dp" android:layout_toEndOf="@id/gain_h_icon" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/time_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="96.0dp" android:layout_centerVertical="true" android:layout_marginStart="20.0dp" android:layout_toEndOf="@id/distance_layout">
+                <TextView android:textSize="12.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Time" android:layout_centerVertical="true" android:layout_marginStart="4.0dp" android:layout_toEndOf="@id/time_icon" />
+                <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00:00" android:layout_centerVertical="true" android:layout_marginStart="4.0dp" android:layout_toEndOf="@id/time_icon" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/alt_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="96.0dp" android:layout_centerVertical="true" android:layout_marginStart="20.0dp" android:layout_toEndOf="@id/time_layout">
+                <TextView android:textSize="12.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Alt. Gain" android:layout_centerVertical="true" android:layout_marginStart="4.0dp" android:layout_toEndOf="@id/time_icon" />
+                <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/gain_v_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="9999 m" android:layout_centerVertical="true" android:layout_marginStart="4.0dp" android:layout_toEndOf="@id/gain_v_icon" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@id/range_color" android:background="@color/main_green" android:layout_width="30.0dp" android:layout_height="16.0dp" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/range_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="良好" android:layout_marginStart="5.0dp" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" - " android:layout_marginStart="5.0dp" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/light_grey_text" android:id="@id/range_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="36.3-39.6" android:layout_marginStart="5.0dp" />
+    </LinearLayout>
+    <View android:id="@id/range_space" android:visibility="visible" android:layout_width="30.0dp" android:layout_height="18.0dp" />
+</LinearLayout>

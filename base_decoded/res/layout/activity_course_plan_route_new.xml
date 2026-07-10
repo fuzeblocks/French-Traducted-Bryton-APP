@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mapbox="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/search_layout" android:background="@color/header_bt_navigator" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:paddingStart="11.0dp" android:paddingEnd="11.0dp">
+        <TextView android:textSize="17.0sp" android:textColor="@color/white" android:textColorHint="@color/light_grey_text" android:gravity="center_vertical" android:id="@id/search_edit" android:background="@drawable/round_corner_bg_light_gray_13dp" android:layout_width="match_parent" android:layout_height="36.0dp" android:singleLine="true" android:layout_centerVertical="true" android:inputType="text" android:imeOptions="actionSearch" android:paddingStart="33.0dp" android:paddingEnd="20.0dp" />
+        <ImageView android:layout_width="24.0dp" android:layout_height="22.0dp" android:src="@drawable/icon_search_gy" android:layout_centerVertical="true" android:layout_marginStart="4.0dp" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#c4c3ca" android:gravity="center_vertical" android:id="@id/hint_text" android:background="@color/header_bt_navigator" android:layout_width="match_parent" android:layout_height="30.0dp" android:text="Tap the map or search a place to add as the start point." android:layout_below="@id/search_layout" android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" android:paddingStart="13.0dp" android:paddingEnd="13.0dp" />
+    <RelativeLayout android:id="@id/map_view_layout" android:background="@color/header_bt_navigator" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/hint_text">
+        <FrameLayout android:id="@id/map_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ImageView android:id="@id/teach_button" android:background="@drawable/icon_white_bg" android:padding="5.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginTop="16.0dp" android:src="@null" android:layout_alignParentTop="true" android:layout_marginStart="16.0dp" android:layout_alignParentStart="true" />
+        <ImageView android:id="@id/traffic_button" android:background="@drawable/icon_white_bg" android:padding="5.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginTop="16.0dp" android:src="@drawable/icon_mtb_l" android:layout_alignParentTop="true" android:layout_marginEnd="16.0dp" android:layout_alignParentEnd="true" app:tint="@color/black" />
+        <ImageView android:id="@id/undo_button" android:background="@drawable/icon_white_bg" android:padding="5.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginTop="16.0dp" android:src="@null" android:layout_below="@id/traffic_button" android:layout_marginEnd="16.0dp" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/redo_button" android:background="@drawable/icon_white_bg" android:padding="5.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginTop="16.0dp" android:src="@null" android:layout_below="@id/undo_button" android:layout_marginEnd="16.0dp" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/add_button" android:background="@drawable/icon_white_bg" android:padding="5.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginTop="16.0dp" android:src="@null" android:layout_below="@id/redo_button" android:layout_marginEnd="16.0dp" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/centerMarker" android:layout_width="40.0dp" android:layout_height="80.0dp" android:src="@null" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/gray_layout" android:background="#707070" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:background="@drawable/icon_white_bg" android:padding="5.0dp" android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@null" android:layout_below="@id/redo_button" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="15.0sp" android:textStyle="normal" android:textColor="#ffffff" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="30.0dp" android:text="：" android:layout_below="@id/search_layout" android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" />
+        <TextView android:textSize="15.0sp" android:textStyle="normal" android:textColor="#ffffff" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/txt_add_marker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="按這個按鈕可以新增經由點" android:maxLines="2" android:layout_below="@id/search_layout" android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/bottom_layout" android:background="@drawable/top_round_corner_dark" android:visibility="gone" android:layout_width="match_parent" android:layout_height="205.0dp" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@id/touch_layout" android:layout_width="match_parent" android:layout_height="35.0dp">
+            <View android:background="#ff44454a" android:layout_width="30.0dp" android:layout_height="2.0dp" android:layout_marginTop="8.0dp" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/value_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/touch_layout" android:paddingStart="10.0dp">
+            <com.brytonsport.active.ui.course.view.ValueView android:id="@id/distance_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/type_icon_layout" />
+            <com.brytonsport.active.ui.course.view.ValueView android:id="@id/altitude_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/distance_view" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/tab_layout" android:background="#ff262e40" android:layout_width="match_parent" android:layout_height="30.0dp" android:layout_below="@id/value_layout">
+            <com.brytonsport.active.views.view.TabTextView android:id="@id/altitude_tab" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+            <com.brytonsport.active.views.view.TabTextView android:id="@id/way_points_tab" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+            <com.brytonsport.active.views.view.TabTextView android:id="@id/turns_tab" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/altitude_layout" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/tab_layout">
+            <com.github.mikephil.charting.charts.CombinedChart android:id="@id/altitude_chart" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/padding_view" />
+            <View android:id="@id/padding_view" android:layout_width="match_parent" android:layout_height="15.0dp" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/way_points_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/tab_layout">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/way_points_list" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/turns_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/tab_layout">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/turns_list" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/dialog_teach" android:background="#aa000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</RelativeLayout>

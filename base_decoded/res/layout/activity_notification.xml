@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/notification_list" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/empty_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="30.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center_horizontal" android:id="@id/no_notification_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No Notifications Right Now!" android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" />
+            <TextView android:textSize="15.0sp" android:textStyle="normal" android:textColor="#ffffff" android:gravity="center_horizontal" android:id="@id/no_notification_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="You’re all up to date! When you get notifications they will show up here." android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

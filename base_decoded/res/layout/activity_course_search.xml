@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/search_layout" android:background="@color/header_bt_navigator" android:layout_width="match_parent" android:layout_height="60.0dp" android:layout_marginTop="44.0dp" android:paddingStart="11.0dp" android:paddingEnd="11.0dp">
+        <EditText android:textSize="17.0sp" android:textColor="@color/white" android:textColorHint="@color/light_grey_text" android:gravity="center_vertical" android:id="@id/search_edit" android:background="@drawable/round_corner_bg_light_gray_13dp" android:layout_width="match_parent" android:layout_height="36.0dp" android:singleLine="true" android:layout_centerVertical="true" android:inputType="text" android:imeOptions="actionSearch" android:paddingStart="33.0dp" android:paddingEnd="20.0dp" android:layout_toStartOf="@id/cancel_text" />
+        <ImageView android:layout_width="24.0dp" android:layout_height="22.0dp" android:src="@drawable/icon_search_gy" android:layout_centerVertical="true" android:layout_marginStart="4.0dp" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/main_green" android:id="@id/cancel_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="5.0dp" android:paddingEnd="5.0dp" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/clear_image" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/icon_cancel_gy" android:layout_centerVertical="true" android:layout_marginEnd="10.0dp" android:layout_alignEnd="@id/search_edit" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/search_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/search_layout" />
+</RelativeLayout>

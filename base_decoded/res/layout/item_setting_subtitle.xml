@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/base_layout" android:layout_width="match_parent" android:layout_height="42.0dp">
+        <TextView android:textSize="13.0sp" android:textStyle="bold|italic" android:textColor="#ffffff" android:id="@id/title_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:text="My Bryton Devices" android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" android:layout_marginStart="20.0dp" />
+    </RelativeLayout>
+</RelativeLayout>

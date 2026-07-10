@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="6.0dp" android:paddingBottom="6.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="12.0dp" android:paddingEnd="12.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="14.0dp">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:id="@id/dot1" android:background="@drawable/circle_white" android:layout_width="6.0dp" android:layout_height="6.0dp" android:alpha="0.3" />
+            <View android:id="@id/dot2" android:background="@drawable/circle_white" android:layout_width="6.0dp" android:layout_height="6.0dp" android:alpha="0.3" android:layout_marginStart="6.0dp" />
+            <View android:id="@id/dot3" android:background="@drawable/circle_green" android:layout_width="6.0dp" android:layout_height="6.0dp" android:alpha="0.3" android:layout_marginStart="6.0dp" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textColor="#bfffffff" android:id="@id/tvProcessing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Processing..." android:layout_marginStart="6.0dp" />
+    </LinearLayout>
+</LinearLayout>

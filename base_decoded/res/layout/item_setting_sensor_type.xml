@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/base_layout" android:background="@color/l1_dark" android:layout_width="match_parent" android:layout_height="50.0dp">
+        <ImageView android:id="@id/type_icon" android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@drawable/icon_sensor_spd_cad" android:layout_centerVertical="true" android:layout_marginStart="15.0dp" />
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="11.0dp" android:layout_toEndOf="@id/type_icon">
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@id/type_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Speed/Cadence" android:lineSpacingExtra="5.0sp" android:fontFamily="sans-serif" />
+        </RelativeLayout>
+        <ImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/icon_next_wt" android:layout_centerVertical="true" android:layout_marginEnd="15.0dp" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

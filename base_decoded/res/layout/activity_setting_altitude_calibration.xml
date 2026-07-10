@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.brytonsport.active.views.view.TitleTextView android:id="@id/auto_calibration_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/position_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="122.0dp">
+            <ImageView android:id="@id/position_icon" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@null" android:layout_centerVertical="true" />
+            <TextView android:textSize="15.0sp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/position_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Positioning..." android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" android:layout_marginStart="8.0dp" android:layout_marginEnd="33.0dp" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/meter_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23.0dp">
+            <ImageView android:id="@id/down_icon" android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@drawable/icon_downward_arrow_gy" android:tint="@color/white" android:layout_centerVertical="true" />
+            <EditText android:textSize="60.0sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center_horizontal" android:id="@id/meter_text" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2345" android:digits="0123456789" android:layout_centerVertical="true" android:lineSpacingExtra="24.0sp" android:inputType="numberDecimal" android:fontFamily="sans-serif" android:layout_marginStart="20.0dp" android:layout_toEndOf="@id/down_icon" />
+            <ImageView android:id="@id/up_icon" android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@drawable/icon_upward_arrow_gy" android:layout_centerVertical="true" android:layout_marginStart="20.0dp" android:layout_toEndOf="@id/meter_text" />
+        </RelativeLayout>
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#a2a2a2" android:gravity="center_horizontal" android:id="@id/unit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="meters" android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" />
+        <TextView android:textSize="15.0sp" android:textStyle="normal" android:textColor="#a2a2a2" android:gravity="center_horizontal" android:id="@id/hint_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dp" android:text="Please make sure you are at ground level for more accurate altitude calibration." android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" android:layout_marginStart="33.0dp" android:layout_marginEnd="33.0dp" />
+        <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:id="@id/calibrate_button" android:background="@drawable/round_corner_green_8dp" android:layout_width="330.0dp" android:layout_height="50.0dp" android:layout_marginTop="30.0dp" android:text="Calibrate" android:layout_below="@id/via_text" android:layout_centerHorizontal="true" android:lineSpacingExtra="5.0sp" android:fontFamily="sans-serif" />
+    </LinearLayout>
+</RelativeLayout>

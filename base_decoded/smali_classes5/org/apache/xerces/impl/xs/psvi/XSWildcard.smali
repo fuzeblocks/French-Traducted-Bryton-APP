@@ -1,0 +1,33 @@
+.class public interface abstract Lorg/apache/xerces/impl/xs/psvi/XSWildcard;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lorg/apache/xerces/impl/xs/psvi/XSTerm;
+
+
+# static fields
+.field public static final NSCONSTRAINT_ANY:S = 0x1s
+
+.field public static final NSCONSTRAINT_LIST:S = 0x3s
+
+.field public static final NSCONSTRAINT_NOT:S = 0x2s
+
+.field public static final PC_LAX:S = 0x3s
+
+.field public static final PC_SKIP:S = 0x2s
+
+.field public static final PC_STRICT:S = 0x1s
+
+
+# virtual methods
+.method public abstract getAnnotation()Lorg/apache/xerces/impl/xs/psvi/XSAnnotation;
+.end method
+
+.method public abstract getConstraintType()S
+.end method
+
+.method public abstract getNsConstraintList()Lorg/apache/xerces/impl/xs/psvi/StringList;
+.end method
+
+.method public abstract getProcessContents()S
+.end method

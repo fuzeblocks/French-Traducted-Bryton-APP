@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/calibrate_time_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/device_language_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/auto_power_off_item" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginTop="20.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/when_idle_after_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/backlight_off_item" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginTop="20.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/key_tone_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/sound_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/time_unit_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/auto_lap_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/lap_by_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/lap_by_info_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+            <LinearLayout android:orientation="vertical" android:id="@id/left_key_function_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.brytonsport.active.views.view.TitleTextView android:id="@id/left_key_function_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+                <TextView android:textSize="15.0sp" android:textColor="#a2a2a2" android:id="@id/left_key_function_text" android:paddingTop="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="The Left Key function is changed to Scoll Page! Now you can press the LEFT key to left scroll page in meter loop." android:layout_below="@id/auto_send_layout" android:paddingStart="28.0dp" android:paddingEnd="28.0dp" />
+            </LinearLayout>
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/odo_item" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginTop="30.0dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

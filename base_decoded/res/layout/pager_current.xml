@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/no_data_view" android:layout_width="match_parent" android:layout_height="200.0dp" android:layout_marginTop="50.0dp">
+        <TextView android:id="@id/txt_no_data_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="尚無VO2 Max資料" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.brytonsport.active.views.view.ScoreRingView android:id="@id/score_ring_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="200.0dp" android:layout_marginTop="50.0dp" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="15.0sp" android:textColor="@color/main_green" android:layout_gravity="center" android:id="@id/txt_review_profile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="檢查並更新個人" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/light_grey_text" android:layout_gravity="center" android:id="@id/txt_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dp" android:text="最大攝氧量的估算需根據您的身高、體重、年齡、性別、MHR等基本資料，請確保基本資料的正確性已提升估算準確性。" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" />
+    </LinearLayout>
+</RelativeLayout>

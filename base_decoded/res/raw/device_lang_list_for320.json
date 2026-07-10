@@ -1,0 +1,73 @@
+[{
+  "key": "繁體中文",
+  "id": "zh-TW",
+  "serverStr": "ZHO"
+},{
+  "key": "简体中文",
+  "id": "zh-CN",
+  "serverStr": "CHI"
+},{
+  "key": "日本語",
+  "id": "ja",
+  "serverStr": "JPN"
+},{
+  "key": "한국어",
+  "id": "ko",
+  "serverStr": "KOR"
+},{
+  "key": "Dansk",
+  "id": "da",
+  "serverStr": "DAN"
+},{
+  "key": "Deutsch",
+  "id": "de",
+  "serverStr": "GER"
+},{
+  "key": "English",
+  "id": "en",
+  "serverStr": "ENG"
+},{
+  "key": "Español",
+  "id": "es",
+  "serverStr": "SPA"
+},{
+  "key": "Français",
+  "id": "fr",
+  "serverStr": "FRA"
+},{
+  "key": "Italiano",
+  "id": "it",
+  "serverStr": "ITA"
+},{
+  "key": "Magyar",
+  "id": "hu",
+  "serverStr": "HUN"
+},{        
+  "key": "Norsk",
+  "id": "nb",
+  "serverStr": "NOR"
+},{
+  "key": "Nederlands",
+  "id": "nl",
+  "serverStr": "DUT"
+},{
+  "key": "Polski",
+  "id": "pl",
+  "serverStr": "POL"
+},{  
+  "key": "Português",
+  "id": "pt",
+  "serverStr": "POR"
+},{  
+  "key": "sweden",
+  "id": "sd",
+  "serverStr": "SWE"
+},{        
+  "key": "Română",
+  "id": "ro",
+  "serverStr": "ROM"
+},{
+  "key": "ไทย",
+  "id": "th",
+  "serverStr": "THA"
+}]

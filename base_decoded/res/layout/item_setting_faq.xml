@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/base_layout" android:background="@color/l1_dark" android:paddingTop="21.0dp" android:paddingBottom="21.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="25.0sp" android:textStyle="bold|italic" android:textColor="#00d343" android:id="@id/index_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" android:layout_centerVertical="true" android:lineSpacingExtra="-1.0sp" android:layout_marginStart="20.0dp" />
+        <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#ffffff" android:id="@id/faq_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="“unable to acquire GPS location.” Please make sure the internet is working and you’ve allowed Bryton Active to access your location." android:layout_centerVertical="true" android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" android:layout_marginStart="20.0dp" android:layout_marginEnd="37.0dp" android:layout_toEndOf="@id/index_text" />
+    </RelativeLayout>
+    <View android:background="#ff333c4b" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_alignBottom="@id/base_layout" />
+</RelativeLayout>

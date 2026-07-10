@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/device_list" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/bottom_layout" />
+    <RelativeLayout android:id="@id/paring_layout" android:paddingTop="120.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/bottom_layout" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/device_image" android:layout_width="110.0dp" android:layout_height="166.0dp" android:src="@drawable/img_bryton_device" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/bluetooth_icon" android:layout_width="48.0dp" android:layout_height="48.0dp" android:src="@drawable/icon_bt_wt" android:layout_below="@id/device_image" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center_horizontal" android:id="@id/searching_text" android:layout_width="335.0dp" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:text="Searching…" android:layout_below="@id/bluetooth_icon" android:layout_centerHorizontal="true" android:lineSpacingExtra="6.0sp" />
+        <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#ffffff" android:gravity="center_horizontal" android:id="@id/ensure_hint_text" android:layout_width="335.0dp" android:layout_height="wrap_content" android:layout_marginTop="13.0dp" android:text="Please ensure your Bryton device is powered on and nearby." android:layout_below="@id/searching_text" android:layout_centerHorizontal="true" android:lineSpacingExtra="3.0sp" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/bottom_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" android:layout_alignParentBottom="true">
+        <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#ffffff" android:gravity="center_horizontal" android:id="@id/fail_hint_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="If you can’t find your device in the list or fail to connect for other unknown reasons, please go to phone system setting to forget the Bryton device in the bluetooth list, and try again." android:layout_centerHorizontal="true" android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" android:layout_marginStart="13.0dp" android:layout_marginEnd="13.0dp" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mapbox="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@drawable/top_round_corner_dark" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@id/map_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="300.0dp" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/bottom_layout" android:background="@drawable/top_round_corner_dark" android:layout_width="match_parent" android:layout_height="305.0dp" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@id/touch_layout" android:layout_width="match_parent" android:layout_height="35.0dp">
+            <View android:background="@color/white" android:layout_width="50.0dp" android:layout_height="4.0dp" android:layout_marginTop="8.0dp" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/value_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/touch_layout" android:paddingStart="20.0dp">
+            <com.brytonsport.active.ui.course.view.ValueView android:id="@id/distance_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.brytonsport.active.ui.course.view.ValueView android:id="@id/altitude_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.brytonsport.active.ui.course.view.ValueView android:id="@id/point_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.brytonsport.active.ui.course.view.ValueView android:id="@id/climb_count_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.brytonsport.active.ui.course.view.ValueView android:id="@id/climb_distance_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.brytonsport.active.ui.course.view.ValueView android:id="@id/climb_altitude_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/tab_layout" android:background="#ff262e40" android:layout_width="match_parent" android:layout_height="30.0dp" android:layout_below="@id/value_layout">
+            <com.brytonsport.active.views.view.TabTextView android:id="@id/altitude_tab" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+            <com.brytonsport.active.views.view.TabTextView android:id="@id/turns_tab" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+            <com.brytonsport.active.views.view.TabTextView android:id="@id/points_tab" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+            <com.brytonsport.active.views.view.TabTextView android:id="@id/climbs_tab" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/altitude_layout" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/tab_layout">
+            <com.github.mikephil.charting.charts.CombinedChart android:id="@id/altitude_chart" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="15.0dp" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/turns_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/tab_layout">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/turns_list" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/points_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/tab_layout">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/points_list" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/climbs_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/tab_layout">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/climbs_list" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/climb_bottom_layout" android:background="@drawable/top_round_corner_dark" android:visibility="gone" android:layout_width="match_parent" android:layout_height="350.0dp" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/climb_touch_layout" android:layout_width="match_parent" android:layout_height="35.0dp" android:layout_marginTop="8.0dp">
+            <View android:background="@color/white" android:layout_width="50.0dp" android:layout_height="4.0dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp">
+            <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="20.0dp">
+                <TextView android:textSize="12.0sp" android:textColor="@color/main_green" android:id="@id/climb_cancel_text" android:background="@drawable/round_corner_green_border_100dp" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/B_Cancel" android:paddingStart="14.0dp" android:paddingEnd="14.0dp" android:layout_marginEnd="15.0dp" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/climb_save_text" android:background="@drawable/round_corner_green_100dp" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/B_Add" android:paddingStart="14.0dp" android:paddingEnd="14.0dp" android:layout_marginEnd="17.0dp" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/climb_value_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="20.0dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0sp" android:textColor="#ffc4c3ca" android:id="@id/climb_start_title" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/B_Add" android:paddingStart="14.0dp" android:paddingEnd="14.0dp" android:layout_marginEnd="17.0dp" />
+                    <LinearLayout android:orientation="horizontal" android:paddingTop="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="14.0dp" android:paddingEnd="14.0dp">
+                        <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/climb_start_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/B_Add" />
+                        <TextView android:textSize="8.0sp" android:textColor="@color/white" android:id="@id/climb_start_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/B_Add" android:layout_marginEnd="17.0dp" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0sp" android:textColor="#ffc4c3ca" android:id="@id/climb_alt_title" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/B_Add" android:paddingStart="14.0dp" android:paddingEnd="14.0dp" android:layout_marginEnd="17.0dp" />
+                    <LinearLayout android:orientation="horizontal" android:paddingTop="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="14.0dp" android:paddingEnd="14.0dp">
+                        <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/climb_alt_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/B_Add" />
+                        <TextView android:textSize="8.0sp" android:textColor="@color/white" android:id="@id/climb_alt_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/B_Add" android:layout_marginEnd="17.0dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:orientation="horizontal" android:id="@id/climb_chart_layout" android:paddingBottom="20.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.github.mikephil.charting.charts.CombinedChart android:id="@id/add_climb_chart" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <ImageView android:layout_gravity="start" android:id="@id/startLocation" android:layout_width="24.0dp" android:layout_height="wrap_content" android:src="@drawable/stick_climb_sect_yellow" android:layout_alignParentBottom="true" />
+            <ImageView android:layout_gravity="end" android:id="@id/endLocation" android:layout_width="24.0dp" android:layout_height="wrap_content" android:src="@drawable/stick_climb_sect_yellow" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/poi_bottom_layout" android:background="@drawable/top_round_corner_dark" android:visibility="gone" android:layout_width="match_parent" android:layout_height="350.0dp" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/poi_touch_layout" android:layout_width="match_parent" android:layout_height="35.0dp" android:layout_marginTop="8.0dp">
+            <View android:background="@color/white" android:layout_width="50.0dp" android:layout_height="4.0dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp">
+            <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="20.0dp">
+                <TextView android:textSize="12.0sp" android:textColor="@color/main_green" android:id="@id/cancel_text" android:background="@drawable/round_corner_green_border_100dp" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/B_Cancel" android:paddingStart="14.0dp" android:paddingEnd="14.0dp" android:layout_marginEnd="15.0dp" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/save_text" android:background="@drawable/round_corner_green_100dp" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/B_Add" android:paddingStart="14.0dp" android:paddingEnd="14.0dp" android:layout_marginEnd="17.0dp" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/poi_value_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="20.0dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0sp" android:textColor="#ffc4c3ca" android:id="@id/start_title" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/B_Add" android:paddingStart="14.0dp" android:paddingEnd="14.0dp" android:layout_marginEnd="17.0dp" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/start_distance_layout" android:background="@drawable/round_corner_green_border_5dp" android:paddingTop="6.0dp" android:paddingBottom="6.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="8.0dp" android:paddingEnd="6.0dp">
+                        <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/start_value" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textSize="8.0sp" android:textColor="@color/white" android:layout_gravity="bottom" android:id="@id/start_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="17.0dp" />
+                        <ImageView android:layout_gravity="bottom" android:id="@id/edit_icon" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@null" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0sp" android:textColor="#ffc4c3ca" android:id="@id/alt_title" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/B_Add" android:paddingStart="14.0dp" android:paddingEnd="14.0dp" android:layout_marginEnd="17.0dp" />
+                    <LinearLayout android:orientation="horizontal" android:paddingTop="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="14.0dp" android:paddingEnd="14.0dp">
+                        <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/alt_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/B_Add" />
+                        <TextView android:textSize="8.0sp" android:textColor="@color/white" android:id="@id/alt_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/B_Add" android:layout_marginEnd="17.0dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/type_layout_linear" android:layout_width="match_parent" android:layout_height="46.0dp">
+            <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="10.0dp" android:paddingEnd="10.0dp">
+                    <RelativeLayout android:id="@id/peak_icon" android:background="@drawable/corners_gray_5_drawable" android:layout_width="44.0dp" android:layout_height="44.0dp" android:layout_marginEnd="5.0dp">
+                        <ImageView android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@drawable/icon_poi_peak_s_wt_2" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/general_icon" android:background="@drawable/corners_gray_5_drawable" android:layout_width="44.0dp" android:layout_height="44.0dp" android:layout_marginEnd="5.0dp">
+                        <ImageView android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@drawable/icon_poi_emergency_s_wt_5" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/food_icon" android:background="@drawable/corners_gray_5_drawable" android:layout_width="44.0dp" android:layout_height="44.0dp" android:layout_marginEnd="5.0dp">
+                        <ImageView android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@drawable/icon_poi_food_s_wt" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/emergency_icon" android:background="@drawable/corners_gray_5_drawable" android:layout_width="44.0dp" android:layout_height="44.0dp" android:layout_marginEnd="5.0dp">
+                        <ImageView android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@drawable/icon_poi_emergency_s_wt_4" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/check_point_icon" android:background="@drawable/corners_gray_5_drawable" android:layout_width="44.0dp" android:layout_height="44.0dp" android:layout_marginEnd="5.0dp">
+                        <ImageView android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@drawable/icon_poi_check_s_wt_2" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/meeting_point_icon" android:background="@drawable/corners_gray_5_drawable" android:layout_width="44.0dp" android:layout_height="44.0dp" android:layout_marginEnd="5.0dp">
+                        <ImageView android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@drawable/icon_poi_meet_s_wt_2" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/drink_icon" android:background="@drawable/corners_gray_5_drawable" android:layout_width="44.0dp" android:layout_height="44.0dp" android:layout_marginEnd="5.0dp">
+                        <ImageView android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@drawable/icon_poi_water_s_wt_2" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/sprint_icon" android:background="@drawable/corners_gray_5_drawable" android:layout_width="44.0dp" android:layout_height="44.0dp">
+                        <ImageView android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@drawable/icon_poi_sprint" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/chart_layout" android:paddingBottom="20.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.github.mikephil.charting.charts.CombinedChart android:id="@id/add_poi_chart" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/explain_layout" android:background="#de262e40" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="160.0dp" android:src="@null" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/explain_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="60.0dp" android:text="請在下方用拖移方式新增標示點" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/explain_layout_input" android:background="#de262e40" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80.0dp" android:layout_marginTop="548.0dp" android:src="@null" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/explain_text_input" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="75.0dp" android:layout_marginTop="638.0dp" android:text="或是點擊鉛筆輸入距離新增標示點" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/explain_layout_map" android:background="#de262e40" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="210.0dp" android:src="@null" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/explain_text_map" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="303.0dp" android:text="也可以點擊地圖新增標示點" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

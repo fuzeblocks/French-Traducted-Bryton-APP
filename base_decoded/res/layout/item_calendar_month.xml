@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="20.0dp" android:paddingEnd="20.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/round_corner_dark_grey_15dp_bk_line" android:paddingTop="8.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="4.0dp" android:paddingEnd="4.0dp">
+        <TextView android:textSize="15.0sp" android:textStyle="bold|italic" android:textColor="@color/white" android:gravity="center" android:id="@id/month_text" android:layout_width="48.0dp" android:layout_height="48.0dp" android:text="JAN" android:layout_centerVertical="true" android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" />
+        <View android:id="@id/divider" android:background="@color/bg_light_hallow" android:layout_width="1.0dp" android:layout_height="40.0dp" android:layout_centerVertical="true" android:layout_marginStart="3.0dp" android:layout_toEndOf="@id/month_text" />
+        <RelativeLayout android:id="@id/icon_layout" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_centerVertical="true" android:layout_marginStart="10.0dp" android:layout_toEndOf="@id/divider">
+            <com.brytonsport.active.views.view.StickerDateView android:id="@id/type_icon" android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@id/content_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="99 Rides, 99 Runs" android:layout_centerVertical="true" android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" android:layout_marginStart="11.0dp" android:layout_toEndOf="@id/icon_layout" />
+    </RelativeLayout>
+</RelativeLayout>

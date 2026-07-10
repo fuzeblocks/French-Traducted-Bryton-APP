@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/name_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp">
+                <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@id/sync_switch_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Todays’s Plan Auto Sync" android:layout_centerVertical="true" android:lineSpacingExtra="5.0sp" android:fontFamily="sans-serif" android:layout_marginStart="30.0dp" android:layout_marginEnd="10.0dp" android:layout_toStartOf="@id/sync_toggle_button" />
+                <com.brytonsport.active.views.view.ToggleButton android:id="@id/sync_toggle_button" android:layout_width="51.0dp" android:layout_height="25.0dp" android:layout_centerVertical="true" android:layout_marginEnd="28.0dp" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <TextView android:textSize="15.0sp" android:textColor="#a2a2a2" android:id="@id/content_text" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:layout_below="@id/name_layout" android:lineSpacingMultiplier="1.2" android:paddingStart="28.0dp" android:paddingEnd="28.0dp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

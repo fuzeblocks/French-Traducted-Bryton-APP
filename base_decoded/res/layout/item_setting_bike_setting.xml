@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/base_layout" android:background="@color/l1_dark" android:paddingTop="15.0dp" android:paddingBottom="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/type_icon" android:layout_width="70.0dp" android:layout_height="70.0dp" android:src="@drawable/meter_button_b_2_indoor" android:layout_centerVertical="true" android:layout_marginStart="30.0dp" />
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="16.0dp" android:layout_toEndOf="@id/type_icon">
+            <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@id/name_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Homebody" android:lineSpacingExtra="3.0sp" />
+            <TextView android:textSize="13.0sp" android:textStyle="bold|italic" android:textColor="#a2a2a2" android:id="@id/profile_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="Bike Profile 3" android:layout_below="@id/name_text" android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" />
+            <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#ffffff" android:id="@id/cycling_type_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Road" android:layout_below="@id/profile_text" android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" />
+        </RelativeLayout>
+        <ImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/icon_next_wt" android:layout_centerVertical="true" android:layout_marginEnd="15.0dp" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:background="#ff333c4b" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_alignBottom="@id/base_layout" />
+</RelativeLayout>

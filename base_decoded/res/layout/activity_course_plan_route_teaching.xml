@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/header_bt_navigator" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:mapbox="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/actionbar_layout" android:background="@color/bg_dark_primary" android:layout_width="match_parent" android:layout_height="56.0dp">
+        <ImageView android:id="@id/back_icon" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/icon_back" android:layout_centerVertical="true" android:layout_marginStart="10.0dp" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:id="@id/title_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/F_PlanTrip" android:singleLine="true" android:layout_weight="1.0" android:layout_centerVertical="true" android:fontFamily="sans-serif" android:layout_marginStart="10.0dp" android:layout_toStartOf="@id/menu_layout" android:layout_toEndOf="@id/back_icon" />
+        <ImageView android:id="@id/save_icon" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_route_uploading" android:layout_centerVertical="true" android:layout_marginEnd="8.0dp" android:layout_alignParentEnd="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/menu_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <View android:id="@id/actionbar_alpha_view" android:background="#aa000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="56.0dp" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/search_layout" android:background="@color/header_bt_navigator" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:layout_below="@id/actionbar_layout" android:paddingStart="11.0dp" android:paddingEnd="11.0dp">
+        <TextView android:textSize="17.0sp" android:textColor="@color/white" android:textColorHint="@color/light_grey_text" android:gravity="center_vertical" android:id="@id/search_edit" android:background="@drawable/round_corner_bg_light_gray_13dp" android:layout_width="match_parent" android:layout_height="36.0dp" android:singleLine="true" android:layout_centerVertical="true" android:inputType="text" android:imeOptions="actionSearch" android:paddingStart="33.0dp" android:paddingEnd="20.0dp" />
+        <ImageView android:layout_width="24.0dp" android:layout_height="22.0dp" android:src="@drawable/icon_search_gy" android:layout_centerVertical="true" android:layout_marginStart="4.0dp" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/map_view_layout" android:background="@color/header_bt_navigator" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/search_layout">
+        <FrameLayout android:id="@id/map_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ImageView android:id="@id/centerMarker" android:layout_width="40.0dp" android:layout_height="80.0dp" android:src="@null" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/teach_button" android:background="@drawable/icon_white_bg" android:padding="5.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginTop="120.0dp" android:src="@null" android:layout_alignParentTop="true" android:layout_marginStart="16.0dp" android:layout_alignParentStart="true" />
+    <ImageView android:id="@id/traffic_button" android:background="@drawable/icon_white_bg" android:padding="5.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginTop="120.0dp" android:src="@drawable/icon_mtb_l" android:layout_alignParentTop="true" android:layout_marginEnd="16.0dp" android:layout_alignParentEnd="true" mapbox:tint="@color/black" />
+    <ImageView android:id="@id/undo_button" android:background="@drawable/icon_white_bg" android:padding="5.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginTop="16.0dp" android:src="@null" android:layout_below="@id/traffic_button" android:layout_marginEnd="16.0dp" android:layout_alignParentEnd="true" />
+    <ImageView android:id="@id/redo_button" android:background="@drawable/icon_white_bg" android:padding="5.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginTop="16.0dp" android:src="@null" android:layout_below="@id/undo_button" android:layout_marginEnd="16.0dp" android:layout_alignParentEnd="true" />
+    <ImageView android:id="@id/add_button" android:background="@drawable/icon_white_bg" android:padding="5.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginTop="16.0dp" android:src="@null" android:layout_below="@id/redo_button" android:layout_marginEnd="16.0dp" android:layout_alignParentEnd="true" />
+    <RelativeLayout android:id="@id/bottom_layout" android:background="@drawable/top_round_corner_dark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <View android:id="@id/touch_layout" android:background="#ff44454a" android:layout_width="30.0dp" android:layout_height="3.0dp" android:layout_marginTop="8.0dp" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/value_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_below="@id/touch_layout" android:paddingStart="16.0dp">
+            <LinearLayout android:orientation="vertical" android:id="@id/distance_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="12.0sp" android:textColor="#c4c3ca" android:id="@id/distance_text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TotalDistances" />
+                <View android:background="@drawable/round_corner_bg_light_gray_3dp" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_marginTop="8.0dp" android:layout_centerHorizontal="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/altitude_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="16.0dp">
+                <TextView android:textSize="12.0sp" android:textColor="#c4c3ca" android:id="@id/altitude_text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TotalClimbs" />
+                <View android:background="@drawable/round_corner_bg_light_gray_3dp" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_marginTop="8.0dp" android:layout_centerHorizontal="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/tab_layout" android:background="#ff262e40" android:layout_width="match_parent" android:layout_height="30.0dp" android:layout_marginTop="10.0dp" android:layout_below="@id/value_layout">
+            <com.brytonsport.active.views.view.TabTextView android:id="@id/altitude_tab" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+            <com.brytonsport.active.views.view.TabTextView android:id="@id/way_points_tab" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+            <com.brytonsport.active.views.view.TabTextView android:id="@id/turns_tab" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/way_points_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/tab_layout">
+            <RelativeLayout android:id="@id/item_layout_21" android:layout_width="match_parent" android:layout_height="48.0dp" android:paddingEnd="12.0dp">
+                <ImageView android:id="@id/type_icon_21" android:layout_width="20.0dp" android:layout_height="50.0dp" android:src="@drawable/icon_poi_food_s_wt" android:layout_centerVertical="true" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp" />
+                <RelativeLayout android:id="@id/item_h_layout_21" android:background="@drawable/round_corner_stroke_gray_4dp" android:layout_width="match_parent" android:layout_height="36.0dp" android:layout_centerVertical="true" android:paddingEnd="12.0dp" android:layout_marginEnd="30.0dp" android:layout_toEndOf="@id/type_icon_21">
+                    <RelativeLayout android:id="@id/drag_icon_21" android:layout_width="30.0dp" android:layout_height="36.0dp" android:layout_centerVertical="true">
+                        <ImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@null" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                    <TextView android:textSize="15.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/name_text_21" android:background="@drawable/round_corner_bg_light_gray_3dp" android:layout_width="80.0dp" android:layout_height="16.0dp" android:maxLines="1" android:singleLine="true" android:layout_centerVertical="true" android:layout_toEndOf="@id/drag_icon_21" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/light_blue_grey" android:id="@id/distance_text_21" android:background="@drawable/round_corner_bg_light_gray_3dp" android:layout_width="40.0dp" android:layout_height="16.0dp" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <ImageView android:id="@id/delete_icon_21" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/icon_cancel" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/traffic_layout_2" android:layout_width="match_parent" android:layout_height="30.0dp" android:paddingEnd="12.0dp">
+                <ImageView android:gravity="center" android:id="@id/traffic_icon_2" android:layout_width="20.0dp" android:layout_height="30.0dp" android:src="@drawable/icon_calendaractivity_ride_01" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp" />
+                <LinearLayout android:gravity="center_vertical" android:id="@id/change_layout_2" android:layout_width="match_parent" android:layout_height="20.0dp" android:paddingEnd="12.0dp">
+                    <TextView android:textSize="13.0sp" android:textColor="@color/light_grey_text" android:id="@id/traffic_text_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Cycling" android:layout_centerVertical="true" android:layout_marginEnd="14.0dp" android:layout_alignParentEnd="true" />
+                    <ImageView android:id="@id/edit_icon_2" android:layout_width="14.0dp" android:layout_height="14.0dp" android:src="@drawable/icon_edit" />
+                </LinearLayout>
+                <RelativeLayout android:gravity="center_vertical" android:id="@id/change_layout_22" android:layout_width="match_parent" android:layout_height="20.0dp" android:paddingEnd="12.0dp">
+                    <View android:background="@drawable/round_corner_bg_light_gray_3dp" android:layout_width="80.0dp" android:layout_height="12.0dp" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <RelativeLayout android:id="@id/item_layout_22" android:layout_width="match_parent" android:layout_height="48.0dp" android:paddingEnd="12.0dp">
+                <ImageView android:id="@id/type_icon_22" android:layout_width="20.0dp" android:layout_height="50.0dp" android:src="@drawable/icon_poi_food_s_wt" android:layout_centerVertical="true" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp" />
+                <RelativeLayout android:id="@id/item_h_layout_22" android:background="@drawable/round_corner_stroke_gray_4dp" android:layout_width="match_parent" android:layout_height="36.0dp" android:layout_centerVertical="true" android:paddingEnd="12.0dp" android:layout_marginEnd="30.0dp" android:layout_toEndOf="@id/type_icon_22">
+                    <RelativeLayout android:id="@id/drag_icon_22" android:layout_width="30.0dp" android:layout_height="36.0dp" android:layout_centerVertical="true">
+                        <ImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@null" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                    <TextView android:textSize="15.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/name_text_22" android:background="@drawable/round_corner_bg_light_gray_3dp" android:layout_width="80.0dp" android:layout_height="16.0dp" android:maxLines="1" android:singleLine="true" android:layout_centerVertical="true" android:layout_toEndOf="@id/drag_icon_22" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/light_blue_grey" android:id="@id/distance_text_22" android:background="@drawable/round_corner_bg_light_gray_3dp" android:layout_width="40.0dp" android:layout_height="16.0dp" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <ImageView android:id="@id/delete_icon_22" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/icon_cancel" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/traffic_layout" android:layout_width="match_parent" android:layout_height="30.0dp" android:paddingEnd="12.0dp">
+                <ImageView android:gravity="center" android:id="@id/traffic_icon" android:layout_width="20.0dp" android:layout_height="30.0dp" android:src="@null" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp" mapbox:tint="#ffffff" />
+                <LinearLayout android:gravity="center_vertical" android:id="@id/change_layout" android:layout_width="match_parent" android:layout_height="20.0dp" android:paddingEnd="12.0dp">
+                    <TextView android:textSize="13.0sp" android:textColor="@color/light_grey_text" android:id="@id/traffic_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Motorcycle" android:layout_centerVertical="true" android:layout_marginEnd="14.0dp" android:layout_alignParentEnd="true" />
+                    <ImageView android:id="@id/edit_icon" android:layout_width="14.0dp" android:layout_height="14.0dp" android:src="@drawable/icon_edit" />
+                </LinearLayout>
+                <RelativeLayout android:gravity="center_vertical" android:id="@id/change_layout_32" android:layout_width="match_parent" android:layout_height="20.0dp" android:paddingEnd="12.0dp">
+                    <View android:background="@drawable/round_corner_bg_light_gray_3dp" android:layout_width="80.0dp" android:layout_height="12.0dp" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <RelativeLayout android:id="@id/item_layout" android:layout_width="match_parent" android:layout_height="48.0dp" android:paddingEnd="12.0dp">
+                <ImageView android:id="@id/type_icon_23" android:layout_width="20.0dp" android:layout_height="50.0dp" android:src="@drawable/icon_poi_food_s_wt" android:layout_centerVertical="true" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp" />
+                <RelativeLayout android:id="@id/item_h_layout" android:background="@drawable/round_corner_stroke_gray_4dp" android:layout_width="match_parent" android:layout_height="36.0dp" android:layout_centerVertical="true" android:paddingEnd="12.0dp" android:layout_marginEnd="30.0dp" android:layout_toEndOf="@id/type_icon_23">
+                    <RelativeLayout android:id="@id/drag_icon" android:layout_width="30.0dp" android:layout_height="36.0dp" android:layout_centerVertical="true">
+                        <ImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@null" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                    <TextView android:textSize="15.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/name_text" android:background="@drawable/round_corner_bg_light_gray_3dp" android:layout_width="80.0dp" android:layout_height="16.0dp" android:maxLines="1" android:singleLine="true" android:layout_centerVertical="true" android:layout_toEndOf="@id/drag_icon" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/light_blue_grey" android:id="@id/distance_text" android:background="@drawable/round_corner_bg_light_gray_3dp" android:layout_width="40.0dp" android:layout_height="16.0dp" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <ImageView android:id="@id/delete_icon" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/icon_cancel" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@id/way_points_layout_6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/tab_layout">
+            <RelativeLayout android:id="@id/item_layout_61" android:layout_width="match_parent" android:layout_height="48.0dp" android:paddingEnd="12.0dp">
+                <ImageView android:id="@id/type_icon_61" android:layout_width="20.0dp" android:layout_height="50.0dp" android:src="@drawable/icon_poi_food_s_wt" android:layout_centerVertical="true" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp" />
+                <RelativeLayout android:id="@id/item_h_layout_61" android:background="@drawable/round_corner_stroke_gray_4dp" android:layout_width="match_parent" android:layout_height="36.0dp" android:layout_centerVertical="true" android:paddingEnd="12.0dp" android:layout_marginEnd="30.0dp" android:layout_toEndOf="@id/type_icon_61">
+                    <RelativeLayout android:id="@id/drag_icon_61" android:layout_width="30.0dp" android:layout_height="36.0dp" android:layout_centerVertical="true">
+                        <ImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@null" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                    <TextView android:textSize="15.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/name_text_61" android:layout_width="80.0dp" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_centerVertical="true" android:layout_toEndOf="@id/drag_icon_61" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/light_blue_grey" android:id="@id/distance_text_61" android:background="@drawable/round_corner_bg_light_gray_3dp" android:layout_width="40.0dp" android:layout_height="16.0dp" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/traffic_layout_6" android:layout_width="match_parent" android:layout_height="40.0dp" android:layout_marginTop="-10.0dp" android:layout_below="@id/item_layout_61">
+                <ImageView android:gravity="center" android:id="@id/traffic_icon_6" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@null" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/item_layout_62" android:paddingBottom="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/traffic_layout_6" android:paddingStart="5.0dp" android:paddingEnd="5.0dp">
+                <RelativeLayout android:background="@drawable/round_corner_bg_dark_blue_dash_green_5dp" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="72.0dp" android:paddingEnd="5.0dp">
+                    <ImageView android:id="@id/type_icon_62" android:layout_width="20.0dp" android:layout_height="50.0dp" android:src="@drawable/icon_poi_food_s_wt" android:layout_centerVertical="true" android:layout_marginStart="10.0dp" android:layout_marginEnd="15.0dp" />
+                    <RelativeLayout android:id="@id/item_h_layout_62" android:background="@drawable/round_corner_stroke_gray_4dp" android:layout_width="match_parent" android:layout_height="36.0dp" android:layout_centerVertical="true" android:paddingEnd="12.0dp" android:layout_marginEnd="30.0dp" android:layout_toEndOf="@id/type_icon_62">
+                        <RelativeLayout android:id="@id/drag_icon_62" android:layout_width="30.0dp" android:layout_height="36.0dp" android:layout_centerVertical="true">
+                            <ImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@null" android:layout_centerInParent="true" />
+                        </RelativeLayout>
+                        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/name_text_62" android:background="@drawable/round_corner_bg_light_gray_3dp" android:layout_width="80.0dp" android:layout_height="16.0dp" android:maxLines="1" android:singleLine="true" android:layout_centerVertical="true" android:layout_toEndOf="@id/drag_icon_62" />
+                        <TextView android:textSize="12.0sp" android:textColor="@color/light_blue_grey" android:id="@id/distance_text_62" android:background="@drawable/round_corner_bg_light_gray_3dp" android:layout_width="40.0dp" android:layout_height="16.0dp" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/item_layout_63" android:layout_width="match_parent" android:layout_height="48.0dp" android:layout_below="@id/item_layout_62" android:paddingEnd="12.0dp">
+                <ImageView android:id="@id/type_icon_63" android:layout_width="20.0dp" android:layout_height="50.0dp" android:src="@drawable/icon_poi_food_s_wt" android:layout_centerVertical="true" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp" />
+                <RelativeLayout android:id="@id/item_h_layout_63" android:background="@drawable/round_corner_stroke_gray_4dp" android:layout_width="match_parent" android:layout_height="36.0dp" android:layout_centerVertical="true" android:paddingEnd="12.0dp" android:layout_marginEnd="30.0dp" android:layout_toEndOf="@id/type_icon_63">
+                    <RelativeLayout android:id="@id/drag_icon_63" android:layout_width="30.0dp" android:layout_height="36.0dp" android:layout_centerVertical="true">
+                        <ImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@null" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                    <TextView android:textSize="15.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/name_text_63" android:layout_width="80.0dp" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_centerVertical="true" android:layout_toEndOf="@id/drag_icon_63" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/light_blue_grey" android:id="@id/distance_text_63" android:background="@drawable/round_corner_bg_light_gray_3dp" android:layout_width="40.0dp" android:layout_height="16.0dp" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <ImageView android:gravity="center" android:id="@id/traffic_icon_62" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@null" android:layout_below="@id/item_layout_62" android:layout_centerHorizontal="true" android:layout_marginStart="15.0dp" />
+            <ImageView android:gravity="center" android:id="@id/traffic_icon_64" android:layout_width="30.0dp" android:layout_height="48.0dp" android:layout_marginTop="-15.0dp" android:layout_marginBottom="15.0dp" android:src="@null" android:layout_below="@id/item_layout_62" android:layout_centerHorizontal="true" android:layout_marginEnd="15.0dp" android:layout_toEndOf="@id/traffic_icon_62" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:id="@id/shadow_layout" android:background="#80000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/white_layout_1" android:background="@drawable/round_corner_bg_white_8dp" android:layout_width="match_parent" android:layout_height="174.0dp" android:layout_marginBottom="115.0dp" android:layout_alignParentBottom="true" android:layout_marginStart="27.5dp" android:layout_marginEnd="27.5dp">
+        <LinearLayout android:orientation="vertical" android:paddingTop="10.0dp" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" android:paddingStart="15.0dp" android:paddingEnd="15.0dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="17.0sp" android:textColor="#161f30" android:id="@id/teach_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Title" android:layout_weight="1.0" />
+                <TextView android:textSize="15.0sp" android:textColor="#a2a2a2" android:layout_gravity="top" android:id="@id/txt_skip" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="-4.0dp" android:text="Skip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp">
+                <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="15.0sp" android:textColor="#707070" android:id="@id/teach_message" android:layout_width="match_parent" android:layout_height="match_parent" android:text="#70707070700707070707071213256dcdsfswaerfefedsvdvdsfvefe323333356dfsedfsefsc070770707077077701523 1213256dcdsfswaerfefedsvdvdsfvefe323333356dfsedfsefscffxc707071213256dcdsfswaerfefedsvdvdsfvefe323333356dfsedfsefsc070770707077077701523 1213256dcdsfswaerfefedsvdvdsfvefe323333356dfsedfsefscffxcvxvxvx" />
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="#19707070" android:layout_width="match_parent" android:layout_height="1.0dp" />
+        <RelativeLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="15.0dp" android:paddingEnd="15.0dp">
+            <TextView android:textSize="15.0sp" android:textColor="#707070" android:gravity="center" android:id="@id/preview_button" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="10.0dp" />
+            <TextView android:textSize="15.0sp" android:textColor="#a2a2a2" android:gravity="center" android:id="@id/txt_page" android:layout_width="65.0dp" android:layout_height="wrap_content" android:text="1/8" android:layout_centerInParent="true" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/next_button" android:background="@drawable/round_corner_bg_deep_blue_4dp" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/B_NextStep" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/white_layout_2" android:background="@drawable/round_corner_bg_white_8dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="174.0dp" android:layout_marginBottom="330.0dp" android:layout_alignParentBottom="true" android:layout_marginStart="27.5dp" android:layout_marginEnd="27.5dp">
+        <LinearLayout android:orientation="vertical" android:padding="15.0dp" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="17.0sp" android:textColor="#161f30" android:id="@id/teach_title_2" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Title" android:layout_weight="1.0" />
+                <TextView android:textSize="15.0sp" android:textColor="#a2a2a2" android:layout_gravity="top" android:id="@id/txt_skip_2" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="-4.0dp" android:text="Skip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp">
+                <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="15.0sp" android:textColor="#707070" android:id="@id/teach_message_2" android:layout_width="match_parent" android:layout_height="match_parent" android:text="#70707070700707070707071213256dcdsfswaerfefedsvdvdsfvefe323333356dfsedfsefsc070770707077077701523 1213256dcdsfswaerfefedsvdvdsfvefe323333356dfsedfsefscffxc707071213256dcdsfswaerfefedsvdvdsfvefe323333356dfsedfsefsc070770707077077701523 1213256dcdsfswaerfefedsvdvdsfvefe323333356dfsedfsefscffxcvxvxvx" />
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="#19707070" android:layout_width="match_parent" android:layout_height="1.0dp" />
+        <RelativeLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="15.0dp" android:paddingEnd="15.0dp">
+            <TextView android:textSize="15.0sp" android:textColor="#707070" android:gravity="center" android:id="@id/preview_button_2" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="10.0dp" />
+            <TextView android:textSize="15.0sp" android:textColor="#a2a2a2" android:gravity="center" android:id="@id/txt_page_2" android:layout_width="65.0dp" android:layout_height="wrap_content" android:text="1/8" android:layout_centerInParent="true" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/next_button_2" android:background="@drawable/round_corner_bg_deep_blue_4dp" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/B_NextStep" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/teach_layout_1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/add_button_1" android:background="@null" android:padding="5.0dp" android:layout_width="52.0dp" android:layout_height="52.0dp" android:layout_marginTop="282.0dp" android:layout_marginEnd="10.0dp" android:layout_alignParentEnd="true" />
+        <ImageView android:background="@null" android:padding="5.0dp" android:layout_width="52.0dp" android:layout_height="52.0dp" android:layout_below="@id/add_button_1" android:layout_marginEnd="10.0dp" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/teach_layout_2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:orientation="vertical" android:id="@id/teach_layout_2_sub" android:layout_width="52.0dp" android:layout_height="52.0dp" android:layout_marginTop="170.0dp" android:layout_marginEnd="10.0dp" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/add_button_2" android:background="@null" android:padding="5.0dp" android:layout_width="52.0dp" android:layout_height="52.0dp" android:layout_alignParentEnd="true" />
+            <ImageView android:id="@id/add_button_21" android:background="@drawable/icon_white_bg" android:padding="5.0dp" android:layout_width="41.0dp" android:layout_height="41.0dp" android:src="@null" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <ImageView android:background="@null" android:padding="5.0dp" android:layout_width="52.0dp" android:layout_height="52.0dp" android:layout_below="@id/teach_layout_2_sub" android:layout_marginEnd="10.0dp" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/teach_layout_3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:orientation="vertical" android:id="@id/teach_layout_3_sub" android:layout_width="52.0dp" android:layout_height="52.0dp" android:layout_marginTop="226.0dp" android:layout_marginEnd="10.0dp" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/add_button_3" android:background="@null" android:padding="5.0dp" android:layout_width="52.0dp" android:layout_height="52.0dp" android:layout_alignParentEnd="true" />
+            <ImageView android:id="@id/add_button_31" android:background="@drawable/icon_white_bg" android:padding="5.0dp" android:layout_width="41.0dp" android:layout_height="41.0dp" android:src="@null" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <ImageView android:background="@null" android:padding="5.0dp" android:layout_width="52.0dp" android:layout_height="52.0dp" android:layout_below="@id/teach_layout_3_sub" android:layout_marginEnd="10.0dp" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/teach_layout_4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:orientation="vertical" android:id="@id/teach_layout_4_sub" android:layout_width="52.0dp" android:layout_height="52.0dp" android:layout_marginTop="114.0dp" android:layout_marginEnd="10.0dp" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/add_button_4" android:background="@null" android:padding="5.0dp" android:layout_width="52.0dp" android:layout_height="52.0dp" android:layout_alignParentEnd="true" />
+            <ImageView android:id="@id/add_button_41" android:background="@drawable/icon_white_bg" android:padding="5.0dp" android:layout_width="41.0dp" android:layout_height="41.0dp" android:src="@drawable/icon_mtb_l" android:layout_centerInParent="true" mapbox:tint="@color/black" />
+        </RelativeLayout>
+        <ImageView android:background="@null" android:padding="5.0dp" android:layout_width="52.0dp" android:layout_height="52.0dp" android:layout_below="@id/teach_layout_4_sub" android:layout_marginEnd="10.0dp" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/teach_layout_5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="74.0dp" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/traffic_layout_5" android:background="@drawable/round_corner_main_green_2dp" android:layout_width="wrap_content" android:layout_height="30.0dp" android:paddingEnd="12.0dp">
+            <ImageView android:gravity="center" android:id="@id/traffic_icon_5" android:layout_width="20.0dp" android:layout_height="30.0dp" android:src="@drawable/icon_calendaractivity_ride_01" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/change_layout_5" android:layout_width="wrap_content" android:layout_height="20.0dp" android:paddingEnd="12.0dp">
+                <TextView android:textSize="13.0sp" android:textColor="@color/light_grey_text" android:id="@id/traffic_text_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Cycling" android:layout_centerVertical="true" android:layout_marginEnd="14.0dp" android:layout_alignParentEnd="true" />
+                <ImageView android:id="@id/edit_icon_5" android:layout_width="14.0dp" android:layout_height="14.0dp" android:src="@drawable/icon_edit" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/traffic_img_5" android:background="@null" android:padding="5.0dp" android:layout_width="52.0dp" android:layout_height="52.0dp" android:layout_below="@id/traffic_layout_5" android:layout_marginEnd="10.0dp" android:layout_alignEnd="@id/traffic_layout_5" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/teach_layout_6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@id/item_layout_661" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="48.0dp" android:paddingEnd="12.0dp" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/traffic_layout_66" android:layout_width="match_parent" android:layout_height="40.0dp" android:layout_marginTop="-10.0dp" android:layout_below="@id/item_layout_661">
+            <ImageView android:gravity="center" android:id="@id/traffic_icon_66" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@null" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/item_layout_662" android:paddingBottom="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/traffic_layout_66" android:paddingStart="5.0dp" android:paddingEnd="5.0dp">
+            <RelativeLayout android:background="@drawable/round_corner_bg_dark_blue_dash_green_5dp" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="72.0dp" android:paddingEnd="5.0dp">
+                <ImageView android:id="@id/type_icon_662" android:layout_width="20.0dp" android:layout_height="50.0dp" android:src="@drawable/icon_poi_food_s_wt" android:layout_centerVertical="true" android:layout_marginStart="10.0dp" android:layout_marginEnd="15.0dp" />
+                <RelativeLayout android:id="@id/item_h_layout_662" android:background="@drawable/round_corner_stroke_gray_4dp" android:layout_width="match_parent" android:layout_height="36.0dp" android:layout_centerVertical="true" android:paddingEnd="12.0dp" android:layout_marginEnd="30.0dp" android:layout_toEndOf="@id/type_icon_662">
+                    <RelativeLayout android:id="@id/drag_icon_662" android:layout_width="30.0dp" android:layout_height="36.0dp" android:layout_centerVertical="true">
+                        <ImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@null" android:layout_centerInParent="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                    <TextView android:textSize="15.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/name_text_662" android:layout_width="80.0dp" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_centerVertical="true" android:layout_toEndOf="@id/drag_icon_662" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/light_blue_grey" android:id="@id/distance_text_662" android:background="@drawable/round_corner_bg_light_gray_3dp" android:layout_width="40.0dp" android:layout_height="16.0dp" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+        <ImageView android:gravity="center" android:id="@id/traffic_icon_662" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@null" android:layout_below="@id/item_layout_662" android:layout_centerHorizontal="true" android:layout_marginStart="15.0dp" />
+        <ImageView android:gravity="center" android:id="@id/traffic_icon_664" android:layout_width="30.0dp" android:layout_height="48.0dp" android:layout_marginTop="-15.0dp" android:layout_marginBottom="15.0dp" android:src="@null" android:layout_below="@id/item_layout_662" android:layout_centerHorizontal="true" android:layout_marginEnd="15.0dp" android:layout_toEndOf="@id/traffic_icon_662" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/teach_layout_7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:gravity="center" android:id="@id/icon_circle_delete" android:layout_width="44.0dp" android:layout_height="44.0dp" android:layout_marginBottom="80.0dp" android:src="@null" android:layout_alignParentEnd="true" />
+        <ImageView android:gravity="center" android:id="@id/traffic_icon_7" android:layout_width="44.0dp" android:layout_height="44.0dp" android:src="@null" android:layout_centerHorizontal="true" android:layout_toStartOf="@id/icon_circle_delete" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/teach_layout_8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="vertical" android:id="@id/bar_layout_8" android:layout_width="match_parent" android:layout_height="56.0dp">
+            <ImageView android:id="@id/save_icon_8" android:background="@drawable/round_corner_main_green_20dp" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_route_uploading" android:layout_centerVertical="true" android:layout_marginEnd="8.0dp" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <ImageView android:gravity="center" android:id="@id/traffic_icon_8" android:layout_width="44.0dp" android:layout_height="44.0dp" android:src="@null" android:layout_below="@id/bar_layout_8" android:layout_centerHorizontal="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

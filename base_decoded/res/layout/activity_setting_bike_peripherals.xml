@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.brytonsport.active.views.view.TitleTextView android:id="@id/peripherals_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+    <com.brytonsport.active.views.view.TitleTextView android:id="@id/heart_rate_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+    <com.brytonsport.active.views.view.TitleTextView android:id="@id/speed_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+    <com.brytonsport.active.views.view.TitleTextView android:id="@id/cadence_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+    <com.brytonsport.active.views.view.TitleTextView android:id="@id/speed_cadence_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+    <com.brytonsport.active.views.view.TitleTextView android:id="@id/power_item" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginBottom="40.0dp" />
+</LinearLayout>

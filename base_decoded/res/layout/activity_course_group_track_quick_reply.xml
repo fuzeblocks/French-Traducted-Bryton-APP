@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#c4c3ca" android:id="@id/hint_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="You can set up 10 quick responses here for effective use on app &amp; Bryton GPS device during the riding trip.  Quick responses are unable to contain over 30 characters." android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/quick_reply_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/hint_text" />
+</RelativeLayout>

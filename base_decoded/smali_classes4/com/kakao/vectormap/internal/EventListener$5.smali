@@ -1,0 +1,133 @@
+.class Lcom/kakao/vectormap/internal/EventListener$5;
+.super Ljava/lang/Object;
+.source "EventListener.java"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/kakao/vectormap/internal/EventListener;->onCameraMoveEnd(DDIDDDI)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/kakao/vectormap/internal/EventListener;
+
+.field final synthetic val$gestureType:I
+
+.field final synthetic val$height:D
+
+.field final synthetic val$lat:D
+
+.field final synthetic val$level:I
+
+.field final synthetic val$lng:D
+
+.field final synthetic val$rotate:D
+
+.field final synthetic val$tilt:D
+
+
+# direct methods
+.method constructor <init>(Lcom/kakao/vectormap/internal/EventListener;DDIDDDI)V
+    .locals 0
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x8010,
+            0x1010,
+            0x1010,
+            0x1010,
+            0x1010,
+            0x1010,
+            0x1010,
+            0x1010
+        }
+        names = {
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 321
+    iput-object p1, p0, Lcom/kakao/vectormap/internal/EventListener$5;->this$0:Lcom/kakao/vectormap/internal/EventListener;
+
+    iput-wide p2, p0, Lcom/kakao/vectormap/internal/EventListener$5;->val$lat:D
+
+    iput-wide p4, p0, Lcom/kakao/vectormap/internal/EventListener$5;->val$lng:D
+
+    iput p6, p0, Lcom/kakao/vectormap/internal/EventListener$5;->val$level:I
+
+    iput-wide p7, p0, Lcom/kakao/vectormap/internal/EventListener$5;->val$tilt:D
+
+    iput-wide p9, p0, Lcom/kakao/vectormap/internal/EventListener$5;->val$rotate:D
+
+    iput-wide p11, p0, Lcom/kakao/vectormap/internal/EventListener$5;->val$height:D
+
+    iput p13, p0, Lcom/kakao/vectormap/internal/EventListener$5;->val$gestureType:I
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 13
+
+    .line 325
+    :try_start_0
+    iget-object v0, p0, Lcom/kakao/vectormap/internal/EventListener$5;->this$0:Lcom/kakao/vectormap/internal/EventListener;
+
+    iget-wide v1, p0, Lcom/kakao/vectormap/internal/EventListener$5;->val$lat:D
+
+    iget-wide v3, p0, Lcom/kakao/vectormap/internal/EventListener$5;->val$lng:D
+
+    iget v5, p0, Lcom/kakao/vectormap/internal/EventListener$5;->val$level:I
+
+    iget-wide v6, p0, Lcom/kakao/vectormap/internal/EventListener$5;->val$tilt:D
+
+    iget-wide v8, p0, Lcom/kakao/vectormap/internal/EventListener$5;->val$rotate:D
+
+    iget-wide v10, p0, Lcom/kakao/vectormap/internal/EventListener$5;->val$height:D
+
+    iget v12, p0, Lcom/kakao/vectormap/internal/EventListener$5;->val$gestureType:I
+
+    invoke-static/range {v0 .. v12}, Lcom/kakao/vectormap/internal/EventListener;->access$500(Lcom/kakao/vectormap/internal/EventListener;DDIDDDI)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    move-exception v0
+
+    .line 327
+    invoke-virtual {v0}, Ljava/lang/Exception;->getLocalizedMessage()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/kakao/vectormap/MapLogger;->e(Ljava/lang/String;)V
+
+    :goto_0
+    return-void
+.end method

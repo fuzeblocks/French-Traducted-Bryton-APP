@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/header_bt_navigator" android:layout_width="match_parent" android:layout_height="285.0dp">
+        <View android:id="@id/bottom_view" android:background="@color/bg_midtone_secondary" android:layout_width="match_parent" android:layout_height="152.0dp" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/headshot_image" android:background="@drawable/circle_gray_background" android:padding="20.0dp" android:layout_width="152.0dp" android:layout_height="152.0dp" android:layout_marginTop="57.0dp" android:src="@drawable/icon_bryton_head_wt" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dp" android:layout_below="@id/headshot_image" android:layout_centerHorizontal="true">
+            <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center_horizontal" android:id="@id/name_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bryton User" android:layout_centerVertical="true" android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" />
+        </RelativeLayout>
+        <View android:background="#00d343" android:layout_width="match_parent" android:layout_height="2.0dp" android:layout_alignBottom="@id/bottom_view" />
+    </RelativeLayout>
+</RelativeLayout>

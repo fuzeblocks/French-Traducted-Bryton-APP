@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#aa000000" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/input_layout" android:background="#ff333c4b" android:paddingTop="24.0dp" android:paddingBottom="24.0dp" android:layout_width="280.0dp" android:layout_height="wrap_content" android:layout_marginTop="180.0dp" android:layout_centerHorizontal="true" android:paddingStart="24.0dp" android:paddingEnd="24.0dp">
+        <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@id/title_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Profile Name" android:lineSpacingExtra="5.0sp" android:fontFamily="sans-serif" />
+        <TextView android:textSize="13.0sp" android:id="@id/message_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:layout_below="@id/title_text" />
+        <EditText android:textSize="17.0sp" android:textColor="@color/white" android:textColorHint="#ff707070" android:gravity="center_vertical" android:id="@id/input_edit" android:background="#00000000" android:layout_width="match_parent" android:layout_height="25.0dp" android:layout_marginTop="16.0dp" android:hint="My Favorite 01" android:singleLine="true" android:layout_below="@id/message_text" android:inputType="numberDecimal" android:paddingStart="5.0dp" android:paddingEnd="5.0dp" />
+        <View android:id="@id/divider" android:background="@color/main_green" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="4.0dp" android:layout_below="@id/input_edit" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dp" android:layout_below="@id/divider" android:layout_alignParentEnd="true">
+            <TextView android:textSize="14.0sp" android:textColor="@color/main_green" android:gravity="center" android:id="@id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CANCEL" android:paddingStart="8.0dp" android:paddingEnd="8.0dp" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/main_green" android:gravity="center" android:id="@id/save_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SAVE" android:paddingStart="8.0dp" android:layout_toEndOf="@id/cancel_button" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

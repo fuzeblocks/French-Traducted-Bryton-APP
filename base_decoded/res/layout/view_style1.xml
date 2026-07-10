@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dp" android:layout_marginEnd="12.0dp" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/bryton_icon" android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@drawable/icon_bryton_head_wt" android:layout_centerHorizontal="true" />
+            <ImageView android:layout_width="24.0dp" android:layout_height="162.0dp" android:layout_marginTop="6.1999817dp" android:src="@drawable/symbol_be_the_change_l" android:layout_below="@id/bryton_icon" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="13.0dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/time_icon" android:layout_width="15.0dp" android:layout_height="15.0dp" android:src="@drawable/icon_time_wt" android:layout_centerVertical="true" />
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00:00" android:layout_centerVertical="true" android:layout_marginStart="4.0dp" android:layout_toEndOf="@id/time_icon" />
+            <ImageView android:id="@id/gain_h_icon" android:layout_width="15.0dp" android:layout_height="15.0dp" android:src="@drawable/icon_20_px_total_alt_gain_2" android:layout_centerVertical="true" android:layout_marginStart="31.0dp" android:layout_toEndOf="@id/time_text" />
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/gain_h_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="999.9 km" android:layout_centerVertical="true" android:layout_marginStart="4.0dp" android:layout_toEndOf="@id/gain_h_icon" />
+            <ImageView android:id="@id/gain_v_icon" android:layout_width="15.0dp" android:layout_height="15.0dp" android:src="@drawable/icon_20_px_total_alt_gain" android:layout_centerVertical="true" android:layout_marginStart="31.0dp" android:layout_toEndOf="@id/gain_h_text" />
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/gain_v_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="9999 m" android:layout_centerVertical="true" android:layout_marginStart="4.0dp" android:layout_toEndOf="@id/gain_v_icon" />
+        </RelativeLayout>
+    </RelativeLayout>
+</merge>

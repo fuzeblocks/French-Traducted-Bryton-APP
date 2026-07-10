@@ -1,0 +1,641 @@
+.class public Lcom/garmin/fit/BrytonMesg4;
+.super Lcom/garmin/fit/Mesg;
+.source "BrytonMesg4.java"
+
+
+# static fields
+.field public static final APPFieldNum:I = 0x0
+
+.field public static final CADSCRTYPENum:I = 0x8
+
+.field public static final FITVERSIONNum:I = 0xa
+
+.field public static final FilesFieldNum:I = 0x4
+
+.field public static final GMTOFFSETNum:I = 0x9
+
+.field public static final IMGFieldNum:I = 0x2
+
+.field public static final KeybdFieldNum:I = 0x5
+
+.field public static final MapFieldNum:I = 0x6
+
+.field public static final NorticFieldNum:I = 0x3
+
+.field public static final SPDSCRTYPENum:I = 0x7
+
+.field public static final ServiceFieldNum:I = 0x1
+
+.field protected static final brytonMesg4:Lcom/garmin/fit/Mesg;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 25
+
+    .line 31
+    new-instance v0, Lcom/garmin/fit/Mesg;
+
+    const-string v1, "device_status"
+
+    const/16 v2, 0x44
+
+    invoke-direct {v0, v1, v2}, Lcom/garmin/fit/Mesg;-><init>(Ljava/lang/String;I)V
+
+    sput-object v0, Lcom/garmin/fit/BrytonMesg4;->brytonMesg4:Lcom/garmin/fit/Mesg;
+
+    .line 32
+    new-instance v1, Lcom/garmin/fit/Field;
+
+    const/4 v12, 0x0
+
+    sget-object v13, Lcom/garmin/fit/Profile$Type;->SINT32:Lcom/garmin/fit/Profile$Type;
+
+    const-string v4, "app"
+
+    const/4 v5, 0x0
+
+    const/16 v6, 0x85
+
+    const-wide/high16 v7, 0x3ff0000000000000L    # 1.0
+
+    const-wide/16 v9, 0x0
+
+    const-string v11, ""
+
+    move-object v3, v1
+
+    invoke-direct/range {v3 .. v13}, Lcom/garmin/fit/Field;-><init>(Ljava/lang/String;IIDDLjava/lang/String;ZLcom/garmin/fit/Profile$Type;)V
+
+    invoke-virtual {v0, v1}, Lcom/garmin/fit/Mesg;->addField(Lcom/garmin/fit/Field;)V
+
+    .line 33
+    new-instance v1, Lcom/garmin/fit/Field;
+
+    const/16 v23, 0x0
+
+    sget-object v24, Lcom/garmin/fit/Profile$Type;->SINT32:Lcom/garmin/fit/Profile$Type;
+
+    const-string v15, "services"
+
+    const/16 v16, 0x1
+
+    const/16 v17, 0x85
+
+    const-wide/high16 v18, 0x3ff0000000000000L    # 1.0
+
+    const-wide/16 v20, 0x0
+
+    const-string v22, ""
+
+    move-object v14, v1
+
+    invoke-direct/range {v14 .. v24}, Lcom/garmin/fit/Field;-><init>(Ljava/lang/String;IIDDLjava/lang/String;ZLcom/garmin/fit/Profile$Type;)V
+
+    invoke-virtual {v0, v1}, Lcom/garmin/fit/Mesg;->addField(Lcom/garmin/fit/Field;)V
+
+    .line 34
+    new-instance v1, Lcom/garmin/fit/Field;
+
+    const/4 v11, 0x0
+
+    sget-object v12, Lcom/garmin/fit/Profile$Type;->SINT32:Lcom/garmin/fit/Profile$Type;
+
+    const-string v3, "img"
+
+    const/4 v4, 0x2
+
+    const/16 v5, 0x85
+
+    const-wide/high16 v6, 0x3ff0000000000000L    # 1.0
+
+    const-wide/16 v8, 0x0
+
+    const-string v10, ""
+
+    move-object v2, v1
+
+    invoke-direct/range {v2 .. v12}, Lcom/garmin/fit/Field;-><init>(Ljava/lang/String;IIDDLjava/lang/String;ZLcom/garmin/fit/Profile$Type;)V
+
+    invoke-virtual {v0, v1}, Lcom/garmin/fit/Mesg;->addField(Lcom/garmin/fit/Field;)V
+
+    .line 35
+    new-instance v1, Lcom/garmin/fit/Field;
+
+    const/16 v22, 0x0
+
+    sget-object v23, Lcom/garmin/fit/Profile$Type;->SINT32:Lcom/garmin/fit/Profile$Type;
+
+    const-string v14, "nortic"
+
+    const/4 v15, 0x3
+
+    const/16 v16, 0x85
+
+    const-wide/high16 v17, 0x3ff0000000000000L    # 1.0
+
+    const-wide/16 v19, 0x0
+
+    const-string v21, ""
+
+    move-object v13, v1
+
+    invoke-direct/range {v13 .. v23}, Lcom/garmin/fit/Field;-><init>(Ljava/lang/String;IIDDLjava/lang/String;ZLcom/garmin/fit/Profile$Type;)V
+
+    invoke-virtual {v0, v1}, Lcom/garmin/fit/Mesg;->addField(Lcom/garmin/fit/Field;)V
+
+    .line 36
+    new-instance v1, Lcom/garmin/fit/Field;
+
+    sget-object v12, Lcom/garmin/fit/Profile$Type;->SINT32:Lcom/garmin/fit/Profile$Type;
+
+    const-string v3, "filess"
+
+    const/4 v4, 0x4
+
+    const-string v10, ""
+
+    move-object v2, v1
+
+    invoke-direct/range {v2 .. v12}, Lcom/garmin/fit/Field;-><init>(Ljava/lang/String;IIDDLjava/lang/String;ZLcom/garmin/fit/Profile$Type;)V
+
+    invoke-virtual {v0, v1}, Lcom/garmin/fit/Mesg;->addField(Lcom/garmin/fit/Field;)V
+
+    .line 37
+    new-instance v1, Lcom/garmin/fit/Field;
+
+    sget-object v23, Lcom/garmin/fit/Profile$Type;->SINT32:Lcom/garmin/fit/Profile$Type;
+
+    const-string v14, "keybd"
+
+    const/4 v15, 0x5
+
+    const-string v21, ""
+
+    move-object v13, v1
+
+    invoke-direct/range {v13 .. v23}, Lcom/garmin/fit/Field;-><init>(Ljava/lang/String;IIDDLjava/lang/String;ZLcom/garmin/fit/Profile$Type;)V
+
+    invoke-virtual {v0, v1}, Lcom/garmin/fit/Mesg;->addField(Lcom/garmin/fit/Field;)V
+
+    .line 38
+    new-instance v1, Lcom/garmin/fit/Field;
+
+    sget-object v12, Lcom/garmin/fit/Profile$Type;->SINT32:Lcom/garmin/fit/Profile$Type;
+
+    const-string v3, "map"
+
+    const/4 v4, 0x6
+
+    const-string v10, ""
+
+    move-object v2, v1
+
+    invoke-direct/range {v2 .. v12}, Lcom/garmin/fit/Field;-><init>(Ljava/lang/String;IIDDLjava/lang/String;ZLcom/garmin/fit/Profile$Type;)V
+
+    invoke-virtual {v0, v1}, Lcom/garmin/fit/Mesg;->addField(Lcom/garmin/fit/Field;)V
+
+    .line 47
+    new-instance v1, Lcom/garmin/fit/Field;
+
+    sget-object v23, Lcom/garmin/fit/Profile$Type;->SINT32:Lcom/garmin/fit/Profile$Type;
+
+    const-string v14, "SPDSCRTYPE"
+
+    const/4 v15, 0x7
+
+    const-string v21, ""
+
+    move-object v13, v1
+
+    invoke-direct/range {v13 .. v23}, Lcom/garmin/fit/Field;-><init>(Ljava/lang/String;IIDDLjava/lang/String;ZLcom/garmin/fit/Profile$Type;)V
+
+    invoke-virtual {v0, v1}, Lcom/garmin/fit/Mesg;->addField(Lcom/garmin/fit/Field;)V
+
+    .line 48
+    new-instance v1, Lcom/garmin/fit/Field;
+
+    sget-object v12, Lcom/garmin/fit/Profile$Type;->SINT32:Lcom/garmin/fit/Profile$Type;
+
+    const-string v3, "CADSCRTYPE"
+
+    const/16 v4, 0x8
+
+    const-string v10, ""
+
+    move-object v2, v1
+
+    invoke-direct/range {v2 .. v12}, Lcom/garmin/fit/Field;-><init>(Ljava/lang/String;IIDDLjava/lang/String;ZLcom/garmin/fit/Profile$Type;)V
+
+    invoke-virtual {v0, v1}, Lcom/garmin/fit/Mesg;->addField(Lcom/garmin/fit/Field;)V
+
+    .line 52
+    new-instance v1, Lcom/garmin/fit/Field;
+
+    sget-object v23, Lcom/garmin/fit/Profile$Type;->SINT32:Lcom/garmin/fit/Profile$Type;
+
+    const-string v14, "GMTOFFSET"
+
+    const/16 v15, 0x9
+
+    const-string v21, ""
+
+    move-object v13, v1
+
+    invoke-direct/range {v13 .. v23}, Lcom/garmin/fit/Field;-><init>(Ljava/lang/String;IIDDLjava/lang/String;ZLcom/garmin/fit/Profile$Type;)V
+
+    invoke-virtual {v0, v1}, Lcom/garmin/fit/Mesg;->addField(Lcom/garmin/fit/Field;)V
+
+    .line 53
+    new-instance v1, Lcom/garmin/fit/Field;
+
+    sget-object v12, Lcom/garmin/fit/Profile$Type;->SINT32:Lcom/garmin/fit/Profile$Type;
+
+    const-string v3, "FITVERSION"
+
+    const/16 v4, 0xa
+
+    const-string v10, ""
+
+    move-object v2, v1
+
+    invoke-direct/range {v2 .. v12}, Lcom/garmin/fit/Field;-><init>(Ljava/lang/String;IIDDLjava/lang/String;ZLcom/garmin/fit/Profile$Type;)V
+
+    invoke-virtual {v0, v1}, Lcom/garmin/fit/Mesg;->addField(Lcom/garmin/fit/Field;)V
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 1
+
+    const/16 v0, 0x44
+
+    .line 23
+    invoke-static {v0}, Lcom/garmin/fit/Factory;->createMesg(I)Lcom/garmin/fit/Mesg;
+
+    move-result-object v0
+
+    invoke-direct {p0, v0}, Lcom/garmin/fit/Mesg;-><init>(Lcom/garmin/fit/Mesg;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lcom/garmin/fit/Mesg;)V
+    .locals 0
+
+    .line 26
+    invoke-direct {p0, p1}, Lcom/garmin/fit/Mesg;-><init>(Lcom/garmin/fit/Mesg;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getAPP()Ljava/lang/Integer;
+    .locals 2
+
+    const/4 v0, 0x0
+
+    const v1, 0xffff
+
+    .line 63
+    invoke-virtual {p0, v0, v0, v1}, Lcom/garmin/fit/BrytonMesg4;->getFieldIntegerValue(III)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getCADSCRTYPE()Ljava/lang/Integer;
+    .locals 3
+
+    const/4 v0, 0x0
+
+    const v1, 0xffff
+
+    const/16 v2, 0x8
+
+    .line 170
+    invoke-virtual {p0, v2, v0, v1}, Lcom/garmin/fit/BrytonMesg4;->getFieldIntegerValue(III)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getFITVERSION()Ljava/lang/Integer;
+    .locals 3
+
+    const/4 v0, 0x0
+
+    const v1, 0xffff
+
+    const/16 v2, 0xa
+
+    .line 196
+    invoke-virtual {p0, v2, v0, v1}, Lcom/garmin/fit/BrytonMesg4;->getFieldIntegerValue(III)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getFileField()Ljava/lang/Integer;
+    .locals 3
+
+    const/4 v0, 0x0
+
+    const v1, 0xffff
+
+    const/4 v2, 0x4
+
+    .line 130
+    invoke-virtual {p0, v2, v0, v1}, Lcom/garmin/fit/BrytonMesg4;->getFieldIntegerValue(III)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getGMTOFFSET()Ljava/lang/Integer;
+    .locals 3
+
+    const/4 v0, 0x0
+
+    const v1, 0xffff
+
+    const/16 v2, 0x9
+
+    .line 183
+    invoke-virtual {p0, v2, v0, v1}, Lcom/garmin/fit/BrytonMesg4;->getFieldIntegerValue(III)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getIMG()Ljava/lang/Integer;
+    .locals 3
+
+    const/4 v0, 0x0
+
+    const v1, 0xffff
+
+    const/4 v2, 0x2
+
+    .line 99
+    invoke-virtual {p0, v2, v0, v1}, Lcom/garmin/fit/BrytonMesg4;->getFieldIntegerValue(III)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getKeybd()Ljava/lang/Integer;
+    .locals 3
+
+    const/4 v0, 0x0
+
+    const v1, 0xffff
+
+    const/4 v2, 0x5
+
+    .line 137
+    invoke-virtual {p0, v2, v0, v1}, Lcom/garmin/fit/BrytonMesg4;->getFieldIntegerValue(III)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getMaps()Ljava/lang/Integer;
+    .locals 3
+
+    const/4 v0, 0x0
+
+    const v1, 0xffff
+
+    const/4 v2, 0x6
+
+    .line 144
+    invoke-virtual {p0, v2, v0, v1}, Lcom/garmin/fit/BrytonMesg4;->getFieldIntegerValue(III)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getNortic()Ljava/lang/Integer;
+    .locals 3
+
+    const/4 v0, 0x0
+
+    const v1, 0xffff
+
+    const/4 v2, 0x3
+
+    .line 117
+    invoke-virtual {p0, v2, v0, v1}, Lcom/garmin/fit/BrytonMesg4;->getFieldIntegerValue(III)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getSPDSCRTYPE()Ljava/lang/Integer;
+    .locals 3
+
+    const/4 v0, 0x0
+
+    const v1, 0xffff
+
+    const/4 v2, 0x7
+
+    .line 157
+    invoke-virtual {p0, v2, v0, v1}, Lcom/garmin/fit/BrytonMesg4;->getFieldIntegerValue(III)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getServices()Ljava/lang/Integer;
+    .locals 3
+
+    const/4 v0, 0x0
+
+    const v1, 0xffff
+
+    const/4 v2, 0x1
+
+    .line 81
+    invoke-virtual {p0, v2, v0, v1}, Lcom/garmin/fit/BrytonMesg4;->getFieldIntegerValue(III)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public setAPP(Ljava/lang/Integer;)V
+    .locals 2
+
+    const/4 v0, 0x0
+
+    const v1, 0xffff
+
+    .line 72
+    invoke-virtual {p0, v0, v0, p1, v1}, Lcom/garmin/fit/BrytonMesg4;->setFieldValue(IILjava/lang/Object;I)V
+
+    return-void
+.end method
+
+.method public setCADSCRTYPE(Ljava/lang/Integer;)V
+    .locals 3
+
+    const/4 v0, 0x0
+
+    const v1, 0xffff
+
+    const/16 v2, 0x8
+
+    .line 173
+    invoke-virtual {p0, v2, v0, p1, v1}, Lcom/garmin/fit/BrytonMesg4;->setFieldValue(IILjava/lang/Object;I)V
+
+    return-void
+.end method
+
+.method public setFITVERSION(Ljava/lang/Integer;)V
+    .locals 3
+
+    const/4 v0, 0x0
+
+    const v1, 0xffff
+
+    const/16 v2, 0xa
+
+    .line 199
+    invoke-virtual {p0, v2, v0, p1, v1}, Lcom/garmin/fit/BrytonMesg4;->setFieldValue(IILjava/lang/Object;I)V
+
+    return-void
+.end method
+
+.method public setFileField(Ljava/lang/Integer;)V
+    .locals 3
+
+    const/4 v0, 0x0
+
+    const v1, 0xffff
+
+    const/4 v2, 0x4
+
+    .line 133
+    invoke-virtual {p0, v2, v0, p1, v1}, Lcom/garmin/fit/BrytonMesg4;->setFieldValue(IILjava/lang/Object;I)V
+
+    return-void
+.end method
+
+.method public setGMTOFFSET(Ljava/lang/Integer;)V
+    .locals 3
+
+    const/4 v0, 0x0
+
+    const v1, 0xffff
+
+    const/16 v2, 0x9
+
+    .line 186
+    invoke-virtual {p0, v2, v0, p1, v1}, Lcom/garmin/fit/BrytonMesg4;->setFieldValue(IILjava/lang/Object;I)V
+
+    return-void
+.end method
+
+.method public setIMG(Ljava/lang/Integer;)V
+    .locals 3
+
+    const/4 v0, 0x0
+
+    const v1, 0xffff
+
+    const/4 v2, 0x2
+
+    .line 108
+    invoke-virtual {p0, v2, v0, p1, v1}, Lcom/garmin/fit/BrytonMesg4;->setFieldValue(IILjava/lang/Object;I)V
+
+    return-void
+.end method
+
+.method public setKeybd(Ljava/lang/Integer;)V
+    .locals 3
+
+    const/4 v0, 0x0
+
+    const v1, 0xffff
+
+    const/4 v2, 0x5
+
+    .line 140
+    invoke-virtual {p0, v2, v0, p1, v1}, Lcom/garmin/fit/BrytonMesg4;->setFieldValue(IILjava/lang/Object;I)V
+
+    return-void
+.end method
+
+.method public setMaps(Ljava/lang/Integer;)V
+    .locals 3
+
+    const/4 v0, 0x0
+
+    const v1, 0xffff
+
+    const/4 v2, 0x6
+
+    .line 147
+    invoke-virtual {p0, v2, v0, p1, v1}, Lcom/garmin/fit/BrytonMesg4;->setFieldValue(IILjava/lang/Object;I)V
+
+    return-void
+.end method
+
+.method public setNortic(Ljava/lang/Integer;)V
+    .locals 3
+
+    const/4 v0, 0x0
+
+    const v1, 0xffff
+
+    const/4 v2, 0x3
+
+    .line 126
+    invoke-virtual {p0, v2, v0, p1, v1}, Lcom/garmin/fit/BrytonMesg4;->setFieldValue(IILjava/lang/Object;I)V
+
+    return-void
+.end method
+
+.method public setSPDSCRTYPE(Ljava/lang/Integer;)V
+    .locals 3
+
+    const/4 v0, 0x0
+
+    const v1, 0xffff
+
+    const/4 v2, 0x7
+
+    .line 160
+    invoke-virtual {p0, v2, v0, p1, v1}, Lcom/garmin/fit/BrytonMesg4;->setFieldValue(IILjava/lang/Object;I)V
+
+    return-void
+.end method
+
+.method public setServices(Ljava/lang/Integer;)V
+    .locals 3
+
+    const/4 v0, 0x0
+
+    const v1, 0xffff
+
+    const/4 v2, 0x1
+
+    .line 90
+    invoke-virtual {p0, v2, v0, p1, v1}, Lcom/garmin/fit/BrytonMesg4;->setFieldValue(IILjava/lang/Object;I)V
+
+    return-void
+.end method

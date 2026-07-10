@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/header_bt_navigator" android:layout_width="match_parent" android:layout_height="110.0dp">
+        <ImageView android:id="@id/headshot_image" android:background="@drawable/circle_gray_background" android:layout_width="84.0dp" android:layout_height="84.0dp" android:src="@drawable/icon_bryton_head_wt" android:scaleType="centerCrop" android:layout_centerVertical="true" android:layout_marginStart="15.0dp" />
+        <View android:id="@id/headshot_circle_view" android:background="@drawable/circle_green_border_3dp" android:layout_width="84.0dp" android:layout_height="84.0dp" android:layout_centerVertical="true" android:layout_marginStart="15.0dp" />
+        <ImageView android:id="@id/headshot_edit_icon" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginBottom="12.0dp" android:src="@drawable/icon_edit_profile_photo" android:layout_alignBottom="@id/headshot_circle_view" android:layout_marginEnd="-5.0dp" android:layout_alignEnd="@id/headshot_circle_view" />
+    </RelativeLayout>
+</RelativeLayout>

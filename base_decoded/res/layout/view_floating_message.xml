@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_view" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="end|bottom" android:id="@id/bubble" android:layout_width="52.0dp" android:layout_height="52.0dp" android:src="@null" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/panel" android:background="@drawable/corners_gray_5_drawable" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@id/title_layout" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/img_history" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@null" android:layout_alignParentStart="true" />
+            <ImageView android:layout_gravity="end" android:id="@id/img_close" android:layout_width="28.0dp" android:layout_height="28.0dp" android:src="@drawable/fab_cancel" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/faq_layout" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/title_layout" android:paddingStart="12.0dp" android:paddingEnd="12.0dp">
+            <TextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/txt_faq_title" android:layout_width="match_parent" android:layout_height="64.0dp" />
+            <LinearLayout android:id="@id/faq_bottom_layout" android:layout_width="match_parent" android:layout_height="54.0dp" android:layout_alignParentBottom="true">
+                <RelativeLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+                    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="50.0dp" android:layout_alignParentStart="true">
+                        <ImageView android:id="@id/img_faq_go_back" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/icon_calendarleftwardarrow" android:layout_centerVertical="true" android:layout_alignParentStart="true" app:tint="#a2a2a2" />
+                        <TextView android:textSize="13.0sp" android:textColor="#c4c3ca" android:layout_gravity="center_horizontal" android:id="@id/txt_page_num" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1/3" android:layout_centerInParent="true" />
+                        <ImageView android:id="@id/img_faq_go_next" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/icon_calendarrightwardarrow" android:layout_centerVertical="true" android:layout_alignParentEnd="true" app:tint="#80a2a2a2" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/layout_submit_right" android:background="@drawable/selector_round_corner_green_8dp" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp" android:layout_weight="1.0">
+                    <TextView android:textSize="17.0sp" android:textColor="@drawable/selector_submit_text_color" android:layout_gravity="center_horizontal" android:id="@id/txt_submit_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Submit" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/faq_recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="20.0dp" android:layout_above="@id/faq_bottom_layout" android:layout_below="@id/txt_faq_title" />
+            <LinearLayout android:orientation="vertical" android:id="@id/faq_input_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="20.0dp" android:layout_above="@id/faq_bottom_layout" android:layout_below="@id/txt_faq_title">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="15.0sp" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/txt_tag_1" android:background="@drawable/round_corner_bg_gray_blue_100dp" android:paddingTop="7.0dp" android:paddingBottom="7.0dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rider15neo" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" />
+                    <TextView android:textSize="15.0sp" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/txt_tag_2" android:background="@drawable/round_corner_bg_gray_blue_100dp" android:paddingTop="7.0dp" android:paddingBottom="7.0dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rider15neo" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" android:layout_marginStart="4.0dp" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="220.0dp">
+                    <EditText android:textSize="15.0sp" android:textColor="@color/white" android:textColorHint="@color/light_grey_text" android:gravity="start|top" android:id="@id/edit_input_before_send" android:background="@drawable/round_corner_bg_gray_blue_8dp" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="10.0dp" android:hint="Tell us more, e.g., a frozen screen or data failing to upload after a ride." />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/home_layout" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/bottom_layout" android:layout_below="@id/title_layout">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/chat_recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <LinearLayout android:orientation="vertical" android:id="@id/layout_hello" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/txt_hello" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Hello! 👋\nHow can I help you?" />
+                <LinearLayout android:orientation="vertical" android:id="@id/layout_default" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp">
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/default_question_recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/layout_default1" android:background="@drawable/selector_ai_faq" android:paddingTop="16.0dp" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp">
+                        <ImageView android:layout_gravity="center_horizontal" android:layout_width="32.0dp" android:layout_height="32.0dp" android:src="@null" />
+                        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/txt_default1" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="How to reset the bike computer?" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/layout_default2" android:background="@drawable/selector_ai_faq" android:paddingTop="16.0dp" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+                        <ImageView android:layout_gravity="center_horizontal" android:layout_width="32.0dp" android:layout_height="32.0dp" android:src="@null" />
+                        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/txt_default2" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="How to reset the bike computer?" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/layout_default3" android:background="@drawable/selector_ai_faq" android:paddingTop="16.0dp" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+                        <ImageView android:layout_gravity="center_horizontal" android:layout_width="32.0dp" android:layout_height="32.0dp" android:src="@drawable/icon_faq" />
+                        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/txt_default3" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="How to reset the bike computer?" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/bottom_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <LinearLayout android:orientation="horizontal" android:id="@id/layout_red_warning" android:background="@drawable/round_corner_dark_red_stroke_red_8dp" android:paddingTop="16.0dp" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp">
+                <ImageView android:id="@id/img_red_warning" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" />
+                <TextView android:textColor="#c4c3ca" android:id="@id/txt_red_warning" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="8.0dp" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/new_chat_layout" android:background="@drawable/round_edge_trans_bg_gray_border_8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp">
+                <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <ImageView android:layout_gravity="end|center" android:id="@id/img_new_chat" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/icon_edit_new_chat" android:layout_alignParentEnd="true" />
+                    <TextView android:textSize="17.0sp" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/txt_new_chat" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="New Chat" />
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/composer_layout" android:background="@drawable/round_corner_bg_light_gray_8dp" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="12.0dp">
+                <com.brytonsport.active.ui.aiService.view.MaxHeightScrollView android:id="@id/scrollView" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="false" android:overScrollMode="never">
+                    <LinearLayout android:orientation="vertical" android:id="@id/input_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <HorizontalScrollView android:id="@id/hsv_attachments" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+                            <LinearLayout android:orientation="horizontal" android:id="@id/photo_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        </HorizontalScrollView>
+                        <EditText android:scrollbarTrackVertical="@drawable/scrollbar_track" android:textSize="15.0sp" android:textColor="@color/white" android:textColorHint="#a2a2a2" android:gravity="start|top" android:id="@id/input" android:background="@null" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="170.0dp" android:minHeight="18.0dp" android:hint="Enter" android:inputType="textMultiLine" android:fadeScrollbars="false" android:overScrollMode="always" />
+                    </LinearLayout>
+                </com.brytonsport.active.ui.aiService.view.MaxHeightScrollView>
+                <RelativeLayout android:id="@id/bottom_bar" android:layout_width="match_parent" android:layout_height="28.0dp" android:layout_marginTop="6.0dp">
+                    <ImageView android:id="@id/img_add_photo" android:layout_width="28.0dp" android:layout_height="28.0dp" android:src="@null" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                    <ImageView android:id="@id/img_send_message" android:layout_width="28.0dp" android:layout_height="28.0dp" android:src="@null" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_unlike_feedback" android:background="@drawable/round_edge_white_bg_gray_border_16dp" android:padding="16.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="40.0dp">
+                <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#161f30" android:id="@id/txt_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Feedback" android:layout_weight="1.0" android:layout_marginStart="8.0dp" />
+                <ImageView android:layout_gravity="end" android:id="@id/img_feedback_close" android:layout_width="28.0dp" android:layout_height="28.0dp" android:src="@drawable/icon_cancel_gy" android:layout_alignParentEnd="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/layout_option_1" android:background="@drawable/selector_checkbox_layout" android:paddingTop="9.0dp" android:paddingBottom="9.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+                <TextView android:textSize="15.0sp" android:textColor="#161f30" android:layout_gravity="center_vertical" android:id="@id/txt_option_1" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Did not fully follow my request" android:layout_weight="1.0" android:layout_marginStart="10.0dp" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/img_select1" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/selector_checkbox" android:layout_marginEnd="10.0dp" android:layout_alignParentEnd="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/layout_option_2" android:background="@drawable/selector_checkbox_layout" android:paddingTop="9.0dp" android:paddingBottom="9.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+                <TextView android:textSize="15.0sp" android:textColor="#161f30" android:layout_gravity="center_vertical" android:id="@id/txt_option_2" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Did not fully follow my request" android:layout_weight="1.0" android:layout_marginStart="10.0dp" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/img_select2" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/selector_checkbox" android:layout_marginEnd="10.0dp" android:layout_alignParentEnd="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/layout_option_3" android:background="@drawable/selector_checkbox_layout" android:paddingTop="9.0dp" android:paddingBottom="9.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+                <TextView android:textSize="15.0sp" android:textColor="#161f30" android:layout_gravity="center_vertical" android:id="@id/txt_option_3" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Did not fully follow my request" android:layout_weight="1.0" android:layout_marginStart="10.0dp" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/img_select3" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/selector_checkbox" android:layout_marginEnd="10.0dp" android:layout_alignParentEnd="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/layout_option_4" android:background="@drawable/selector_checkbox_layout" android:paddingTop="9.0dp" android:paddingBottom="9.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+                <TextView android:textSize="15.0sp" android:textColor="#161f30" android:layout_gravity="center_vertical" android:id="@id/txt_option_4" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Did not fully follow my request" android:layout_weight="1.0" android:layout_marginStart="10.0dp" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/img_select4" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/selector_checkbox" android:layout_marginEnd="10.0dp" android:layout_alignParentEnd="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/layout_option_input" android:background="@drawable/round_edge_white_bg_gray_border_8dp" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="80.0dp" android:layout_marginTop="10.0dp">
+                <EditText android:textSize="15.0sp" android:textColor="#161f30" android:textColorHint="#a2a2a2" android:id="@id/edit_input" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Please tell us..." />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+                <TextView android:textSize="15.0sp" android:textColor="#161f30" android:layout_gravity="center_horizontal" android:id="@id/txt_help" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Need further help? " android:layout_centerInParent="true" />
+                <TextView android:textSize="15.0sp" android:textColor="#37ba0b" android:layout_gravity="center_horizontal" android:id="@id/txt_help_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Contact Support" android:layout_centerInParent="true" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/layout_submit" android:background="@drawable/selector_submit_button" android:layout_width="match_parent" android:layout_height="44.0dp" android:layout_marginTop="10.0dp">
+                <TextView android:textSize="17.0sp" android:textColor="#ffffff" android:layout_gravity="center_horizontal" android:id="@id/txt_submit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Submit" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/history_list_layout" android:background="@drawable/corners_gray_5_drawable" android:padding="12.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/img_go_back" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/icon_back" android:layout_alignParentStart="true" />
+        <ImageView android:layout_gravity="end" android:id="@id/img_close_history_list" android:layout_width="28.0dp" android:layout_height="28.0dp" android:src="@drawable/fab_cancel" android:layout_alignParentEnd="true" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/chat_detail_recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/img_go_back" />
+        <TextView android:textSize="20.0sp" android:textColor="#ffffff" android:id="@id/txt_conversations" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="16.0dp" android:layout_below="@id/img_close_history_list" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/chat_list_recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/txt_conversations" />
+        <RelativeLayout android:gravity="center_horizontal" android:id="@id/no_data_layout" android:layout_width="match_parent" android:layout_height="142.0dp" android:layout_below="@id/txt_conversations">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/img_no_history" android:layout_width="32.0dp" android:layout_height="32.0dp" android:src="@null" android:layout_alignParentEnd="true" />
+                <TextView android:textSize="15.0sp" android:textColor="#ffffff" android:id="@id/txt_no_data" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="No chat history." />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

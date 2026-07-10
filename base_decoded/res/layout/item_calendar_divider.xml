@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@color/main_green" android:layout_width="match_parent" android:layout_height="1.0dp" />
+    </RelativeLayout>
+</RelativeLayout>

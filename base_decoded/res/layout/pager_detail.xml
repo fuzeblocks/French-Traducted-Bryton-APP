@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.brytonsport.active.views.view.ArrowTitleView android:id="@id/time_title" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/time_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/ride_time_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/trip_time_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/paused_time_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/moving_ratio_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/uphill_time_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/downhill_time_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <com.brytonsport.active.views.view.ArrowTitleView android:id="@id/distance_title" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/distance_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/distance_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/uphill_distance_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/downhill_distance_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <com.brytonsport.active.views.view.ArrowTitleView android:id="@id/speed_title" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/speed_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/avg_speed_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/max_speed_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/uphill_avg_speed_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/downhill_avg_speed_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <com.brytonsport.active.views.view.ArrowTitleView android:id="@id/altitude_title" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/altitude_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/vam_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/max_altitude_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/elevation_gain_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/elevation_loss_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <com.brytonsport.active.views.view.ArrowTitleView android:id="@id/heart_rate_title" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/heart_rate_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/avg_heart_rate_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/max_heart_rate_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/uphill_avg_heart_rate_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/downhill_avg_heart_rate_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.ToggleView android:id="@id/heart_rate_toggle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/heart_rate_zone1_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/heart_rate_zone2_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/heart_rate_zone3_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/heart_rate_zone4_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/heart_rate_zone5a_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/heart_rate_zone5b_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/heart_rate_zone5c_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <com.brytonsport.active.views.view.ArrowTitleView android:id="@id/cadence_title" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/cadence_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/avg_cadence_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/max_cadence_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/uphill_avg_cadence_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/downhill_avg_cadence_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <com.brytonsport.active.views.view.ArrowTitleView android:id="@id/calories_title" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/calories_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/calories_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <com.brytonsport.active.views.view.ArrowTitleView android:id="@id/temperature_title" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/temperature_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/avg_temperature_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/max_temperature_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/min_temperature_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/uphill_avg_temperature_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/downhill_avg_temperature_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <com.brytonsport.active.views.view.ArrowTitleView android:id="@id/power_title" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/power_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/avg_power_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/max_power_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/total_work_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/normalized_power_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/power_balance_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/torque_effectiveness_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/pedal_smoothness_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/tss_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/if_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/specific_power_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/vi_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/peak_power_5_secs_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/peak_power_1_min_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/peak_power_5_mins_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/peak_power_20_mins_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/uphill_avg_power_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/downhill_avg_power_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.ToggleView android:id="@id/power_toggle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/power_zone1_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/power_zone2_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/power_zone3_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/power_zone4_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/power_zone5a_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/power_zone5b_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.CategoryTextView android:id="@id/power_zone5c_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

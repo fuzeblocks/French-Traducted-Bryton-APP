@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/txt_color" android:id="@id/t_vo2max_desc1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="@string/I_Vo2max" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/light_grey_text" android:id="@id/m_vo2max_desc1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/M_Vo2maxDesc1" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/range_list" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/txt_color" android:id="@id/t_vo2max_desc2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="@string/T_Vo2maxDesc2" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/light_grey_text" android:id="@id/m_vo2max_desc2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/M_Vo2maxDesc2" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15.0sp" android:textColor="@color/light_grey_text" android:id="@id/t_vo2max_desc3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/T_Vo2maxDesc3" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

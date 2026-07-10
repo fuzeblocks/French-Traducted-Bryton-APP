@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/base_layout" android:paddingTop="30.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20.0dp" android:paddingEnd="20.0dp">
+        <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#c4c3ca" android:id="@id/hint_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Set up notifications for certain apps to decide what notifications you want to receive on the paired Bryton GPS bike computer." android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" />
+    </RelativeLayout>
+</RelativeLayout>

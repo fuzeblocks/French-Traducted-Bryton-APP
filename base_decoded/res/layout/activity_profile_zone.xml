@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/zone_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="13.0sp" android:textColor="#a2a2a2" android:id="@id/zone_title_text" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="區間數據將同步到配對裝置。心率/功率圖形數據將根據以下設置呈現顏色。" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/rest_heart_rate_layout" android:background="#161f30" android:paddingTop="13.0dp" android:paddingBottom="7.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp">
+                <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ffffff" android:layout_gravity="center_vertical" android:id="@id/rest_heart_rate_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="安靜心率" android:layout_weight="1.0" />
+                <TextView android:textSize="17.0sp" android:textColor="#ffffff" android:layout_gravity="center_vertical" android:id="@id/rest_hr_edit" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="60 bpm" android:maxLines="1" android:selectAllOnFocus="true" android:layout_centerVertical="true" android:layout_marginEnd="4.0dp" android:layout_alignParentEnd="true" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/img_rest_heart_error" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/icon_corrupted_fit" android:layout_toEndOf="@id/rest_hr_edit" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/rest_heart_error_layout" android:background="#161f30" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp">
+                <TextView android:textSize="13.0sp" android:textColor="#ff2a3c" android:id="@id/rest_heart_error_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

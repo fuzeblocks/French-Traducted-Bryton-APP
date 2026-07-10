@@ -1,0 +1,336 @@
+{
+    "en": [
+        {
+            "Q": "What should I do if the device freezes?",
+            "A": "Please connect the device to a power source using the original charging cable. While the device is charging, press all buttons simultaneously to reboot the device."
+        },
+        {
+            "Q": "What should I do if the heart rate or FTP zones all show 0?",
+            "A": "Please connect your bike computer to the Bryton Active App on your phone and configure the zone percentages as follows:<br>First set the percentage for the highest intensity zone(Heart Rate: Zone 5C / FTP: Zone 6).<br>After that, configure the percentages for the remaining zones from Zone 5B down to Zone 1.<br>Note: The highest intensity zone must have a value set first; otherwise, the other zones cannot be adjusted."
+        },
+        {
+            "Q": "What should I do if the record does not sync to the app?",
+            "A": "You can manually upload the ride data to your account by following the steps below:<br>1)Connect your bike computer to your PC using a USB cable.<br>2)Open the Activities folder on the device and locate the .FIT file.<br>3)Log in to your account at:<br>https://active.brytonsport.com/<br>4)After logging in, click the “+” icon in the upper-right corner of the screen.<br>5)Drag and drop the .FIT file into the browser to upload it.<br>You can upload all activity files to your account. The system will automatically detect duplicate files and keep only one record.<br><br>Recommendation:<br>After uploading all ride data, we recommend backing up the FIT files from your bike computer to your computer. Then delete all ride data from the device and perform a factory reset to check whether new ride records can sync properly."
+        },
+        {
+            "Q": "What should I do if I can't sync STRAVA through APP?",
+            "A": "Please follow the steps below to enable STRAVA:<br>1)Login to your account via below link:<br>https://active.brytonsport.com/setting<br>2)Enable STRAVA through below steps.<br>Bryton Active Website -> Settings -> STRAVA<br>3)Delete Bryton Active APP after you enabled STRAVA<br>4). Re-install Bryton Active APP and login<br><br>After you have done the steps above, STRAVA sync function will be enabled on your APP."
+        }
+    ],
+    "zh-tw": [
+        {
+            "Q": "如果裝置當機了該怎麼辦？",
+            "A": "請使用原廠充電線將裝置連接至電源。在裝置充電時，同時按下所有按鈕以重新啟動裝置。"
+        },
+        {
+            "Q": "如果心率或 FTP 區間全部顯示為 0 該怎麼辦？",
+            "A": "請將您的自行車錶與手機上的 Bryton Active App 連線，並依照下列步驟設定區間百分比：<br>首先設定最高強度區間的百分比（心率：區間 5C / FTP：區間 6）。<br>之後，依序從區間 5B 往下設定至區間 1 的百分比。<br>注意：必須先設定最高強度區間的數值；否則無法調整其他區間。"
+        },
+        {
+            "Q": "如果紀錄無法同步到 App 該怎麼辦？",
+            "A": "您可以依照下列步驟手動將騎乘資料上傳至您的帳號：<br>1)使用 USB 傳輸線將自行車錶連接至電腦。<br>2)開啟裝置中的 Activities 資料夾並找到 .FIT 檔案。<br>3)登入您的帳號：<br>https://active.brytonsport.com/<br>4)登入後，點擊畫面右上角的「+」圖示。<br>5)將 .FIT 檔案拖曳至瀏覽器中以上傳。<br>您可以將所有活動檔案上傳至您的帳號。系統會自動偵測重複的檔案並只保留一筆紀錄。<br><br>建議：<br>上傳所有騎乘資料後，我們建議您將 .FIT 檔案從自行車錶備份到您的電腦。然後刪除裝置上的所有騎乘資料，並執行恢復原廠設定，以確認新的騎乘紀錄是否能正常同步。"
+        },
+        {
+            "Q": "如果我無法透過 App 同步 STRAVA 該怎麼辦？",
+            "A": "請依照下列步驟啟用 STRAVA：<br>1)透過下方連結登入您的帳號：<br>https://active.brytonsport.com/setting<br>2)透過下方步驟啟用 STRAVA。<br>Bryton Active 網站 -> 設定 -> STRAVA<br>3)啟用 STRAVA 後，請刪除 Bryton Active App<br>4)重新安裝 Bryton Active App 並登入<br><br>完成上述步驟後，您的 App 上的 STRAVA 同步功能就會啟用。"
+        }
+    ],
+    "it": [
+        {
+            "Q": "Cosa devo fare se il dispositivo si blocca?",
+            "A": "Collega il dispositivo a una fonte di alimentazione utilizzando il cavo di ricarica originale. Mentre il dispositivo è in carica, premi tutti i pulsanti contemporaneamente per riavviarlo."
+        },
+        {
+            "Q": "Cosa devo fare se le zone di frequenza cardiaca o FTP mostrano tutte 0?",
+            "A": "Collega il tuo ciclocomputer all'app Bryton Active sul telefono e configura le percentuali delle zone nel modo seguente:<br>Imposta prima la percentuale per la zona a massima intensità (Frequenza cardiaca: Zona 5C / FTP: Zona 6).<br>Successivamente, configura le percentuali per le zone rimanenti, dalla Zona 5B scendendo fino alla Zona 1.<br>Nota: è necessario impostare prima un valore per la zona a massima intensità; in caso contrario, non sarà possibile regolare le altre zone."
+        },
+        {
+            "Q": "Cosa devo fare se la registrazione non si sincronizza con l'app?",
+            "A": "Puoi caricare manualmente i dati della corsa sul tuo account seguendo i passaggi indicati di seguito:<br>1)Collega il tuo ciclocomputer al PC utilizzando un cavo USB.<br>2)Apri la cartella Activities sul dispositivo e individua il file .FIT.<br>3)Accedi al tuo account su:<br>https://active.brytonsport.com/<br>4)Dopo aver effettuato l'accesso, fai clic sull'icona '+' nell'angolo in alto a destra dello schermo.<br>5)Trascina e rilascia il file .FIT nel browser per caricarlo.<br>Puoi caricare tutti i file delle attività sul tuo account. Il sistema rileverà automaticamente i file duplicati e conserverà un solo record.<br><br>Raccomandazione:<br>Dopo aver caricato tutti i dati della corsa, ti consigliamo di eseguire il backup dei file FIT dal tuo ciclocomputer al computer. Successivamente elimina tutti i dati di corsa dal dispositivo ed esegui un ripristino delle impostazioni di fabbrica per verificare se le nuove registrazioni della corsa riescono a sincronizzarsi correttamente."
+        },
+        {
+            "Q": "Cosa devo fare se non riesco a sincronizzare STRAVA tramite l'app?",
+            "A": "Segui i passaggi seguenti per abilitare STRAVA:<br>1)Accedi al tuo account tramite il seguente link:<br>https://active.brytonsport.com/setting<br>2)Abilita STRAVA seguendo questi passaggi.<br>Sito web Bryton Active -> Impostazioni -> STRAVA<br>3)Elimina l'app Bryton Active dopo aver abilitato STRAVA<br>4)Reinstalla l'app Bryton Active e accedi<br><br>Dopo aver completato i passaggi precedenti, la funzione di sincronizzazione STRAVA sarà abilitata sulla tua app."
+        }
+    ],
+    "ja": [
+        {
+            "Q": "デバイスがフリーズした場合はどうすればよいですか？",
+            "A": "純正の充電ケーブルを使用して、デバイスを電源に接続してください。充電中にすべてのボタンを同時に押して、デバイスを再起動します。"
+        },
+        {
+            "Q": "心拍数またはFTPゾーンがすべて0と表示される場合はどうすればよいですか？",
+            "A": "サイクルコンピューターをスマートフォンのBryton Activeアプリに接続し、次のようにゾーンのパーセンテージを設定してください：<br>最初に最高強度ゾーン（心拍数：ゾーン5C / FTP：ゾーン6）のパーセンテージを設定します。<br>その後、ゾーン5Bからゾーン1までの残りのゾーンのパーセンテージを設定します。<br>注意：最高強度ゾーンの数値を最初に設定する必要があります。そうしないと、他のゾーンを調整できません。"
+        },
+        {
+            "Q": "記録がアプリに同期されない場合はどうすればよいですか？",
+            "A": "以下の手順に従って、ライドデータをアカウントに手動でアップロードできます：<br>1)USBケーブルを使用してサイクルコンピューターをPCに接続します。<br>2)デバイスのActivitiesフォルダーを開き、.FITファイルを探します。<br>3)以下からアカウントにログインします：<br>https://active.brytonsport.com/<br>4)ログイン後、画面右上の「+」アイコンをクリックします。<br>5).FITファイルをブラウザにドラッグ＆ドロップしてアップロードします。<br>すべての活動ファイルをアカウントにアップロードできます。システムは重複ファイルを自動的に検出し、1つの記録のみを保持します。<br><br>推奨事項：<br>すべてのライドデータをアップロードした後、サイクルコンピューターからコンピューターへFITファイルをバックアップすることをお勧めします。その後、デバイスからすべてのライドデータを削除し、出荷時設定へのリセットを行って、新しいライド記録が正常に同期できるか確認してください。"
+        },
+        {
+            "Q": "アプリからSTRAVAを同期できない場合はどうすればよいですか？",
+            "A": "以下の手順に従ってSTRAVAを有効にしてください：<br>1)以下のリンクからアカウントにログインします：<br>https://active.brytonsport.com/setting<br>2)以下の手順でSTRAVAを有効にします。<br>Bryton Active ウェブサイト -> 設定 -> STRAVA<br>3)STRAVAを有効にした後、Bryton Activeアプリを削除します<br>4)Bryton Activeアプリを再インストールしてログインします<br><br>上記の手順を完了すると、アプリでSTRAVAの同期機能が有効になります。"
+        }
+    ],
+    "fr": [
+        {
+            "Q": "Que dois-je faire si l'appareil se fige ?",
+            "A": "Veuillez connecter l'appareil à une source d'alimentation à l'aide du câble de charge d'origine. Pendant que l'appareil est en charge, appuyez simultanément sur tous les boutons pour redémarrer l'appareil."
+        },
+        {
+            "Q": "Que dois-je faire si les zones de fréquence cardiaque ou de FTP affichent toutes 0 ?",
+            "A": "Veuillez connecter votre compteur de vélo à l'application Bryton Active sur votre téléphone et configurer les pourcentages de zone comme suit :<br>Réglez d'abord le pourcentage pour la zone d'intensité la plus élevée (Fréquence cardiaque : Zone 5C / FTP : Zone 6).<br>Ensuite, configurez les pourcentages pour les zones restantes, de la Zone 5B jusqu'à la Zone 1.<br>Remarque : la zone d'intensité la plus élevée doit avoir une valeur définie en premier ; sinon, les autres zones ne peuvent pas être ajustées."
+        },
+        {
+            "Q": "Que dois-je faire si l'enregistrement ne se synchronise pas avec l'application ?",
+            "A": "Vous pouvez importer manuellement les données de votre trajet sur votre compte en suivant les étapes ci-dessous :<br>1)Connectez votre compteur de vélo à votre PC à l'aide d'un câble USB.<br>2)Ouvrez le dossier Activities sur l'appareil et localisez le fichier .FIT.<br>3)Connectez-vous à votre compte sur :<br>https://active.brytonsport.com/<br>4)Une fois connecté, cliquez sur l'icône « + » dans le coin supérieur droit de l'écran.<br>5)Faites glisser et déposez le fichier .FIT dans le navigateur pour le télécharger.<br>Vous pouvez importer tous les fichiers d'activité sur votre compte. Le système détectera automatiquement les fichiers en double et ne conservera qu'un seul enregistrement.<br><br>Recommandation :<br>Après avoir importé toutes les données de trajet, nous vous recommandons de sauvegarder les fichiers FIT de votre compteur de vélo sur votre ordinateur. Supprimez ensuite toutes les données de trajet de l'appareil et effectuez une réinitialisation d'usine pour vérifier si les nouveaux enregistrements de trajet se synchronisent correctement."
+        },
+        {
+            "Q": "Que dois-je faire si je ne parviens pas à synchroniser STRAVA via l'application ?",
+            "A": "Veuillez suivre les étapes ci-dessous pour activer STRAVA :<br>1)Connectez-vous à votre compte via le lien ci-dessous :<br>https://active.brytonsport.com/setting<br>2)Activez STRAVA en suivant les étapes ci-dessous.<br>Site Web Bryton Active -> Paramètres -> STRAVA<br>3)Supprimez l'application Bryton Active après avoir activé STRAVA<br>4)Réinstallez l'application Bryton Active et connectez-vous<br><br>Une fois que vous avez effectué les étapes ci-dessus, la fonction de synchronisation STRAVA sera activée sur votre application."
+        }
+    ],
+    "es": [
+        {
+            "Q": "¿Qué debo hacer si el dispositivo se bloquea o congela?",
+            "A": "Por favor, conecte el dispositivo a una fuente de alimentación utilizando el cable de carga original. Mientras el dispositivo se está cargando, presione todos los botones simultáneamente para reiniciar el dispositivo."
+        },
+        {
+            "Q": "¿Qué debo hacer si las zonas de frecuencia cardíaca o FTP muestran todas 0?",
+            "A": "Por favor, conecte su ciclocomputador a la aplicación Bryton Active en su teléfono y configure los porcentajes de las zonas de la siguiente manera:<br>Primero configure el porcentaje para la zona de mayor intensidad (Frecuencia cardíaca: Zona 5C / FTP: Zona 6).<br>Después de eso, configure los porcentajes para las zonas restantes desde la Zona 5B hasta la Zona 1.<br>Nota: Se debe establecer primero un valor para la zona de mayor intensidad; de lo contrario, no se podrán ajustar las otras zonas."
+        },
+        {
+            "Q": "¿Qué debo hacer si el registro no se sincroniza con la aplicación?",
+            "A": "Puede subir manualmente los datos del recorrido a su cuenta siguiendo los pasos a continuación:<br>1)Conecte su ciclocomputador a su PC utilizando un cable USB.<br>2)Abra la carpeta Activities en el dispositivo y localice el archivo .FIT.<br>3)Inicie sesión en su cuenta en:<br>https://active.brytonsport.com/<br>4)Después de iniciar sesión, haga clic en el icono '+' en la esquina superior derecha de la pantalla.<br>5)Arrastre y suelte el archivo .FIT en el navegador para subirlo.<br>Puede subir todos los archivos de actividad a su cuenta. El sistema detectará automáticamente los archivos duplicados y conservará solo un registro.<br><br>Recomendación:<br>Después de subir todos los datos del recorrido, le recomendamos hacer una copia de seguridad de los archivos FIT desde su ciclocomputador a su computadora. Luego elimine todos los datos de recorrido del dispositivo y realice un restablecimiento de fábrica para verificar si los nuevos registros de recorrido se pueden sincronizar correctamente."
+        },
+        {
+            "Q": "¿Qué debo hacer si no puedo sincronizar STRAVA a través de la aplicación?",
+            "A": "Por favor, siga los pasos a continuación para habilitar STRAVA:<br>1)Inicie sesión en su cuenta a través del siguiente enlace:<br>https://active.brytonsport.com/setting<br>2)Habilite STRAVA a través de los siguientes pasos.<br>Sitio web de Bryton Active -> Configuración -> STRAVA<br>3)Elimine la aplicación Bryton Active después de habilitar STRAVA<br>4)Vuelva a instalar la aplicación Bryton Active e inicie sesión<br><br>Después de haber realizado los pasos anteriores, la función de sincronización de STRAVA se habilitará en su aplicación."
+        }
+    ],
+    "zh-cn": [
+        {
+            "Q": "如果设备死机了怎么办？",
+            "A": "请使用原装充电线将设备连接至电源。在设备充电时，同时按下所有按钮以重新启动设备。"
+        },
+        {
+            "Q": "如果心率或 FTP 区间全部显示为 0 怎么办？",
+            "A": "请将您的自行车码表与手机上的 Bryton Active App 连接，并按照以下步骤设置区间百分比：<br>首先设置最高强度区间的百分比（心率：区间 5C / FTP：区间 6）。<br>之后，依次从区间 5B 向下设置至区间 1 的百分比。<br>注意：必须先设置最高强度区间的数值；否则无法调整其他区间。"
+        },
+        {
+            "Q": "如果记录无法同步到 App 怎么办？",
+            "A": "您可以按照以下步骤手动将骑行数据上传至您的账号：<br>1)使用 USB 数据线将自行车码表连接至电脑。<br>2)打开设备中的 Activities 文件夹并找到 .FIT 文件。<br>3)登录您的账号：<br>https://active.brytonsport.com/<br>4)登录后，点击屏幕右上角的“+”图标。<br>5)将 .FIT 文件拖拽至浏览器中以上传。<br>您可以将所有活动文件上传至您的账号。系统会自动检测重复的文件并只保留一条记录。<br><br>建议：<br>上传所有骑行数据后，我们建议您将 .FIT 文件从自行车码表备份到您的电脑。然后删除设备上的所有骑行数据，并执行恢复出厂设置，以确认新的骑行记录是否能正常同步。"
+        },
+        {
+            "Q": "如果我无法通过 App 同步 STRAVA 怎么办？",
+            "A": "请按照以下步骤启用 STRAVA：<br>1)通过下方链接登录您的账号：<br>https://active.brytonsport.com/setting<br>2)通过以下步骤启用 STRAVA。<br>Bryton Active 网站 -> 设置 -> STRAVA<br>3)启用 STRAVA 后，请删除 Bryton Active App<br>4)重新安装 Bryton Active App 并登录<br><br>完成上述步骤后，您的 App 上的 STRAVA 同步功能将被启用。"
+        }
+    ],
+    "ko": [
+        {
+            "Q": "기기가 멈추면 어떻게 해야 하나요?",
+            "A": "정품 충전 케이블을 사용하여 기기를 전원에 연결하세요. 기기가 충전되는 동안 모든 버튼을 동시에 눌러 기기를 재부팅하세요."
+        },
+        {
+            "Q": "심박수 또는 FTP 영역이 모두 0으로 표시되면 어떻게 해야 하나요?",
+            "A": "자전거 컴퓨터를 휴대전화의 Bryton Active 앱에 연결하고 영역 비율을 다음과 같이 설정하세요.<br>먼저 최고 강도 영역(심박수: 영역 5C / FTP: 영역 6)의 비율을 설정합니다.<br>그런 다음 영역 5B에서 영역 1까지 나머지 영역의 비율을 설정합니다.<br>참고: 최고 강도 영역의 값을 먼저 설정해야 합니다. 그렇지 않으면 다른 영역을 조정할 수 없습니다."
+        },
+        {
+            "Q": "기록이 앱에 동기화되지 않으면 어떻게 해야 하나요?",
+            "A": "아래 단계에 따라 라이딩 데이터를 계정에 수동으로 업로드할 수 있습니다.<br>1)USB 케이블을 사용하여 자전거 컴퓨터를 PC에 연결합니다.<br>2)기기에서 Activities 폴더를 열고 .FIT 파일을 찾습니다.<br>3)다음 링크에서 계정에 로그인합니다.<br>https://active.brytonsport.com/<br>4)로그인 후 화면 오른쪽 상단의 '+' 아이콘을 클릭합니다.<br>5).FIT 파일을 브라우저로 드래그 앤 드롭하여 업로드합니다.<br>모든 활동 파일을 계정에 업로드할 수 있습니다. 시스템이 자동으로 중복 파일을 감지하여 하나의 기록만 보관합니다.<br><br>권장 사항:<br>모든 라이딩 데이터를 업로드한 후, 자전거 컴퓨터에서 컴퓨터로 FIT 파일을 백업하는 것을 권장합니다. 그런 다음 기기에서 모든 라이딩 데이터를 삭제하고 공장 초기화를 수행하여 새로운 라이딩 기록이 제대로 동기화되는지 확인하세요."
+        },
+        {
+            "Q": "앱을 통해 STRAVA를 동기화할 수 없으면 어떻게 해야 하나요?",
+            "A": "STRAVA를 활성화하려면 아래 단계를 따르세요.<br>1)아래 링크를 통해 계정에 로그인합니다.<br>https://active.brytonsport.com/setting<br>2)아래 단계에 따라 STRAVA를 활성화합니다.<br>Bryton Active 웹사이트 -> 설정 -> STRAVA<br>3)STRAVA를 활성화한 후 Bryton Active 앱을 삭제합니다.<br>4)Bryton Active 앱을 다시 설치하고 로그인합니다.<br><br>위의 단계를 완료하면 앱에서 STRAVA 동기화 기능이 활성화됩니다."
+        }
+    ],
+    "da": [
+        {
+            "Q": "Hvad skal jeg gøre, hvis enheden fryser?",
+            "A": "Tilslut venligst enheden til en strømkilde ved hjælp af det originale opladerkabel. Mens enheden oplades, skal du trykke på alle knapper samtidigt for at genstarte enheden."
+        },
+        {
+            "Q": "Hvad skal jeg gøre, hvis puls- eller FTP-zonerne alle viser 0?",
+            "A": "Tilslut venligst din cykelcomputer til Bryton Active-appen på din telefon, og konfigurer zoneprocenterne som følger:<br>Indstil først procentdelen for zonen med den højeste intensitet (Puls: Zone 5C / FTP: Zone 6).<br>Konfigurer derefter procenterne for de resterende zoner fra Zone 5B og ned til Zone 1.<br>Bemærk: Zonen med højeste intensitet skal have en værdi indstillet først; ellers kan de andre zoner ikke justeres."
+        },
+        {
+            "Q": "Hvad skal jeg gøre, hvis posten ikke synkroniseres til appen?",
+            "A": "Du kan manuelt uploade køredataene til din konto ved at følge trinene nedenfor:<br>1)Tilslut din cykelcomputer til din pc ved hjælp af et USB-kabel.<br>2)Åbn mappen Activities på enheden, og find .FIT-filen.<br>3)Log ind på din konto på:<br>https://active.brytonsport.com/<br>4)Når du er logget ind, skal du klikke på “+”-ikonet i øverste højre hjørne af skærmen.<br>5)Træk og slip .FIT-filen ind i browseren for at uploade den.<br>Du kan uploade alle aktivitetsfiler til din konto. Systemet vil automatisk registrere dubletfiler og kun beholde én post.<br><br>Anbefaling:<br>Når du har uploadet alle køredata, anbefaler vi at sikkerhedskopiere FIT-filerne fra din cykelcomputer til din computer. Slet derefter alle køredata fra enheden og udfør en nulstilling til fabriksindstillinger for at kontrollere, om nye køreregistreringer kan synkroniseres korrekt."
+        },
+        {
+            "Q": "Hvad skal jeg gøre, hvis jeg ikke kan synkronisere STRAVA via appen?",
+            "A": "Følg venligst nedenstående trin for at aktivere STRAVA:<br>1)Log ind på din konto via nedenstående link:<br>https://active.brytonsport.com/setting<br>2)Aktivér STRAVA gennem følgende trin.<br>Bryton Active hjemmeside -> Indstillinger -> STRAVA<br>3)Slet Bryton Active-appen, efter du har aktiveret STRAVA<br>4)Geninstaller Bryton Active-appen, og log ind<br><br>Når du har udført ovenstående trin, vil STRAVA-synkroniseringsfunktionen være aktiveret på din app."
+        }
+    ],
+    "de": [
+        {
+            "Q": "Was soll ich tun, wenn das Gerät einfriert?",
+            "A": "Bitte schließen Sie das Gerät mit dem Original-Ladekabel an eine Stromquelle an. Während das Gerät aufgeladen wird, drücken Sie alle Tasten gleichzeitig, um das Gerät neu zu starten."
+        },
+        {
+            "Q": "Was soll ich tun, wenn die Herzfrequenz- oder FTP-Zonen alle 0 anzeigen?",
+            "A": "Bitte verbinden Sie Ihren Fahrradcomputer mit der Bryton Active App auf Ihrem Telefon und konfigurieren Sie die Zonenprozentsätze wie folgt:<br>Stellen Sie zuerst den Prozentsatz für die Zone mit der höchsten Intensität ein (Herzfrequenz: Zone 5C / FTP: Zone 6).<br>Konfigurieren Sie danach die Prozentsätze für die verbleibenden Zonen von Zone 5B abwärts bis zu Zone 1.<br>Hinweis: Für die Zone mit der höchsten Intensität muss zuerst ein Wert eingestellt werden; Andernfalls können die anderen Zonen nicht angepasst werden."
+        },
+        {
+            "Q": "Was soll ich tun, wenn der Datensatz nicht mit der App synchronisiert wird?",
+            "A": "Sie können die Fahrtdaten manuell auf Ihr Konto hochladen, indem Sie die folgenden Schritte ausführen:<br>1)Verbinden Sie Ihren Fahrradcomputer über ein USB-Kabel mit Ihrem PC.<br>2)Öffnen Sie den Ordner Activities auf dem Gerät und suchen Sie die .FIT-Datei.<br>3)Melden Sie sich bei Ihrem Konto an unter:<br>https://active.brytonsport.com/<br>4)Klicken Sie nach dem Anmelden auf das „+“-Symbol in der oberen rechten Ecke des Bildschirms.<br>5)Ziehen Sie die .FIT-Datei per Drag & Drop in den Browser, um sie hochzuladen.<br>Sie können alle Aktivitätsdateien auf Ihr Konto hochladen. Das System erkennt doppelte Dateien automatisch und behält nur einen Datensatz bei.<br><br>Empfehlung:<br>Nach dem Hochladen aller Fahrtdaten empfehlen wir, die FIT-Dateien von Ihrem Fahrradcomputer auf Ihrem Computer zu sichern. Löschen Sie dann alle Fahrtdaten vom Gerät und führen Sie ein Zurücksetzen auf die Werkseinstellungen durch, um zu überprüfen, ob neue Fahrtdatensätze ordnungsgemäß synchronisiert werden können."
+        },
+        {
+            "Q": "Was soll ich tun, wenn ich STRAVA nicht über die App synchronisieren kann?",
+            "A": "Bitte befolgen Sie die folgenden Schritte, um STRAVA zu aktivieren:<br>1)Melden Sie sich über den folgenden Link bei Ihrem Konto an:<br>https://active.brytonsport.com/setting<br>2)Aktivieren Sie STRAVA durch die folgenden Schritte.<br>Bryton Active Website -> Einstellungen -> STRAVA<br>3)Löschen Sie die Bryton Active App, nachdem Sie STRAVA aktiviert haben<br>4)Installieren Sie die Bryton Active App neu und melden Sie sich an<br><br>Nachdem Sie die obigen Schritte ausgeführt haben, wird die STRAVA-Synchronisierungsfunktion in Ihrer App aktiviert."
+        }
+    ],
+    "hu": [
+        {
+            "Q": "Mit tegyek, ha a készülék lefagy?",
+            "A": "Kérjük, csatlakoztassa az eszközt egy áramforráshoz az eredeti töltőkábel segítségével. Miközben a készülék töltődik, nyomja meg egyszerre az összes gombot a készülék újraindításához."
+        },
+        {
+            "Q": "Mit tegyek, ha a pulzusmérő vagy az FTP zónák mind 0-t mutatnak?",
+            "A": "Kérjük, csatlakoztassa kerékpáros komputerét a telefonján lévő Bryton Active alkalmazáshoz, és konfigurálja a zónaszázalékokat az alábbiak szerint:<br>Először állítsa be a százalékot a legmagasabb intenzitású zónához (Pulzus: 5C zóna / FTP: 6. zóna).<br>Ezt követően konfigurálja a százalékokat a fennmaradó zónákhoz az 5B zónától lefelé az 1. zónáig.<br>Megjegyzés: A legmagasabb intenzitású zónához először értéket kell rendelni; ellenkező esetben a többi zóna nem állítható be."
+        },
+        {
+            "Q": "Mit tegyek, ha a rekord nem szinkronizálódik az alkalmazással?",
+            "A": "Manuálisan is feltöltheti a kerékpározási adatokat a fiókjába az alábbi lépések követésével:<br>1)Csatlakoztassa a kerékpáros komputert a számítógéphez egy USB-kábellel.<br>2)Nyissa meg a készüléken az Activities mappát, és keresse meg a .FIT fájlt.<br>3)Jelentkezzen be fiókjába a következő címen:<br>https://active.brytonsport.com/<br>4)Bejelentkezés után kattintson a „+” ikonra a képernyő jobb felső sarkában.<br>5)A feltöltéshez húzza a .FIT fájlt a böngészőbe.<br>Minden tevékenységfájlt feltölthet a fiókjába. A rendszer automatikusan észleli a duplikált fájlokat, és csak egy rekordot tart meg.<br><br>Javaslat:<br>Minden kerékpározási adat feltöltése után javasoljuk, hogy készítsen biztonsági másolatot a FIT fájlokról a kerékpáros komputerről a számítógépére. Ezután törölje az összes kerékpározási adatot a készülékről, és végezzen gyári visszaállítást annak ellenőrzésére, hogy az új kerékpározási rekordok megfelelően tudnak-e szinkronizálni."
+        },
+        {
+            "Q": "Mit tegyek, ha nem tudom szinkronizálni a STRAVA-t az alkalmazáson keresztül?",
+            "A": "Kérjük, kövesse az alábbi lépéseket a STRAVA engedélyezéséhez:<br>1)Jelentkezzen be fiókjába az alábbi linken keresztül:<br>https://active.brytonsport.com/setting<br>2)Engedélyezze a STRAVA-t az alábbi lépésekkel.<br>Bryton Active weboldal -> Beállítások -> STRAVA<br>3)A STRAVA engedélyezése után törölje a Bryton Active alkalmazást<br>4)Telepítse újra a Bryton Active alkalmazást, és jelentkezzen be<br><br>Miután elvégezte a fenti lépéseket, a STRAVA szinkronizálási funkció engedélyezve lesz az alkalmazásban."
+        }
+    ],
+    "no": [
+        {
+            "Q": "Hva bør jeg gjøre hvis enheten fryser?",
+            "A": "Vennligst koble enheten til en strømkilde med den originale ladekabelen. Mens enheten lades, trykk på alle knappene samtidig for å starte enheten på nytt."
+        },
+        {
+            "Q": "Hva bør jeg gjøre hvis puls- eller FTP-sonene alle viser 0?",
+            "A": "Vennligst koble sykkelcomputeren din til Bryton Active-appen på telefonen og konfigurer soneprosentene som følger:<br>Still først inn prosentandelen for sonen med høyest intensitet (Puls: Sone 5C / FTP: Sone 6).<br>Deretter konfigurerer du prosentandeler for de gjenværende sonene fra Sone 5B og ned til Sone 1.<br>Merk: Sonen med høyest intensitet må ha en verdi angitt først; ellers kan ikke de andre sonene justeres."
+        },
+        {
+            "Q": "Hva bør jeg gjøre hvis oppføringen ikke synkroniseres til appen?",
+            "A": "Du kan manuelt laste opp turdataene til kontoen din ved å følge trinnene nedenfor:<br>1)Koble sykkelcomputeren til PC-en din med en USB-kabel.<br>2)Åpne mappen Activities på enheten og finn .FIT-filen.<br>3)Logg inn på kontoen din på:<br>https://active.brytonsport.com/<br>4)Etter innlogging klikker du på “+”-ikonet øverst i høyre hjørne av skjermen.<br>5)Dra og slipp .FIT-filen inn i nettleseren for å laste den opp.<br>Du kan laste opp alle aktivitetsfiler til kontoen din. Systemet vil automatisk oppdage duplikatfiler og beholde kun én oppføring.<br><br>Anbefaling:<br>Etter at du har lastet opp alle turdata, anbefaler vi at du sikkerhetskopierer FIT-filene fra sykkelcomputeren til datamaskinen din. Slett deretter alle turdata fra enheten og utfør en tilbakestilling til fabrikkinnstillinger for å sjekke om nye turoppføringer kan synkroniseres ordentlig."
+        },
+        {
+            "Q": "Hva bør jeg gjøre hvis jeg ikke kan synkronisere STRAVA gjennom appen?",
+            "A": "Vennligst følg trinnene nedenfor for å aktivere STRAVA:<br>1)Logg inn på kontoen din via lenken nedenfor:<br>https://active.brytonsport.com/setting<br>2)Aktiver STRAVA gjennom følgende trinn.<br>Bryton Active nettside -> Innstillinger -> STRAVA<br>3)Slett Bryton Active-appen etter at du har aktivert STRAVA<br>4)Installer Bryton Active-appen på nytt og logg inn<br><br>Etter at du har utført trinnene ovenfor, vil STRAVA-synkroniseringsfunksjonen bli aktivert i appen din."
+        }
+    ],
+    "nl": [
+        {
+            "Q": "Wat moet ik doen als het apparaat vastloopt?",
+            "A": "Sluit het apparaat aan op een stroombron met behulp van de originele oplaadkabel. Terwijl het apparaat wordt opgeladen, drukt u tegelijkertijd op alle knoppen om het apparaat opnieuw op te starten."
+        },
+        {
+            "Q": "Wat moet ik doen als de hartslag- of FTP-zones allemaal 0 weergeven?",
+            "A": "Koppel uw fietscomputer aan de Bryton Active-app op uw telefoon en configureer de zonepercentages als volgt:<br>Stel eerst het percentage in voor de zone met de hoogste intensiteit (Hartslag: Zone 5C / FTP: Zone 6).<br>Configureer daarna de percentages voor de resterende zones van Zone 5B omlaag naar Zone 1.<br>Let op: Voor de zone met de hoogste intensiteit moet eerst een waarde worden ingesteld; anders kunnen de andere zones niet worden aangepast."
+        },
+        {
+            "Q": "Wat moet ik doen als de ritgegevens niet synchroniseren met de app?",
+            "A": "U kunt de ritgegevens handmatig uploaden naar uw account door de onderstaande stappen te volgen:<br>1)Verbind uw fietscomputer met uw pc via een USB-kabel.<br>2)Open de map Activities op het apparaat en zoek het .FIT-bestand.<br>3)Log in op uw account op:<br>https://active.brytonsport.com/<br>4)Klik na het inloggen op het pictogram '+' in de rechterbovenhoek van het scherm.<br>5)Sleep het .FIT-bestand naar de browser en zet het daar neer om het te uploaden.<br>U kunt alle activiteitsbestanden uploaden naar uw account. Het systeem detecteert automatisch dubbele bestanden en bewaart slechts één record.<br><br>Aanbeveling:<br>Nadat alle ritgegevens zijn geüpload, raden we aan om een back-up te maken van de FIT-bestanden van uw fietscomputer naar uw computer. Verwijder vervolgens alle ritgegevens van het apparaat en voer een fabrieksreset uit om te controleren of nieuwe ritrecords goed kunnen synchroniseren."
+        },
+        {
+            "Q": "Wat moet ik doen als ik STRAVA niet kan synchroniseren via de app?",
+            "A": "Volg de onderstaande stappen om STRAVA in te schakelen:<br>1)Log in op uw account via de onderstaande link:<br>https://active.brytonsport.com/setting<br>2)Schakel STRAVA in via de volgende stappen.<br>Bryton Active Website -> Instellingen -> STRAVA<br>3)Verwijder de Bryton Active-app nadat u STRAVA heeft ingeschakeld<br>4)Installeer de Bryton Active-app opnieuw en log in<br><br>Nadat u de bovenstaande stappen heeft uitgevoerd, is de STRAVA-synchronisatiefunctie ingeschakeld in uw app."
+        }
+    ],
+    "pl": [
+        {
+            "Q": "Co mam zrobić, jeśli urządzenie się zawiesi?",
+            "A": "Podłącz urządzenie do źródła zasilania za pomocą oryginalnego kabla do ładowania. Podczas ładowania urządzenia naciśnij jednocześnie wszystkie przyciski, aby je ponownie uruchomić."
+        },
+        {
+            "Q": "Co mam zrobić, jeśli strefy tętna lub FTP pokazują 0?",
+            "A": "Podłącz komputer rowerowy do aplikacji Bryton Active na telefonie i skonfiguruj wartości procentowe stref w następujący sposób:<br>Najpierw ustaw procent dla strefy o najwyższej intensywności (Tętno: Strefa 5C / FTP: Strefa 6).<br>Następnie skonfiguruj wartości procentowe dla pozostałych stref od Strefy 5B w dół do Strefy 1.<br>Uwaga: Najpierw należy ustawić wartość dla strefy o najwyższej intensywności; w przeciwnym razie nie będzie można dostosować pozostałych stref."
+        },
+        {
+            "Q": "Co mam zrobić, jeśli rekord nie synchronizuje się z aplikacją?",
+            "A": "Możesz ręcznie przesłać dane jazdy na swoje konto, wykonując poniższe czynności:<br>1)Podłącz komputer rowerowy do komputera za pomocą kabla USB.<br>2)Otwórz folder Activities w urządzeniu i zlokalizuj plik .FIT.<br>3)Zaloguj się na swoje konto pod adresem:<br>https://active.brytonsport.com/<br>4)Po zalogowaniu kliknij ikonę „+” w prawym górnym rogu ekranu.<br>5)Przeciągnij i upuść plik .FIT do przeglądarki, aby go przesłać.<br>Na swoje konto możesz przesłać wszystkie pliki aktywności. System automatycznie wykryje duplikaty plików i zachowa tylko jeden rekord.<br><br>Zalecenie:<br>Po przesłaniu wszystkich danych dotyczących jazdy zalecamy wykonanie kopii zapasowej plików FIT z komputera rowerowego na komputer. Następnie usuń wszystkie dane jazdy z urządzenia i przywróć ustawienia fabryczne, aby sprawdzić, czy nowe rekordy jazdy mogą być prawidłowo synchronizowane."
+        },
+        {
+            "Q": "Co mam zrobić, jeśli nie mogę zsynchronizować STRAVA przez aplikację?",
+            "A": "Wykonaj poniższe czynności, aby włączyć STRAVA:<br>1)Zaloguj się na swoje konto za pomocą poniższego linku:<br>https://active.brytonsport.com/setting<br>2)Włącz STRAVA za pomocą poniższych kroków.<br>Strona internetowa Bryton Active -> Ustawienia -> STRAVA<br>3)Usuń aplikację Bryton Active po włączeniu STRAVA<br>4)Zainstaluj ponownie aplikację Bryton Active i zaloguj się<br><br>Po wykonaniu powyższych kroków funkcja synchronizacji STRAVA zostanie włączona w Twojej aplikacji."
+        }
+    ],
+    "pt": [
+        {
+            "Q": "O que devo fazer se o dispositivo congelar/travar?",
+            "A": "Conecte o dispositivo a uma fonte de alimentação usando o cabo de carregamento original. Enquanto o dispositivo estiver carregando, pressione todos os botões simultaneamente para reiniciar o dispositivo."
+        },
+        {
+            "Q": "O que devo fazer se as zonas de frequência cardíaca ou FTP mostrarem todas 0?",
+            "A": "Conecte seu ciclocomputador ao aplicativo Bryton Active no seu telefone e configure as porcentagens da zona da seguinte maneira:<br>Primeiro, defina a porcentagem para a zona de maior intensidade (Frequência cardíaca: Zona 5C / FTP: Zona 6).<br>Depois disso, configure as porcentagens para as zonas restantes, da Zona 5B até a Zona 1.<br>Nota: A zona de maior intensidade deve ter um valor definido primeiro; caso contrário, as outras zonas não poderão ser ajustadas."
+        },
+        {
+            "Q": "O que devo fazer se o registro não sincronizar com o aplicativo?",
+            "A": "Você pode enviar manualmente os dados da pedalada para sua conta seguindo os passos abaixo:<br>1)Conecte seu ciclocomputador ao seu PC usando um cabo USB.<br>2)Abra a pasta Activities no dispositivo e localize o arquivo .FIT.<br>3)Faça login na sua conta em:<br>https://active.brytonsport.com/<br>4)Após fazer o login, clique no ícone '+' no canto superior direito da tela.<br>5)Arraste e solte o arquivo .FIT no navegador para fazer o upload.<br>Você pode enviar todos os arquivos de atividade para sua conta. O sistema detectará automaticamente os arquivos duplicados e manterá apenas um registro.<br><br>Recomendação:<br>Após enviar todos os dados da pedalada, recomendamos fazer backup dos arquivos FIT do seu ciclocomputador para o seu computador. Em seguida, exclua todos os dados de pedalada do dispositivo e execute uma redefinição de fábrica para verificar se os novos registros de pedalada podem ser sincronizados corretamente."
+        },
+        {
+            "Q": "O que devo fazer se não conseguir sincronizar o STRAVA pelo aplicativo?",
+            "A": "Siga as etapas abaixo para ativar o STRAVA:<br>1)Faça login na sua conta através do link abaixo:<br>https://active.brytonsport.com/setting<br>2)Ative o STRAVA através das etapas abaixo.<br>Site da Bryton Active -> Configurações -> STRAVA<br>3)Exclua o aplicativo Bryton Active depois de ativar o STRAVA<br>4)Reinstale o aplicativo Bryton Active e faça login<br><br>Após concluir as etapas acima, a função de sincronização do STRAVA será ativada em seu aplicativo."
+        }
+    ],
+    "sv": [
+        {
+            "Q": "Vad ska jag göra om enheten fryser?",
+            "A": "Anslut enheten till en strömkälla med den ursprungliga laddningskabeln. Medan enheten laddas trycker du på alla knappar samtidigt för att starta om enheten."
+        },
+        {
+            "Q": "Vad ska jag göra om puls- eller FTP-zonerna alla visar 0?",
+            "A": "Anslut din cykeldator till Bryton Active-appen på din telefon och konfigurera zonprocenten enligt följande:<br>Ställ först in procentandelen för zonen med högst intensitet (Puls: Zon 5C / FTP: Zon 6).<br>Konfigurera därefter procentandelarna för de återstående zonerna från Zon 5B ner till Zon 1.<br>Obs: Zonen med högst intensitet måste ha ett värde inställt först; annars kan inte de andra zonerna justeras."
+        },
+        {
+            "Q": "Vad ska jag göra om posten inte synkroniseras till appen?",
+            "A": "Du kan ladda upp cykeldata manuellt till ditt konto genom att följa stegen nedan:<br>1)Anslut din cykeldator till din dator med en USB-kabel.<br>2)Öppna mappen Activities på enheten och leta reda på .FIT-filen.<br>3)Logga in på ditt konto på:<br>https://active.brytonsport.com/<br>4)När du har loggat in klickar du på ”+”-ikonen i skärmens övre högra hörn.<br>5)Dra och släpp .FIT-filen i webbläsaren för att ladda upp den.<br>Du kan ladda upp alla aktivitetsfiler till ditt konto. Systemet kommer automatiskt att upptäcka dubblettfiler och behålla endast en post.<br><br>Rekommendation:<br>När du har laddat upp all cykeldata rekommenderar vi att du säkerhetskopierar FIT-filerna från din cykeldator till din dator. Ta sedan bort all cykeldata från enheten och utför en fabriksåterställning för att kontrollera om nya cykelposter kan synkroniseras korrekt."
+        },
+        {
+            "Q": "Vad ska jag göra om jag inte kan synkronisere STRAVA via appen?",
+            "A": "Följ stegen nedan för att aktivera STRAVA:<br>1)Logga in på ditt konto via länken nedan:<br>https://active.brytonsport.com/setting<br>2)Aktivera STRAVA genom följande steg.<br>Bryton Active webbplats -> Inställningar -> STRAVA<br>3)Ta bort Bryton Active-appen efter att du har aktiverat STRAVA<br>4)Installera om Bryton Active-appen och logga in<br><br>När du har utfört stegen ovan kommer synkroniseringsfunktionen för STRAVA att vara aktiverad i din app."
+        }
+    ],
+    "ro": [
+        {
+            "Q": "Ce ar trebui să fac dacă dispozitivul se blochează?",
+            "A": "Vă rugăm să conectați dispozitivul la o sursă de alimentare utilizând cablul de încărcare original. În timp ce dispozitivul se încarcă, apăsați simultan toate butoanele pentru a reporni dispozitivul."
+        },
+        {
+            "Q": "Ce ar trebui să fac dacă zonele de ritm cardiac sau FTP arată toate 0?",
+            "A": "Vă rugăm să conectați computerul de ciclism la aplicația Bryton Active de pe telefon și să configurați procentele zonelor după cum urmează:<br>Mai întâi setați procentul pentru zona cu cea mai mare intensitate (Ritm cardiac: Zona 5C / FTP: Zona 6).<br>După aceea, configurați procentele pentru zonele rămase de la Zona 5B până la Zona 1.<br>Notă: Zona cu cea mai mare intensitate trebuie să aibă o valoare setată mai întâi; în caz contrar, celelalte zone nu pot fi ajustate."
+        },
+        {
+            "Q": "Ce ar trebui să fac dacă înregistrarea nu se sincronizează cu aplicația?",
+            "A": "Puteți încărca manual datele cursei în contul dvs. urmând pașii de mai jos:<br>1)Conectați computerul de ciclism la PC utilizând un cablu USB.<br>2)Deschideți folderul Activities de pe dispozitiv și localizați fișierul .FIT.<br>3)Conectați-vă la contul dvs. la:<br>https://active.brytonsport.com/<br>4)După conectare, faceți clic pe pictograma „+” din colțul din dreapta sus al ecranului.<br>5)Trageți și plasați fișierul .FIT în browser pentru a-l încărca.<br>Puteți încărca toate fișierele de activitate în contul dvs. Sistemul va detecta automat fișierele duplicate și va păstra o singură înregistrare.<br><br>Recomandare:<br>După ce ați încărcat toate datele cursei, vă recomandăm să faceți o copie de rezervă a fișierelor FIT de pe computerul dvs. de ciclism pe computer. Apoi ștergeți toate datele cursei de pe dispozitiv și efectuați o resetare la setările din fabrică pentru a verifica dacă noile înregistrări ale cursei se pot sincroniza corect."
+        },
+        {
+            "Q": "Ce ar trebui să fac dacă nu pot sincroniza STRAVA prin aplicație?",
+            "A": "Vă rugăm să urmați pașii de mai jos pentru a activa STRAVA:<br>1)Conectați-vă la contul dvs. prin linkul de mai jos:<br>https://active.brytonsport.com/setting<br>2)Activați STRAVA prin pașii de mai jos.<br>Site-ul web Bryton Active -> Setări -> STRAVA<br>3)Ștergeți aplicația Bryton Active după ce ați activat STRAVA<br>4)Reinstalați aplicația Bryton Active și conectați-vă<br><br>După ce ați efectuat pașii de mai sus, funcția de sincronizare STRAVA va fi activată în aplicația dvs."
+        }
+    ],
+    "th": [
+        {
+            "Q": "ฉันควรทำอย่างไรหากอุปกรณ์ค้าง?",
+            "A": "โปรดเชื่อมต่ออุปกรณ์กับแหล่งจ่ายไฟโดยใช้สายชาร์จของแท้ ในขณะที่อุปกรณ์กำลังชาร์จ ให้กดปุ่มทั้งหมดพร้อมกันเพื่อรีบูตอุปกรณ์"
+        },
+        {
+            "Q": "ฉันควรทำอย่างไรหากโซนอัตราการเต้นของหัวใจหรือ FTP แสดงเป็น 0 ทั้งหมด?",
+            "A": "โปรดเชื่อมต่อคอมพิวเตอร์จักรยานของคุณกับแอป Bryton Active บนโทรศัพท์ของคุณ และกำหนดค่าเปอร์เซ็นต์ของโซนดังนี้:<br>ขั้นแรกให้ตั้งค่าเปอร์เซ็นต์สำหรับโซนที่มีความเข้มข้นสูงสุด (อัตราการเต้นของหัวใจ: โซน 5C / FTP: โซน 6)<br>หลังจากนั้น ให้กำหนดค่าเปอร์เซ็นต์สำหรับโซนที่เหลือตั้งแต่โซน 5B ลงไปจนถึงโซน 1<br>หมายเหตุ: โซนที่มีความเข้มข้นสูงสุดต้องตั้งค่าเป็นอันดับแรก มิฉะนั้นจะไม่สามารถปรับโซนอื่นๆ ได้"
+        },
+        {
+            "Q": "ฉันควรทำอย่างไรหากบันทึกไม่ซิงค์กับแอป?",
+            "A": "คุณสามารถอัปโหลดข้อมูลการปั่นไปยังบัญชีของคุณด้วยตนเองโดยทำตามขั้นตอนด้านล่าง:<br>1)เชื่อมต่อคอมพิวเตอร์จักรยานของคุณกับพีซีโดยใช้สาย USB<br>2)เปิดโฟลเดอร์ Activities บนอุปกรณ์และค้นหาไฟล์ .FIT<br>3)เข้าสู่ระบบบัญชีของคุณที่:<br>https://active.brytonsport.com/<br>4)หลังจากเข้าสู่ระบบ ให้คลิกไอคอน “+” ที่มุมขวาบนของหน้าจอ<br>5)ลากและวางไฟล์ .FIT ลงในเบราว์เซอร์เพื่ออัปโหลด<br>คุณสามารถอัปโหลดไฟล์กิจกรรมทั้งหมดไปยังบัญชีของคุณได้ ระบบจะตรวจจับไฟล์ที่ซ้ำกันโดยอัตโนมัติและเก็บไว้เพียงบันทึกเดียว<br><br>คำแนะนำ:<br>หลังจากอัปโหลดข้อมูลการปั่นทั้งหมดแล้ว เราขอแนะนำให้สำรองไฟล์ FIT จากคอมพิวเตอร์จักรยานของคุณไปยังคอมพิวเตอร์ จากนั้นลบข้อมูลการปั่นทั้งหมดออกจากอุปกรณ์และทำการรีเซ็ตเป็นค่าเริ่มต้นจากโรงงานเพื่อตรวจสอบว่าบันทึกการปั่นใหม่สามารถซิงค์ได้อย่างถูกต้องหรือไม่"
+        },
+        {
+            "Q": "ฉันควรทำอย่างไรหากไม่สามารถซิงค์ STRAVA ผ่านแอปได้?",
+            "A": "โปรดทำตามขั้นตอนด้านล่างเพื่อเปิดใช้งาน STRAVA:<br>1)เข้าสู่ระบบบัญชีของคุณผ่านลิงก์ด้านล่าง:<br>https://active.brytonsport.com/setting<br>2)เปิดใช้งาน STRAVA ผ่านขั้นตอนด้านล่าง<br>เว็บไซต์ Bryton Active -> การตั้งค่า -> STRAVA<br>3)ลบแอป Bryton Active หลังจากที่คุณเปิดใช้งาน STRAVA<br>4)ติดตั้งแอป Bryton Active อีกครั้งและเข้าสู่ระบบ<br><br>หลังจากที่คุณทำตามขั้นตอนด้านบนเสร็จแล้ว ฟังก์ชันการซิงค์ STRAVA จะเปิดใช้งานบนแอปของคุณ"
+        }
+    ],
+    "devices": [
+        "Rider S810",
+        "Rider S800",
+        "Rider 750",
+        "Rider 750SE",
+        "Rider 650",
+        "Rider 550",
+        "Rider 460",
+        "Rider 420"
+    ]
+}

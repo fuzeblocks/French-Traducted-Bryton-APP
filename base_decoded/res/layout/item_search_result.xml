@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_dark_primary" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/base_layout" android:paddingTop="15.0dp" android:paddingBottom="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="25.0dp" android:paddingEnd="25.0dp">
+        <TextView android:textSize="17.0sp" android:textColor="@color/white" android:id="@id/search_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/distance_text" android:layout_marginStart="4.0dp" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/white" android:id="@id/distance_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dp" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/light_blue_grey" android:id="@id/address_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_below="@id/search_text" android:layout_marginStart="4.0dp" />
+    </RelativeLayout>
+    <View android:background="@color/bg_light_hallow" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_below="@id/base_layout" />
+</RelativeLayout>

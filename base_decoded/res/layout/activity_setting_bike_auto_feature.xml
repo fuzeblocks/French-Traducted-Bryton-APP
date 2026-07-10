@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/auto_lap_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/lap_by_item" android:visibility="gone" android:layout_width="match_parent" android:layout_height="50.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/lap_by_info_item" android:visibility="gone" android:layout_width="match_parent" android:layout_height="50.0dp" />
+            <View android:id="@id/lap_speace" android:layout_width="match_parent" android:layout_height="40.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/auto_workout_lap_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+            <View android:id="@id/workout_lap_speace" android:layout_width="match_parent" android:layout_height="40.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/smart_pause_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/auto_pause_speed_item" android:visibility="gone" android:layout_width="match_parent" android:layout_height="50.0dp" />
+            <TextView android:textSize="13.0sp" android:textStyle="bold|italic" android:textColor="#ffffff" android:id="@id/related_hint_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dp" android:text="When related functions activated" android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" android:layout_marginStart="30.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/climb_challenge_page_item" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginTop="4.0dp" />
+            <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#c4c3ca" android:id="@id/automatically_hint_text" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dp" android:text="The device will automatically jump to Climb Page when approaching a climb section." android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" android:paddingStart="20.0dp" android:paddingEnd="20.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/map_page_item" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginTop="15.0dp" />
+            <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#c4c3ca" android:id="@id/automatically_hint_text2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dp" android:text="The device will automatically jump to Map Page when the reroute function is activated when you’re off route." android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" android:paddingStart="20.0dp" android:paddingEnd="20.0dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

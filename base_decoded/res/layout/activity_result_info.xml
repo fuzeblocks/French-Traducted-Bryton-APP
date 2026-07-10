@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.tabs.TabLayout android:id="@id/tabLayout" android:background="@color/bg_midtone_secondary" android:layout_width="match_parent" android:layout_height="35.0dp" app:tabMode="scrollable" app:tabSelectedTextColor="@color/main_green" app:tabTextColor="@color/dark_grey" />
+    <com.brytonsport.active.ui.result.view.ResultViewPager android:id="@id/view_pager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/tabLayout" />
+</RelativeLayout>

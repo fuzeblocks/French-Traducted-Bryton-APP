@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/name_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/cycling_type_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/ride_configuration_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/gps_item" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginTop="20.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/system_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/speed_priority_item" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginTop="20.0dp" />
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/overview_item" android:layout_width="match_parent" android:layout_height="50.0dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
