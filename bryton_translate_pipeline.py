@@ -268,6 +268,35 @@ TRANSLATIONS = {
         "value": "Début de semaine",
         "desc": "Option début de semaine",
     },
+    "B_Confirm": {
+        "value": "Confirmer",
+        "desc": "Confirmation de l'information",
+    },
+    "B_GoToSettings": {
+        "value": "Paramètres",
+        "desc": "Option paramètres",
+    },
+    "B_NO": {
+        "value": "Non",
+        "desc": "Option de refus",
+    },
+    "Hey": {
+         "value": "Bonjour ! Bon retour parmi nous !",
+         "desc": "Message de bienvenue",
+    },
+    "Home": {
+         "value": "Page d’accueil",
+         "desc": "Affichage de l'accueil",
+    },
+    "Nothave": {
+         "value": "&quot;Vous n&apos;avez pas de compte ?&quot;",
+         "desc": "Affichage de creation de compte",
+    },
+    "T_MyNetworks": {
+         "value": "Mes réseaux",
+         "desc": "Réseaux sociaux",
+    },
+
 
     # Ajoute tes nouvelles traductions ici, format :
     # "CléTrouvée": {"value": "Traduction française", "desc": "Description courte"},
