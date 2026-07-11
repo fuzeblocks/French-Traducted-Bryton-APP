@@ -265,6 +265,22 @@ TRANSLATIONS = {
     "T_Activitynotsync": { "value": "Non synchronisée", "desc": "Activité non synchronisée" },
     "T_MyNetworks": { "value": "Mes réseaux", "desc": "Mes réseaux" },
     "T_OtherNetworks": { "value": "Autres réseaux", "desc": "Autres réseaux" },
+    "M_WeekNum": { "value": "Semaine %s", "desc": "Numero de la semaine" },
+    "T_week": { "value": "Semaine", "desc": "Semaine" },
+    "T_year": { "value": "Année", "desc": "Année" },
+    "WarmUp": { "value": "Préparation", "desc": "Préparation de l'entrainement" },
+    "Waterpoint": { "value": "Eau", "desc": "De l'eau'" },
+    "Walking": { "value": "Marche", "desc": "Marche" },
+    "WoWork": { "value": "Activité", "desc": "Préparation de l'activité" },
+    "Workout": { "value": "Entrainer", "desc": "Préparation de l'entrainement'" },
+    "Recovery": { "value": "Récupération", "desc": "Préparation de la récipération" },
+    "Repeats": { "value": "Répétitions", "desc": "Nombre de répétitions" },
+    "CoolDown": { "value": "Retour au calme", "desc": "Retour au calme"},
+    "M_Profile_Authorized3rdParty": { "value": "Bryton a collaboré avec plusieurs plateformes de fitness tierces afin de simplifier la synchronisation des données depuis l'application Bryton Active. Commencez par autoriser l'accès à vos comptes de ces services pour démarrer.", "desc": "Connectez vos services de fitness préférés pour synchroniser automatiquement vos activités enregistrées avec l'application Bryton Active."},
+
+
+
+
 }
 
 
