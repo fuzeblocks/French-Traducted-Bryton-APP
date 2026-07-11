@@ -312,6 +312,39 @@ TRANSLATIONS = {
          "value": "Prendre une photo",
          "desc": "Prendre une photo",
     },
+    "ReleaseDate": {
+         "value": "Date de sortie",
+         "desc": "Date de la sortie de la dernière version",
+    },
+    "SelItvType": {
+         "value": "Sélectionner le type d'intervalle",
+         "desc": "Sélectionner le type d'intervalle",
+    },
+    "ScanNow": {
+         "value": "Scanner maintenant",
+         "desc": "Lancer le scan",
+    },
+    "SendResetEmail": {
+         "value": "Un e-mail de réinitialisation du mot de passe a été envoyé sur l'adresse indiqué",
+         "desc": "Email de réinitialisation du mots de passe",
+    },
+    "Skip": {
+         "value": "Passer",
+         "desc": "Passer",
+    },
+    "T_Activitynotsync": {
+         "value": "Non synchronisée",
+         "desc": "Activité non synchronisée",
+    },
+    "T_MyNetworks": {
+         "value": "Mes réseaux",
+         "desc": "Mes réseaux",
+    },
+    "T_OtherNetworks": {
+        "value": "Autres réseaux",
+        "desc": "Autres réseaux",
+    },
+   
 
 
 
