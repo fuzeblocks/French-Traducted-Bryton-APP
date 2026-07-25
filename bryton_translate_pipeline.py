@@ -277,7 +277,53 @@ TRANSLATIONS = {
     "Repeats": { "value": "Répétitions", "desc": "Nombre de répétitions" },
     "CoolDown": { "value": "Retour au calme", "desc": "Retour au calme"},
     "M_Profile_Authorized3rdParty": { "value": "Bryton a collaboré avec plusieurs plateformes de fitness tierces afin de simplifier la synchronisation des données depuis l'application Bryton Active. Commencez par autoriser l'accès à vos comptes de ces services pour démarrer.", "desc": "Connectez vos services de fitness préférés pour synchroniser automatiquement vos activités enregistrées avec l'application Bryton Active."},
+    "B_LiveTrack": {
+      "value": "Suivi en temps réel",
+      "desc": "Partagez votre position en temps réel avec vos proches afin qu'ils puissent suivre votre sortie et consulter votre progression."
+    },
+    "T_GruupTrack": {
+      "value": "Sortie en groupe",
+      "desc": "Créez ou rejoignez une sortie en groupe pour voir la position des participants et rester connecté pendant votre parcours."
+    },
+    "T_LiveSegments": {
+      "value": "Segments en direct",
+      "desc": "Activez les segments en direct pour comparer vos performances en temps réel sur vos segments favoris."
+    },
+    "B_LiveSegments": {
+      "value": "Segments en direct",
+      "desc": "Suivez votre progression en temps réel et comparez vos performances sur les segments enregistrés."
+    },
+    "GeneralSettings": {
+      "value": "Paramètres généraux",
+      "desc": "Configurez les paramètres généraux de votre appareil et de l'application."
+    },
+    "FirmwareVersion": {
+      "value": "Version du micrologiciel",
+      "desc": "Consultez la version actuelle du micrologiciel installée sur votre appareil."
+    },
+    "F_Bikesetting": {
+      "value": "Paramètres vélo",
+      "desc": "Configurez les informations et les paramètres de votre vélo."
+    },
+    
+    "AutoFeature": {
+      "value": "Fonction automatique",
+      "desc": "Configurez les fonctions automatiques de votre appareil."
+    },
+    "Priority": {
+      "value": "Priorité %s",
+      "desc": "Définissez la priorité de %s."
+    },
+    "ManageSensor": {
+      "value": "Mes capteurs",
+      "desc": "Ajoutez, gérez et configurez vos capteurs connectés."
+    }
+    
 
+
+
+   
+ 
 
 
 
