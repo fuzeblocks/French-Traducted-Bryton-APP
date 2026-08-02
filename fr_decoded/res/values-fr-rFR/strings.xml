@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="AM_SyncProfileData">Bryton Active synchronise le profil de votre compte afin de garantire l’exactitude et la cohérence de vos données de parcours lors de leur analyse.</string>
+    <string name="I_DisplayPreference">Préférences d\'affichage</string>
+    <string name="I_StartOfWeek">Début de semaine</string>
+    <string name="M_Profile_Authorized3rdParty">Bryton a collaboré avec plusieurs plateformes de fitness tierces afin de simplifier la synchronisation des données depuis l\'application Bryton Active. Commencez par autoriser l\'accès à vos comptes de ces services pour démarrer.</string>
+    <string name="rationale_ask">Cette application risque de ne pas fonctionner correctement sans les autorisations demandées.</string>
+    <string name="rationale_ask_again">Cette application risque de ne pas fonctionner correctement sans les autorisations demandées. Ouvrez les paramètres de l\'application pour les modifier.</string>
+    <string name="title_settings_dialog">Autorisations requises</string>
     <string name="AB_DontShowAgain">OK ! Ne plus afficher.</string>
     <string name="AM_AddToMySegments">Ajoutez en favori les segments sur lesquels vous souhaitez concourir pour les ajouter à « Mon segment »</string>
-    <string name="AM_BluetoothAlwaysUsageDescription">"Le Bryton Acitve aimerait accéder à votre Bluetooth. Activez-le afin de pouvoir lancer les recherches d'appareils. Afin de vous assurer une connexion optimale avec les appareils veillez à ce que les appareils soient à proximité et connectés."</string>
+    <string name="AM_BluetoothAlwaysUsageDescription">Bryton Active aimerait accéder à votre Bluetooth.\n\nActivez-le afin de pouvoir lancer les recherches d\'appareils.\n\nAfin de vous assurer une connexion optimale avec les appareils, veillez à ce que les appareils soient à proximité et connectés.</string>
     <string name="AM_ChangeOrder">Appuyez longuement pour faire glisser le point de passage et ajuster l’ordre.</string>
     <string name="AM_ChangeTraffic">Vous pouvez changer le type de transport lors de la planification de chaque partie de l’itinéraire.</string>
     <string name="AM_ChangeTrafficInList">Vous pouvez également changer le type de transport de chaque partie de l’itinéraire planifié dans la section des détails.</string>
@@ -109,7 +116,7 @@
     <string name="AutoCalibration">calibrage automatique</string>
     <string name="AutoExtenstion">Extension automatique de 24 heures</string>
     <string name="AutoExtenstionExplanation">"Lorsqu'il est activé, le lien Live Track sera valable pour d'autres nouvelles activités si elles sont lancées dans les 24 heures suivant la fin de la dernière activité."</string>
-    <string name="AutoFeature">fonction automatique</string>
+    <string name="AutoFeature">Fonction automatique</string>
     <string name="AutoMessage">Message automatique</string>
     <string name="AutoMessageContent">Tapez votre message ici...</string>
     <string name="AutoPageSwitch">Changement de page automatique</string>
@@ -120,7 +127,7 @@
     <string name="AutoSendExplanation">Le lien de la session de partage de Live Track sera automatiquement envoyé par e-mail à une personne désignée. Appuyez sur Auto Send pour configurer.</string>
     <string name="AutoStart">Démarrage automatique</string>
     <string name="AutoSync">Synchronisation automatique</string>
-    <string name="AutoSyncTrack">Sync auto des tracés</string>
+    <string name="AutoSyncTrack">Sync. auto des tracés</string>
     <string name="AutoWorkoutLap">Tour d’entraînement automatique</string>
     <string name="Autolap">Tour auto</string>
     <string name="Average">Moy</string>
@@ -143,8 +150,10 @@
     <string name="B_6Months">6 mois</string>
     <string name="B_AboutUpdates">À propos des mises à jour</string>
     <string name="B_Add">ajouter</string>
+    <string name="B_AddNewDevices">Ajouter de nouveaux appareils</string>
     <string name="B_AddedDate">Date</string>
-    <string name="B_All">Tous</string>
+    <string name="B_AiRoute">Pace Pilot</string>
+    <string name="B_All">À vie</string>
     <string name="B_AllSegments">Tous les segments</string>
     <string name="B_Altchart">Elev.</string>
     <string name="B_Authorize">AUTORISER</string>
@@ -160,6 +169,7 @@
     <string name="B_Back">Pré</string>
     <string name="B_Bluetooth">Bluetooth 4.0</string>
     <string name="B_Bluetooth_FW">Bluetooth</string>
+    <string name="B_ByGoal">Par objectif</string>
     <string name="B_CableConnetion">Câble USB</string>
     <string name="B_CalInFat">Calories en lipides</string>
     <string name="B_Calibrate">Calibration</string>
@@ -173,7 +183,7 @@
     <string name="B_ChatbotQ_2">Application Active</string>
     <string name="B_ChatbotQ_3">FAQ</string>
     <string name="B_CheckAndUpdateProfile">Vérifier et mettre à jour le profil</string>
-    <string name="B_Confirm">confirmer</string>
+    <string name="B_Confirm">Confirmer</string>
     <string name="B_ContactSupport">"Contacter l'assistance"</string>
     <string name="B_CopytoMultipleDates">Copie vers les dates</string>
     <string name="B_Createroute">Créer un parcours</string>
@@ -190,23 +200,28 @@
     <string name="B_Entertheroad">"S'inscrire à un tour en groupe"</string>
     <string name="B_ExistingWorkouts">Copie de mon entraînement</string>
     <string name="B_Export">Exportation</string>
+    <string name="B_GenerateAiRoute">Générer</string>
+    <string name="B_GenerateRidersDna">Générer un Aperçu du cycliste</string>
     <string name="B_GenerateTurnInfo">Générer des informations sur les virages</string>
-    <string name="B_GoToSettings">paramètres</string>
+    <string name="B_GoToSettings">Paramètres</string>
     <string name="B_GotIt">Compris</string>
     <string name="B_GroupTrack">Group Ride</string>
+    <string name="B_InputValue">Importer les valeurs</string>
+    <string name="B_LastWeekDialog">"Voir l'entraînement suivant"</string>
     <string name="B_Later">Plus tard</string>
     <string name="B_Leave_gt">Quitter le groupe</string>
     <string name="B_LiveSegmentTeach">Instructions</string>
-    <string name="B_LiveSegments">Live Segments</string>
-    <string name="B_LiveTrack">Live Track</string>
+    <string name="B_LiveSegments">Segments en direct</string>
+    <string name="B_LiveTrack">Suivi en temps réel</string>
     <string name="B_Login">Connexion</string>
     <string name="B_LoginWith">Connexion avec %s</string>
     <string name="B_Manual">Manuel</string>
     <string name="B_Maps">Carte</string>
     <string name="B_Minute">%s min(s)</string>
+    <string name="B_More">Plus</string>
     <string name="B_MySegments">Mes segments</string>
     <string name="B_Myworkoutlist">Mon Entrainement</string>
-    <string name="B_NO">non</string>
+    <string name="B_NO">Non</string>
     <string name="B_Name">Nom</string>
     <string name="B_Never">Jamais</string>
     <string name="B_NewChat">Nouveau chat</string>
@@ -223,15 +238,19 @@
     <string name="B_PreviousStep">Précédent</string>
     <string name="B_Reload">Recharger</string>
     <string name="B_RemoveFromPlan">"Supprimer l'entraînement"</string>
+    <string name="B_Replace">Remplacer</string>
     <string name="B_ReplaceSensor">Remplacer le capteur</string>
     <string name="B_Rescan">Rescanner</string>
     <string name="B_ResendMail">Nous vous remercions</string>
+    <string name="B_ResetData">Réinitialiser</string>
     <string name="B_ResetOverview">Aperçu de la réinitialisation</string>
     <string name="B_Resync">Resynchronisation des itinéraires</string>
     <string name="B_Save">Sauvegarder</string>
     <string name="B_SavetoMyworkout">"Sauvegarder dans ma séance d'entraînement"</string>
     <string name="B_Second">%s sec(s)</string>
+    <string name="B_Segment">Segment</string>
     <string name="B_SelectAll">sélectionner tout</string>
+    <string name="B_SelectRoute">Sélectionnez un itinéraire</string>
     <string name="B_Send">Envoyer</string>
     <string name="B_SendLog">"Optimiser la performance de l'application"</string>
     <string name="B_Send_Report">Envoyer le rapport</string>
@@ -255,6 +274,7 @@
     <string name="B_SyncApp">App</string>
     <string name="B_SyncDevice">appareil</string>
     <string name="B_TotalAscent">"Gain d'alt."</string>
+    <string name="B_TrendingRoutes">Itinéraires populaires</string>
     <string name="B_USBSync">Synchronisation par câble</string>
     <string name="B_UnusualProfile">Mettre à jour mon profil</string>
     <string name="B_Update">Mise à jour</string>
@@ -268,6 +288,8 @@
     <string name="B_addclimb">Ajouter des ascensions</string>
     <string name="B_addmaps">Ajouter des cartes</string>
     <string name="B_adult">J’ai 20 ans ou +</string>
+    <string name="B_byFTP">par FTP</string>
+    <string name="B_byRoute">par Itinéraire</string>
     <string name="B_climbsct">Ascensions</string>
     <string name="B_commonuse">Localisation</string>
     <string name="B_commonuse2">Localisation</string>
@@ -319,7 +341,7 @@
     <string name="CameraRoll">Séléctionner une photo dans la galerie</string>
     <string name="CancelPoiFavorite">"Voulez-vous vraiment l'ajouter aux Favoris?"</string>
     <string name="Carbohydrate">Glucides</string>
-    <string name="Center" />
+    <string name="Center">centre</string>
     <string name="CentralSouthAmerica">Amérique centrale et du Sud</string>
     <string name="Change">changer</string>
     <string name="ChangeEmail">"Changez l'email"</string>
@@ -333,7 +355,7 @@
     <string name="Code_index">Code erreur</string>
     <string name="ConfirmNewPassword">confirmer le nouveau mot de passe</string>
     <string name="ConnectTo">Connecter à</string>
-    <string name="CoolDown">retour au calme</string>
+    <string name="CoolDown">Retour au calme</string>
     <string name="Copied">Copié</string>
     <string name="CopiedCode">Code copié</string>
     <string name="CopyWorkout">"Copie de l'entraînement"</string>
@@ -345,7 +367,7 @@
     <string name="CreateGroup">Créer un groupe</string>
     <string name="CreateNew">Créer un nouveau</string>
     <string name="CreateNewGR">Créer un nouveau groupe</string>
-    <string name="Createby" />
+    <string name="Createby">créé par</string>
     <string name="CurrentAltitude">Altitude actuelle</string>
     <string name="CustomizedMessages">messages personnalisés</string>
     <string name="Cyclecross">cyclo-cross</string>
@@ -409,12 +431,12 @@
     <string name="DownloadingMap">Téléchargement de la carte</string>
     <string name="DownloadingMaps">Téléchargement de cartes</string>
     <string name="Downloadtodeviceas">"Télécharger sur l'appareil en tant que..."</string>
-    <string name="Driving">motorisé</string>
+    <string name="Driving">Motorisé</string>
     <string name="EasyTempo">Allure facile</string>
     <string name="EbikeLEV">E-Bike (LEV)</string>
     <string name="EditActivityName">Modifier le nom de l’activité</string>
     <string name="EditName">Nouvelle activité</string>
-    <string name="EditQR" />
+    <string name="EditQR">Modifier les réponses rapides</string>
     <string name="EditWorkout">"modifier l'entraînement"</string>
     <string name="ElevationGain">"Gain d'élévation"</string>
     <string name="Emergency">Urgence</string>
@@ -442,7 +464,7 @@
     <string name="F_AutoAltitude">Altitude auto</string>
     <string name="F_BTSync">BT Sync</string>
     <string name="F_Bike">Vélo%s</string>
-    <string name="F_Bikesetting">Paramêtres vélo</string>
+    <string name="F_Bikesetting">Paramètres des profils du vélo</string>
     <string name="F_Calendar">Calendrier</string>
     <string name="F_Calendar_sub">Calendrier</string>
     <string name="F_Course">Parcours</string>
@@ -496,7 +518,7 @@
     <string name="FileSize">Taille du fichier</string>
     <string name="FindSaveFavoritesPOI">Vous pouvez trouver les emplacements sauvegardés dans\"Mes favoris\".</string>
     <string name="Finish">Terminer</string>
-    <string name="FirmwareVersion">version du micrologiciel</string>
+    <string name="FirmwareVersion">Version du micrologiciel</string>
     <string name="FitToServer">Fichier téléchargé sur le serveur</string>
     <string name="FollowTrack">Suivre tracé</string>
     <string name="Food">Aliment</string>
@@ -517,7 +539,7 @@
     <string name="Gears">Vitesses</string>
     <string name="Gender">Genre</string>
     <string name="General">Général</string>
-    <string name="GeneralSettings">paramètres généraux</string>
+    <string name="GeneralSettings">Paramètres généraux</string>
     <string name="GeneratefromResults">Créer à partir des résultats</string>
     <string name="Get3rdPartyUserInfo">Accès aux informations utilisateur %s</string>
     <string name="GetTime">Régler l’heure</string>
@@ -537,8 +559,8 @@
     <string name="HeartRate">Fréq Card</string>
     <string name="HeartRateZone">Zones FC</string>
     <string name="Height">Taille</string>
-    <string name="Hey">Bonjour! Bon retour parmi nous!</string>
-    <string name="Home">Page d’ accueil</string>
+    <string name="Hey">Bonjour ! Bon retour parmi nous !</string>
+    <string name="Home">Page d’accueil</string>
     <string name="Hourhr">h</string>
     <string name="Hours">heures</string>
     <string name="ID">ID</string>
@@ -548,18 +570,30 @@
     <string name="I_AccountsAndSync">Comptes et synchronisation associés</string>
     <string name="I_ActivityRecords">Historique des activités</string>
     <string name="I_AerobicSpeed">Vitesse aérobie</string>
+    <string name="I_AllOut">Effort maximal</string>
+    <string name="I_Anaerobic">Anaérobie</string>
     <string name="I_AppMalfunction">"Dysfonctionnement de l'application"</string>
     <string name="I_AppSyncing">"Synchronisation de l'application"</string>
+    <string name="I_Attack">Attaque</string>
     <string name="I_Average">Moyenne</string>
+    <string name="I_BikeType">Type de vélo</string>
+    <string name="I_BikeWeight">Poids du vélo</string>
     <string name="I_Body">Corps</string>
     <string name="I_BrakeLight">Lumière de frein</string>
     <string name="I_ClimbChallenge">Climb Challenge</string>
     <string name="I_CriticalPowerCycling">Puissance critique</string>
+    <string name="I_Custom">Personnalisé</string>
+    <string name="I_CustomWeight">Poids personnalisé</string>
     <string name="I_DeleteFiles">Fichier(s) supprimé(s)</string>
     <string name="I_DeviceMalfunction">Dysfonctionnement du dispositif</string>
     <string name="I_DeviceParing">"Couplage de l'appareil"</string>
     <string name="I_DeviceUnresponsive">Appareil ne répond pas</string>
     <string name="I_DownloadNotYet">Télécharger pour rivaliser</string>
+    <string name="I_Easy">Facile</string>
+    <string name="I_EffortLevel">"Niveau d'effort"</string>
+    <string name="I_Endurance">Endurance</string>
+    <string name="I_Energy">Gel énergétique</string>
+    <string name="I_EnterValue">Saisir la valeur</string>
     <string name="I_Excellent">Excellente</string>
     <string name="I_ExportFiles">Fichier(s) exporté(s)</string>
     <string name="I_FCMaxCyclisme">FC Max Cyclisme</string>
@@ -569,42 +603,62 @@
     <string name="I_Friday">Vendredi</string>
     <string name="I_Good">Bien</string>
     <string name="I_GpxExportShare">Exportation et partage GPX</string>
+    <string name="I_Gravel">Gravier</string>
     <string name="I_HR_PW_Zone">Zone RH &amp; PW</string>
     <string name="I_HR_rest">FC Repos</string>
+    <string name="I_Hard">Difficile</string>
     <string name="I_HardwareDefective">Matériel défectueux</string>
     <string name="I_HeartRatePowerZones">Zones de fréquence cardiaque et de puissance</string>
     <string name="I_LacticThreshold">Seuil lactique</string>
     <string name="I_Left">Gauche</string>
+    <string name="I_List">Liste</string>
     <string name="I_LowerBounds">Moins de %s</string>
     <string name="I_ManageDevice">Gérer Les Appareils</string>
     <string name="I_MaximumEffort">Effort maximal</string>
+    <string name="I_Moderate">Modéré</string>
     <string name="I_Monday">Lundi</string>
     <string name="I_NavigationRouteIssues">"Problèmes de navigation et d'itinéraire"</string>
     <string name="I_NeedUpdate">Mettre à jour les données du segment</string>
     <string name="I_NoTarget">Aucun objectif</string>
+    <string name="I_NotSet">Non défini</string>
+    <string name="I_OffRoad">Tout-terrain</string>
     <string name="I_PMA">PMA</string>
+    <string name="I_Paved">Asphalte</string>
     <string name="I_Poor">Pauvre</string>
     <string name="I_PowerCurve">Courbe de puissance</string>
+    <string name="I_PowerIdentity">Identité de puissance</string>
+    <string name="I_Predict">Prédire</string>
     <string name="I_RadarAlertDisplay">"Affichage d'alerte radar"</string>
     <string name="I_RampDown">Phase de décélération</string>
     <string name="I_RampUp">Monter en puissance</string>
     <string name="I_Rest">Repos</string>
     <string name="I_RestHR">FC au repos</string>
     <string name="I_Right">Droite</string>
+    <string name="I_RoadType">Type de route</string>
     <string name="I_Saturday">Samedi</string>
     <string name="I_SensorPairing">Couplage de capteurs</string>
+    <string name="I_SkillToTrain">Compétence</string>
+    <string name="I_Sprint">Sprint</string>
     <string name="I_Sprint_point">Sprint</string>
     <string name="I_Sunday">Dimanche</string>
     <string name="I_SyncToDevice">À jour</string>
     <string name="I_SyncingActivityRecords">Synchronisation et historique des activités</string>
+    <string name="I_TargetCadence">Cadence cible</string>
+    <string name="I_TargetHR">Fréquence cardiaque cible</string>
     <string name="I_ThreatClearedTone">Ton de la menace effacée</string>
+    <string name="I_Threshold">Seuil</string>
     <string name="I_Thursday">Jeudi</string>
+    <string name="I_TimeTrail">Contre-la-montre</string>
     <string name="I_Tuesday">Mardi</string>
     <string name="I_UploadFiles">Fichier(s) téléchargé(s)</string>
     <string name="I_UpperBounds">Au-dessus de %s</string>
+    <string name="I_VeryEasy">Très facile</string>
     <string name="I_Vo2max">Vo2max</string>
+    <string name="I_WBalance">"W'bal"</string>
     <string name="I_WbalCycling">"W'bal Cycling"</string>
     <string name="I_Wednesday">Mercredi</string>
+    <string name="I_finish">Terminer le trajet</string>
+    <string name="I_goalDuration">Heures cibles</string>
     <string name="Imperial">Impérial (mi,livre)</string>
     <string name="Indoor">intérieur</string>
     <string name="InputSensorID">ID du capteur d’entrée</string>
@@ -620,7 +674,7 @@
     <string name="July">Jui</string>
     <string name="June">Jui</string>
     <string name="Kcal">kcal</string>
-    <string name="Keytone">Bip sonore</string>
+    <string name="Keytone">Bips sonore</string>
     <string name="LangName">Français</string>
     <string name="Language">"Langue de l'appli"</string>
     <string name="Language_System">"Langue de l'appareil"</string>
@@ -674,6 +728,7 @@
     <string name="M_AiTimesUp">"La conversation a pris fin en raison de 10 minutes d'inactivité. Veuillez cliquer sur Nouveau chat pour recommencer."</string>
     <string name="M_Alarm_Reminder_Setting">Bryton Active a besoin de la permission pour Alarmes et Rappels afin de vous notifier juste avant le début de la sortie de groupe.</string>
     <string name="M_AllTracksUpload">Tous tracés téléchargés</string>
+    <string name="M_AlreadyHasPace">"Ce segment d'itinéraire a déjà un itinéraire IA"</string>
     <string name="M_AltitudeRange" formatted="false">L’altitude doit être entre %s ~ %s.</string>
     <string name="M_Announce_Uninstall_previous">Veuillez désinstaller la version précédente de Bryton Active pour éviter toute confusion future.</string>
     <string name="M_AppLastestVer">Votre APP est à jour.</string>
@@ -686,6 +741,7 @@
     <string name="M_BleConnectFailApp">La connexion Bluetooth a échoué. Veuillez désactiver et réactiver la fonction Bluetooth de votre téléphone puis réessayer.</string>
     <string name="M_BleConnectFailDevice">La connexion Bluetooth a échoué, veuillez redémarrer le compteur de vélo</string>
     <string name="M_BluetoothWorking">Assurez-vous que le GPS fonctionne</string>
+    <string name="M_Borderline">Repousser les limites ! Envisagez bientôt une séance plus légère ou une récupération active !</string>
     <string name="M_BrytonUpdateTool">Update Tool</string>
     <string name="M_BtAddUuidNote">Souhaitez-vous ajouter cet UUID à votre compte BRYTON pour une synchronisation ultérieure ?</string>
     <string name="M_BtDLTrackFailed">Echec téléchargement tracé</string>
@@ -700,6 +756,7 @@
     <string name="M_BtReconnect">Le téléchargement s’est interrompu, voulez-vous vous reconnecter ?</string>
     <string name="M_BtServiceRefresh">"Une erreur se passe avec le Bluetooth. Veuillez aller aux réglages Bluetooth sur votre portable pour oublier votre appareil. Puis éteignez et rallumez le Bluetooth pour associer l'appareil."</string>
     <string name="M_BtStopUpload">Arrêter le téléchargement en cours et re-scanner ?</string>
+    <string name="M_ByGoal">Planifiez votre entraînement selon vos forces</string>
     <string name="M_CableDataSync_Authorize">Activez le paramètre USB OTG sur votre téléphone. Connectez votre téléphone à votre appareil Bryton via un câble USB. Sélectionnez le dossier « BRYTON » pour accorder à l’application Bryton Active l’autorisation d’accéder à l’appareil.</string>
     <string name="M_CableDisconnected">"Le téléchargement de la carte a échoué. Veuillez vous assurer que le smartphone est connecté au dispositif d'appairage par câble et réessayez."</string>
     <string name="M_CableUnconnected">"Veuillez connecter l'appareil avec un câble USB pour télécharger les cartes."</string>
@@ -708,25 +765,28 @@
     <string name="M_CalbrateNote">"Souhaitez-vous calibrer l'altitude pour l’appareil ci-dessus?"</string>
     <string name="M_CalibrateSuccess">Calibration réussie</string>
     <string name="M_CantEmpty">Il ne peut pas être vide</string>
+    <string name="M_Carbs" formatted="false">Apport de %s kcal / %s min</string>
     <string name="M_ChangePasswordSuccess">Le mot de passe de votre compte a été modifié</string>
     <string name="M_ChooseDest">Choisir destination</string>
     <string name="M_ChooseOnMap">Choisir sur carte</string>
     <string name="M_ChooseStart">Choisir point de départ</string>
     <string name="M_ClearDiskReminder">"La suppression des activités de mises à jour de l'appareil améliorera la vitesse de synchronisation."</string>
+    <string name="M_CoachRemind">"Note du coach : Le système ne dispose pas encore d'assez d'enregistrements de parcours pour calculer les données PDC. Nous recommandons de rouler davantage pour accumuler des données, ou de les saisir temporairement manuellement dans Rider's Insight pour débloquer un rythme précis !"</string>
     <string name="M_CollectLocation">"Bryton Active a besoin de vos données de localisation pour déterminer le point de départ de la navigation lorsque l'appareil ne peut pas fournir de données de localisation, même lorsque l'application fonctionne en arrière-plan. Veuillez autoriser l'accès de l'application à votre position."</string>
     <string name="M_ConfirmBtConnection">Activer Bluetooth sur le portable et les appareils GPS.</string>
     <string name="M_ConfirmPassword">Confirmer mot de passe</string>
     <string name="M_ConnectDeviceToSyncWorkoutPlan">Connectez-vous à un appareil Bryton compatible pour synchroniser votre programme d\'entraînement.</string>
-    <string name="M_ConnectedDevice_Setting">Bryton Active nécessite l’autorisation d’accéder aux appareils à proximité ou à la localisation pour se connecter complètement à votre appareil Bryton et activer toutes les fonctionnalités.</string>
+    <string name="M_ConnectedDevice_Setting">Bryton Active nécessite l’autorisation d’accéder aux appareils à proximité ou à votre position afin d’établir une connexion complète avec votre appareil Bryton et de permettre l’utilisation de toutes les fonctionnalités.</string>
     <string name="M_ConnnectSmartPhoneViaUSB">"Connectez votre smartphone au dispositif Bryton Rider via un câble USB pour le téléchargement et l'installation de la carte."</string>
     <string name="M_ContactSupport">Veuillez contacter support@brytoncorp.net et demander votre transfert avec les informations de compte ci-dessus.</string>
     <string name="M_ContactSupportNotice">Notre équipe répond généralement par e-mail dans un délai de quelques jours ouvrés. Veuillez en prendre note.</string>
-    <string name="M_Copyright">@2025 Bryton Inc. Tous droits réservés.</string>
+    <string name="M_Copyright">\@2025 Bryton Inc. Tous droits réservés.</string>
     <string name="M_CreateAccountNote1">"Vous créez un nouveau compte Bryton pour l'application Bryton avec "<span>%s</span>.</string>
     <string name="M_CreateAccountNote2">Vos tracés précédemment téléchargées au format .FIT seront également transférées depuis votre compte brytonsport.com / application bryton sports sous <span>%s</span>.</string>
     <string name="M_CreatePlanTrip">Appuyez sur la carte ou recherchez l’endroit pour naviguer vers</string>
     <string name="M_CreatePlanTrip_AddWaypoint">"Tapez sur la carte ou la recherche pour ajouter des points de repère à l'itinéraire."</string>
     <string name="M_CreateSuccess">Créer avec succès</string>
+    <string name="M_DataNoComplete">Tous les champs sont obligatoires.</string>
     <string name="M_DataPageManually">Voulez-vous paramétrer les pages de données manuellement ?</string>
     <string name="M_DataPageMode">Choisissez le mode d’affichage de vos pages de données</string>
     <string name="M_DefaultName">utilisateur</string>
@@ -766,9 +826,15 @@
     <string name="M_EmptyData">Aucune donnée disponible</string>
     <string name="M_EmptyNotAllow">Le compte ou le mot de passe est vide.</string>
     <string name="M_EmptyPassword">Le champ mot de passe est vide</string>
+    <string name="M_EmptyPowerCurveValueDesc">Dès que vous aurez des données de parcours, elles écraseront la Power Curve définie manuellement.</string>
+    <string name="M_EmptyRidersDnaDesc">Votre Aperçu du cycliste ne contient actuellement aucune donnée. Une analyse complète nécessite des points de limite physiologique précis. Souhaitez-vous saisir manuellement les points clés de la Power Curve suivants ?</string>
+    <string name="M_EmptyRidersDnaSubtitle">Comprendre votre type nécessite un capteur de puissance...</string>
+    <string name="M_EmptyRidersDnaTitle">Débloquez votre profil de cycliste en roulant</string>
     <string name="M_EndHint">Ville+Rue+Localisation</string>
     <string name="M_EnterValidEmail">Veuillez saisir une adresse e-mail valide.</string>
+    <string name="M_Example">Ex: %s</string>
     <string name="M_ExportionComplete">Exportation Complète</string>
+    <string name="M_ExtendRoute">"L'itinéraire est trop court. Veuillez allonger l'itinéraire et réessayer."</string>
     <string name="M_FailedToDownload">"La carte n'a pas pu être téléchargée en raison d'une erreur inconnue. Veuillez réessayer plus tard"</string>
     <string name="M_FetchingData">"Récupération des données de l'appareil…"</string>
     <string name="M_File_Decode_Fail_Or_Repeat">"Échec du téléchargement du fichier ou téléchargement en double. Veuillez vérifier la page des notifications pour plus d'informations."</string>
@@ -776,13 +842,14 @@
     <string name="M_FitNotFound">Echec pour obtenir le registre des activités</string>
     <string name="M_ForceUpdateApp">"Forcer la mise à jour de l'application"</string>
     <string name="M_ForgetpwMailIConfirm">Veuillez cliquer sur le lien suivant pour définir votre nouveau mot de passe:</string>
+    <string name="M_Fresh">Rechargé à bloc ! Vous êtes bien reposé et prêt à transpirer !</string>
     <string name="M_FwCancelFromDevice">"Sélectionnez Annuler dans l'appareil Bryton pour annuler le téléchargement du nouveau logiciel."</string>
     <string name="M_GPSUnavailable">"Impossible d'obtenir la localisation actuelle, veuillez vous assurer que les services de localisation de votre téléphone sont activés et allez à l'extérieur pour une meilleure réception GPS."</string>
     <string name="M_GRExpire">La sortie groupe a expiré</string>
     <string name="M_GR_InputInviteCode">Copiez le code d\'invitation, ouvrez l\'application Bryton Active et saisissez-le dans la fonction Group Ride pour rejoindre la sortie groupée.</string>
     <string name="M_GR_Me">Moi</string>
     <string name="M_GR_NoGRInfo">ID du group ride invalide</string>
-    <string name="M_GR_NotReady">"La sortie groupée n\'a pas encore commencé."</string>
+    <string name="M_GR_NotReady">&quot;La sortie groupée n\'a pas encore commencé.&quot;</string>
     <string name="M_GR_UseCompatibleDevice">Veillez à envoyer la sortie groupée vers un appareil Bryton compatible pour vous préparer à l\'événement !</string>
     <string name="M_GR_Viewer">"L'appareil n'est pas connecté. Connectez-vous à l'appareil compatible pour partager vos données de conduite avec les membres du groupe."</string>
     <string name="M_GR_Viewer_disconnect">Mode visionneuse - Appareil non connecté</string>
@@ -790,11 +857,13 @@
     <string name="M_GTJoinerror_1">Le groupe a atteint le nombre maximum de membres, rejoignez-le la prochaine fois!</string>
     <string name="M_GTJoinerror_2">Le groupe ne peut pas être ouvert car il a expiré.</string>
     <string name="M_GaodeMapPolicy">{PENDING TEXT STRING}</string>
+    <string name="M_Gels">1 pack / %s kJ</string>
     <string name="M_GetAltFail">L’altitude actuelle ne peut être obtenue</string>
     <string name="M_GetTimeFail">Impossible d’obtenir l’heure actuelle, veuillez aller à l’extérieur et essayer à nouveau.</string>
     <string name="M_GoToSetting">Allez dans Paramètres.</string>
     <string name="M_HaveThePlan">"Le plan d'entraînement existe déjà pour la date sélectionnée."</string>
     <string name="M_HowToSelectDevice">Mode pairage de votre appareil avec l’app Bryton ?</string>
+    <string name="M_Hydration" formatted="false">Boire %s ml / %s min</string>
     <string name="M_InputAltNote">Assurez-vous d’être au niveau du sol pour une meilleure précision de la calibration de l’altitude (pas en étage par exemple)</string>
     <string name="M_InputAppHint">"Dites-nous ce qui s'est passé, comme une erreur de synchronisation avec Strava ou des données manquantes après votre parcours."</string>
     <string name="M_InputHint">"Veuillez donner plus de détails, par exemple si l'écran est figé ou si un parcours ne se télécharge pas."</string>
@@ -815,6 +884,7 @@ Mon écran s'est figé pendant le trajet et mes données ne se sont pas mises à
     <string name="M_KomootIntroP2">Votre application Bryton Active fonctionne parfaitement avec Komoot ; toutes les activités que vous planifiez sur Komoot peuvent être synchronisées automatiquement avec les appareils Bryton après une configuration rapide</string>
     <string name="M_LTCreatedFailure">Échec de création de la session LiveTrack. Réessayer ?</string>
     <string name="M_Leave">Partir?</string>
+    <string name="M_LessThanMaxSustainablePower">(Doit être inférieur à %s de puissance continue maximale)</string>
     <string name="M_LiveSegmentTeach">"Nous ne synchronisons pas les segments en descente sur les appareils pour les segments en direct Strava. Veuillez noter que notre système reconnaît même la plus petite pente négative, de sorte qu'il peut y avoir des segments affichant une pente de 0 % qui sont considérés comme des descentes et ne seront donc pas synchronisés avec les appareils."</string>
     <string name="M_LiveTrackShare_1">Je viens de commencer un tour avec Bryton Live Track!</string>
     <string name="M_LiveTrackShare_2">Voyez la mise à jour en temps réel de ma position et des statistiques de mon trajet!</string>
@@ -840,6 +910,7 @@ Mon écran s'est figé pendant le trajet et mes données ne se sont pas mises à
     <string name="M_MapsDoneContent">"La carte a été téléchargée sur l'appareil. Appuyez sur ”Terminé” pour éjecter le câble en toute sécurité et mettre à jour l'appareil."</string>
     <string name="M_MapsDoneContent_Android">"La carte a été téléchargée sur l'appareil. Appuyez sur ”Terminé” pour éjecter le câble en toute sécurité et mettre à jour l'appareil."</string>
     <string name="M_MarkPlace">Appuyez longuement sur la carte pour déposer une épingle pour la position désirée</string>
+    <string name="M_MinValue">Minimum %s</string>
     <string name="M_MorePowerInfo">Afficher plus de données liées à la puissance</string>
     <string name="M_MySegmentsLimitDesc">"Ajoutez jusqu'à 50 segments à « Mes segments » pour rivaliser sur les appareils."</string>
     <string name="M_NeedFurtherHelp">"Besoin de plus d'aide ?"</string>
@@ -858,6 +929,8 @@ Mon écran s'est figé pendant le trajet et mes données ne se sont pas mises à
     <string name="M_NoResult">Aucun résultat, modifiez un autre mot clé.</string>
     <string name="M_NoRoute">Aucun itinéraire disponible.</string>
     <string name="M_NoRouteToUpload">Veuillez planifier votre parcours.</string>
+    <string name="M_NoSpecific">"Utiliser les prévisions météo d'aujourd'hui"</string>
+    <string name="M_NoTsbData">"Vous vous demandez si vous devez vous dépasser ou vous reposer aujourd'hui ? Maîtrisez votre niveau de fatigue grâce aux données de puissance."</string>
     <string name="M_NoWorkouts">Pas d’entraînement! Créez un nouvel entraînement ou synchronisez l’entraînement à partir de plateformes tierces</string>
     <string name="M_NolioFeature">"Les plans d'entraînement sur TrainingPeaks"</string>
     <string name="M_NolioIncompatible_1">"La description de la séance d'entraînement peut être légèrement ajustée pour l'affichage sur l'appareil Bryton."</string>
@@ -868,6 +941,7 @@ Mon écran s'est figé pendant le trajet et mes données ne se sont pas mises à
 *Seuls les entraînements de type cyclisme seront synchronisés avec Bryton. 
 *Seuls les entraînements de moins de 80 étapes sont compatibles et peuvent être synchronisés avec les appareils. 
 *En raison de la compatibilité, certaines descriptions d'entraînement peuvent être légèrement ajustées pour l'affichage sur l'appareil Bryton."</string>
+    <string name="M_NoneAiRoute">Sélectionnez un itinéraire avec des détails pour générer un parcours optimisé par Pace Pilot.</string>
     <string name="M_NoneProfileData">"Le chargement des données de profil a échoué en raison d'une mauvaise connexion internet. Veuillez vérifier votre connexion internet et réessayer."</string>
     <string name="M_NotSupport">Cette fonction n’est pas prise en charge</string>
     <string name="M_NotSupportThisDev">Modèle non supporté</string>
@@ -880,6 +954,9 @@ Mon écran s'est figé pendant le trajet et mes données ne se sont pas mises à
     <string name="M_OpenBluetooth">Veuillez activer le Bluetooth</string>
     <string name="M_OpenNotificationPermission">Veuillez vous rendre sur la page des paramètres du système pour activer les autorisations de notification et activer cette fonctionnalité.</string>
     <string name="M_OpenPicFile">Votre photo ne peut être utilisée (formats suportés BMP, JPG ou PNG)</string>
+    <string name="M_Optimal">Équilibre parfait ! Votre entraînement et votre récupération sont idéaux. Continuez comme ça !</string>
+    <string name="M_Overload">"Avertissement de surcharge ! Vous avez fait beaucoup d'efforts dernièrement : il est temps d'accorder une pause à votre corps aujourd'hui !"</string>
+    <string name="M_PMCDesc">"Le Graphique de gestion des performances (PMC) est un outil sophistiqué de modélisation de données qui quantifie la relation entre la charge d'entraînement et la préparation physique. En suivant les scores de stress d'entraînement (TSS) quotidiens, il équilibre deux facteurs concurrents : la Forme physique (CTL), qui est la charge d'entraînement à long terme sur 42 jours, et la Fatigue (ATL), la charge aiguë à court terme sur 7 jours. Le résultat critique est l'État de forme (TSB), qui permet aux cyclistes de visualiser leur fraîcheur."</string>
     <string name="M_PairDevices">Les appareils connectés</string>
     <string name="M_Password">Mot de passe</string>
     <string name="M_PasswordIncorrectly">Votre ancien mot de passe n’a pas été entré correctement. Veuillez le saisir de nouveau.</string>
@@ -896,22 +973,34 @@ Mon écran s'est figé pendant le trajet et mes données ne se sont pas mises à
     <string name="M_PlanTripFetchElevation">"Échec d'acquisition des informations d'altitude"</string>
     <string name="M_PlantripNote">rechercher un lieu ou choisir depuis la carte</string>
     <string name="M_PleaseTellUs">Veuillez nous dire...</string>
-    <string name="M_PowerCurveDesc">"La courbe de puissance est une mesure de performance clé qui illustre votre puissance maximale sur différentes durées. La ligne d'arrière-plan grise représente vos records personnels absolus, tandis que la ligne verte vous permet de comparer vos performances actuelles avec vos meilleurs résultats des 42 ou 84 derniers jours.
+    <string name="M_PowerCurveDesc">"Sprinteur : Possède une puissance explosive extrême pour atteindre la vitesse maximale dans les derniers mètres.
 
-Cette mesure est particulièrement utile pour l'entraînement fractionné, car elle vous aide à définir des objectifs basés sur la puissance. En alignant la durée de chaque intervalle sur votre puissance maximale pour cette plage de temps spécifique, vous pouvez établir des objectifs d'entraînement réalistes et réalisables.
+Baroudeur : Habile à rouler contre le vent et à maintenir une avance lors des échappées.
 
-Pour afficher la courbe de puissance dans l'application Bryton Active, assurez-vous que les conditions suivantes sont remplies :
+Puncheur : Doté de la récupération nécessaire pour lancer des attaques répétées sur les terrains vallonnés.
 
- ∙ Votre capteur de puissance doit être couplé à un appareil Bryton Rider compatible.
- ∙ Les données de parcours récentes doivent être enregistrées et sauvegardées pour garantir la mise à jour correcte de la courbe de puissance."</string>
+Pur Grimpeur : Utilise un rapport puissance/poids supérieur pour s'envoler dans les ascensions longues et raides.
+
+Spécialiste du CLM : Capable de maintenir une puissance de sortie élevée et constante pour écraser la résistance du vent et le chronomètre.
+Ultra-Endurance : Capable de repousser la fatigue sur des distances massives.
+
+La courbe de puissance suit votre puissance de sortie moyenne maximale sur toutes les durées. D'un sprint explosif d'une seconde à des heures d'endurance régulière, cette courbe cartographie votre « empreinte athlétique » unique.
+
+Surveillez votre pic de forme Comparez vos 42 ou 84 derniers jours avec vos records absolus pour voir instantanément si vous atteignez un pic de forme ou si vous approchez de votre record personnel.
+
+Maîtrisez votre rythme Utilisez vos données historiques pour définir des objectifs précis et scientifiques pour votre prochaine ascension ou contre-la-montre, en vous assurant de performer à votre limite absolue."</string>
+    <string name="M_PowerCurveKeyValue">Valeurs des points clés de la Power Curve (%s)</string>
+    <string name="M_PowerCurveKeyValueSample">Illustration des points clés de la Power Curve</string>
     <string name="M_PressBtnToAddPlace">Appuyez sur « + » pour ajouter un point de passage.</string>
     <string name="M_Processing">Traitement...</string>
     <string name="M_ProfileSettingSyncConfirmation">"Le profil de l'appareil et celui de l'application sont différents. Souhaitez-vous synchroniser les paramètres avec l'appareil ou l'application ?"</string>
-    <string name="M_ProfileSync">Synchroniser le profil</string>
+    <string name="M_ProfileSync">Synchronisation du profil</string>
+    <string name="M_ProgressPlannerNotification" formatted="false">"Vous venez de terminer un plan d'entraînement dans la fonction Planificateur d'entraînement du %s au %s."</string>
     <string name="M_Quickmsg_1">"Vous pouvez y configurer 10 réponses rapides pour une utilisation efficace ainsi que sur votre appareil GPS lors d'une sortie à vélo."</string>
     <string name="M_Quickmsg_2">"Vous pouvez utiliser jusqu'à 30 caractères par réponse."</string>
     <string name="M_R10Only">Cette fonctionnalité est disponible uniquement sur le Rider 10</string>
     <string name="M_RWgps">En acceptant d\'activer Ride With GPS sur votre compte Bryton Active, vous autorisez Bryton à collecter et à conserver vos informations de compte et d\'utilisateur Ride With GPS, ainsi que les identifiants associés, tels que votre nom d\'utilisateur et votre mot de passe, afin de permettre l\'accès à cette fonctionnalité sur votre compte Bryton Active.</string>
+    <string name="M_RampingUp">Construire les bases ! Un entraînement régulier et constant est la clé !</string>
     <string name="M_ReadDevice">"Chargement des fichiers de l'appareil, veuillez réessayer plus tard."</string>
     <string name="M_ReadFirmwareInfo">Chargement du nouveau logiciel</string>
     <string name="M_RegTransferFail">Échec de la demande de transfert de tracés</string>
@@ -921,6 +1010,9 @@ Pour afficher la courbe de puissance dans l'application Bryton Active, assurez-v
     <string name="M_RemoveSensor">Êtes-vous sûr de vouloir supprimer ce capteur ?</string>
     <string name="M_ResetPasswordEmail">Un message de réinitilisation de l’adresse mail vous a été envoyé</string>
     <string name="M_RestoreDefault">Réinitialiser la page de données par défaut.</string>
+    <string name="M_RideDate">"Le choix d'une date nous permet d'inclure la météo réelle dans votre plan. Votre plan se génère très bien sans cela."</string>
+    <string name="M_RideDateValue">"Cette recommandation d'entraînement est calculée en fonction de la température du jour du trajet. Si la température change, il est recommandé de modifier ou de régénérer le plan pour une cadence et une puissance plus précises."</string>
+    <string name="M_RouteHasBeenRemoved">"L'itinéraire a été supprimé."</string>
     <string name="M_RouteNameEmpty">Nommez votre itinéraire</string>
     <string name="M_RwgIntroP1">Activer Ride With GPS Sync pour la première configuration.</string>
     <string name="M_RwgIntroP2">Votre application Bryton Active fonctionne parfaitement avec Ride With GPS ; toutes les activités que vous planifiez avec Ride With GPS peuvent être synchronisées automatiquement avec les appareils Bryton après une configuration rapide.</string>
@@ -935,6 +1027,7 @@ r Veuillez aller dans (Paramètres>UUID) sur votre appareil Bryton pour l'obteni
     <string name="M_Search">Saisir la ville, la position ou le nom de la rue</string>
     <string name="M_SearchForNextWaypoint">Recherche des prochains points de passage</string>
     <string name="M_SearchNextPoint">Où ?</string>
+    <string name="M_SegmentsOverLimit">"Le nombre de segments de l'itinéraire dépasse la limite. Veuillez raccourcir l'itinéraire et réessayer."</string>
     <string name="M_SelfloopsConnectFail">"Impossible de connecter l'application Bryton à %s. Veuillez réessayer."</string>
     <string name="M_SelfloopsConnected" formatted="false">"Vous êtes à présent connecté avec %s, les activités téléchargées dans l'application Bryton seront automatiquement synchronisées dans %s dans quelques minutes."</string>
     <string name="M_SelfloopsIntroP1">Activez la Synchronisation automatique %s pour commencer votre configuration !</string>
@@ -954,6 +1047,7 @@ r Veuillez aller dans (Paramètres>UUID) sur votre appareil Bryton pour l'obteni
 r Paramètres > UUID"</string>
     <string name="M_ShareMsg">Soyez motivé, restez compétitif.</string>
     <string name="M_ShareTitle">Bryton Sport</string>
+    <string name="M_ShortenRoute">"L'itinéraire est trop long. Veuillez raccourcir l'itinéraire et réessayer."</string>
     <string name="M_ShowPrompt">Ne plus afficher</string>
     <string name="M_SignupWithEmail">Ou inscription avec e-mail</string>
     <string name="M_StartHint">Point de départ : ville+rue+localisation ou choisissez depuis le carte</string>
@@ -975,6 +1069,11 @@ r Paramètres > UUID"</string>
     <string name="M_SystemMaintain">le système est en cours de maintenance</string>
     <string name="M_Thanks">Non merci.</string>
     <string name="M_Timeout">Délai dépassé</string>
+    <string name="M_ToBorderline">jours avant Limite</string>
+    <string name="M_ToFresh">jours avant Frais</string>
+    <string name="M_ToOptimal">jours avant Optimal</string>
+    <string name="M_ToRampingUp">jours avant Montée en puissance</string>
+    <string name="M_ToTrain">"Prêt pour l'entraînement !"</string>
     <string name="M_TokenExpire">"Cela fait un certain temps que vous n'avez pas utilisé Bryton Active, veuillez vous connecter à nouveau pour continuer à l'utiliser."</string>
     <string name="M_TrackAutoSync">Nouvelles activités sync. automatique</string>
     <string name="M_TrainingPeaksConnectFail">"Impossible de connecter l'application Bryton à TrainingPeaks. Veuillez réessayer."</string>
@@ -986,6 +1085,7 @@ r Paramètres > UUID"</string>
     <string name="M_TripReset">Remettre?</string>
     <string name="M_TripUpload">Votre nouveau parcours a été téléchargé avec succès.</string>
     <string name="M_Trunbytrunchange">"Lors de l'acquisition d'informations turn-by-turn pendant la conversion d'un itinéraire, celui-ci peut être modifié pour être conforme aux paramètres de planification OSM. Si vous ne préférez pas ce résultat, vous pouvez utiliser l'itinéraire original à la place."</string>
+    <string name="M_TssMade">Taux de réussite TSS</string>
     <string name="M_TurnOnGPS">Veuillez activer vos Services de localisation dans les paramètres de votre téléphone avant de rechercher Bluetooth.</string>
     <string name="M_USBSyncDesc1">Synchronisation des trajets avec le câble</string>
     <string name="M_USBSyncDesc2">"Connectez le smartphone à votre appareil Bryton à l'aide d'un câble de transfert de données et assurez vous que le système est autorisé à synchroniser les activités."</string>
@@ -1004,6 +1104,7 @@ r Paramètres > UUID"</string>
     <string name="M_UploadOverLimit">Ne pas télécharger plus de 10 fichiers à la fois</string>
     <string name="M_UptFirmware">"Une nouvelle version du logiciel de l'appareil est détectée. Voulez-vous le mettre à jour maintenant ?"</string>
     <string name="M_UptFirmwareCancel">Voulez-vous vraiment annuler le téléchargement du logiciel?</string>
+    <string name="M_UsageExceeded" formatted="false">"Limite d'utilisation de %s dépassée. Veuillez réessayer dans %s."</string>
     <string name="M_UuidIncorrect">"UUID non valide. Veuillez vérifier votre numéro d'UUID à 16 chiffres à l'arrière de votre appareil et réessayer."</string>
     <string name="M_UuidNoConnection">"Impossible d'ajouter l'UUID. Veuillez vérifier votre connexion Internet et réessayer."</string>
     <string name="M_UuidOccupy">UUID indisponible</string>
@@ -1021,7 +1122,7 @@ L'estimation de la VO2 Max est basée sur votre taille, votre poids, votre âge,
     <string name="M_VoiceAskLocPermission">"L'application Bryton Active veut accéder à votre position en permanence, veuillez sélectionner Autoriser uniquement lors de l'utilisation de l'application pour l'accès à la position afin d'assurer la stabilité de l'utilisation des fonctions lorsqu'elles sont connectées à votre appareil Bryton."</string>
     <string name="M_VoiceLanguage750">"Pour modifier les paramètres de langue de la voix du Rider 750 à l'aide de l'appli Bryton Active, veuillez veuillez naviguer sur votre Rider 750 jusqu'à: MENU> PARAMÈTRES DE NAVIGATION> LANGUE DE LA VOIX et sélectionnez «DÉCIDER PAR APPLI»."</string>
     <string name="M_WLAN">WLAN</string>
-    <string name="M_WeekNum">semaine %s</string>
+    <string name="M_WeekNum">Semaine %s</string>
     <string name="M_Welcome">"Bienvenue dans l'application Bryton"</string>
     <string name="M_WelcomeChatbot">"Bonjour ! 👋🏻
 Besoin d'aide avec notre produit ?"</string>
@@ -1033,7 +1134,11 @@ Besoin d'aide avec notre produit ?"</string>
     <string name="M_ZoneData">Les données de zone seront synchronisées avec l’appareil jumelé. Les données graphiques de puissance/fréquence cardiaque présenteront la couleur selon les paramètres ci-dessous.</string>
     <string name="M_addPOIByDistance">"Ou en cliquant sur l'icône de crayon pour ajouter des POI par distance."</string>
     <string name="M_addSegmentsFromList">Ajoutez des segments depuis « Tous les segments » pour rivaliser sur les appareils.</string>
+    <string name="M_aiPaceNotice">"Les recommandations de cadence et de puissance s'adaptent aux conditions météo ; il est recommandé de les générer le jour même de la sortie."</string>
+    <string name="M_aiWorkoutCreateMsg">"Pour que votre plan continue d'avancer, vous devez télécharger vos données de parcours. Sans elles, le système ne peut pas analyser vos progrès et ne sera pas en mesure de générer l'entraînement de la semaine prochaine."</string>
     <string name="M_allUpToDate">Vous êtes à jour! Lorsque vous recevez des notifications, ils apparaîtront ici.</string>
+    <string name="M_byFTP">"Planifiez l'entraînement en fonction de votre puissance FTP"</string>
+    <string name="M_byRoute">"Planifiez l'entraînement pour un itinéraire spécifique"</string>
     <string name="M_checkCableconntion">"Veuillez vous assurer que le smartphone est connecté à l'appareil via un câble USB."</string>
     <string name="M_closeedit">Si vous quittez cette page, toutes les modifications non sauvegardées seront perdues</string>
     <string name="M_commonusetext">Ciquer sur Localisation” puis sur Calibrer” pour calibrer la localisation pré-définie</string>
@@ -1051,15 +1156,28 @@ Besoin d'aide avec notre produit ?"</string>
     <string name="M_importroute_and2">2. Dans le dossier téléchargement, sélectionner Bryton Active” pour importer les fichiers. Vous retrouverez la trace dans « Ma route »</string>
     <string name="M_importroute_ios1">1. Télécharger les fichiers GPS ou Fit depuis le site</string>
     <string name="M_importroute_ios2">2. Sélectionner Bryton Active” pour importer le fichier. Vous retrouverez la trace dans « Ma route »</string>
+    <string name="M_isRequiredField">Ceci est un champ obligatoire</string>
     <string name="M_logining">Connexion</string>
     <string name="M_logoutfitnotuploaded">"Certaines activités n'ont pas été téléchargées sur le cloud Bryton Active. Si vous vous déconnectez sans télécharger, ces fichiers seront perdus. Êtes-vous sûr de vouloir vous déconnecter?"</string>
     <string name="M_newroute">Sauvegarder comme nouveau tracé ?</string>
     <string name="M_noNotification">Aucune notification en ce moment!</string>
     <string name="M_notupdatedtocloud">"Cette activité n'a pas été téléchargée sur le cloud Bryton Active. Voulez-vous la télécharger manuellement?"</string>
+    <string name="M_powerCurveRef">"Suit la puissance moyenne la plus élevée que vous pouvez maintenir sur des durées spécifiques.
+
+Recommandation :
+
+Trouvez un itinéraire sûr ou utilisez un home trainer pour faire un test à fond de 5 secondes, puis de 5 et 12 minutes séparément.
+
+Alternative :
+Trouvez et saisissez directement la puissance moyenne maximale historique à partir de vos anciens enregistrements de parcours."</string>
+    <string name="M_powerCurveRefMsg">La puissance continue maximale à chaque point temporel doit être incrémentielle, allant de 50 à 2000 W</string>
+    <string name="M_powerCurveRefTitle">"Pas sûr de ce qu'il faut saisir ? Référence ici"</string>
     <string name="M_problem">Afin de vous fournir une assistance optimale et une résolution rapide, nous vous demandons de décrire votre problème de la manière la plus détaillée possible. Nous nous engageons à vous remettre sur les rails et à faire en sorte que votre expérience soit parfaite.</string>
     <string name="M_pwdLength">Les mots de passe devraient contenir au moins 8 caractères</string>
     <string name="M_removeoldapp">"Pour améliorer l'expérience utilisateur, Bryton a lancé une nouvelle application appelée ”Bryton Active”. Avant d’installer Bryton Active, veuillez désinstaller l’application originale Bryton Active. La désinstallation de l'application originale ne vous manquera pas l'historique de vos activités. La nouvelle appli Bryton Active se gardera toutes vos anciennes données."</string>
     <string name="M_setUuidCancel">Vous devez ajouter au moins 1 appareil à votre compte. Pour ajouter des appareils ultérieurement, veuillez aller dans Réglages > Gérer appareils</string>
+    <string name="M_smartTrainingDisclaimer">"Ce plan est un guide, pas un avis médical. L'entraînement à haute intensité comporte des risques ; consultez d'abord un médecin. Vous acceptez la responsabilité de toute blessure.
+Téléchargez les données de parcours pour garder votre plan à jour. Sans elles, le système ne peut pas analyser les progrès ou créer des entraînements. Restez synchronisé !"</string>
     <string name="M_syncdate">Synchronisation des données utilisateur</string>
     <string name="M_tapMapToAddPOI">Vous pouvez également cliquer sur la carte pour ajouter des POI.</string>
     <string name="M_to">à</string>
@@ -1075,11 +1193,12 @@ Besoin d'aide avec notre produit ?"</string>
     <string name="M_tutorialS7_3">"・Désormais, pour le Rider 420 / Rider 750, les trajets et les entraînements planifiés ne seront pas téléchargés sur l'appareil via Sync. Données. Vous pouvez choisir les tracés ou entraînements à télécharger dans” Parcours."</string>
     <string name="M_unlockKomootPremium">Un abonnement Komoot Premium actif est nécessaire pour envoyer des itinéraires vers des appareils comme le compteur GPS Bryton. Veuillez vérifier le statut de votre compte Komoot.</string>
     <string name="M_uploaded">Téléchargé</string>
+    <string name="M_weekSelectError">Veuillez sélectionner au moins 2 jours.</string>
     <string name="MailConfirmationLink">Un lien de confirmation a été envoyé à</string>
     <string name="Mailsignature">Merci, Bryton Sport</string>
     <string name="Male">Homme</string>
     <string name="ManageDevice">Gérer les appareils</string>
-    <string name="ManageSensor">Mes Capteurs</string>
+    <string name="ManageSensor">Mes capteurs</string>
     <string name="ManageSensorbackup">Régler les capteurs</string>
     <string name="ManualData">manuelle de données</string>
     <string name="ManualInput">Saisie manuelle</string>
@@ -1116,7 +1235,7 @@ Besoin d'aide avec notre produit ?"</string>
     <string name="MiniMum">Minimum</string>
     <string name="Monday">Lu</string>
     <string name="MondayT1">Lun</string>
-    <string name="Motorcycle">motocyclette</string>
+    <string name="Motorcycle">Motocyclette</string>
     <string name="Mountainbiking">VTT</string>
     <string name="MustLogIn">Vous devez être connecté pour le faire.</string>
     <string name="MyDevices">Mon appareil</string>
@@ -1139,9 +1258,9 @@ Besoin d'aide avec notre produit ?"</string>
     <string name="NormalizedPower">Puissance normalisée</string>
     <string name="NorthAmerica">Amérique du Nord</string>
     <string name="NotbeEmpty">Le champ ne peut pas être vide.</string>
-    <string name="Note" />
+    <string name="Note">Note</string>
     <string name="NoteNull">Pas de note spécifique pour le ”Groupe Route”.</string>
-    <string name="Nothave">"Vous n'avez pas de compte?"</string>
+    <string name="Nothave">&quot;Vous n\'avez pas de compte ?&quot;</string>
     <string name="November">Novembre</string>
     <string name="Oceania">Oceanie</string>
     <string name="October">Octobre</string>
@@ -1163,13 +1282,13 @@ Besoin d'aide avec notre produit ?"</string>
     <string name="Pagelist">Pages</string>
     <string name="PairNewDevice">Jumeler un nouvel appareil</string>
     <string name="PairedSensor">Capteur jumelé</string>
-    <string name="Pathplanning">Type de Route</string>
+    <string name="Pathplanning">Types de route</string>
     <string name="Peak">Aliment</string>
     <string name="PeakPower">Pic de puissance %s</string>
     <string name="PeakPowerEnd">Le pic de la phase de puissance se termine à</string>
     <string name="PeakPowerNative">Pic de puissance</string>
     <string name="PeakPowerStart">Le pic de la phase de puissance commence à</string>
-    <string name="Pedal" />
+    <string name="Pedal">pédale</string>
     <string name="PhoneLowStorage">Espace restant inférieur à 500 Mo</string>
     <string name="PlanRoute">Planifier l’itinéraire</string>
     <string name="PlantripList">Liste des tracés planifiés</string>
@@ -1178,7 +1297,7 @@ Besoin d'aide avec notre produit ?"</string>
     <string name="PowerPhaseStart">La phase de puissance commence à</string>
     <string name="PowerSave">Econ Energie</string>
     <string name="PowerZone">Zones de puissance</string>
-    <string name="Priority">Priorité%s</string>
+    <string name="Priority">Priorité %s</string>
     <string name="PriorityNative">Priorité</string>
     <string name="PrivacyPolicy">Politique de confidentialité de Bryton</string>
     <string name="Profile">Profil</string>
@@ -1198,11 +1317,11 @@ Besoin d'aide avec notre produit ?"</string>
     <string name="Rear">Arrière</string>
     <string name="Recent">récent</string>
     <string name="RecentActivity">Activités récentes</string>
-    <string name="Recovery">récupération</string>
+    <string name="Recovery">Récupération</string>
     <string name="RegionNotSupported">Emplacement non pris en charge</string>
-    <string name="ReleaseDate">DateSortie</string>
+    <string name="ReleaseDate">Date de sortie</string>
     <string name="Relevants">Relief</string>
-    <string name="Repeats">répétitions</string>
+    <string name="Repeats">Répétitions</string>
     <string name="ReportIssue">Signaler un problème</string>
     <string name="ResendConfirmationMail">Renvoyer le mail de confirmation</string>
     <string name="ResetPassword">Réinitialiser le mot de passe</string>
@@ -1215,18 +1334,18 @@ Besoin d'aide avec notre produit ?"</string>
     <string name="RightPCO">Décalage du centre de la plate-forme droite en mm</string>
     <string name="RightPP">Phase Puiss. Moy. Dte</string>
     <string name="RightPPP">Phase Puiss. Crête Moy. Dte</string>
-    <string name="Road">route</string>
+    <string name="Road">Route</string>
     <string name="Route">Route</string>
     <string name="RouteAutoSync">Synchronisation automatique de l’itinéraire</string>
     <string name="Run">Course à pieds</string>
     <string name="Saturday">Sa</string>
     <string name="SaturdayT1">Sam</string>
     <string name="SavePoiFavorite">Ajouter aux Favoris.</string>
-    <string name="ScanNow">scanner maintenant</string>
+    <string name="ScanNow">Scanner maintenant</string>
     <string name="SearchWifi">Recherche WiFi</string>
-    <string name="SelItvType">"sélectionner le type d'intervalle"</string>
+    <string name="SelItvType">Sélectionner le type d\'intervalle</string>
     <string name="SelectFile">Sélectionner fichiers</string>
-    <string name="SendResetEmail">"un e-mail de réinitialisation du mot de passe a été envoyé sur l'adresse indiqué"</string>
+    <string name="SendResetEmail">Un e-mail de réinitialisation du mot de passe a été envoyé sur l\'adresse indiqué</string>
     <string name="September">Septembre</string>
     <string name="Servermaintenancenotie">Avis de maintenance du serveur</string>
     <string name="Setting_FAQ">FAQ</string>
@@ -1240,13 +1359,13 @@ Besoin d'aide avec notre produit ?"</string>
     <string name="ShareRidingData">Vos données de roulage et celle de vos amis/votre progression sera suivi et communiqué au groupe pendant l’événement.</string>
     <string name="Shimano">SHIMANO STEPS</string>
     <string name="SignUpOtherEmail">"s'inscrire avec un autre mail?"</string>
-    <string name="Skip">passer</string>
+    <string name="Skip">Passer</string>
     <string name="Slope">Pente</string>
     <string name="SlopeDistance">"Dist. d'ascension"</string>
     <string name="Slopeamount">Total des ascensions</string>
     <string name="SmartPause">Pause Intelligente</string>
     <string name="SmartRecord">Enr. Intel.</string>
-    <string name="Sound">Son</string>
+    <string name="Sound">Sons</string>
     <string name="SpecificPower">w/kg</string>
     <string name="Speed">Vitesse</string>
     <string name="StartLiveTrack">Démarrer Live Track</string>
@@ -1274,17 +1393,21 @@ Besoin d'aide avec notre produit ?"</string>
     <string name="SyncWtoD7ok">Les plans pour les 7 prochains jours sont prêts!</string>
     <string name="TSS_Power">efficacité entrainement</string>
     <string name="TT_AddMaps">Ajouter Carte</string>
+    <string name="TT_InputPowercurve">Saisir la Power Curve</string>
     <string name="TT_MapDownload">Télécharger carte</string>
     <string name="TT_MapUpdate">Mise à jour carte</string>
     <string name="TT_Maps">CARTE</string>
     <string name="TT_UpdateRiderDevice">Rester à jour</string>
+    <string name="T_ATL">Fatigue</string>
     <string name="T_About">A PROPOS DE</string>
     <string name="T_AboutProblem">À propos du problème</string>
     <string name="T_AccountConfirmation">CONFIRMATION DU COMPTE</string>
     <string name="T_Activities">ACTIVITÉS</string>
-    <string name="T_Activitynotsync">non synchronisée</string>
+    <string name="T_Activitynotsync">Non synchronisée</string>
+    <string name="T_AddARideDay">Ajouter un jour</string>
     <string name="T_AddSensors">AJOUTER DES CAPTEURS</string>
     <string name="T_AddWorkout">AJOUTER L’ENTRAÎNEMENT</string>
+    <string name="T_AiAssistant">Assistant Bryton</string>
     <string name="T_Alert">ALARME</string>
     <string name="T_AlertSettings">"PARAMÈTRES D'ALERTE"</string>
     <string name="T_AppPage">Quel semble être le problème ?</string>
@@ -1293,72 +1416,122 @@ Besoin d'aide avec notre produit ?"</string>
     <string name="T_AutoFeatures">FONCTIONNALITÉS AUTOMATIQUES</string>
     <string name="T_AutoSend">ENVOI AUTOMATIQUE</string>
     <string name="T_Bikesettings">RÉGLAGES DU VÉLO</string>
+    <string name="T_Borderline">Limite</string>
+    <string name="T_BreakawayArtist">Baroudeur</string>
+    <string name="T_BrytonAssistant">Assistant Bryton</string>
+    <string name="T_CTL">Forme physique</string>
     <string name="T_Calendar">CALENDRIER</string>
+    <string name="T_Carbs">Glucides totaux %s kcal</string>
+    <string name="T_Condition">CONDITION</string>
     <string name="T_ContactSupportNotice">"Avis de contact d'assistance"</string>
     <string name="T_Conversations">Conversations</string>
     <string name="T_CreateGroupTrack">Créer un nouveau groupe</string>
     <string name="T_DeleteAccount">SUPPRIMER LE COMPTE</string>
     <string name="T_Deleting">Suppression</string>
+    <string name="T_Description">Description</string>
     <string name="T_Details">Details</string>
     <string name="T_DeviceListPage">Quel appareil utilisez-vous ?</string>
+    <string name="T_EditConditions">Modifier les conditions</string>
+    <string name="T_EstimatedTime">Temps estimé</string>
     <string name="T_Exporting">Exporter…</string>
     <string name="T_FaqPage">Foire aux questions</string>
     <string name="T_Feedback">Commentaires</string>
     <string name="T_FirmwareUpdate">MISE À JOUR LOGICIELLE</string>
+    <string name="T_Fresh">Frais</string>
     <string name="T_GRDownloadFail">Le téléchargement de Group Ride a échoué</string>
+    <string name="T_Gels">Gels énergétiques totaux %s packs</string>
     <string name="T_GeneralSettings">PARAMETRE GÉNÉRAL</string>
+    <string name="T_Goal">Objectif</string>
     <string name="T_GroupRide">GROUP RIDE</string>
-    <string name="T_GruupTrack">Group Ride</string>
+    <string name="T_GruupTrack">Sortie en groupe</string>
+    <string name="T_Hydration">Hydratation totale (avec électrolytes) %s ml</string>
+    <string name="T_HydrationAndCarbs" formatted="false">Eau %s ml, Glucides %s kcal</string>
+    <string name="T_HydrationAndPacks" formatted="false">Eau %s ml, Gels énergétiques %s packs</string>
     <string name="T_ImportantAnnouncement">Avis important</string>
     <string name="T_InputPage">Pouvez-vous nous en dire plus sur le problème ?</string>
     <string name="T_JoinGT">Rejoindre le groupe</string>
     <string name="T_LBalance">Equilibre de gauche</string>
     <string name="T_LRBalance">Balance L/R</string>
+    <string name="T_LastWeekDialogSubTitle">Examen du %s</string>
+    <string name="T_LastWeekDialogTitle">Votre entraînement suivant est prêt !</string>
     <string name="T_LiveSegmentDenied">Le segment en direct STRAVA est une fonctionnalité réservée aux utilisateurs premium.</string>
-    <string name="T_LiveSegments">Live Segments</string>
+    <string name="T_LiveSegments">Segments en direct</string>
     <string name="T_LiveTrack">LIVE TRACK</string>
     <string name="T_ManageDevices">GÉRER LES APPAREILS</string>
     <string name="T_MarkPlace">"INDIQUER L'ENDROIT"</string>
     <string name="T_MorningRide">PROMENADE DU MATIN</string>
     <string name="T_MyFavorites">MES FAVORIS</string>
-    <string name="T_MyNetworks">mes réseaux</string>
+    <string name="T_MyNetworks">Mes réseaux</string>
     <string name="T_MyRoute">MA ROUTE</string>
     <string name="T_MySegmentsEmpty">Aucun segment ajouté pour la compétition.</string>
     <string name="T_MyWorkout">MON ENTRAINEMENT</string>
     <string name="T_Navigation">NAVIGATION</string>
     <string name="T_NewAvailable">Nouvelle mise à jour</string>
     <string name="T_NoLiveSegments">Aucun segment mis en favori sur STRAVA</string>
+    <string name="T_NoSpecific">Pas de date spécifique</string>
+    <string name="T_NoneAiRoute">Créer un Pace Pilot</string>
     <string name="T_Notifications">NOTIFICATIONS</string>
+    <string name="T_Nutrition">NUTRITION</string>
+    <string name="T_Optimal">Optimal</string>
+    <string name="T_Optional">FACULTATIF</string>
     <string name="T_OtherApps">Autres applications</string>
-    <string name="T_OtherNetworks">Other Networks</string>
+    <string name="T_OtherNetworks">Autres réseaux</string>
+    <string name="T_Overload">Surcharge</string>
+    <string name="T_PMC">Graphique de gestion des performances</string>
+    <string name="T_PMCDesc">Description PMC</string>
     <string name="T_PlanWorkout">PLANIFIER L’ENTRAÎNEMENT</string>
     <string name="T_PowerCurveX">Durée</string>
     <string name="T_PowerCurveY">Puissance(W)</string>
+    <string name="T_ProgressPlanner">Plan de progrès</string>
+    <string name="T_PureClimber">Pur Grimpeur</string>
     <string name="T_QR">RÉPONSES RAPIDES</string>
     <string name="T_QuickResponses">Réponse rapide</string>
     <string name="T_QuickStatus">ÉTAT RAPIDE</string>
     <string name="T_RBalance">Equilibre de Droite</string>
+    <string name="T_RampingUp">Montée en puissance</string>
     <string name="T_RemoveSensor">Enlever le capteur</string>
     <string name="T_Results">RÉSULTAT</string>
     <string name="T_RideConfig">Config. Compteur</string>
+    <string name="T_RideDate">Date du trajet</string>
+    <string name="T_RideDateValue">Date du trajet : %s</string>
+    <string name="T_RiderInsight">Aperçu du cycliste</string>
+    <string name="T_Segment">SEGMENT</string>
+    <string name="T_SelectRoute">Veuillez sélectionner un itinéraire</string>
     <string name="T_Share">PARTAGER</string>
     <string name="T_SpeedPrority">PRORITÉ DE VITESSE</string>
+    <string name="T_Sprinter">Sprinteur</string>
     <string name="T_Synced">Synchronisation terminée</string>
     <string name="T_Syncing">Synchronisation...</string>
+    <string name="T_TSB">Forme</string>
+    <string name="T_TTSpecialist">Spécialiste du CLM</string>
+    <string name="T_TargetTss">TSS cible</string>
+    <string name="T_ThePuncheur">Puncheur</string>
     <string name="T_TimeUnit">TEMPS / UNITÉ</string>
+    <string name="T_TrainingDays">"Jours d'entraînement"</string>
+    <string name="T_TrainingDaysAndHours">"Jours et heures d'entraînement"</string>
+    <string name="T_TrainingLoad">"Charge d'entraînement"</string>
     <string name="T_Type">Type</string>
+    <string name="T_UltraEndurance">Ultra-Endurance</string>
     <string name="T_UnusualProfile">Profil inhabituel</string>
     <string name="T_Vo2maxDesc2">Optimisation des données de forme</string>
     <string name="T_Vo2maxDesc3">"Définition de la zone VO2 Max adaptée de \" American College of Sports Medicine's Guidelines for Exercise Testing and Prescription \""</string>
+    <string name="T_WaterAndCarbs">Eau et Glucides</string>
+    <string name="T_WeeklyHours">Heures hebdomadaires</string>
+    <string name="T_WeeklyTraining">Plan de cette semaine</string>
     <string name="T_WhatsNew">Quoi de neuf</string>
     <string name="T_Workout">"SÉANCE D'ENTRAÎNEMENT"</string>
     <string name="T_ZONES">ZONES</string>
+    <string name="T_aiRouteTitle">Pace Pilot</string>
+    <string name="T_aiWorkoutTitle">Entraînement intelligent</string>
     <string name="T_contact">Contacter le support</string>
+    <string name="T_goalDuration">Fin cible %s</string>
     <string name="T_month">moi</string>
     <string name="T_planTrip">PLANIFIER PARCOURS</string>
-    <string name="T_week">semaine</string>
-    <string name="T_year">année</string>
-    <string name="TakeAPhoto">prendre une photo</string>
+    <string name="T_setGoalSubTitle">Choisissez comment vous souhaitez planifier votre parcours</string>
+    <string name="T_setGoalTitle">"Fixez votre objectif d'entraînement"</string>
+    <string name="T_week">Semaine</string>
+    <string name="T_year">Année</string>
+    <string name="TakeAPhoto">Prendre une photo</string>
     <string name="Temperature">Temp.</string>
     <string name="ThankYou">Nous vous remercions</string>
     <string name="Thursday">Je</string>
@@ -1439,22 +1612,23 @@ Besoin d'aide avec notre produit ?"</string>
     <string name="VoiceNavSettings_T">Réglages</string>
     <string name="WPInterval">INTERVALLE</string>
     <string name="WPUnit">UNITÉ</string>
-    <string name="Walking">marche</string>
+    <string name="Walking">Marche</string>
     <string name="WantToConnectDev">"Connecter l'appareil?"</string>
-    <string name="WarmUp">préparation</string>
-    <string name="Waterpoint">eau</string>
+    <string name="WarmUp">Préparation</string>
+    <string name="Waterpoint">Eau</string>
     <string name="WayPoint">Point de Chemin</string>
     <string name="Weblink">Lien internet</string>
     <string name="Wednesday">Me</string>
     <string name="WednesdayT1">Mer</string>
+    <string name="Weeks">semaines</string>
     <string name="Weight">Poids</string>
     <string name="WelcomewithBryton">Bienvenue dans la communauté Bryton</string>
     <string name="WhenIdleAfter">"en cas d'inactivité"</string>
     <string name="Whoops">Oups!</string>
     <string name="Wifiusing">Le Wifi est connecté</string>
     <string name="WoInterval">intervalle</string>
-    <string name="WoWork">activité</string>
-    <string name="Workout">entraîner</string>
+    <string name="WoWork">Activité</string>
+    <string name="Workout">Entrainer</string>
     <string name="WorkoutAutoSync">Synchronisation automatique de l’entraînement</string>
     <string name="WorkoutList">"liste d'entraînement"</string>
     <string name="WorkoutPlan">"Plan d'entraînement"</string>
@@ -1470,8 +1644,8 @@ Besoin d'aide avec notre produit ?"</string>
     <string name="_006_codeanswer">"Le code 6 signifie que Google service n'est pas disponible dans cette région"</string>
     <string name="_10Min">10 min</string>
     <string name="_15sec">15 sec</string>
-    <string name="_1Min">1 mn</string>
-    <string name="_2Min">2 mn</string>
+    <string name="_1Min">1 min</string>
+    <string name="_2Min">2 min</string>
     <string name="_30Min">30 min</string>
     <string name="_30sec">30 sec</string>
     <string name="_3rdalreadyhave">Le fichier a été téléchargé</string>
@@ -1578,9 +1752,4 @@ Besoin d'aide avec notre produit ?"</string>
     <string name="workoutToDev">"Télécharger les entraînements sur l'appareil"</string>
     <string name="writemsg">Entrez un message</string>
     <string name="Ｍ_GRbegin">"Le tour de groupe programmé commencera après 15 minutes, veuillez vous assurer que l'appareil est connecté à votre téléphone."</string>
-    <string name="rationale_ask">Cette application risque de ne pas fonctionner correctement sans les autorisations demandées.</string>
-    <string name="rationale_ask_again">Cette application risque de ne pas fonctionner correctement sans les autorisations demandées. Ouvrez les paramètres de l\'application pour les modifier.</string>
-    <string name="title_settings_dialog">Autorisations requises</string>
-    <string name="I_DisplayPreference">Préférences d\'affichage</string>
-    <string name="I_StartOfWeek">Début de semaine</string>
 </resources>
