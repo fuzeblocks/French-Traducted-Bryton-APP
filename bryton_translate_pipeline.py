@@ -302,8 +302,8 @@ TRANSLATIONS = {
       "desc": "Consultez la version actuelle du micrologiciel installée sur votre appareil."
     },
     "F_Bikesetting": {
-      "value": "Paramètres vélo",
-      "desc": "Configurez les informations et les paramètres de votre vélo."
+      "value": "Paramètres des profils du vélo",
+      "desc": "Configurez les informations et les paramètres de votre vélo à travers les profils."
     },
     
     "AutoFeature": {
@@ -317,8 +317,47 @@ TRANSLATIONS = {
     "ManageSensor": {
       "value": "Mes capteurs",
       "desc": "Ajoutez, gérez et configurez vos capteurs connectés."
-    }
-    
+    },
+    "AutoSyncTrack": {
+      "value": "Sync. auto des tracés",
+      "desc": "Synchronisation automatique des tracés."
+    },
+    "Keytone": {
+      "value": "Bips sonore",
+      "desc": "Activez les alertes sonore."
+    },
+    "_1Min": {
+      "value": "1 min",
+      "desc": "1 min"
+    },
+    "_2Min": {
+      "value": "2 min",
+      "desc": "2 min"
+    },
+    "Sound": {
+      "value": "Sons",
+      "desc": "Activez les sons"
+    },
+    "Road": {
+      "value": "Route",
+      "desc": "Route"
+    },
+    "Driving": {
+      "value": "Motorisé",
+      "desc": "Motorisé"
+    },
+    "Motorcycle": {
+      "value": "Motocyclette",
+      "desc": "Motocyclette"
+    },
+    "Pathplanning": {
+      "value": "Types de route",
+      "desc": "Types de route"
+    },
+    "M_ProfileSync": {
+      "value": "Synchronisation du profil",
+      "desc": "Synchronisation du profil"
+    },
 
 
 
