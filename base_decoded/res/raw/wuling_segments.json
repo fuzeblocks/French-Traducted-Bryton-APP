@@ -1,0 +1,86 @@
+[
+  {
+    "segment": "1",
+    "distance": "6.43km",
+    "avg_slope": "1.95%",
+    "elevation_gain": "205.7m",
+    "elevation_range": "494.2m - 624.7m",
+    "start_coords": {
+      "lat": 23.97881,
+      "lon": 120.99370
+    },
+    "weatherInfo": "14.2°C, Wind: 216° at 3.1km/h, Humidity: 99.0%"
+  },
+  {
+    "segment": "2",
+    "distance": "1.02km",
+    "avg_slope": "-0.94%",
+    "elevation_gain": "36.6m",
+    "elevation_range": "606.1m - 630.7m",
+    "start_coords": {
+      "lat": 23.99774,
+      "lon": 121.04875
+    },
+    "weatherInfo": "19.6°C, Wind: 306° at 3.1km/h, Humidity: 97.0%"
+  },
+  {
+    "segment": "3",
+    "distance": "2.17km",
+    "avg_slope": "2.30%",
+    "elevation_gain": "109.3m",
+    "elevation_range": "629.0m - 700.1m",
+    "start_coords": {
+      "lat": 24.00350,
+      "lon": 121.05528
+    },
+    "weatherInfo": "20.2°C, Wind: 306° at 3.1km/h, Humidity: 97.0%"
+  },
+  {
+    "segment": "4",
+    "distance": "1.01km",
+    "avg_slope": "-3.19%",
+    "elevation_gain": "34.5m",
+    "elevation_range": "681.3m - 700.6m",
+    "start_coords": {
+      "lat": 23.99596,
+      "lon": 121.07050
+    },
+    "weatherInfo": "14.7°C, Wind: 216° at 3.1km/h, Humidity: 99.0%"
+  },
+  {
+    "segment": "5",
+    "distance": "24.33km",
+    "avg_slope": "4.96%",
+    "elevation_gain": "2125.0m",
+    "elevation_range": "691.7m - 2145.7m",
+    "start_coords": {
+      "lat": 23.99663,
+      "lon": 121.07937
+    },
+    "weatherInfo": "20.1°C, Wind: 306° at 3.1km/h, Humidity: 97.0%"
+  },
+  {
+    "segment": "6",
+    "distance": "1.01km",
+    "avg_slope": "0.14%",
+    "elevation_gain": "75.3m",
+    "elevation_range": "2078.3m - 2141.4m",
+    "start_coords": {
+      "lat": 24.08927,
+      "lon": 121.17322
+    },
+    "weatherInfo": "19.8°C, Wind: 306° at 3.1km/h, Humidity: 97.0%"
+  },
+  {
+    "segment": "7",
+    "distance": "15.87km",
+    "avg_slope": "5.76%",
+    "elevation_gain": "1677.3m",
+    "elevation_range": "2141.4m - 3281.4m",
+    "start_coords": {
+      "lat": 24.09585,
+      "lon": 121.17842
+    },
+    "weatherInfo": "17.6°C, Wind: 306° at 3.1km/h, Humidity: 97.0%"
+  }
+]

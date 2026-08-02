@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/map_container" android:layout_width="fill_parent" android:layout_height="290.0dip" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="#ff161f30" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.github.mikephil.charting.charts.CombinedChart android:id="@id/altitude_chart" android:background="#ff1d2638" android:layout_width="fill_parent" android:layout_height="179.0dip" />
+                <LinearLayout android:orientation="vertical" android:id="@id/ai_result_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="8.0dip">
+                        <RelativeLayout android:background="@drawable/round_corner_bg_midtone_gray_8dp" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                            <TextView android:textSize="13.0sp" android:textColor="#ffc4c3ca" android:id="@id/txt_estimated_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Estimated Time" />
+                            <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/txt_estimated_time_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="01:30" android:layout_below="@id/txt_estimated_time" />
+                        </RelativeLayout>
+                        <RelativeLayout android:background="@drawable/round_corner_bg_midtone_gray_8dp" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="8.0dip">
+                            <TextView android:textSize="13.0sp" android:textColor="#ffc4c3ca" android:id="@id/txt_average_power" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Average Power" />
+                            <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/txt_average_power_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="250W" android:layout_below="@id/txt_average_power" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="8.0dip">
+                        <RelativeLayout android:background="@drawable/round_corner_bg_midtone_gray_8dp" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                            <TextView android:textSize="13.0sp" android:textColor="#ffc4c3ca" android:id="@id/txt_Average_NP" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Average NP" />
+                            <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/txt_Average_NP_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="270W" android:layout_below="@id/txt_Average_NP" />
+                        </RelativeLayout>
+                        <RelativeLayout android:background="@drawable/round_corner_bg_midtone_gray_8dp" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="8.0dip">
+                            <TextView android:textSize="13.0sp" android:textColor="#ffc4c3ca" android:id="@id/txt_if_power" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Average Power" />
+                            <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/txt_if_power_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="0.85" android:layout_below="@id/txt_if_power" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="8.0dip">
+                        <RelativeLayout android:background="@drawable/round_corner_bg_midtone_gray_8dp" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                            <TextView android:textSize="13.0sp" android:textColor="#ffc4c3ca" android:id="@id/txt_tss" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TSS" />
+                            <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/txt_tss_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="150" android:layout_below="@id/txt_tss" />
+                        </RelativeLayout>
+                        <RelativeLayout android:background="@drawable/round_corner_bg_midtone_gray_8dp" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="8.0dip">
+                            <TextView android:textSize="13.0sp" android:textColor="#ffc4c3ca" android:id="@id/txt_total_work" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Average Power" />
+                            <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/txt_total_work_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="250W" android:layout_below="@id/txt_total_work" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView android:textSize="14.0sp" android:textColor="#ffa2a2a2" android:id="@id/txt_condition" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="CONDITION" android:paddingStart="16.0dip" />
+                <RelativeLayout android:background="@color/bg_midtone_secondary" android:paddingTop="13.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                    <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:id="@id/txt_bike_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bike Type" />
+                    <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:id="@id/txt_bike_type_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Road" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <RelativeLayout android:background="@color/bg_midtone_secondary" android:paddingTop="13.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                    <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:id="@id/txt_bike_weight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="裝備重量" />
+                    <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:id="@id/txt_bike_weight_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="000kg" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <RelativeLayout android:background="@color/bg_midtone_secondary" android:paddingTop="13.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                    <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:id="@id/txt_road_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Road Type" />
+                    <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:id="@id/txt_road_type_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Paved" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <RelativeLayout android:background="@color/bg_midtone_secondary" android:paddingTop="13.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                    <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:id="@id/txt_effort_level" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Effort Level" />
+                    <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:id="@id/txt_effort_level_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="level 3" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <RelativeLayout android:background="@color/bg_midtone_secondary" android:paddingTop="13.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                    <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:id="@id/txt_energy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Effort Level" />
+                    <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:id="@id/txt_energy_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="level 3" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/layout_ride_day" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                    <TextView android:textSize="14.0sp" android:textColor="#ffa2a2a2" android:id="@id/txt_ride_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NUTRITION" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ffa2a2a2" android:id="@id/txt_ride_day_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="NUTRITION" />
+                </LinearLayout>
+                <TextView android:textSize="14.0sp" android:textColor="#ffa2a2a2" android:id="@id/txt_nutrition" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="NUTRITION" android:paddingStart="16.0dip" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/layout_water_and_carbs" android:background="@color/bg_midtone_secondary" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="8.0dip">
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/icon_poi_water_s_wt_2" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="8.0dip">
+                        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/txt_water_and_carbs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Water &amp; Carbs" />
+                        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ffc4c3ca" android:id="@id/txt_water_and_carbs_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1200 ml 的水量，60 g 的碳水化合物" />
+                    </LinearLayout>
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/icon_calendarrightwardarrow_gy" app:tint="#ffffffff" />
+                </LinearLayout>
+                <TextView android:textSize="14.0sp" android:textColor="#ffa2a2a2" android:id="@id/txt_segment" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="SEGMENT" android:paddingStart="16.0dip" />
+                <LinearLayout android:orientation="vertical" android:id="@id/layout_segment" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.brytonsport.active.views.view.TitleTextView android:id="@id/item_bike_type" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+        <com.brytonsport.active.views.view.TitleTextView android:id="@id/item_bike_weight" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+        <com.brytonsport.active.views.view.TitleTextView android:id="@id/item_road_type" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+        <com.brytonsport.active.views.view.TitleTextView android:id="@id/item_effort_level" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+        <com.brytonsport.active.views.view.TitleTextView android:id="@id/item_energy" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <View android:background="@color/deviding_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_centerVertical="true" />
+            <TextView android:textSize="13.0sp" android:textColor="#ffa2a2a2" android:id="@id/txt_optional" android:background="@color/bg_dark_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="next" android:layout_centerInParent="true" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_ride_day" android:background="@drawable/round_corner_dark_grey_stroke_gray_10dp" android:paddingTop="13.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <TextView android:textSize="17.0sp" android:textColor="#ffc4c3ca" android:id="@id/txt_ride_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Power(W)" />
+            <TextView android:textSize="17.0sp" android:textColor="#ffffffff" android:id="@id/txt_ride_day_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toStartOf="@id/icon_check" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/icon_check" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@null" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView android:textSize="13.0sp" android:textColor="#ffa2a2a2" android:id="@id/txt_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="next" android:layout_above="@id/layout_button" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+    <RelativeLayout android:id="@id/layout_button" android:background="@drawable/round_corner_green_8dp" android:paddingTop="11.0dip" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+        <TextView android:textSize="17.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/txt_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="next" />
+    </RelativeLayout>
+</RelativeLayout>

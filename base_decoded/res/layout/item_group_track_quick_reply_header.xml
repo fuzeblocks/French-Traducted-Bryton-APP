@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="17.0sp" android:textStyle="normal" android:textColor="#ffa2a2a2" android:id="@id/quick_reply_1_text" android:background="#ff1b2538" android:paddingTop="13.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="15.0dip" android:text="SOS I need help" android:lineSpacingExtra="5.0sp" android:fontFamily="sans-serif-medium" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+        <View android:background="#ff333c4b" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignBottom="@id/quick_reply_1_text" />
+        <TextView android:textSize="17.0sp" android:textStyle="normal" android:textColor="#ffa2a2a2" android:id="@id/quick_reply_2_text" android:background="#ff1b2538" android:paddingTop="13.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="On my way" android:layout_below="@id/quick_reply_1_text" android:lineSpacingExtra="5.0sp" android:fontFamily="sans-serif-medium" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+        <View android:background="#ff333c4b" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignBottom="@id/quick_reply_2_text" />
+    </RelativeLayout>
+</RelativeLayout>

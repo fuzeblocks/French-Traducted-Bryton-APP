@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/actionbar_layout" android:background="@color/bg_dark_primary" android:layout_width="fill_parent" android:layout_height="56.0dip" android:paddingStart="15.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/no_device_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+            <ImageView android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@null" app:tint="@color/white" />
+            <TextView android:textSize="15.0dip" android:textColor="@color/white" android:id="@id/txt_device" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/device_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+            <ImageView android:id="@id/img_device_icon" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@null" />
+            <TextView android:textSize="15.0dip" android:textColor="@color/white" android:id="@id/txt_device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+            <TextView android:textSize="15.0dip" android:textColor="@color/white" android:id="@id/txt_device_point" android:layout_width="15.0dip" android:layout_height="wrap_content" android:text="・" />
+            <ImageView android:id="@id/img_device_battery" android:layout_width="20.0dip" android:layout_height="24.0dip" />
+            <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@null" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/menu_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:id="@id/weather_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginEnd="8.0dip">
+        <ImageView android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@null" android:layout_marginEnd="5.0dip" />
+        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/txt_temperature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="--°F" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@id/user_layout" android:background="@drawable/round_corner_bg_midtone_gray_8dp" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/img_user_head" android:background="@drawable/circle_gray_background" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/icon_bryton_head_wt" android:scaleType="centerCrop" android:layout_marginEnd="5.0dip" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="5.0dip">
+                    <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/txt_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="13.0sp" android:textColor="#ffa2a2a2" android:id="@id/txt_dna_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <ImageView android:layout_gravity="end|center" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/icon_calendarrightwardarrow_gy" app:tint="@color/white" />
+            </LinearLayout>
+            <com.brytonsport.active.ui.result.adapter.item.ResultGanttItem android:id="@id/result_gantt_item" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/tsb_layout" android:background="@drawable/round_corner_bg_midtone_gray_8dp" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip">
+                <TextView android:textSize="13.0sp" android:textColor="#ffa2a2a2" android:id="@id/txt_tsb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="TSB" />
+                <RelativeLayout android:id="@id/data_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/main_green" android:id="@id/tsb_level_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Optimal" android:layout_alignParentStart="true" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+                        <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/txt_days" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00" />
+                        <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:id="@id/txt_days_to_what" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="days to “Fresh”" android:layout_marginStart="3.0dip" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+                    <ProgressBar android:id="@id/progressBar" android:background="@null" android:layout_width="fill_parent" android:layout_height="6.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:max="100" android:progress="100" style="?android:progressBarStyleHorizontal" />
+                    <View android:layout_gravity="center_vertical" android:id="@id/indicator" android:background="@drawable/round_corner_bg_white_4dp" android:layout_width="6.0dip" android:layout_height="14.0dip" android:layout_centerVertical="true" />
+                    <View android:id="@id/no_data_view" android:background="#70262e40" android:layout_width="fill_parent" android:layout_height="6.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+                </RelativeLayout>
+                <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/tsb_level_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_marginStart="3.0dip" />
+            </LinearLayout>
+            <TextView android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/result_no_data" android:background="#ff262e40" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:text="@string/noRecent" android:layout_below="@id/result_action_item" />
+            <LinearLayout android:orientation="vertical" android:id="@id/result_data_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/more_layout" android:background="@drawable/round_edge_trans_bg_gray_border_8dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+                <TextView android:textSize="17.0sp" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/txt_more" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="New Chat" android:layout_centerInParent="true" />
+            </LinearLayout>
+            <com.brytonsport.active.ui.result.adapter.item.ResultActionItem android:id="@id/result_action_item" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/result_list" android:background="#ff262e40" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/result_action_item" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

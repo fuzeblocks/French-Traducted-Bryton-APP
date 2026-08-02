@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textColor="@color/white" android:id="@id/txt_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="02/04-05/06" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/no_data_view" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_marginTop="50.0dip">
+        <TextView android:textColor="@color/light_grey_text" android:id="@id/txt_no_data_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="尚無VO2 Max資料" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/chart_layout" android:paddingBottom="17.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="50.0dip" />
+</RelativeLayout>

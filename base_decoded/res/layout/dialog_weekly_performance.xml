@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/round_corner_bg_midtone_gray_15dp" android:paddingTop="24.0dip" android:paddingBottom="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/txt_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="next" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/light_blue_grey" android:gravity="center" android:id="@id/txt_sub_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:text="Review from May 4-10" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/light_blue_grey" android:gravity="center" android:id="@id/txt_tss_made" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Review from May 4-10" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <RelativeLayout android:id="@id/layout_percentage" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+        <TextView android:textSize="40.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/txt_tss_made_int" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="%" android:layout_alignBottom="@id/txt_tss_made_int" android:layout_marginStart="4.0dip" android:layout_toEndOf="@id/txt_tss_made_int" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+        <RelativeLayout android:paddingTop="11.0dip" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <TextView android:textSize="15.0sp" android:textColor="#ffc4c3ca" android:gravity="center" android:id="@id/txt_target_tss" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Target_Tss" android:layout_centerHorizontal="true" android:layout_alignParentStart="true" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/txt_target_tss_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="200" android:layout_marginStart="4.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <View android:background="@color/deviding_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <RelativeLayout android:paddingTop="11.0dip" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <TextView android:textSize="15.0sp" android:textColor="#ffc4c3ca" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TSS" android:layout_centerHorizontal="true" android:layout_alignParentStart="true" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/txt_total_tss_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="150" android:layout_marginStart="4.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <View android:background="@color/deviding_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <RelativeLayout android:paddingTop="11.0dip" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <TextView android:textSize="15.0sp" android:textColor="#ffc4c3ca" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TSB" android:layout_centerHorizontal="true" android:layout_alignParentStart="true" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/txt_tsb_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+10" android:layout_marginStart="4.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/layout_button" android:background="@drawable/round_corner_green_8dp" android:paddingTop="11.0dip" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+        <TextView android:textSize="17.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/txt_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="next" />
+    </RelativeLayout>
+</LinearLayout>

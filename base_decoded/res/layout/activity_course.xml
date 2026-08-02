@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/light_grey_text" android:id="@id/routes_title" android:paddingTop="12.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+            <View android:background="#ff333c4b" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <com.brytonsport.active.views.view.IconTitleView android:id="@id/navigation_item_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.brytonsport.active.views.view.IconTitleView android:id="@id/my_route_item_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/light_grey_text" android:id="@id/training_title" android:paddingTop="26.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+            <View android:background="#ff333c4b" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <com.brytonsport.active.views.view.IconTitleView android:id="@id/workout_plan_item_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/layout_connect" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/light_grey_text" android:id="@id/tracking_title" android:paddingTop="26.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+                <View android:background="#ff333c4b" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <com.brytonsport.active.views.view.IconTitleView android:id="@id/live_track_item_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <com.brytonsport.active.views.view.IconTitleView android:id="@id/group_track_item_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/layout_live_segment" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/light_grey_text" android:id="@id/live_segment_title" android:paddingTop="26.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+                <View android:background="#ff333c4b" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <RelativeLayout android:id="@id/live_segment_item_view" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <ImageView android:id="@id/icon_image" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@null" android:layout_centerVertical="true" android:layout_marginStart="20.0dip" />
+                    <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/live_segment_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/B_LiveSegments" android:layout_centerVertical="true" android:layout_marginStart="20.0dip" android:layout_toEndOf="@id/icon_image" />
+                    <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/icon_next_wt" android:layout_centerVertical="true" android:layout_marginEnd="15.0dip" android:layout_alignParentEnd="true" />
+                    <View android:background="#ff333c4b" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="61.0dip" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/layout_ai_assistant" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/light_grey_text" android:id="@id/ai_assistant_title" android:paddingTop="26.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+                <View android:background="#ff333c4b" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <RelativeLayout android:id="@id/ai_route_item_view" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <ImageView android:id="@id/icon_ai_route" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@null" android:layout_centerVertical="true" android:layout_marginStart="20.0dip" />
+                    <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/ai_route_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/B_LiveSegments" android:layout_centerVertical="true" android:layout_marginStart="20.0dip" android:layout_toEndOf="@id/icon_ai_route" />
+                    <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/ai_route_new_text" android:background="@drawable/round_corner_bg_red_100dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="20.0dip" android:text="New" android:layout_centerVertical="true" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" android:layout_marginStart="5.0dip" android:layout_toEndOf="@id/ai_route_item_text" />
+                    <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/icon_next_wt" android:layout_centerVertical="true" android:layout_marginEnd="15.0dip" android:layout_alignParentEnd="true" />
+                    <View android:background="#ff333c4b" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="61.0dip" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/ai_workout_item_view" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <ImageView android:id="@id/icon_ai_workout" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@null" android:layout_centerVertical="true" android:layout_marginStart="20.0dip" />
+                    <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/ai_workout_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/B_LiveSegments" android:layout_centerVertical="true" android:layout_marginStart="20.0dip" android:layout_toEndOf="@id/icon_ai_workout" />
+                    <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/icon_next_wt" android:layout_centerVertical="true" android:layout_marginEnd="15.0dip" android:layout_alignParentEnd="true" />
+                    <View android:background="#ff333c4b" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="61.0dip" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

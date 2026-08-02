@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:id="@id/txtYTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="4.0dip" android:text="Power(W)" android:layout_marginStart="4.0dip" />
+            <RelativeLayout android:id="@id/chart_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <RelativeLayout android:id="@id/no_data_layout" android:layout_width="fill_parent" android:layout_height="250.0dip">
+                <TextView android:textSize="15.0sp" android:textColor="#ffa2a2a2" android:id="@id/no_data_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="暫無可用數據" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/txtXTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="Power(W)" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/main_green" android:gravity="end" android:id="@id/txtReset" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="Power(W)" android:layout_marginEnd="15.0dip" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/line_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip">
+                <View android:layout_gravity="center_vertical" android:background="@color/main_green" android:layout_width="24.0dip" android:layout_height="2.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/txtGreenLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Power(W)" android:layout_marginStart="3.0dip" />
+                <View android:layout_gravity="center_vertical" android:background="@color/light_grey_text" android:layout_width="24.0dip" android:layout_height="2.0dip" android:layout_marginStart="20.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/txtGrayLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Power(W)" android:layout_marginStart="3.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

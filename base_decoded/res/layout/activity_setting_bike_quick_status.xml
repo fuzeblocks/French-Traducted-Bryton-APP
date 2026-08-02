@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.brytonsport.active.views.view.TitleTextView android:id="@id/type_item" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/manual_data_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="13.0sp" android:textStyle="bold|italic" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="When related functions activated" android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" android:layout_marginStart="20.0dip" />
+                <com.brytonsport.active.views.view.TitleTextView android:id="@id/top_item" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="4.0dip" />
+                <com.brytonsport.active.views.view.TitleTextView android:id="@id/middle_left_item" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+                <com.brytonsport.active.views.view.TitleTextView android:id="@id/middle_right_item" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+                <com.brytonsport.active.views.view.TitleTextView android:id="@id/bottom_left_item" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+                <com.brytonsport.active.views.view.TitleTextView android:id="@id/bottom_right_item" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

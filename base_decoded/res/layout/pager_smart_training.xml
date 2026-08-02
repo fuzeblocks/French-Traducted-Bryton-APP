@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@id/layout_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/txt_week_date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="2026/05/04 - 2026/06/28" />
+                    <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/txt_goal_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="目標完賽 03:40:15" />
+                </LinearLayout>
+                <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/txt_week_class" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="本週課表" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/workout_list" android:paddingTop="15.0dip" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+            <LinearLayout android:orientation="vertical" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                <TextView android:textSize="15.0sp" android:textColor="#ffa2a2a2" android:id="@id/txt_disclaimer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="This plan is a guide, not medical advice. High-intensity training has risks; consult a doctor first. You accept responsibility for any injuries. Upload ride data to keep your plan updated. Without it, the system can't analyze progress or create workouts. Stay synced!" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

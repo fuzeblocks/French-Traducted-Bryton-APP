@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/dnaLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:layout_marginStart="16.0dip">
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/txt_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="The Puncheur" />
+            <TextView android:textSize="13.0sp" android:textColor="#ffa2a2a2" android:id="@id/txt_dna_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Elite cyclist – 85 % 30 sec" />
+        </LinearLayout>
+        <com.github.mikephil.charting.charts.RadarChart android:id="@id/radarChart" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="300.0dip" android:layout_centerInParent="true" />
+    </LinearLayout>
+    <com.google.android.material.tabs.TabLayout android:id="@id/tabLayout" android:background="@color/bg_midtone_secondary" android:layout_width="fill_parent" android:layout_height="35.0dip" app:tabMode="scrollable" app:tabSelectedTextColor="@color/main_green" app:tabTextColor="@color/dark_grey" />
+    <com.brytonsport.active.ui.result.view.ResultViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/item_layout" android:background="#ff1b2538" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <RelativeLayout android:id="@id/action_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <EditText android:textSize="17.0sp" android:textStyle="normal" android:textColor="#ffffffff" android:id="@id/message_edit" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Where’re you guys?" android:hint="Tap to add/edit a quick response." android:singleLine="true" android:maxLength="30" android:layout_centerVertical="true" android:lineSpacingExtra="5.0sp" android:fontFamily="sans-serif" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" android:layout_toStartOf="@id/drag_icon" />
+            <ImageView android:id="@id/drag_icon" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/icon_reorder" android:layout_centerVertical="true" android:layout_marginEnd="20.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <View android:id="@id/divider" android:background="#ff333c4b" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>
