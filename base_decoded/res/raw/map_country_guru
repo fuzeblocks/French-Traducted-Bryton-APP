@@ -1,0 +1,5753 @@
+[
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Abkhazia",
+    "displayName": "",
+    "id": 1152720,
+    "name": "Abkhazia",
+    "size": 15195041
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Afghanistan",
+    "displayName": "",
+    "id": 303427,
+    "name": "Afghanistan",
+    "size": 274519248
+  },
+  {
+    "collection": "TRUE",
+    "continent": "Africa",
+    "country": "Africa",
+    "displayName": "",
+    "id": -4,
+    "name": "Africa",
+    "size": 0
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "South Africa",
+    "displayName": "",
+    "id": 87565,
+    "name": "South Africa",
+    "size": 500273923
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Eswatini",
+    "displayName": "",
+    "id": 88210,
+    "name": "Eswatini",
+    "size": 26009386
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Saint Helena",
+    "displayName": "",
+    "id": 155987,
+    "name": "Saint Helena",
+    "size": 561530
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Rwanda",
+    "displayName": "",
+    "id": 171496,
+    "name": "Rwanda",
+    "size": 52730667
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Algeria",
+    "displayName": "",
+    "id": 192756,
+    "name": "Algeria",
+    "size": 480449496
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Tunisia",
+    "displayName": "",
+    "id": 192757,
+    "name": "Tunisia",
+    "size": 98688147
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Libya",
+    "displayName": "",
+    "id": 192758,
+    "name": "Libya",
+    "size": 280642594
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Mauritania",
+    "displayName": "",
+    "id": 192763,
+    "name": "Mauritania",
+    "size": 168777458
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "The Gambia",
+    "displayName": "",
+    "id": 192774,
+    "name": "The Gambia",
+    "size": 20662580
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Senegal",
+    "displayName": "",
+    "id": 192775,
+    "name": "Senegal",
+    "size": 104418497
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Guinea-Bissau",
+    "displayName": "",
+    "id": 192776,
+    "name": "Guinea-Bissau",
+    "size": 15575277
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Sierra Leone",
+    "displayName": "",
+    "id": 192777,
+    "name": "Sierra Leone",
+    "size": 42763715
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Guinea",
+    "displayName": "",
+    "id": 192778,
+    "name": "Guinea",
+    "size": 117056514
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Côte d'Ivoire",
+    "displayName": "",
+    "id": 192779,
+    "name": "Côte d'Ivoire",
+    "size": 90718105
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Liberia",
+    "displayName": "",
+    "id": 192780,
+    "name": "Liberia",
+    "size": 42880198
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Ghana",
+    "displayName": "",
+    "id": 192781,
+    "name": "Ghana",
+    "size": 106483531
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Togo",
+    "displayName": "",
+    "id": 192782,
+    "name": "Togo",
+    "size": 48816663
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Burkina Faso",
+    "displayName": "",
+    "id": 192783,
+    "name": "Burkina Faso",
+    "size": 91870935
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Benin",
+    "displayName": "",
+    "id": 192784,
+    "name": "Benin",
+    "size": 45635889
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Mali",
+    "displayName": "",
+    "id": 192785,
+    "name": "Mali",
+    "size": 255656376
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Niger",
+    "displayName": "",
+    "id": 192786,
+    "name": "Niger",
+    "size": 214692685
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Nigeria",
+    "displayName": "",
+    "id": 192787,
+    "name": "Nigeria",
+    "size": 460643465
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Sudan",
+    "displayName": "",
+    "id": 192789,
+    "name": "Sudan",
+    "size": 289522268
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Central African Republic",
+    "displayName": "",
+    "id": 192790,
+    "name": "Central African Republic",
+    "size": 133065527
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Equatorial Guinea",
+    "displayName": "",
+    "id": 192791,
+    "name": "Equatorial Guinea",
+    "size": 12045967
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Gabon",
+    "displayName": "",
+    "id": 192793,
+    "name": "Gabon",
+    "size": 67826625
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Congo-Brazzaville",
+    "displayName": "",
+    "id": 192794,
+    "name": "Congo-Brazzaville",
+    "size": 71108418
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Democratic Republic of the Congo",
+    "displayName": "",
+    "id": 192795,
+    "name": "Democratic Republic of the Congo",
+    "size": 582152163
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Uganda",
+    "displayName": "",
+    "id": 192796,
+    "name": "Uganda",
+    "size": 231634632
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Kenya",
+    "displayName": "",
+    "id": 192798,
+    "name": "Kenya",
+    "size": 246073954
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Somalia",
+    "displayName": "",
+    "id": 192799,
+    "name": "Somalia",
+    "size": 178846880
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Ethiopia",
+    "displayName": "",
+    "id": 192800,
+    "name": "Ethiopia",
+    "size": 284685912
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Djibouti",
+    "displayName": "",
+    "id": 192801,
+    "name": "Djibouti",
+    "size": 9181115
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Cameroon",
+    "displayName": "",
+    "id": 192830,
+    "name": "Cameroon",
+    "size": 207069929
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Namibia",
+    "displayName": "",
+    "id": 195266,
+    "name": "Namibia",
+    "size": 126402669
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Angola",
+    "displayName": "",
+    "id": 195267,
+    "name": "Angola",
+    "size": 191761802
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Burundi",
+    "displayName": "",
+    "id": 195269,
+    "name": "Burundi",
+    "size": 56764370
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Tanzania",
+    "displayName": "",
+    "id": 195270,
+    "name": "Tanzania",
+    "size": 616163150
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Zambia",
+    "displayName": "",
+    "id": 195271,
+    "name": "Zambia",
+    "size": 231408175
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Zimbabwe",
+    "displayName": "",
+    "id": 195272,
+    "name": "Zimbabwe",
+    "size": 142411006
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Mozambique",
+    "displayName": "",
+    "id": 195273,
+    "name": "Mozambique",
+    "size": 236562906
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Malawi",
+    "displayName": "",
+    "id": 195290,
+    "name": "Malawi",
+    "size": 129295074
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Eritrea",
+    "displayName": "",
+    "id": 296961,
+    "name": "Eritrea",
+    "size": 41290548
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Madagascar",
+    "displayName": "",
+    "id": 447325,
+    "name": "Madagascar",
+    "size": 364983084
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Cape Verde",
+    "displayName": "",
+    "id": 535774,
+    "name": "Cape Verde",
+    "size": 11761653
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Comoros",
+    "displayName": "",
+    "id": 535790,
+    "name": "Comoros",
+    "size": 4020425
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Mauritius",
+    "displayName": "",
+    "id": 535828,
+    "name": "Mauritius",
+    "size": 8535917
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "São Tomé and Príncipe",
+    "displayName": "",
+    "id": 535880,
+    "name": "São Tomé and Príncipe",
+    "size": 1992406
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Seychelles",
+    "displayName": "",
+    "id": 536765,
+    "name": "Seychelles",
+    "size": 5673850
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Egypt",
+    "displayName": "",
+    "id": 1473947,
+    "name": "Egypt",
+    "size": 404043451
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "South Sudan",
+    "displayName": "",
+    "id": 1656678,
+    "name": "South Sudan",
+    "size": 110176317
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Botswana",
+    "displayName": "",
+    "id": 1889339,
+    "name": "Botswana",
+    "size": 97437807
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Lesotho",
+    "displayName": "",
+    "id": 2093234,
+    "name": "Lesotho",
+    "size": 69055685
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Chad",
+    "displayName": "",
+    "id": 2361304,
+    "name": "Chad",
+    "size": 205927553
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Morocco",
+    "displayName": "",
+    "id": 3630439,
+    "name": "Morocco",
+    "size": 272270100
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Sahrawi Arab Democratic Republic",
+    "displayName": "",
+    "id": 5441968,
+    "name": "Sahrawi Arab Democratic Republic",
+    "size": 12844758
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Albania",
+    "displayName": "",
+    "id": 53292,
+    "name": "Albania",
+    "size": 71256255
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Andorra",
+    "displayName": "",
+    "id": 9407,
+    "name": "Andorra",
+    "size": 11608392
+  },
+  {
+    "collection": "FALSE",
+    "continent": "South America",
+    "country": "Argentina",
+    "displayName": "",
+    "id": 286393,
+    "name": "Argentina",
+    "size": 684177638
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Armenia",
+    "displayName": "",
+    "id": 364066,
+    "name": "Armenia",
+    "size": 49614285
+  },
+  {
+    "collection": "TRUE",
+    "continent": "Oceania",
+    "country": "Australia",
+    "displayName": "",
+    "id": -80500,
+    "name": "Australia",
+    "size": 0
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Australia",
+    "displayName": "",
+    "id": 2316593,
+    "name": "New South Wales",
+    "size": 271189974
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Australia",
+    "displayName": "",
+    "id": 2316594,
+    "name": "Northern Territory",
+    "size": 127791263
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Australia",
+    "displayName": "",
+    "id": 2316595,
+    "name": "Queensland",
+    "size": 258549947
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Australia",
+    "displayName": "",
+    "id": 2316596,
+    "name": "South Australia",
+    "size": 132272189
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Australia",
+    "displayName": "",
+    "id": 2316598,
+    "name": "Western Australia",
+    "size": 287216278
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Australia",
+    "displayName": "",
+    "id": 2316741,
+    "name": "Victoria",
+    "size": 179024267
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Australia",
+    "displayName": "",
+    "id": 2354197,
+    "name": "Australian Capital Territory",
+    "size": 15453061
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Australia",
+    "displayName": "",
+    "id": 2357330,
+    "name": "Jervis Bay Territory",
+    "size": 1711961
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Australia",
+    "displayName": "",
+    "id": 2369652,
+    "name": "Tasmania",
+    "size": 45587725
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Austria",
+    "displayName": "",
+    "id": 16239,
+    "name": "Austria",
+    "size": 637020118
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Azerbaijan",
+    "displayName": "",
+    "id": 364110,
+    "name": "Azerbaijan",
+    "size": 76287401
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Bahrain",
+    "displayName": "",
+    "id": 378734,
+    "name": "Bahrain",
+    "size": 10993278
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Bangladesh",
+    "displayName": "",
+    "id": 184640,
+    "name": "Bangladesh",
+    "size": 227021760
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Belarus",
+    "displayName": "",
+    "id": 59065,
+    "name": "Belarus",
+    "size": 264580057
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Belgium",
+    "displayName": "",
+    "id": 52411,
+    "name": "Belgium",
+    "size": 459403846
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Belize",
+    "displayName": "",
+    "id": 287827,
+    "name": "Belize",
+    "size": 21687040
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Bhutan",
+    "displayName": "",
+    "id": 184629,
+    "name": "Bhutan",
+    "size": 45352608
+  },
+  {
+    "collection": "FALSE",
+    "continent": "South America",
+    "country": "Bolivia",
+    "displayName": "",
+    "id": 252645,
+    "name": "Bolivia",
+    "size": 305649923
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Bosnia and Herzegovina",
+    "displayName": "",
+    "id": 2528142,
+    "name": "Bosnia and Herzegovina",
+    "size": 124489329
+  },
+  {
+    "collection": "TRUE",
+    "continent": "South America",
+    "country": "Brazil",
+    "displayName": "",
+    "id": -59470,
+    "name": "Brazil",
+    "size": 0
+  },
+  {
+    "collection": "FALSE",
+    "continent": "South America",
+    "country": "Brazil",
+    "displayName": "",
+    "id": 2844750,
+    "name": "South Region",
+    "size": 414803653
+  },
+  {
+    "collection": "FALSE",
+    "continent": "South America",
+    "country": "Brazil",
+    "displayName": "",
+    "id": 3073228,
+    "name": "Southeast Region",
+    "size": 767591093
+  },
+  {
+    "collection": "FALSE",
+    "continent": "South America",
+    "country": "Brazil",
+    "displayName": "",
+    "id": 3359944,
+    "name": "Central-West Region",
+    "size": 311870533
+  },
+  {
+    "collection": "FALSE",
+    "continent": "South America",
+    "country": "Brazil",
+    "displayName": "",
+    "id": 3360429,
+    "name": "Northeast Region",
+    "size": 562668226
+  },
+  {
+    "collection": "FALSE",
+    "continent": "South America",
+    "country": "Brazil",
+    "displayName": "",
+    "id": 3360778,
+    "name": "North Region",
+    "size": 590492016
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Brunei",
+    "displayName": "",
+    "id": 2103120,
+    "name": "Brunei",
+    "size": 7865027
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Bulgaria",
+    "displayName": "",
+    "id": 186382,
+    "name": "Bulgaria",
+    "size": 166628212
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Cambodia",
+    "displayName": "",
+    "id": 49898,
+    "name": "Cambodia",
+    "size": 81116286
+  },
+  {
+    "collection": "TRUE",
+    "continent": "North America",
+    "country": "Canada",
+    "displayName": "",
+    "id": -1428125,
+    "name": "Canada",
+    "size": 0
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Canada",
+    "displayName": "",
+    "id": 61549,
+    "name": "Quebec",
+    "size": 535182983
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Canada",
+    "displayName": "",
+    "id": 68841,
+    "name": "Ontario",
+    "size": 570883183
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Canada",
+    "displayName": "",
+    "id": 68942,
+    "name": "New Brunswick",
+    "size": 51311934
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Canada",
+    "displayName": "",
+    "id": 390558,
+    "name": "Nova Scotia",
+    "size": 63175101
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Canada",
+    "displayName": "",
+    "id": 390840,
+    "name": "Nunavut",
+    "size": 432977719
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Canada",
+    "displayName": "",
+    "id": 390841,
+    "name": "Manitoba",
+    "size": 141073667
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Canada",
+    "displayName": "",
+    "id": 390867,
+    "name": "British Columbia",
+    "size": 605214796
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Canada",
+    "displayName": "",
+    "id": 391115,
+    "name": "Prince Edward Island",
+    "size": 9886187
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Canada",
+    "displayName": "",
+    "id": 391178,
+    "name": "Saskatchewan",
+    "size": 131686609
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Canada",
+    "displayName": "",
+    "id": 391186,
+    "name": "Alberta",
+    "size": 202085845
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Canada",
+    "displayName": "",
+    "id": 391196,
+    "name": "Newfoundland and Labrador",
+    "size": 194289233
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Canada",
+    "displayName": "",
+    "id": 391220,
+    "name": "Northwest Territories",
+    "size": 184452168
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Canada",
+    "displayName": "",
+    "id": 391455,
+    "name": "Yukon",
+    "size": 147121707
+  },
+  {
+    "collection": "TRUE",
+    "continent": "North America",
+    "country": "Caribbean countries",
+    "displayName": "",
+    "id": -2,
+    "name": "Caribbean countries",
+    "size": 0
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "British Virgin Islands",
+    "displayName": "",
+    "id": 285454,
+    "name": "British Virgin Islands",
+    "size": 2342752
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Dominica",
+    "displayName": "",
+    "id": 307823,
+    "name": "Dominica",
+    "size": 3267074
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Dominican Republic",
+    "displayName": "",
+    "id": 307828,
+    "name": "Dominican Republic",
+    "size": 46678337
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Haiti",
+    "displayName": "",
+    "id": 307829,
+    "name": "Haiti",
+    "size": 46918958
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Cuba",
+    "displayName": "",
+    "id": 307833,
+    "name": "Cuba",
+    "size": 69833772
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Saint Kitts and Nevis",
+    "displayName": "",
+    "id": 536899,
+    "name": "Saint Kitts and Nevis",
+    "size": 2087391
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Antigua and Barbuda",
+    "displayName": "",
+    "id": 536900,
+    "name": "Antigua and Barbuda",
+    "size": 3590403
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Montserrat",
+    "displayName": "",
+    "id": 537257,
+    "name": "Montserrat",
+    "size": 1504089
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "The Bahamas",
+    "displayName": "",
+    "id": 547469,
+    "name": "The Bahamas",
+    "size": 28105278
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Turks and Caicos Islands",
+    "displayName": "",
+    "id": 547479,
+    "name": "Turks and Caicos Islands",
+    "size": 4063696
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Barbados",
+    "displayName": "",
+    "id": 547511,
+    "name": "Barbados",
+    "size": 4867354
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Saint Vincent and the Grenadines",
+    "displayName": "",
+    "id": 550725,
+    "name": "Saint Vincent and the Grenadines",
+    "size": 3046900
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Grenada",
+    "displayName": "",
+    "id": 550727,
+    "name": "Grenada",
+    "size": 2604489
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Saint Lucia",
+    "displayName": "",
+    "id": 550728,
+    "name": "Saint Lucia",
+    "size": 4896573
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Jamaica",
+    "displayName": "",
+    "id": 555017,
+    "name": "Jamaica",
+    "size": 27061115
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Trinidad and Tobago",
+    "displayName": "",
+    "id": 555717,
+    "name": "Trinidad and Tobago",
+    "size": 13374675
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Bermuda",
+    "displayName": "",
+    "id": 1993208,
+    "name": "Bermuda",
+    "size": 1822413
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Anguilla",
+    "displayName": "",
+    "id": 2177161,
+    "name": "Anguilla",
+    "size": 1531131
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Cayman Islands",
+    "displayName": "",
+    "id": 2185366,
+    "name": "Cayman Islands",
+    "size": 2528254
+  },
+  {
+    "collection": "FALSE",
+    "continent": "South America",
+    "country": "Chile",
+    "displayName": "",
+    "id": 167454,
+    "name": "Chile",
+    "size": 454876939
+  },
+  {
+    "collection": "TRUE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": -270056,
+    "name": "China",
+    "size": 0
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 153269,
+    "name": "Qinghai",
+    "size": 191210533
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 153292,
+    "name": "Tibet",
+    "size": 375271274
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 153310,
+    "name": "Xinjiang",
+    "size": 402497969
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 153314,
+    "name": "Gansu",
+    "size": 177635154
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 161349,
+    "name": "Inner Mongolia",
+    "size": 238926363
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 198590,
+    "name": "Jilin",
+    "size": 64670271
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 199073,
+    "name": "Heilongjiang",
+    "size": 103138462
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 286342,
+    "name": "Guangxi",
+    "size": 155489466
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 286937,
+    "name": "Guizhou",
+    "size": 119197034
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 407492,
+    "name": "Henan",
+    "size": 117692181
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 553302,
+    "name": "Zhejiang",
+    "size": 140238171
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 553303,
+    "name": "Fujian",
+    "size": 111361639
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 911844,
+    "name": "Guangdong Province",
+    "size": 177007237
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 912940,
+    "name": "Beijing",
+    "size": 53929992
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 912942,
+    "name": "Liaoning",
+    "size": 68354892
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 912998,
+    "name": "Hebei",
+    "size": 150351867
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 912999,
+    "name": "Tianjin",
+    "size": 34692861
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 913006,
+    "name": "Shandong",
+    "size": 115390726
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 913011,
+    "name": "Anhui",
+    "size": 104385496
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 913012,
+    "name": "Jiangsu",
+    "size": 133102998
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 913067,
+    "name": "Shanghai",
+    "size": 50612206
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 913068,
+    "name": "Sichuan",
+    "size": 300533061
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 913069,
+    "name": "Chongqing",
+    "size": 81963961
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 913073,
+    "name": "Hunan",
+    "size": 129931995
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 913094,
+    "name": "Yunnan",
+    "size": 254653771
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 913100,
+    "name": "Shaanxi",
+    "size": 131675582
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 913101,
+    "name": "Ningxia",
+    "size": 23384424
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 913105,
+    "name": "Shanxi",
+    "size": 94512610
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 913106,
+    "name": "Hubei",
+    "size": 126302490
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 913109,
+    "name": "Jiangxi",
+    "size": 122033642
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Hong Kong",
+    "displayName": "",
+    "id": 913110,
+    "name": "Hong Kong",
+    "size": 42409351
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Macau",
+    "displayName": "",
+    "id": 1867188,
+    "name": "Macau",
+    "size": 17505273
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "China",
+    "displayName": "",
+    "id": 2128285,
+    "name": "Hainan Province",
+    "size": 20909015
+  },
+  {
+    "collection": "FALSE",
+    "continent": "South America",
+    "country": "Colombia",
+    "displayName": "",
+    "id": 120027,
+    "name": "Colombia",
+    "size": 444856104
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Costa Rica",
+    "displayName": "",
+    "id": 287667,
+    "name": "Costa Rica",
+    "size": 45101702
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Croatia",
+    "displayName": "",
+    "id": 214885,
+    "name": "Croatia",
+    "size": 190955274
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Cyprus",
+    "displayName": "",
+    "id": 307787,
+    "name": "Cyprus",
+    "size": 29454332
+  },
+  {
+    "collection": "TRUE",
+    "continent": "Europe",
+    "country": "Czech Republic",
+    "displayName": "",
+    "id": -51684,
+    "name": "Czechia",
+    "size": 0
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Czech Republic",
+    "displayName": "",
+    "id": 435508,
+    "name": "Central Moravia",
+    "size": 90627842
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Czech Republic",
+    "displayName": "",
+    "id": 435510,
+    "name": "Southeast",
+    "size": 125972129
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Czech Republic",
+    "displayName": "",
+    "id": 435511,
+    "name": "Southwest",
+    "size": 138392859
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Czech Republic",
+    "displayName": "",
+    "id": 435512,
+    "name": "Moravia-Silesia",
+    "size": 71447349
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Czech Republic",
+    "displayName": "",
+    "id": 435513,
+    "name": "Northeast",
+    "size": 134175910
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Czech Republic",
+    "displayName": "",
+    "id": 435515,
+    "name": "Central Bohemia",
+    "size": 118366881
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Czech Republic",
+    "displayName": "",
+    "id": 435516,
+    "name": "Northwest",
+    "size": 98602720
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Czech Republic",
+    "displayName": "",
+    "id": 435541,
+    "name": "Prague",
+    "size": 51499863
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Denmark",
+    "displayName": "",
+    "id": 50046,
+    "name": "Denmark",
+    "size": 303827242
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "East Timor",
+    "displayName": "",
+    "id": 305142,
+    "name": "East Timor",
+    "size": 14749146
+  },
+  {
+    "collection": "FALSE",
+    "continent": "South America",
+    "country": "Ecuador",
+    "displayName": "",
+    "id": 108089,
+    "name": "Ecuador",
+    "size": 169340974
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "El Salvador",
+    "displayName": "",
+    "id": 1520612,
+    "name": "El Salvador",
+    "size": 34751800
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Estonia",
+    "displayName": "",
+    "id": 79510,
+    "name": "Estonia",
+    "size": 93549138
+  },
+  {
+    "collection": "FALSE",
+    "continent": "South America",
+    "country": "Falkland Islands",
+    "displayName": "",
+    "id": 2185374,
+    "name": "Falkland Islands",
+    "size": 5721525
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Faroe Islands",
+    "displayName": "",
+    "id": 52939,
+    "name": "Faroe Islands",
+    "size": 5318714
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Finland",
+    "displayName": "",
+    "id": 54224,
+    "name": "Finland",
+    "size": 491156323
+  },
+  {
+    "collection": "TRUE",
+    "continent": "Europe",
+    "country": "France",
+    "displayName": "",
+    "id": -2202162,
+    "name": "France",
+    "size": 0
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "France",
+    "displayName": "",
+    "id": 8640,
+    "name": "Centre-Val de Loire",
+    "size": 177798415
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "France",
+    "displayName": "",
+    "id": 8649,
+    "name": "Ile-de-France",
+    "size": 188411948
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "France",
+    "displayName": "",
+    "id": 8650,
+    "name": "Pays de la Loire",
+    "size": 225429699
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "France",
+    "displayName": "",
+    "id": 8654,
+    "name": "Provence-Alpes-Côte d'Azur",
+    "size": 225477119
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "France",
+    "displayName": "",
+    "id": 76910,
+    "name": "Corsica",
+    "size": 32243114
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "France",
+    "displayName": "",
+    "id": 102740,
+    "name": "Brittany",
+    "size": 183192931
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Saint Barthélemy",
+    "displayName": "",
+    "id": 537967,
+    "name": "Saint Barthélemy",
+    "size": 1428062
+  },
+  {
+    "collection": "FALSE",
+    "continent": "South America",
+    "country": "French Guiana",
+    "displayName": "",
+    "id": 1260551,
+    "name": "French Guiana",
+    "size": 21253795
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Mayotte",
+    "displayName": "",
+    "id": 1363069,
+    "name": "Mayotte",
+    "size": 4230803
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Guadeloupe",
+    "displayName": "",
+    "id": 1401835,
+    "name": "Guadeloupe",
+    "size": 12591777
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Africa",
+    "country": "Réunion",
+    "displayName": "",
+    "id": 1785276,
+    "name": "Réunion",
+    "size": 16944291
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Martinique",
+    "displayName": "",
+    "id": 1891495,
+    "name": "Martinique",
+    "size": 10922202
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Saint Martin",
+    "displayName": "",
+    "id": 1891583,
+    "name": "Saint Martin (France)",
+    "size": 2528622
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Antarctica",
+    "country": "French Southern and Antarctic Lands",
+    "displayName": "",
+    "id": 2186658,
+    "name": "French Southern and Antarctic Lands",
+    "size": 7664892
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Clipperton Island",
+    "displayName": "",
+    "id": 2573009,
+    "name": "Clipperton Island",
+    "size": 171608
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Saint Pierre and Miquelon",
+    "displayName": "",
+    "id": 3406826,
+    "name": "Saint Pierre and Miquelon",
+    "size": 1419943
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "France",
+    "displayName": "",
+    "id": 3407643,
+    "name": "New Caledonia",
+    "size": 22579543
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "France",
+    "displayName": "",
+    "id": 3412448,
+    "name": "Wallis and Futuna",
+    "size": 860631
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "France",
+    "displayName": "",
+    "id": 3412620,
+    "name": "French Polynesia",
+    "size": 29805468
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "France",
+    "displayName": "",
+    "id": 3792876,
+    "name": "Grand Est",
+    "size": 374517394
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "France",
+    "displayName": "",
+    "id": 3792877,
+    "name": "Auvergne-Rhône-Alpes",
+    "size": 467245565
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "France",
+    "displayName": "",
+    "id": 3792878,
+    "name": "Bourgogne-Franche-Comté",
+    "size": 260376428
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "France",
+    "displayName": "",
+    "id": 3792880,
+    "name": "Nouvelle-Aquitaine",
+    "size": 413367419
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "France",
+    "displayName": "",
+    "id": 3792883,
+    "name": "Occitania",
+    "size": 402977098
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "France",
+    "displayName": "",
+    "id": 3793170,
+    "name": "Normandy",
+    "size": 179074537
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "France",
+    "displayName": "",
+    "id": 4217435,
+    "name": "Hauts-de-France",
+    "size": 268775166
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Georgia",
+    "displayName": "",
+    "id": 28699,
+    "name": "Georgia",
+    "size": 96515450
+  },
+  {
+    "collection": "TRUE",
+    "continent": "Europe",
+    "country": "Germany",
+    "displayName": "",
+    "id": -51477,
+    "name": "Germany",
+    "size": 0
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Germany",
+    "displayName": "",
+    "id": 28322,
+    "name": "Mecklenburg-Vorpommern",
+    "size": 120642291
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Germany",
+    "displayName": "",
+    "id": 51529,
+    "name": "Schleswig-Holstein",
+    "size": 163188835
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Germany",
+    "displayName": "",
+    "id": 62341,
+    "name": "Rhineland-Palatinate",
+    "size": 295360704
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Germany",
+    "displayName": "",
+    "id": 62366,
+    "name": "Thuringia",
+    "size": 162437014
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Germany",
+    "displayName": "",
+    "id": 62372,
+    "name": "Saarland",
+    "size": 60763042
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Germany",
+    "displayName": "",
+    "id": 62422,
+    "name": "Berlin",
+    "size": 75985223
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Germany",
+    "displayName": "",
+    "id": 62467,
+    "name": "Saxony",
+    "size": 215992900
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Germany",
+    "displayName": "",
+    "id": 62504,
+    "name": "Brandenburg",
+    "size": 200545181
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Germany",
+    "displayName": "",
+    "id": 62607,
+    "name": "Saxony-Anhalt",
+    "size": 148861817
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Germany",
+    "displayName": "",
+    "id": 62611,
+    "name": "Baden-Württemberg",
+    "size": 508686141
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Germany",
+    "displayName": "",
+    "id": 62650,
+    "name": "Hesse",
+    "size": 330564528
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Germany",
+    "displayName": "",
+    "id": 62718,
+    "name": "Bremen",
+    "size": 32089725
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Germany",
+    "displayName": "",
+    "id": 62761,
+    "name": "North Rhine-Westphalia",
+    "size": 654222595
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Germany",
+    "displayName": "",
+    "id": 62771,
+    "name": "Lower Saxony",
+    "size": 414069725
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Germany",
+    "displayName": "",
+    "id": 62782,
+    "name": "Hamburg",
+    "size": 59759620
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Germany",
+    "displayName": "",
+    "id": 2145268,
+    "name": "Bavaria",
+    "size": 678591456
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Greece",
+    "displayName": "",
+    "id": 192307,
+    "name": "Greece",
+    "size": 319617712
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Denmark",
+    "displayName": "",
+    "id": 2184073,
+    "name": "Greenland",
+    "size": 223383454
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Guatemala",
+    "displayName": "",
+    "id": 1521463,
+    "name": "Guatemala",
+    "size": 112075759
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Guernsey",
+    "displayName": "",
+    "id": 270009,
+    "name": "Guernsey",
+    "size": 7047022
+  },
+  {
+    "collection": "FALSE",
+    "continent": "South America",
+    "country": "Guyana",
+    "displayName": "",
+    "id": 287083,
+    "name": "Guyana",
+    "size": 45033269
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Honduras",
+    "displayName": "",
+    "id": 287670,
+    "name": "Honduras",
+    "size": 78419813
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Hungary",
+    "displayName": "",
+    "id": 21335,
+    "name": "Hungary",
+    "size": 258223093
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Iceland",
+    "displayName": "",
+    "id": 299133,
+    "name": "Iceland",
+    "size": 59628547
+  },
+  {
+    "collection": "TRUE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": -304716,
+    "name": "India",
+    "size": 0
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 96905,
+    "name": "Tamil Nadu",
+    "size": 138675222
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 107001,
+    "name": "Puducherry",
+    "size": 23178957
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 364186,
+    "name": "Himachal Pradesh",
+    "size": 63759448
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 1791324,
+    "name": "Sikkim",
+    "size": 9302596
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 1942586,
+    "name": "Delhi",
+    "size": 39296441
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 1942587,
+    "name": "Uttar Pradesh",
+    "size": 258645588
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 1942601,
+    "name": "Haryana",
+    "size": 98815088
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 1942686,
+    "name": "Punjab",
+    "size": 89760726
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 1942809,
+    "name": "Chandigarh",
+    "size": 9020954
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 1942920,
+    "name": "Rajasthan",
+    "size": 156172208
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 1943188,
+    "name": "Jammu and Kashmir",
+    "size": 52108187
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 1949080,
+    "name": "Gujarat",
+    "size": 108497253
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 1950071,
+    "name": "Madhya Pradesh",
+    "size": 169412020
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 1950884,
+    "name": "Maharashtra",
+    "size": 177510789
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 1952530,
+    "name": "Dadra and Nagar Haveli and Daman and Diu",
+    "size": 7107551
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 1958982,
+    "name": "Bihar",
+    "size": 132807359
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 1960177,
+    "name": "West Bengal",
+    "size": 143427483
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 1960191,
+    "name": "Jharkhand",
+    "size": 55695022
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 1972004,
+    "name": "Chhattisgarh",
+    "size": 56852500
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 1984022,
+    "name": "Odisha",
+    "size": 68006975
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 2018151,
+    "name": "Kerala",
+    "size": 117632916
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 2019939,
+    "name": "Karnataka",
+    "size": 147570270
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 2022095,
+    "name": "Andhra Pradesh",
+    "size": 116499892
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 2025855,
+    "name": "Andaman and Nicobar Islands",
+    "size": 3411125
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 2025886,
+    "name": "Assam",
+    "size": 55332678
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 2026458,
+    "name": "Tripura",
+    "size": 16000137
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 2027346,
+    "name": "Arunachal Pradesh",
+    "size": 60340215
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 2027460,
+    "name": "Lakshadweep",
+    "size": 4388599
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 2027521,
+    "name": "Meghalaya",
+    "size": 28735766
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 2027869,
+    "name": "Manipur",
+    "size": 17684611
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 2027973,
+    "name": "Nagaland",
+    "size": 17601078
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 2029046,
+    "name": "Mizoram",
+    "size": 18035556
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 3250963,
+    "name": "Telangana",
+    "size": 102420699
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 5515045,
+    "name": "Ladakh",
+    "size": 46077176
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 9987086,
+    "name": "Uttarakhand",
+    "size": 70525267
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "India",
+    "displayName": "",
+    "id": 11251493,
+    "name": "Goa",
+    "size": 8430143
+  },
+  {
+    "collection": "TRUE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": -304751,
+    "name": "Indonesia",
+    "size": 0
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 1615621,
+    "name": "Bali",
+    "size": 37992895
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 1615622,
+    "name": "West Nusa Tenggara",
+    "size": 40244105
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 2388356,
+    "name": "Banten",
+    "size": 68955892
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 2388357,
+    "name": "Central Java",
+    "size": 178084032
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 2388361,
+    "name": "West Java",
+    "size": 213152721
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 2388613,
+    "name": "Central Kalimantan",
+    "size": 46990247
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 2388615,
+    "name": "South Kalimantan",
+    "size": 31039452
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 2388616,
+    "name": "West Kalimantan",
+    "size": 63984188
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 2388664,
+    "name": "Central Sulawesi",
+    "size": 49367947
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 2388665,
+    "name": "Gorontalo",
+    "size": 11648006
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 2388666,
+    "name": "North Sulawesi",
+    "size": 26041923
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 2388667,
+    "name": "South Sulawesi",
+    "size": 70871858
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 2388668,
+    "name": "Southeast Sulawesi",
+    "size": 30770300
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 2388669,
+    "name": "West Sulawesi",
+    "size": 17801052
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 2390836,
+    "name": "Aceh",
+    "size": 50425431
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 2390837,
+    "name": "Bengkulu",
+    "size": 17887512
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 2390838,
+    "name": "Jambi",
+    "size": 30003278
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 2390839,
+    "name": "Lampung",
+    "size": 40269862
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 2390840,
+    "name": "Riau",
+    "size": 51281076
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 2390841,
+    "name": "West Sumatra",
+    "size": 40666926
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 2390842,
+    "name": "South Sumatra",
+    "size": 51071379
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 2390843,
+    "name": "North Sumatra",
+    "size": 79650031
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 2396778,
+    "name": "East Nusa Tenggara",
+    "size": 52119505
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 2396795,
+    "name": "Maluku",
+    "size": 48351933
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 2396796,
+    "name": "North Maluku",
+    "size": 28906483
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 3438227,
+    "name": "East Java",
+    "size": 178638741
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 3797243,
+    "name": "Bangka-Belitung Islands",
+    "size": 13325796
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 3797244,
+    "name": "Riau Islands",
+    "size": 33553105
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 4521144,
+    "name": "Papua",
+    "size": 26442489
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 4521145,
+    "name": "West Papua",
+    "size": 22120404
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 5449459,
+    "name": "East Kalimantan",
+    "size": 63097976
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 5449460,
+    "name": "North Kalimantan",
+    "size": 32989103
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 5616105,
+    "name": "Special Region of Yogyakarta",
+    "size": 43617893
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 6362934,
+    "name": "Special Capital Region of Jakarta",
+    "size": 67661159
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 14309176,
+    "name": "Highland Papua",
+    "size": 23634250
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 14309177,
+    "name": "South Papua",
+    "size": 15019566
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 14309178,
+    "name": "Central Papua",
+    "size": 23725391
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Indonesia",
+    "displayName": "",
+    "id": 14905625,
+    "name": "Southwest Papua",
+    "size": 18110402
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Iran",
+    "displayName": "",
+    "id": 304938,
+    "name": "Iran",
+    "size": 644277661
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Iraq",
+    "displayName": "",
+    "id": 304934,
+    "name": "Iraq",
+    "size": 146680601
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Ireland",
+    "displayName": "",
+    "id": 62273,
+    "name": "Ireland",
+    "size": 204340718
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Isle of Man",
+    "displayName": "",
+    "id": 62269,
+    "name": "Isle of Man",
+    "size": 15091500
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Israel",
+    "displayName": "",
+    "id": 1473946,
+    "name": "Israel",
+    "size": 91781740
+  },
+  {
+    "collection": "TRUE",
+    "continent": "Europe",
+    "country": "Italy",
+    "displayName": "",
+    "id": -365331,
+    "name": "Italy",
+    "size": 0
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Italy",
+    "displayName": "",
+    "id": 39152,
+    "name": "Sicily",
+    "size": 91225603
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Italy",
+    "displayName": "",
+    "id": 40095,
+    "name": "Apulia",
+    "size": 94944211
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Italy",
+    "displayName": "",
+    "id": 40137,
+    "name": "Basilicata",
+    "size": 38151900
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Italy",
+    "displayName": "",
+    "id": 40218,
+    "name": "Campania",
+    "size": 63657617
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Italy",
+    "displayName": "",
+    "id": 40784,
+    "name": "Lazio",
+    "size": 106493278
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Italy",
+    "displayName": "",
+    "id": 41256,
+    "name": "Molise",
+    "size": 29798049
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Italy",
+    "displayName": "",
+    "id": 41977,
+    "name": "Tuscany",
+    "size": 145982806
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Italy",
+    "displayName": "",
+    "id": 42004,
+    "name": "Umbria",
+    "size": 56824944
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Italy",
+    "displayName": "",
+    "id": 42611,
+    "name": "Emilia-Romagna",
+    "size": 170951836
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Italy",
+    "displayName": "",
+    "id": 43648,
+    "name": "Veneto",
+    "size": 195495520
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Italy",
+    "displayName": "",
+    "id": 44874,
+    "name": "Piedmont",
+    "size": 206497659
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Italy",
+    "displayName": "",
+    "id": 44879,
+    "name": "Lombardy",
+    "size": 244261612
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Italy",
+    "displayName": "",
+    "id": 45155,
+    "name": "Aosta Valley",
+    "size": 30991213
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Italy",
+    "displayName": "",
+    "id": 45757,
+    "name": "Trentino-Alto Adige-Südtirol",
+    "size": 125934087
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Italy",
+    "displayName": "",
+    "id": 53060,
+    "name": "Marche",
+    "size": 52819367
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Italy",
+    "displayName": "",
+    "id": 53937,
+    "name": "Abruzzo",
+    "size": 61654855
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Italy",
+    "displayName": "",
+    "id": 179296,
+    "name": "Friuli-Venezia Giulia",
+    "size": 87938248
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Italy",
+    "displayName": "",
+    "id": 301482,
+    "name": "Liguria",
+    "size": 81183809
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Italy",
+    "displayName": "",
+    "id": 1783980,
+    "name": "Calabria",
+    "size": 46124326
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Italy",
+    "displayName": "",
+    "id": 7361997,
+    "name": "Sardinia",
+    "size": 68492995
+  },
+  {
+    "collection": "TRUE",
+    "continent": "Asia",
+    "country": "Japan",
+    "displayName": "",
+    "id": -382313,
+    "name": "Japan",
+    "size": 0
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Japan",
+    "displayName": "",
+    "id": 357113,
+    "name": "Kansai Region",
+    "size": 268032215
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Japan",
+    "displayName": "",
+    "id": 532759,
+    "name": "Chubu Region",
+    "size": 373120813
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Japan",
+    "displayName": "",
+    "id": 1803923,
+    "name": "Kanto",
+    "size": 356904388
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Japan",
+    "displayName": "",
+    "id": 1835900,
+    "name": "Tōhoku",
+    "size": 239418379
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Japan",
+    "displayName": "",
+    "id": 1842114,
+    "name": "Chugoku Region",
+    "size": 167073543
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Japan",
+    "displayName": "",
+    "id": 1842245,
+    "name": "Kyushu Region",
+    "size": 211198443
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Japan",
+    "displayName": "",
+    "id": 1847663,
+    "name": "Shikoku Region",
+    "size": 109070697
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Japan",
+    "displayName": "",
+    "id": 3792634,
+    "name": "Hokkaido Region",
+    "size": 143230473
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Jersey",
+    "displayName": "",
+    "id": 367988,
+    "name": "Jersey",
+    "size": 15013016
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Jordan",
+    "displayName": "",
+    "id": 184818,
+    "name": "Jordan",
+    "size": 52714348
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Kazakhstan",
+    "displayName": "",
+    "id": 214665,
+    "name": "Kazakhstan",
+    "size": 422557062
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Kosovo",
+    "displayName": "",
+    "id": 2088990,
+    "name": "Kosovo",
+    "size": 41531908
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Kuwait",
+    "displayName": "",
+    "id": 305099,
+    "name": "Kuwait",
+    "size": 24969928
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Kyrgyzstan",
+    "displayName": "",
+    "id": 178009,
+    "name": "Kyrgyzstan",
+    "size": 127804047
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Laos",
+    "displayName": "",
+    "id": 49903,
+    "name": "Laos",
+    "size": 151123208
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Latvia",
+    "displayName": "",
+    "id": 72594,
+    "name": "Latvia",
+    "size": 110777758
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Lebanon",
+    "displayName": "",
+    "id": 184843,
+    "name": "Lebanon",
+    "size": 49030506
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Liechtenstein",
+    "displayName": "",
+    "id": 1155955,
+    "name": "Liechtenstein",
+    "size": 26207384
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Lithuania",
+    "displayName": "",
+    "id": 72596,
+    "name": "Lithuania",
+    "size": 161687098
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Luxembourg",
+    "displayName": "",
+    "id": 2171347,
+    "name": "Luxembourg",
+    "size": 77500890
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Malaysia",
+    "displayName": "",
+    "id": 2108121,
+    "name": "Malaysia",
+    "size": 314269508
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Maldives",
+    "displayName": "",
+    "id": 536773,
+    "name": "Maldives",
+    "size": 7786675
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Malta",
+    "displayName": "",
+    "id": 365307,
+    "name": "Malta",
+    "size": 6888260
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Mexico",
+    "displayName": "",
+    "id": 114686,
+    "name": "Mexico",
+    "size": 1147242213
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Moldova",
+    "displayName": "",
+    "id": 58974,
+    "name": "Moldova",
+    "size": 70095302
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Monaco",
+    "displayName": "",
+    "id": 1124039,
+    "name": "Monaco",
+    "size": 12050751
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Mongolia",
+    "displayName": "",
+    "id": 161033,
+    "name": "Mongolia",
+    "size": 282529119
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Montenegro",
+    "displayName": "",
+    "id": 53296,
+    "name": "Montenegro",
+    "size": 41008116
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Myanmar",
+    "displayName": "",
+    "id": 50371,
+    "name": "Myanmar",
+    "size": 335831886
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Nepal",
+    "displayName": "",
+    "id": 184633,
+    "name": "Nepal",
+    "size": 312926754
+  },
+  {
+    "collection": "TRUE",
+    "continent": "Europe",
+    "country": "Netherlands",
+    "displayName": "",
+    "id": -2323309,
+    "name": "Netherlands",
+    "size": 0
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Netherlands",
+    "displayName": "",
+    "id": 47381,
+    "name": "Frisia",
+    "size": 70218808
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Netherlands",
+    "displayName": "",
+    "id": 47407,
+    "name": "Flevoland",
+    "size": 59056820
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Netherlands",
+    "displayName": "",
+    "id": 47540,
+    "name": "Drenthe",
+    "size": 66741147
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Netherlands",
+    "displayName": "",
+    "id": 47554,
+    "name": "Gelderland",
+    "size": 165788762
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Netherlands",
+    "displayName": "",
+    "id": 47608,
+    "name": "Overijssel",
+    "size": 95079483
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Netherlands",
+    "displayName": "",
+    "id": 47654,
+    "name": "North Holland",
+    "size": 136379761
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Netherlands",
+    "displayName": "",
+    "id": 47667,
+    "name": "Utrecht",
+    "size": 113561489
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Netherlands",
+    "displayName": "",
+    "id": 47696,
+    "name": "North Brabant",
+    "size": 165396493
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Netherlands",
+    "displayName": "",
+    "id": 47772,
+    "name": "South Holland",
+    "size": 162837804
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Netherlands",
+    "displayName": "",
+    "id": 47793,
+    "name": "Limburg",
+    "size": 108857776
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Netherlands",
+    "displayName": "",
+    "id": 47806,
+    "name": "Zeeland",
+    "size": 68636357
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Netherlands",
+    "displayName": "",
+    "id": 47826,
+    "name": "Groningen",
+    "size": 62363249
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Netherlands",
+    "displayName": "",
+    "id": 12982604,
+    "name": "Dutch Caribbean",
+    "size": 10894130
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Nicaragua",
+    "displayName": "",
+    "id": 287666,
+    "name": "Nicaragua",
+    "size": 49880155
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "North Korea",
+    "displayName": "",
+    "id": 192734,
+    "name": "North Korea",
+    "size": 108417101
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "North Macedonia",
+    "displayName": "",
+    "id": 53293,
+    "name": "North Macedonia",
+    "size": 46965795
+  },
+  {
+    "collection": "TRUE",
+    "continent": "Europe",
+    "country": "Norway",
+    "displayName": "",
+    "id": -2978650,
+    "name": "Norway",
+    "size": 0
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Norway",
+    "displayName": "",
+    "id": 405836,
+    "name": "Rogaland",
+    "size": 46850879
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Norway",
+    "displayName": "",
+    "id": 406091,
+    "name": "Oslo",
+    "size": 29575064
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Norway",
+    "displayName": "",
+    "id": 406567,
+    "name": "Trøndelag",
+    "size": 118041547
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Norway",
+    "displayName": "",
+    "id": 406868,
+    "name": "Møre og Romsdal",
+    "size": 47099422
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Norway",
+    "displayName": "",
+    "id": 408105,
+    "name": "Nordland",
+    "size": 96518697
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Norway",
+    "displayName": "",
+    "id": 1337126,
+    "name": "Jan Mayen",
+    "size": 690749
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Norway",
+    "displayName": "",
+    "id": 1337397,
+    "name": "Svalbard",
+    "size": 27787378
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Antarctica",
+    "country": "Norway",
+    "displayName": "",
+    "id": 2425963,
+    "name": "Bouvet Island",
+    "size": 266813
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Norway",
+    "displayName": "",
+    "id": 10155507,
+    "name": "Troms og Finnmark",
+    "size": 121826642
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Norway",
+    "displayName": "",
+    "id": 10155517,
+    "name": "Agder",
+    "size": 67005982
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Norway",
+    "displayName": "",
+    "id": 10155527,
+    "name": "Innlandet",
+    "size": 124445365
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Norway",
+    "displayName": "",
+    "id": 10155539,
+    "name": "Viken",
+    "size": 137655916
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Norway",
+    "displayName": "",
+    "id": 10155543,
+    "name": "Vestland",
+    "size": 96797455
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Norway",
+    "displayName": "",
+    "id": 10487008,
+    "name": "Vestfold og Telemark",
+    "size": 78103625
+  },
+  {
+    "collection": "TRUE",
+    "continent": "Oceania",
+    "country": "Oceania",
+    "displayName": "",
+    "id": -1,
+    "name": "Oceania",
+    "size": 0
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Papua New Guinea",
+    "displayName": "",
+    "id": 307866,
+    "name": "Papua New Guinea",
+    "size": 172940880
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "New Zealand",
+    "displayName": "",
+    "id": 556706,
+    "name": "New Zealand",
+    "size": 287971273
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Kiribati",
+    "displayName": "",
+    "id": 571178,
+    "name": "Kiribati",
+    "size": 10533680
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Fiji",
+    "displayName": "",
+    "id": 571747,
+    "name": "Fiji",
+    "size": 12008788
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Marshall Islands",
+    "displayName": "",
+    "id": 571771,
+    "name": "Marshall Islands",
+    "size": 15554353
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Federated States of Micronesia",
+    "displayName": "",
+    "id": 571802,
+    "name": "Federated States of Micronesia",
+    "size": 10292224
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Nauru",
+    "displayName": "",
+    "id": 571804,
+    "name": "Nauru",
+    "size": 329820
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Palau",
+    "displayName": "",
+    "id": 571805,
+    "name": "Palau",
+    "size": 7006623
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Niue",
+    "displayName": "",
+    "id": 1558556,
+    "name": "Niue",
+    "size": 564342
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Solomon Islands",
+    "displayName": "",
+    "id": 1857436,
+    "name": "Solomon Islands",
+    "size": 26539377
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Samoa",
+    "displayName": "",
+    "id": 1872673,
+    "name": "Samoa",
+    "size": 3193115
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Vanuatu",
+    "displayName": "",
+    "id": 2177246,
+    "name": "Vanuatu",
+    "size": 13096662
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Tuvalu",
+    "displayName": "",
+    "id": 2177266,
+    "name": "Tuvalu",
+    "size": 1504444
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Cook Islands",
+    "displayName": "",
+    "id": 2184233,
+    "name": "Cook Islands",
+    "size": 4027701
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Pitcairn Islands",
+    "displayName": "",
+    "id": 2185375,
+    "name": "Pitcairn Islands",
+    "size": 805491
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Tokelau",
+    "displayName": "",
+    "id": 2186600,
+    "name": "Tokelau",
+    "size": 725803
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "Tonga",
+    "displayName": "",
+    "id": 2186665,
+    "name": "Tonga",
+    "size": 4702654
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Oman",
+    "displayName": "",
+    "id": 305138,
+    "name": "Oman",
+    "size": 89309325
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Pakistan",
+    "displayName": "",
+    "id": 307573,
+    "name": "Pakistan",
+    "size": 361960553
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Palestinian Territories",
+    "displayName": "",
+    "id": 1703814,
+    "name": "Palestinian Territories",
+    "size": 47731021
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "Panama",
+    "displayName": "",
+    "id": 287668,
+    "name": "Panama",
+    "size": 42630586
+  },
+  {
+    "collection": "FALSE",
+    "continent": "South America",
+    "country": "Paraguay",
+    "displayName": "",
+    "id": 287077,
+    "name": "Paraguay",
+    "size": 105361005
+  },
+  {
+    "collection": "FALSE",
+    "continent": "South America",
+    "country": "Peru",
+    "displayName": "",
+    "id": 288247,
+    "name": "Peru",
+    "size": 546453141
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Philippines",
+    "displayName": "",
+    "id": 443174,
+    "name": "Philippines",
+    "size": 445662900
+  },
+  {
+    "collection": "TRUE",
+    "continent": "Europe",
+    "country": "Poland",
+    "displayName": "",
+    "id": -49715,
+    "name": "Poland",
+    "size": 0
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Poland",
+    "displayName": "",
+    "id": 104401,
+    "name": "West Pomeranian Voivodeship",
+    "size": 84406772
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Poland",
+    "displayName": "",
+    "id": 130914,
+    "name": "Świętokrzyskie Voivodeship",
+    "size": 74206545
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Poland",
+    "displayName": "",
+    "id": 130919,
+    "name": "Lublin Voivodeship",
+    "size": 109570795
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Poland",
+    "displayName": "",
+    "id": 130935,
+    "name": "Masovian Voivodeship",
+    "size": 195417337
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Poland",
+    "displayName": "",
+    "id": 130957,
+    "name": "Subcarpathian Voivodeship",
+    "size": 107987710
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Poland",
+    "displayName": "",
+    "id": 130969,
+    "name": "Lubusz Voivodeship",
+    "size": 71196326
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Poland",
+    "displayName": "",
+    "id": 130971,
+    "name": "Greater Poland Voivodeship",
+    "size": 130018772
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Poland",
+    "displayName": "",
+    "id": 130975,
+    "name": "Pomeranian Voivodeship",
+    "size": 84270428
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Poland",
+    "displayName": "",
+    "id": 223407,
+    "name": "Kuyavian-Pomeranian Voivodeship",
+    "size": 79959879
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Poland",
+    "displayName": "",
+    "id": 223408,
+    "name": "Warmian-Masurian Voivodeship",
+    "size": 72148342
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Poland",
+    "displayName": "",
+    "id": 224457,
+    "name": "Lower Silesian Voivodeship",
+    "size": 140086858
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Poland",
+    "displayName": "",
+    "id": 224458,
+    "name": "Łódzkie Voivodship",
+    "size": 103873744
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Poland",
+    "displayName": "",
+    "id": 224459,
+    "name": "Lesser Poland Voivodeship",
+    "size": 150872374
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Poland",
+    "displayName": "",
+    "id": 224460,
+    "name": "Opole Voivodeship",
+    "size": 64086891
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Poland",
+    "displayName": "",
+    "id": 224461,
+    "name": "Podlaskie Voivodeship",
+    "size": 67780868
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Poland",
+    "displayName": "",
+    "id": 224462,
+    "name": "Silesian Voivodeship",
+    "size": 143661558
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Portugal",
+    "displayName": "",
+    "id": 295480,
+    "name": "Portugal",
+    "size": 301346757
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Qatar",
+    "displayName": "",
+    "id": 305095,
+    "name": "Qatar",
+    "size": 25085222
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Romania",
+    "displayName": "",
+    "id": 90689,
+    "name": "Romania",
+    "size": 303028223
+  },
+  {
+    "collection": "TRUE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": -60189,
+    "name": "Russia",
+    "size": 0
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 51490,
+    "name": "Moscow Oblast",
+    "size": 168533746
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 71950,
+    "name": "Ryazan Oblast",
+    "size": 35241366
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 72169,
+    "name": "Lipetsk Oblast",
+    "size": 30885654
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 72180,
+    "name": "Tambov Oblast",
+    "size": 30010134
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 72181,
+    "name": "Voronezh Oblast",
+    "size": 49205920
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 72182,
+    "name": "Penza Oblast",
+    "size": 31093305
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 72192,
+    "name": "Ulyanovsk Oblast",
+    "size": 35763095
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 72193,
+    "name": "Saratov Oblast",
+    "size": 43578323
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 72194,
+    "name": "Samara Oblast",
+    "size": 44499359
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 72195,
+    "name": "Nizhny Novgorod Oblast",
+    "size": 64639123
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 72196,
+    "name": "Republic of Mordovia",
+    "size": 25304561
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 72197,
+    "name": "Vladimir Oblast",
+    "size": 49667838
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 72223,
+    "name": "Kursk Oblast",
+    "size": 38546557
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 72224,
+    "name": "Oryol Oblast",
+    "size": 21050391
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 77665,
+    "name": "Volgograd Oblast",
+    "size": 53530044
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 77669,
+    "name": "Orenburg Oblast",
+    "size": 47836317
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 77677,
+    "name": "Bashkortostan",
+    "size": 88979237
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 77687,
+    "name": "Chelyabinsk Oblast",
+    "size": 72031534
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 79374,
+    "name": "Tatarstan",
+    "size": 70123198
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 79379,
+    "name": "Sverdlovsk Oblast",
+    "size": 89097131
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 80513,
+    "name": "Chuvashia",
+    "size": 24784807
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 81993,
+    "name": "Tula Oblast",
+    "size": 35178506
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 81994,
+    "name": "Yaroslavl Oblast",
+    "size": 35466830
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 81995,
+    "name": "Kaluga Oblast",
+    "size": 42330187
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 81996,
+    "name": "Smolensk Oblast",
+    "size": 39091336
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 81997,
+    "name": "Bryansk Oblast",
+    "size": 27062494
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 83184,
+    "name": "Belgorod Oblast",
+    "size": 35354790
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 85606,
+    "name": "Rostov Oblast",
+    "size": 66780484
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 85617,
+    "name": "Ivanovo Oblast",
+    "size": 26670649
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 85963,
+    "name": "Kostroma Oblast",
+    "size": 25621773
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 89331,
+    "name": "Novgorod Oblast",
+    "size": 32181230
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 102269,
+    "name": "Moscow",
+    "size": 83040970
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 103906,
+    "name": "Kaliningrad",
+    "size": 26702836
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 108081,
+    "name": "Stavropol Krai",
+    "size": 36460790
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 108082,
+    "name": "Krasnodar Krai",
+    "size": 105199563
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 108083,
+    "name": "Republic of Kalmykia",
+    "size": 21548828
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 109876,
+    "name": "Dagestan",
+    "size": 50311018
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 109877,
+    "name": "Chechnya",
+    "size": 15200123
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 109878,
+    "name": "Karachay-Cherkessia",
+    "size": 20559394
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 109879,
+    "name": "Kabardino-Balkaria",
+    "size": 20784744
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 110032,
+    "name": "Republic of North Ossetia – Alania",
+    "size": 12992269
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 112819,
+    "name": "Astrakhan Oblast",
+    "size": 21595132
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 115100,
+    "name": "Kirov Oblast",
+    "size": 67239354
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 115106,
+    "name": "Vologda Oblast",
+    "size": 42482250
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 115114,
+    "name": "Mari El Republic",
+    "size": 25529892
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 115134,
+    "name": "Udmurtia",
+    "size": 37903174
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 115135,
+    "name": "Perm Krai",
+    "size": 82128842
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 115136,
+    "name": "Komi Republic",
+    "size": 65282887
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 140290,
+    "name": "Kurgan Oblast",
+    "size": 28309740
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 140291,
+    "name": "Tyumen Oblast",
+    "size": 40357784
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 140292,
+    "name": "Omsk Oblast",
+    "size": 50562418
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 140294,
+    "name": "Novosibirsk Oblast",
+    "size": 61650005
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 140295,
+    "name": "Tomsk Oblast",
+    "size": 43316085
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 140296,
+    "name": "Khanty-Mansiysk Autonomous Okrug – Ugra",
+    "size": 83098466
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 140337,
+    "name": "Arkhangelsk Oblast",
+    "size": 102194031
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 144763,
+    "name": "Kemerovo Oblast–Kuzbass",
+    "size": 46236250
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 144764,
+    "name": "Altai Krai",
+    "size": 97826613
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 145194,
+    "name": "Altai Republic",
+    "size": 66641739
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 145195,
+    "name": "Tuva Republic",
+    "size": 54882169
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 145454,
+    "name": "Irkutsk Oblast",
+    "size": 175150642
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 145729,
+    "name": "Buryatia",
+    "size": 102573662
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 145730,
+    "name": "Zabaykalsky Krai",
+    "size": 104561563
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 147166,
+    "name": "Amur Oblast",
+    "size": 77977060
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 147167,
+    "name": "Jewish Autonomous Oblast",
+    "size": 11068213
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 151223,
+    "name": "Khabarovsk Krai",
+    "size": 228832100
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 151225,
+    "name": "Primorsky Krai",
+    "size": 83133939
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 151228,
+    "name": "Magadan Oblast",
+    "size": 104290116
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 151231,
+    "name": "Chukotka Autonomous Okrug",
+    "size": 75438834
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 151233,
+    "name": "Kamchatka Krai",
+    "size": 118737277
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 151234,
+    "name": "Sakha Republic",
+    "size": 470615131
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 155262,
+    "name": "Pskov Oblast",
+    "size": 47422406
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 176095,
+    "name": "Leningrad oblast",
+    "size": 116326996
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 190090,
+    "name": "Krasnoyarsk Krai",
+    "size": 345512560
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 190911,
+    "name": "Republic of Khakassia",
+    "size": 27598689
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 191706,
+    "name": "Yamalo-Nenets Autonomous Okrug",
+    "size": 60010458
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 253252,
+    "name": "Ingushetia",
+    "size": 7303714
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 253256,
+    "name": "Republic of Adygea",
+    "size": 23651014
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 274048,
+    "name": "Nenets Autonomous Okrug",
+    "size": 22623061
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 337422,
+    "name": "Saint Petersburg",
+    "size": 51283525
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 393980,
+    "name": "Republic of Karelia",
+    "size": 81605395
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 394235,
+    "name": "Sakhalin Oblast",
+    "size": 51342630
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 2095259,
+    "name": "Tver Oblast",
+    "size": 65898428
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 2099216,
+    "name": "Murmansk Oblast",
+    "size": 44648339
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 3788485,
+    "name": "Sevastopol",
+    "size": 7139651
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Russia",
+    "displayName": "",
+    "id": 3795586,
+    "name": "Republic of Crimea",
+    "size": 34028386
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "San Marino",
+    "displayName": "",
+    "id": 54624,
+    "name": "San Marino",
+    "size": 10750352
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Saudi Arabia",
+    "displayName": "",
+    "id": 307584,
+    "name": "Saudi Arabia",
+    "size": 412305065
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Serbia",
+    "displayName": "",
+    "id": 1741311,
+    "name": "Serbia",
+    "size": 172654434
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Singapore",
+    "displayName": "",
+    "id": 536780,
+    "name": "Singapore",
+    "size": 32634182
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Slovakia",
+    "displayName": "",
+    "id": 14296,
+    "name": "Slovakia",
+    "size": 258450011
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Slovenia",
+    "displayName": "",
+    "id": 218657,
+    "name": "Slovenia",
+    "size": 196201243
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Antarctica",
+    "country": "South Georgia and the South Sandwich Islands",
+    "displayName": "",
+    "id": 1983628,
+    "name": "South Georgia and the South Sandwich Islands",
+    "size": 5502189
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "South Korea",
+    "displayName": "",
+    "id": 307756,
+    "name": "South Korea",
+    "size": 255283208
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "South Ossetia",
+    "displayName": "",
+    "id": 1152717,
+    "name": "South Ossetia",
+    "size": 8533138
+  },
+  {
+    "collection": "TRUE",
+    "continent": "Europe",
+    "country": "Spain",
+    "displayName": "",
+    "id": -1311341,
+    "name": "Spain",
+    "size": 0
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Spain",
+    "displayName": "",
+    "id": 348981,
+    "name": "Balearic Islands",
+    "size": 27946861
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Spain",
+    "displayName": "",
+    "id": 348991,
+    "name": "Rioja",
+    "size": 30165320
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Spain",
+    "displayName": "",
+    "id": 349013,
+    "name": "Cantabria",
+    "size": 33565794
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Spain",
+    "displayName": "",
+    "id": 349027,
+    "name": "Navarre",
+    "size": 56950229
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Spain",
+    "displayName": "",
+    "id": 349033,
+    "name": "Asturias",
+    "size": 38333436
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Spain",
+    "displayName": "",
+    "id": 349036,
+    "name": "Galicia",
+    "size": 119279581
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Spain",
+    "displayName": "",
+    "id": 349041,
+    "name": "Castile and León",
+    "size": 199544322
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Spain",
+    "displayName": "",
+    "id": 349042,
+    "name": "Autonomous Community of the Basque Country",
+    "size": 65843919
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Spain",
+    "displayName": "",
+    "id": 349043,
+    "name": "Valencian Community",
+    "size": 112966301
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Spain",
+    "displayName": "",
+    "id": 349044,
+    "name": "Andalusia",
+    "size": 160610094
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Spain",
+    "displayName": "",
+    "id": 349045,
+    "name": "Aragon",
+    "size": 108936448
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Spain",
+    "displayName": "",
+    "id": 349047,
+    "name": "Region of Murcia",
+    "size": 51283419
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Spain",
+    "displayName": "",
+    "id": 349048,
+    "name": "Canary Islands",
+    "size": 38971599
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Spain",
+    "displayName": "",
+    "id": 349050,
+    "name": "Extremadura",
+    "size": 59232836
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Spain",
+    "displayName": "",
+    "id": 349052,
+    "name": "Castile-La Mancha",
+    "size": 126074363
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Spain",
+    "displayName": "",
+    "id": 349053,
+    "name": "Catalonia",
+    "size": 179740814
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Spain",
+    "displayName": "",
+    "id": 349055,
+    "name": "Community of Madrid",
+    "size": 77667336
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Sri Lanka",
+    "displayName": "",
+    "id": 536807,
+    "name": "Sri Lanka",
+    "size": 101720924
+  },
+  {
+    "collection": "FALSE",
+    "continent": "South America",
+    "country": "Suriname",
+    "displayName": "",
+    "id": 287082,
+    "name": "Suriname",
+    "size": 37696462
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Sweden",
+    "displayName": "",
+    "id": 52822,
+    "name": "Sweden",
+    "size": 605089645
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Switzerland",
+    "displayName": "",
+    "id": 51701,
+    "name": "Switzerland",
+    "size": 446484064
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Syria",
+    "displayName": "",
+    "id": 184840,
+    "name": "Syria",
+    "size": 113317781
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Taiwan",
+    "displayName": "",
+    "id": 449220,
+    "name": "Taiwan",
+    "size": 171989145
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Tajikistan",
+    "displayName": "",
+    "id": 214626,
+    "name": "Tajikistan",
+    "size": 113682758
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Thailand",
+    "displayName": "",
+    "id": 2067731,
+    "name": "Thailand",
+    "size": 497941537
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Turkey",
+    "displayName": "",
+    "id": 174737,
+    "name": "Turkey",
+    "size": 719716877
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Turkmenistan",
+    "displayName": "",
+    "id": 223026,
+    "name": "Turkmenistan",
+    "size": 76620091
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "Ukraine",
+    "displayName": "",
+    "id": 60199,
+    "name": "Ukraine",
+    "size": 700322767
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "United Arab Emirates",
+    "displayName": "",
+    "id": 307763,
+    "name": "United Arab Emirates",
+    "size": 85181188
+  },
+  {
+    "collection": "TRUE",
+    "continent": "Europe",
+    "country": "United Kingdom",
+    "displayName": "",
+    "id": -62149,
+    "name": "United Kingdom",
+    "size": 0
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "United Kingdom",
+    "displayName": "",
+    "id": 58437,
+    "name": "Wales",
+    "size": 129228588
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "United Kingdom",
+    "displayName": "",
+    "id": 58446,
+    "name": "Scotland",
+    "size": 195598484
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "United Kingdom",
+    "displayName": "",
+    "id": 58447,
+    "name": "England",
+    "size": 1034393863
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Europe",
+    "country": "United Kingdom",
+    "displayName": "",
+    "id": 156393,
+    "name": "Northern Ireland",
+    "size": 60353994
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Various",
+    "country": "United Kingdom",
+    "displayName": "",
+    "id": 3969434,
+    "name": "British Overseas Territories",
+    "size": 42921317
+  },
+  {
+    "collection": "TRUE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": -148838,
+    "name": "United States",
+    "size": 0
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 60759,
+    "name": "Vermont",
+    "size": 60964474
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 61315,
+    "name": "Massachusetts",
+    "size": 230426315
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 61320,
+    "name": "New York",
+    "size": 475619329
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 63512,
+    "name": "Maine",
+    "size": 88939595
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 67213,
+    "name": "New Hampshire",
+    "size": 93142577
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 114690,
+    "name": "Texas",
+    "size": 608150682
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 122586,
+    "name": "Illinois",
+    "size": 294711614
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 161638,
+    "name": "Missouri",
+    "size": 231613970
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 161644,
+    "name": "Kansas",
+    "size": 143705110
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 161645,
+    "name": "Oklahoma",
+    "size": 158538298
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 161646,
+    "name": "Arkansas",
+    "size": 113114216
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 161648,
+    "name": "Nebraska",
+    "size": 101451360
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 161650,
+    "name": "Iowa",
+    "size": 149829533
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 161652,
+    "name": "South Dakota",
+    "size": 62892658
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 161653,
+    "name": "North Dakota",
+    "size": 85398890
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 161655,
+    "name": "Kentucky",
+    "size": 214306488
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 161816,
+    "name": "Indiana",
+    "size": 239039625
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 161838,
+    "name": "Tennessee",
+    "size": 210681110
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 161943,
+    "name": "Mississippi",
+    "size": 94039837
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 161950,
+    "name": "Alabama",
+    "size": 162677593
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 161957,
+    "name": "Georgia",
+    "size": 290155292
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 161961,
+    "name": "Colorado",
+    "size": 250062353
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 161991,
+    "name": "Wyoming",
+    "size": 115907149
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 161993,
+    "name": "Utah",
+    "size": 153964692
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 162014,
+    "name": "New Mexico",
+    "size": 143085970
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 162018,
+    "name": "Arizona",
+    "size": 255336377
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 162050,
+    "name": "Florida",
+    "size": 476144383
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 162061,
+    "name": "Ohio",
+    "size": 298978419
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 162068,
+    "name": "West Virginia",
+    "size": 153403410
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 162069,
+    "name": "District of Columbia",
+    "size": 43000979
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 162109,
+    "name": "Pennsylvania",
+    "size": 376725282
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 162110,
+    "name": "Delaware",
+    "size": 47927860
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 162112,
+    "name": "Maryland",
+    "size": 233708898
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 162115,
+    "name": "Montana",
+    "size": 157933782
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 162116,
+    "name": "Idaho",
+    "size": 164403261
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 165466,
+    "name": "Wisconsin",
+    "size": 241889601
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 165471,
+    "name": "Minnesota",
+    "size": 203119616
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 165473,
+    "name": "Nevada",
+    "size": 138418574
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 165475,
+    "name": "California",
+    "size": 810887818
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 165476,
+    "name": "Oregon",
+    "size": 247126784
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 165479,
+    "name": "Washington",
+    "size": 308129673
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 165789,
+    "name": "Michigan",
+    "size": 311164990
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 165794,
+    "name": "Connecticut",
+    "size": 177024287
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "United States",
+    "displayName": "",
+    "id": 166563,
+    "name": "Hawaii",
+    "size": 18399488
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 224040,
+    "name": "South Carolina",
+    "size": 179252295
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 224042,
+    "name": "Virginia",
+    "size": 382529499
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 224045,
+    "name": "North Carolina",
+    "size": 359587402
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 224922,
+    "name": "Louisiana",
+    "size": 111902757
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 224951,
+    "name": "New Jersey",
+    "size": 214774025
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 286898,
+    "name": "United States Virgin Islands",
+    "size": 4017237
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "United States",
+    "displayName": "",
+    "id": 306001,
+    "name": "Guam",
+    "size": 1901784
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "United States",
+    "displayName": "",
+    "id": 306004,
+    "name": "Northern Mariana Islands",
+    "size": 1895773
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 392915,
+    "name": "Rhode Island",
+    "size": 47226634
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 1116270,
+    "name": "Alaska",
+    "size": 449255651
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Oceania",
+    "country": "United States",
+    "displayName": "",
+    "id": 2177187,
+    "name": "American Samoa",
+    "size": 1344617
+  },
+  {
+    "collection": "FALSE",
+    "continent": "North America",
+    "country": "United States",
+    "displayName": "",
+    "id": 4422604,
+    "name": "Puerto Rico",
+    "size": 49263369
+  },
+  {
+    "collection": "FALSE",
+    "continent": "South America",
+    "country": "Uruguay",
+    "displayName": "",
+    "id": 287072,
+    "name": "Uruguay",
+    "size": 62042589
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Uzbekistan",
+    "displayName": "",
+    "id": 196240,
+    "name": "Uzbekistan",
+    "size": 149703161
+  },
+  {
+    "collection": "FALSE",
+    "continent": "South America",
+    "country": "Venezuela",
+    "displayName": "",
+    "id": 272644,
+    "name": "Venezuela",
+    "size": 247039463
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Vietnam",
+    "displayName": "",
+    "id": 49915,
+    "name": "Vietnam",
+    "size": 511071791
+  },
+  {
+    "collection": "FALSE",
+    "continent": "N/A",
+    "country": "N/A",
+    "displayName": "",
+    "id": 3,
+    "name": "World map",
+    "size": 14756988
+  },
+  {
+    "collection": "FALSE",
+    "continent": "Asia",
+    "country": "Yemen",
+    "displayName": "",
+    "id": 305092,
+    "name": "Yemen",
+    "size": 136757418
+  }
+]

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_thumb" android:background="@drawable/round_corner_bg_light_gray_8dp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:layout_gravity="end|center|top" android:id="@id/img_remove" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@null" />
+</FrameLayout>

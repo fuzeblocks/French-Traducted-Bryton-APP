@@ -1,0 +1,230 @@
+{
+  "rider750":[{
+    "key": "繁體中文",
+    "id": "zh-TW",
+    "devLang": "ZHO"
+  },{
+    "key": "简体中文",
+    "id": "zh-CN",
+    "devLang": "CHI"
+  },{
+    "key": "日本語",
+    "id": "ja",
+    "devLang": "JPN"
+  },{
+    "key": "한국어",
+    "id": "ko",
+    "devLang": "KOR"
+  },{
+    "key": "Dansk",
+    "id": "da",
+    "devLang": "DAN"
+  },{
+    "key": "Deutsch",
+    "id": "de",
+    "devLang": "GER"
+  },{
+    "key": "English",
+    "id": "en",
+    "devLang": "ENG"
+  },{
+    "key": "Español",
+    "id": "es",
+    "devLang": "SPA"
+  },{
+    "key": "Français",
+    "id": "fr",
+    "devLang": "FRA"
+  },{
+    "key": "Italiano",
+    "id": "it",
+    "devLang": "ITA"
+  },{        
+    "key": "Norsk",
+    "id": "nb",
+    "devLang": "NOR"
+  },{
+    "key": "Nederlands",
+    "id": "nl",
+    "devLang": "DUT"
+  },{  
+    "key": "Português",
+    "id": "pt",
+    "devLang": "POR"
+  },{
+    "key": "ไทย",
+    "id": "th",
+    "devLang": "THA"
+  }],
+  "riders500":[{
+    "key": "繁體中文",
+    "id": "zh-TW",
+    "devLang": "ZHO"
+  },{
+    "key": "简体中文",
+    "id": "zh-CN",
+    "devLang": "CHI"
+  },{
+    "key": "日本語",
+    "id": "ja",
+    "devLang": "JPN"
+  },{
+    "key": "한국어",
+    "id": "ko",
+    "devLang": "KOR"
+  },{
+    "key": "Dansk",
+    "id": "da",
+    "devLang": "DAN"
+  },{
+    "key": "Deutsch",
+    "id": "de",
+    "devLang": "GER"
+  },{
+    "key": "English",
+    "id": "en",
+    "devLang": "ENG"
+  },{
+    "key": "Español",
+    "id": "es",
+    "devLang": "SPA"
+  },{
+    "key": "Français",
+    "id": "fr",
+    "devLang": "FRA"
+  },{
+    "key": "Italiano",
+    "id": "it",
+    "devLang": "ITA"
+  },{        
+    "key": "Norsk",
+    "id": "nb",
+    "devLang": "NOR"
+  },{
+    "key": "Nederlands",
+    "id": "nl",
+    "devLang": "DUT"
+  },{  
+    "key": "Português",
+    "id": "pt",
+    "devLang": "POR"
+  },{
+    "key": "ไทย",
+    "id": "th",
+    "devLang": "THA"
+  }],
+  "riders800":[{
+    "key": "繁體中文",
+    "id": "zh-TW",
+    "devLang": "ZHO"
+  },{
+    "key": "简体中文",
+    "id": "zh-CN",
+    "devLang": "CHI"
+  },{
+    "key": "日本語",
+    "id": "ja",
+    "devLang": "JPN"
+  },{
+    "key": "한국어",
+    "id": "ko",
+    "devLang": "KOR"
+  },{
+    "key": "Dansk",
+    "id": "da",
+    "devLang": "DAN"
+  },{
+    "key": "Deutsch",
+    "id": "de",
+    "devLang": "GER"
+  },{
+    "key": "English",
+    "id": "en",
+    "devLang": "ENG"
+  },{
+    "key": "Español",
+    "id": "es",
+    "devLang": "SPA"
+  },{
+    "key": "Français",
+    "id": "fr",
+    "devLang": "FRA"
+  },{
+    "key": "Italiano",
+    "id": "it",
+    "devLang": "ITA"
+  },{        
+    "key": "Norsk",
+    "id": "nb",
+    "devLang": "NOR"
+  },{
+    "key": "Nederlands",
+    "id": "nl",
+    "devLang": "DUT"
+  },{  
+    "key": "Português",
+    "id": "pt",
+    "devLang": "POR"
+  },{
+    "key": "ไทย",
+    "id": "th",
+    "devLang": "THA"
+  }],
+  "rider750se":[{
+    "key": "繁體中文",
+    "id": "zh-TW",
+    "devLang": "ZHO"
+  },{
+    "key": "简体中文",
+    "id": "zh-CN",
+    "devLang": "CHI"
+  },{
+    "key": "日本語",
+    "id": "ja",
+    "devLang": "JPN"
+  },{
+    "key": "한국어",
+    "id": "ko",
+    "devLang": "KOR"
+  },{
+    "key": "Dansk",
+    "id": "da",
+    "devLang": "DAN"
+  },{
+    "key": "Deutsch",
+    "id": "de",
+    "devLang": "GER"
+  },{
+    "key": "English",
+    "id": "en",
+    "devLang": "ENG"
+  },{
+    "key": "Español",
+    "id": "es",
+    "devLang": "SPA"
+  },{
+    "key": "Français",
+    "id": "fr",
+    "devLang": "FRA"
+  },{
+    "key": "Italiano",
+    "id": "it",
+    "devLang": "ITA"
+  },{
+    "key": "Norsk",
+    "id": "nb",
+    "devLang": "NOR"
+  },{
+    "key": "Nederlands",
+    "id": "nl",
+    "devLang": "DUT"
+  },{
+    "key": "Português",
+    "id": "pt",
+    "devLang": "POR"
+  },{
+    "key": "ไทย",
+    "id": "th",
+    "devLang": "THA"
+  }]
+} 

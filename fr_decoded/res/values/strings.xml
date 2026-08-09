@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <string name="rationale_ask">This app may not work correctly without the requested permissions.</string>
+ <string name="rationale_ask_again">This app may not work correctly without the requested permissions. Open the app settings screen to modify app permissions.</string>
+ <string name="title_settings_dialog">Permissions Required</string>
+ <string name="I_DisplayPreference">Display Preference</string>
+ <string name="I_StartOfWeek">Start of Week</string>
+ <string name="AM_SyncProfileData">Bryton Active syncs your account profile to ensure the accuracy and consistency of your ridelogs when analyzing them.</string>
+ <string name="M_Profile_Authorized3rdParty">Bryton has collaborated with several third-party fitness websites to simplify the process of syncing data from the Bryton Active app. Begin your journey by authorizing your third-party fitness accounts.</string>
+</resources>

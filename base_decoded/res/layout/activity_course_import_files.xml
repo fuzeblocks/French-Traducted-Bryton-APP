@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/import_text_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="34.0dip" android:text="1. Download GPX/FIT files from website" android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" android:layout_marginStart="27.0dip" />
+    <ImageView android:id="@id/import_icon" android:layout_width="134.0dip" android:layout_height="66.0dip" android:layout_marginTop="17.0dip" android:src="@drawable/img_import_file" android:layout_below="@id/import_text_1" android:layout_marginStart="37.0dip" />
+    <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/import_text_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="2. Select “Bryton Active” to import files. You will be able tp see the route inside “my route”. " android:layout_below="@id/import_icon" android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" android:layout_marginStart="27.0dip" />
+</RelativeLayout>

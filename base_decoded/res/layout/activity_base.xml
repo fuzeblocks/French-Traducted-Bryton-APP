@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_l0_dark" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/actionbar_layout" android:background="@color/bg_dark_primary" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <ImageView android:id="@id/back_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/icon_back" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:id="@id/title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:layout_centerVertical="true" android:fontFamily="sans-serif" android:layout_marginStart="10.0dip" android:layout_toStartOf="@id/menu_layout" android:layout_toEndOf="@id/back_icon" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/menu_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <View android:id="@id/actionbar_alpha_view" android:background="#aa000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="56.0dip" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/content_layout" android:background="@color/bg_dark_primary" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/tabbar_layout" android:layout_below="@id/actionbar_layout" />
+    <ImageView android:id="@id/ai_service_button" android:layout_width="52.0dip" android:layout_height="52.0dip" android:layout_marginBottom="72.0dip" android:src="@null" android:layout_alignParentBottom="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tabbar_layout" android:background="@color/bg_dark_primary" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/result_tab" android:layout_width="48.0dip" android:layout_height="40.0dip" android:src="@null" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/course_tab" android:layout_width="48.0dip" android:layout_height="40.0dip" android:src="@null" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/profile_tab" android:layout_width="48.0dip" android:layout_height="40.0dip" android:src="@null" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/setting_tab" android:layout_width="48.0dip" android:layout_height="40.0dip" android:src="@null" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

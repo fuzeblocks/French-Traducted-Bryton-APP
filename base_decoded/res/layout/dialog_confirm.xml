@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="#aa000000" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/dialog_layout" android:background="@drawable/round_corner_bg_light_gray_8dp" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="27.0dip" android:layout_marginBottom="27.0dip" android:maxHeight="400.0dip" android:layout_marginStart="27.0dip" android:layout_marginEnd="27.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/img_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="New Feature" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+            <ImageView android:id="@id/img_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+        </LinearLayout>
+        <ScrollView android:id="@id/calendar_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_marginStart="24.0dip" android:layout_marginEnd="18.0dip">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15.0sp" android:textColor="#99ffffff" android:id="@id/alert_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="The new Contact Support feature streamlines the process of the way that you discuss issues with us." android:layout_marginEnd="18.0dip" />
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/layout_bottom" android:paddingTop="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="24.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="#ff00d343" android:id="@id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/B_Cancel" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff00d343" android:id="@id/confirm_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/B_Confirm" android:layout_marginStart="20.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

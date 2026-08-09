@@ -1,0 +1,21 @@
+{
+  "zh-TW":{"id": "cmn-Hant-TW", "text": "國語 (台灣)"},
+  "zh-CN":{"id": "cmn-Hans-CN", "text": "普通话 (中国大陆)"},
+  "ja":{"id": "ja-JP", "text": "日本語（日本)"},
+  "fr":{"id": "fr-FR", "text": "Français (France)"},
+  "nl":{"id": "nl-NL", "text": "Nederlands (Nederland)"},
+  "it":{"id": "it-IT", "text": "Italiano (Italia)"},
+  "es":{"id": "es-ES", "text": "Español (España)"},
+  "ko":{"id": "ko-KR", "text": "한국어 (대한민국)"},
+  "pt":{"id": "pt-PT", "text": "Português (Portugal)"},
+  "nb":{"id": "no-NO", "text": "Norsk bokmål (Norge)"},
+  "da":{"id": "da-DK", "text": "Dansk (Danmark)"},
+  "th":{"id": "th-TH", "text": "ไทย (ประเทศไทย)"},
+  "pl":{"id": "pl-PL", "text": "Polski (Polska)"},
+  "hu":{"id": "hu-HU", "text": "Magyar (Magyarország)"},
+  "ro":{"id": "ro-RO", "text": "Română (România)"},
+  "de":{"id": "de-DE", "text": "Deutsch (Deutschland)"},
+  "en":{"id": "en-US", "text": "English (United States)"},
+  "cs":{"id": "cs-CZ", "text": "Čeština (Česká republika)"},
+  "sk":{"id": "sk-SK", "text": "Slovenčina (Slovensko)"}
+}

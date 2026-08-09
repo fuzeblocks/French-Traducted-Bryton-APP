@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mapbox="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/search_layout" android:background="@color/header_bt_navigator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:paddingStart="11.0dip" android:paddingEnd="11.0dip">
+        <TextView android:textSize="17.0sp" android:textColor="@color/white" android:textColorHint="@color/light_grey_text" android:gravity="center_vertical" android:id="@id/search_edit" android:background="@drawable/round_corner_bg_midtone_gray_13dp" android:layout_width="fill_parent" android:layout_height="36.0dip" android:singleLine="true" android:layout_centerVertical="true" android:inputType="text" android:imeOptions="actionSearch" android:paddingStart="33.0dip" android:paddingEnd="20.0dip" />
+        <ImageView android:layout_width="24.0dip" android:layout_height="22.0dip" android:src="@drawable/icon_search_gy" android:layout_centerVertical="true" android:layout_marginStart="4.0dip" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#ffc4c3ca" android:gravity="center_vertical" android:id="@id/hint_text" android:background="@color/header_bt_navigator" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_below="@id/search_layout" android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif" android:paddingStart="13.0dip" android:paddingEnd="13.0dip" />
+    <RelativeLayout android:background="@color/header_bt_navigator" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/hint_text">
+        <com.brytonsport.active.views.view.MyMapView android:id="@id/mapView" android:layout_width="fill_parent" android:layout_height="fill_parent" mapbox:mapbox_cameraZoom="12.0" />
+    </RelativeLayout>
+</RelativeLayout>

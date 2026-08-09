@@ -1,0 +1,71 @@
+.class Lcom/qb/gson/internal/StringMap$KeySet$1;
+.super Lcom/qb/gson/internal/StringMap$LinkedHashIterator;
+.source "StringMap.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/qb/gson/internal/StringMap$KeySet;->iterator()Ljava/util/Iterator;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/qb/gson/internal/StringMap<",
+        "TV;>.",
+        "LinkedHashIterator<",
+        "Ljava/lang/String;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field final synthetic this$1:Lcom/qb/gson/internal/StringMap$KeySet;
+
+
+# direct methods
+.method constructor <init>(Lcom/qb/gson/internal/StringMap$KeySet;)V
+    .locals 1
+
+    .line 402
+    iput-object p1, p0, Lcom/qb/gson/internal/StringMap$KeySet$1;->this$1:Lcom/qb/gson/internal/StringMap$KeySet;
+
+    iget-object p1, p1, Lcom/qb/gson/internal/StringMap$KeySet;->this$0:Lcom/qb/gson/internal/StringMap;
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, p1, v0}, Lcom/qb/gson/internal/StringMap$LinkedHashIterator;-><init>(Lcom/qb/gson/internal/StringMap;Lcom/qb/gson/internal/StringMap$1;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic next()Ljava/lang/Object;
+    .locals 1
+
+    .line 402
+    invoke-virtual {p0}, Lcom/qb/gson/internal/StringMap$KeySet$1;->next()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final next()Ljava/lang/String;
+    .locals 1
+
+    .line 404
+    invoke-virtual {p0}, Lcom/qb/gson/internal/StringMap$KeySet$1;->nextEntry()Lcom/qb/gson/internal/StringMap$LinkedEntry;
+
+    move-result-object v0
+
+    iget-object v0, v0, Lcom/qb/gson/internal/StringMap$LinkedEntry;->key:Ljava/lang/String;
+
+    return-object v0
+.end method
