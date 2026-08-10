@@ -70,11 +70,12 @@ Le script effectue ensuite automatiquement les étapes suivantes :
 4. Sélection de l'appareil Android.
 5. Extraction des APK.
 6. Décompilation.
-7. Choix des traductions à appliquer.
-8. Injection des nouvelles chaînes.
-9. Recompilation.
-10. Signature.
-11. Réinstallation de Bryton Active.
+7. Application du patch de verification de license
+8. Choix des traductions à appliquer.
+9. Injection des nouvelles chaînes.
+10. Recompilation.
+11. Signature.
+12. Réinstallation de Bryton Active.
 
 ---
 
