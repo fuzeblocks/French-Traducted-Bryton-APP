@@ -11,6 +11,7 @@ Le script extrait les APK installés, applique des corrections de traduction, re
 * 📱 Détection automatique de l'appareil Android via ADB.
 * 📦 Extraction automatique des APK de Bryton Active.
 * 🔧 Décompilation avec Apktool.
+* 🛠️ Patch de verification de license
 * 🇫🇷 Application de corrections de traduction françaises.
 * 🆕 Ajout automatique des chaînes manquantes.
 * 🔢 Conservation des identifiants de ressources (`public.xml`).
